@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Vihanga Gamage&#39;s Corner of the World Wide Web</title>
+    <link>https://www.vihanga.ie/publication/</link>
+    <description>Recent content in Publications on Vihanga Gamage&#39;s Corner of the World Wide Web</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.vihanga.ie/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Examining the effects of a virtual character on learning and engagement in serious games</title>
+      <link>https://www.vihanga.ie/publication/MIG18/</link>
+      <pubDate>Sat, 17 Nov 2018 16:47:28 +0000</pubDate>
+      
+      <guid>https://www.vihanga.ie/publication/MIG18/</guid>
+      <description>I presented my first conference paper at the 11th Motion, Interactions and Games conference held in November 2018. In this paper, we examined the broad effects a virtual character can have on user experience and performance when incorporated as a pedagogical agent in a serious game. We also explored character appearance personalization as a potential way of heightening engagement with the character.
+Our findings can be summaries as follows: - A user is more engaged with a lesson when delivered through a virtual character compared to a non-character control version.</description>
+    </item>
+    
+  </channel>
+</rss>
