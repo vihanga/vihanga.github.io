@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 23 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.vihanga.ie/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title></title>
       <link>https://www.vihanga.ie/home/hero_carousel/</link>
-      <pubDate>Sun, 15 Oct 2017 00:00:00 +0100</pubDate>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://www.vihanga.ie/home/hero_carousel/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Academic</title>
       <link>https://www.vihanga.ie/home/hero/</link>
-      <pubDate>Sun, 15 Oct 2017 00:00:00 +0100</pubDate>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://www.vihanga.ie/home/hero/</guid>
       <description>The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀 Latest release   Star</description>
@@ -33,7 +33,7 @@
     <item>
       <title></title>
       <link>https://www.vihanga.ie/home/about/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.vihanga.ie/home/about/</guid>
       <description>Biography My Name is Vihanga Gamage. I’m a 3rd year doctoral researcher at the TU Dublin School of Computer Science. My PhD project focusses on creating engaging virtual characters for use in serious games. My supervisors are Dr. Cathy Ennis and Dr. Robert Ross.
@@ -43,7 +43,7 @@ My research interests are primarily clustered around using Machine Learning and 
     <item>
       <title>Skills</title>
       <link>https://www.vihanga.ie/home/skills/</link>
-      <pubDate>Wed, 20 Sep 2017 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://www.vihanga.ie/home/skills/</guid>
       <description></description>
@@ -61,7 +61,7 @@ My research interests are primarily clustered around using Machine Learning and 
     <item>
       <title>Recent Publications</title>
       <link>https://www.vihanga.ie/home/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.vihanga.ie/home/publications/</guid>
       <description></description>
@@ -70,7 +70,7 @@ My research interests are primarily clustered around using Machine Learning and 
     <item>
       <title>Selected Publications</title>
       <link>https://www.vihanga.ie/home/publications_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.vihanga.ie/home/publications_selected/</guid>
       <description></description>
@@ -79,7 +79,7 @@ My research interests are primarily clustered around using Machine Learning and 
     <item>
       <title>Research</title>
       <link>https://www.vihanga.ie/home/research/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.vihanga.ie/home/research/</guid>
       <description></description>
@@ -88,7 +88,7 @@ My research interests are primarily clustered around using Machine Learning and 
     <item>
       <title>Blog</title>
       <link>https://www.vihanga.ie/home/blog/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.vihanga.ie/home/blog/</guid>
       <description></description>
@@ -97,7 +97,7 @@ My research interests are primarily clustered around using Machine Learning and 
     <item>
       <title>Chess</title>
       <link>https://www.vihanga.ie/home/chess/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.vihanga.ie/home/chess/</guid>
       <description></description>
@@ -106,7 +106,7 @@ My research interests are primarily clustered around using Machine Learning and 
     <item>
       <title>Selected Talks</title>
       <link>https://www.vihanga.ie/home/talks_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.vihanga.ie/home/talks_selected/</guid>
       <description></description>
@@ -115,7 +115,7 @@ My research interests are primarily clustered around using Machine Learning and 
     <item>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://www.vihanga.ie/home/talks/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.vihanga.ie/home/talks/</guid>
       <description></description>
@@ -124,7 +124,7 @@ My research interests are primarily clustered around using Machine Learning and 
     <item>
       <title>Projects</title>
       <link>https://www.vihanga.ie/home/projects/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.vihanga.ie/home/projects/</guid>
       <description></description>
@@ -133,7 +133,7 @@ My research interests are primarily clustered around using Machine Learning and 
     <item>
       <title>Custom Section</title>
       <link>https://www.vihanga.ie/home/teaching/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.vihanga.ie/home/teaching/</guid>
       <description>This is an example of using the custom widget to create your own homepage section.
@@ -143,7 +143,7 @@ To remove this section, either delete content/home/teaching.md or edit the front
     <item>
       <title>Tags</title>
       <link>https://www.vihanga.ie/home/tags/</link>
-      <pubDate>Wed, 20 Sep 2017 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://www.vihanga.ie/home/tags/</guid>
       <description></description>
@@ -152,7 +152,7 @@ To remove this section, either delete content/home/teaching.md or edit the front
     <item>
       <title>Search</title>
       <link>https://www.vihanga.ie/home/search/</link>
-      <pubDate>Mon, 23 Jul 2018 00:00:00 +0100</pubDate>
+      <pubDate>Mon, 23 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.vihanga.ie/home/search/</guid>
       <description></description>
@@ -161,7 +161,7 @@ To remove this section, either delete content/home/teaching.md or edit the front
     <item>
       <title>Contact</title>
       <link>https://www.vihanga.ie/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.vihanga.ie/home/contact/</guid>
       <description>My public calendar can be accessed by following this link.
@@ -171,7 +171,7 @@ Please email me to make any inquiries related to making an appointment to meet.<
     <item>
       <title>Recent Posts</title>
       <link>https://www.vihanga.ie/home/posts/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.vihanga.ie/home/posts/</guid>
       <description></description>
