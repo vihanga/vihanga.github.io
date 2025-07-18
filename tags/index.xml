@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Vihanga Gamage&#39;s Corner of the World Wide Web</title>
-    <link>https://www.vihanga.ie/tags/</link>
+    <link>https://vihanga.github.io/tags/</link>
     <description>Recent content in Tags on Vihanga Gamage&#39;s Corner of the World Wide Web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sat, 17 Aug 2019 17:02:59 +0000</lastBuildDate>
     
-	<atom:link href="https://www.vihanga.ie/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vihanga.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>blog</title>
-      <link>https://www.vihanga.ie/tags/blog/</link>
+      <link>https://vihanga.github.io/tags/blog/</link>
       <pubDate>Sat, 17 Aug 2019 17:02:59 +0000</pubDate>
       
-      <guid>https://www.vihanga.ie/tags/blog/</guid>
+      <guid>https://vihanga.github.io/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>chess</title>
-      <link>https://www.vihanga.ie/tags/chess/</link>
+      <link>https://vihanga.github.io/tags/chess/</link>
       <pubDate>Sat, 17 Nov 2018 17:02:59 +0000</pubDate>
       
-      <guid>https://www.vihanga.ie/tags/chess/</guid>
+      <guid>https://vihanga.github.io/tags/chess/</guid>
       <description></description>
     </item>
     
     <item>
       <title>research</title>
-      <link>https://www.vihanga.ie/tags/research/</link>
+      <link>https://vihanga.github.io/tags/research/</link>
       <pubDate>Sat, 17 Nov 2018 17:02:59 +0000</pubDate>
       
-      <guid>https://www.vihanga.ie/tags/research/</guid>
+      <guid>https://vihanga.github.io/tags/research/</guid>
       <description></description>
     </item>
     
