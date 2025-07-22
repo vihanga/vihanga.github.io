@@ -114,7 +114,7 @@ D.1 Study Design D.1.1 Methodology Overview  Study Type: Mixed-methods approach 
       
       <guid>https://vihanga.github.io/thesis/appendices/e/</guid>
       <description>Appendix E: Supplementary Results, Model-free RL Experiments This appendix contains comprehensive supplementary results from the model-free reinforcement learning experiments conducted throughout this research.
-Blah Blah blah
+Blah Blah blah balh blagh
 E.1 Extended Learning Curves E.1.1 Training Performance Over Time PPO Experiments  Environment: Custom physics simulation Training Steps: 10M Seeds: 5 independent runs Logging Frequency: Every 1000 steps  ![Learning Curves - PPO] - Episode Return: Steady improvement from -200 to +150 - Success Rate: 15% → 92% over training - Sample Efficiency: 2.</description>
     </item>
     

@@ -901,7 +901,7 @@ def ppo_update(policy, value_function, trajectories, clip_epsilon):
 
 &lt;p&gt;This appendix contains comprehensive supplementary results from the model-free reinforcement learning experiments conducted throughout this research.&lt;/p&gt;
 
-&lt;p&gt;Blah Blah blah&lt;/p&gt;
+&lt;p&gt;Blah Blah blah balh blagh&lt;/p&gt;
 
 &lt;h2 id=&#34;e-1-extended-learning-curves&#34;&gt;E.1 Extended Learning Curves&lt;/h2&gt;
 
