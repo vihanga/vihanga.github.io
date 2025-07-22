@@ -334,10 +334,10 @@ def ppo_update(policy, value_function, trajectories, clip_epsilon):
     
     <item>
       <title>Appendix C: Supplementary Material Index</title>
-      <link>https://vihanga.github.io/thesis/appendices/c5a/</link>
+      <link>https://vihanga.github.io/thesis/appendices/c/</link>
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://vihanga.github.io/thesis/appendices/c5a/</guid>
+      <guid>https://vihanga.github.io/thesis/appendices/c/</guid>
       <description>
 
 &lt;h1 id=&#34;appendix-c-supplementary-material-index&#34;&gt;Appendix C: Supplementary Material Index&lt;/h1&gt;
@@ -900,6 +900,8 @@ def ppo_update(policy, value_function, trajectories, clip_epsilon):
 &lt;h1 id=&#34;appendix-e-supplementary-results-model-free-rl-experiments&#34;&gt;Appendix E: Supplementary Results, Model-free RL Experiments&lt;/h1&gt;
 
 &lt;p&gt;This appendix contains comprehensive supplementary results from the model-free reinforcement learning experiments conducted throughout this research.&lt;/p&gt;
+
+&lt;p&gt;Blah Blah blah&lt;/p&gt;
 
 &lt;h2 id=&#34;e-1-extended-learning-curves&#34;&gt;E.1 Extended Learning Curves&lt;/h2&gt;
 

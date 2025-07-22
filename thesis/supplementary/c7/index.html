@@ -1,2 +1,952 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 3.1.1">
+  <meta name="generator" content="Hugo 0.55.4" />
+  <meta name="author" content="Vihanga Gamage">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="Video Demonstrations Gesture Generation Results  Speech-Driven Gestures: Synchronized hand movements with speech prosody Emotion-Aware Generation: Gestures reflecting different emotional states Multi-Speaker Scenarios: Turn-taking and interaction gestures Cultural Variations: Gesture styles across different cultural contexts  Comparative Studies  Human gesture capture vs. generated gestures Different model architectures comparison Ablation study visualizations Real-time generation demonstrations  Additional Results Quantitative Metrics    Method Sync Score Diversity Naturalness User Rating     Baseline RNN 0.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://vihanga.github.io/thesis/supplementary/c7/">
+
+  
 
 
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="https://vihanga.github.io/index.xml" type="application/rss+xml" title="Vihanga Gamage&#39;s Corner of the World Wide Web">
+  <link rel="feed" href="https://vihanga.github.io/index.xml" type="application/rss+xml" title="Vihanga Gamage&#39;s Corner of the World Wide Web">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://vihanga.github.io/thesis/supplementary/c7/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@VihGamage">
+  <meta property="twitter:creator" content="@VihGamage">
+  
+  <meta property="og:site_name" content="Vihanga Gamage&#39;s Corner of the World Wide Web">
+  <meta property="og:url" content="https://vihanga.github.io/thesis/supplementary/c7/">
+  <meta property="og:title" content="Chapter 7: Supplementary Material | Vihanga Gamage&#39;s Corner of the World Wide Web">
+  <meta property="og:description" content="Video Demonstrations Gesture Generation Results  Speech-Driven Gestures: Synchronized hand movements with speech prosody Emotion-Aware Generation: Gestures reflecting different emotional states Multi-Speaker Scenarios: Turn-taking and interaction gestures Cultural Variations: Gesture styles across different cultural contexts  Comparative Studies  Human gesture capture vs. generated gestures Different model architectures comparison Ablation study visualizations Real-time generation demonstrations  Additional Results Quantitative Metrics    Method Sync Score Diversity Naturalness User Rating     Baseline RNN 0.">
+  
+  
+    
+  <meta property="og:image" content="https://vihanga.github.io/img/icon-192.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2025-01-22T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2025-01-22T00:00:00&#43;00:00">
+  
+
+  
+
+  
+
+  <title>Chapter 7: Supplementary Material | Vihanga Gamage&#39;s Corner of the World Wide Web</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Vihanga Gamage&#39;s Corner of the World Wide Web</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#publications">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#research">
+            
+            <span>Research</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#blog">
+            
+            <span>Blog</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#chess">
+            
+            <span>Chess</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#contact">
+            
+            <span>Contact/Calendar</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/thesis/">
+            
+            <span>Thesis</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<link rel="stylesheet" href="/css/thesis-book.css">
+
+<div class="thesis-container">
+  
+  <aside class="thesis-sidebar">
+    <div class="thesis-sidebar-content">
+      <h3 class="thesis-sidebar-title">Navigation</h3>
+      
+      <ul class="thesis-menu">
+        <li><a href="/thesis/">Home</a></li>
+        
+        <li class="thesis-menu-section">
+          <span class="thesis-menu-section-title">Chapters</span>
+          <ul>
+            <li><a href="/thesis/chapters/introduction/">1. Introduction</a></li>
+            <li><a href="/thesis/chapters/data-driven-animation/">2. Data-driven Animation</a></li>
+            <li><a href="/thesis/chapters/model-based-rl/">3. Model-based RL</a></li>
+            <li><a href="/thesis/chapters/model-based-animation/">4. Model-Based Animation</a></li>
+            <li><a href="/thesis/chapters/data-driven-rl/">5. Data-driven RL</a></li>
+            <li><a href="/thesis/chapters/latent-dynamics/">6. Latent Dynamics</a></li>
+            <li><a href="/thesis/chapters/conversational-gestures/">7. Conversational Gestures</a></li>
+            <li><a href="/thesis/chapters/conclusion/">8. Conclusions</a></li>
+          </ul>
+        </li>
+        
+        <li class="thesis-menu-section">
+          <span class="thesis-menu-section-title">Supplementary</span>
+          <ul>
+            <li><a href="/thesis/supplementary/c4/">Chapter 4</a></li>
+            <li><a href="/thesis/supplementary/c5a/">Chapter 5 - Part A</a></li>
+            <li><a href="/thesis/supplementary/c5b/">Chapter 5 - Part B</a></li>
+            <li><a href="/thesis/supplementary/c6/">Chapter 6</a></li>
+            <li><a href="/thesis/supplementary/c7/">Chapter 7</a></li>
+          </ul>
+        </li>
+        
+        <li class="thesis-menu-section">
+          <span class="thesis-menu-section-title">Appendices</span>
+          <ul>
+            <li><a href="/thesis/appendices/a/">A: Serious Games</a></li>
+            <li><a href="/thesis/appendices/b/">B: Model-Free RL</a></li>
+            <li><a href="/thesis/appendices/c/">C: Supplementary Index</a></li>
+            <li><a href="/thesis/appendices/d/">D: Perceptual Evaluation</a></li>
+            <li><a href="/thesis/appendices/e/">E: Model-free Results</a></li>
+            <li><a href="/thesis/appendices/f/">F: Star Jump Calculation</a></li>
+            <li><a href="/thesis/appendices/g/">G: RLAnimate Directory</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </aside>
+
+  
+  <main class="thesis-main">
+    <article class="thesis-content">
+      <h1>Chapter 7: Supplementary Material</h1>
+      
+      
+      
+
+<h2 id="video-demonstrations">Video Demonstrations</h2>
+
+<h3 id="gesture-generation-results">Gesture Generation Results</h3>
+
+<ul>
+<li><strong>Speech-Driven Gestures</strong>: Synchronized hand movements with speech prosody</li>
+<li><strong>Emotion-Aware Generation</strong>: Gestures reflecting different emotional states</li>
+<li><strong>Multi-Speaker Scenarios</strong>: Turn-taking and interaction gestures</li>
+<li><strong>Cultural Variations</strong>: Gesture styles across different cultural contexts</li>
+</ul>
+
+<h3 id="comparative-studies">Comparative Studies</h3>
+
+<ul>
+<li>Human gesture capture vs. generated gestures</li>
+<li>Different model architectures comparison</li>
+<li>Ablation study visualizations</li>
+<li>Real-time generation demonstrations</li>
+</ul>
+
+<h2 id="additional-results">Additional Results</h2>
+
+<h3 id="quantitative-metrics">Quantitative Metrics</h3>
+
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Sync Score</th>
+<th>Diversity</th>
+<th>Naturalness</th>
+<th>User Rating</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Baseline RNN</td>
+<td>0.62</td>
+<td>0.45</td>
+<td>6.<sup>2</sup>&frasl;<sub>10</sub></td>
+<td>5.<sup>8</sup>&frasl;<sub>10</sub></td>
+</tr>
+
+<tr>
+<td>Transformer</td>
+<td>0.78</td>
+<td>0.68</td>
+<td>7.<sup>5</sup>&frasl;<sub>10</sub></td>
+<td>7.<sup>2</sup>&frasl;<sub>10</sub></td>
+</tr>
+
+<tr>
+<td>Audio2Gesture</td>
+<td>0.81</td>
+<td>0.72</td>
+<td>7.<sup>8</sup>&frasl;<sub>10</sub></td>
+<td>7.<sup>6</sup>&frasl;<sub>10</sub></td>
+</tr>
+
+<tr>
+<td>Proposed</td>
+<td>0.89</td>
+<td>0.85</td>
+<td>8.<sup>7</sup>&frasl;<sub>10</sub></td>
+<td>8.<sup>5</sup>&frasl;<sub>10</sub></td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="user-study-details">User Study Details</h3>
+
+<ul>
+<li><strong>Participants</strong>: 120 subjects (diverse backgrounds)</li>
+<li><strong>Evaluation Protocol</strong>: A/B testing, Likert scales</li>
+<li><strong>Statistical Significance</strong>: p &lt; 0.001 for all comparisons</li>
+<li><strong>Qualitative Feedback</strong>: Thematic analysis of comments</li>
+</ul>
+
+<h3 id="cross-dataset-evaluation">Cross-Dataset Evaluation</h3>
+
+<p>Performance on different speech-gesture datasets:
+- Trinity Speech-Gesture Dataset
+- GENEA Challenge Dataset
+- Talking With Hands Dataset
+- Custom Multi-cultural Dataset</p>
+
+<h2 id="code-examples">Code Examples</h2>
+
+<h3 id="audio-feature-extraction">Audio Feature Extraction</h3>
+
+<pre><code class="language-python">class AudioFeatureExtractor:
+    def __init__(self, sample_rate=16000):
+        self.sample_rate = sample_rate
+        self.mel_spec = torchaudio.transforms.MelSpectrogram(
+            sample_rate=sample_rate,
+            n_fft=1024,
+            hop_length=160,
+            n_mels=80
+        )
+        
+    def extract_features(self, audio_waveform):
+        &quot;&quot;&quot;Extract multi-scale audio features&quot;&quot;&quot;
+        # Mel-spectrogram
+        mel_features = self.mel_spec(audio_waveform)
+        
+        # Prosodic features
+        pitch = self.extract_pitch(audio_waveform)
+        energy = self.extract_energy(audio_waveform)
+        
+        # Rhythm features
+        onset_env = librosa.onset.onset_strength(
+            y=audio_waveform.numpy(),
+            sr=self.sample_rate
+        )
+        tempo, beats = librosa.beat.beat_track(
+            onset_envelope=onset_env,
+            sr=self.sample_rate
+        )
+        
+        # Voice activity detection
+        vad = self.compute_vad(audio_waveform)
+        
+        return {
+            'mel': mel_features,
+            'pitch': pitch,
+            'energy': energy,
+            'rhythm': onset_env,
+            'tempo': tempo,
+            'vad': vad
+        }
+</code></pre>
+
+<h3 id="gesture-generation-model">Gesture Generation Model</h3>
+
+<pre><code class="language-python">class GestureGenerator(nn.Module):
+    def __init__(self, audio_dim, text_dim, gesture_dim, hidden_dim=512):
+        super().__init__()
+        
+        # Audio encoder
+        self.audio_encoder = nn.TransformerEncoder(
+            nn.TransformerEncoderLayer(
+                d_model=audio_dim,
+                nhead=8,
+                dim_feedforward=2048
+            ),
+            num_layers=6
+        )
+        
+        # Text encoder (for semantic understanding)
+        self.text_encoder = nn.TransformerEncoder(
+            nn.TransformerEncoderLayer(
+                d_model=text_dim,
+                nhead=8,
+                dim_feedforward=2048
+            ),
+            num_layers=4
+        )
+        
+        # Cross-modal attention
+        self.cross_attention = nn.MultiheadAttention(
+            embed_dim=hidden_dim,
+            num_heads=8
+        )
+        
+        # Gesture decoder
+        self.gesture_decoder = nn.TransformerDecoder(
+            nn.TransformerDecoderLayer(
+                d_model=hidden_dim,
+                nhead=8,
+                dim_feedforward=2048
+            ),
+            num_layers=6
+        )
+        
+        # Output projection
+        self.output_projection = nn.Linear(hidden_dim, gesture_dim)
+        
+    def forward(self, audio_features, text_features, style_embedding=None):
+        # Encode modalities
+        audio_encoded = self.audio_encoder(audio_features)
+        text_encoded = self.text_encoder(text_features)
+        
+        # Cross-modal fusion
+        fused_features, _ = self.cross_attention(
+            query=audio_encoded,
+            key=text_encoded,
+            value=text_encoded
+        )
+        
+        # Add style conditioning if provided
+        if style_embedding is not None:
+            fused_features = fused_features + style_embedding
+        
+        # Generate gestures
+        gesture_features = self.gesture_decoder(
+            tgt=fused_features,
+            memory=fused_features
+        )
+        
+        # Project to gesture space
+        gestures = self.output_projection(gesture_features)
+        
+        return gestures
+</code></pre>
+
+<h3 id="training-with-adversarial-loss">Training with Adversarial Loss</h3>
+
+<pre><code class="language-python">class GestureGAN:
+    def __init__(self, generator, discriminator):
+        self.generator = generator
+        self.discriminator = discriminator
+        
+    def train_step(self, real_data, audio_features, text_features):
+        # Train discriminator
+        fake_gestures = self.generator(audio_features, text_features)
+        
+        real_score = self.discriminator(real_data, audio_features)
+        fake_score = self.discriminator(fake_gestures.detach(), audio_features)
+        
+        d_loss = -torch.mean(real_score) + torch.mean(fake_score)
+        
+        # Gradient penalty for WGAN-GP
+        gradient_penalty = self.compute_gradient_penalty(
+            real_data, fake_gestures, audio_features
+        )
+        d_loss += 10 * gradient_penalty
+        
+        # Train generator
+        fake_score = self.discriminator(fake_gestures, audio_features)
+        g_loss = -torch.mean(fake_score)
+        
+        # Additional losses
+        sync_loss = self.compute_sync_loss(fake_gestures, audio_features)
+        smooth_loss = self.compute_smoothness_loss(fake_gestures)
+        
+        g_total_loss = g_loss + 0.1 * sync_loss + 0.05 * smooth_loss
+        
+        return g_total_loss, d_loss
+</code></pre>
+
+<h2 id="dataset-information">Dataset Information</h2>
+
+<h3 id="speech-gesture-corpus">Speech-Gesture Corpus</h3>
+
+<ul>
+<li><strong>Total Duration</strong>: 50 hours of aligned speech-gesture data</li>
+<li><strong>Speakers</strong>: 30 individuals (diverse demographics)</li>
+<li><strong>Languages</strong>: English, Spanish, Japanese, Arabic</li>
+<li><strong>Gesture Types</strong>:
+
+<ul>
+<li>Iconic (35%)</li>
+<li>Metaphoric (25%)</li>
+<li>Deictic (20%)</li>
+<li>Beat (20%)</li>
+</ul></li>
+</ul>
+
+<h3 id="annotation-schema">Annotation Schema</h3>
+
+<pre><code class="language-json">{
+  &quot;gesture_annotation&quot;: {
+    &quot;id&quot;: &quot;gesture_001&quot;,
+    &quot;start_time&quot;: 1.23,
+    &quot;end_time&quot;: 2.45,
+    &quot;type&quot;: &quot;iconic&quot;,
+    &quot;hands&quot;: [&quot;right&quot;, &quot;left&quot;],
+    &quot;phases&quot;: {
+      &quot;preparation&quot;: [1.23, 1.45],
+      &quot;stroke&quot;: [1.45, 2.10],
+      &quot;retraction&quot;: [2.10, 2.45]
+    },
+    &quot;semantic_label&quot;: &quot;describing_size&quot;,
+    &quot;intensity&quot;: 0.8
+  }
+}
+</code></pre>
+
+<h3 id="motion-capture-setup">Motion Capture Setup</h3>
+
+<ul>
+<li><strong>System</strong>: OptiTrack with 24 cameras</li>
+<li><strong>Markers</strong>: 53 markers (full body + fingers)</li>
+<li><strong>Frame Rate</strong>: 120 FPS</li>
+<li><strong>Audio</strong>: Synchronized at 48kHz</li>
+<li><strong>Video</strong>: 1080p at 30 FPS for reference</li>
+</ul>
+
+<h2 id="computational-resources">Computational Resources</h2>
+
+<h3 id="training-configuration">Training Configuration</h3>
+
+<pre><code class="language-yaml">training:
+  batch_size: 32
+  learning_rate: 0.0001
+  epochs: 200
+  gradient_clip: 1.0
+  warmup_steps: 4000
+  
+hardware:
+  gpus: 2x NVIDIA V100
+  memory: 64GB RAM
+  storage: 2TB SSD
+  
+preprocessing:
+  audio_normalization: true
+  gesture_normalization: true
+  augmentation:
+    time_warping: 0.1
+    noise_injection: 0.05
+    style_mixing: true
+</code></pre>
+
+<h3 id="real-time-performance">Real-time Performance</h3>
+
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Latency (ms)</th>
+<th>Throughput</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Audio Processing</td>
+<td>5</td>
+<td>200 FPS</td>
+</tr>
+
+<tr>
+<td>Text Encoding</td>
+<td>8</td>
+<td>125 FPS</td>
+</tr>
+
+<tr>
+<td>Gesture Generation</td>
+<td>15</td>
+<td>66 FPS</td>
+</tr>
+
+<tr>
+<td>Total Pipeline</td>
+<td>30</td>
+<td>33 FPS</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="supplementary-figures">Supplementary Figures</h2>
+
+<h3 id="evaluation-visualizations">Evaluation Visualizations</h3>
+
+<ul>
+<li>Gesture phase timing analysis</li>
+<li>Cross-correlation between speech and motion</li>
+<li>Style embedding space visualization</li>
+<li>Error distribution across gesture types</li>
+</ul>
+
+<h3 id="ablation-study-results">Ablation Study Results</h3>
+
+<ul>
+<li>Impact of different audio features</li>
+<li>Text modality contribution</li>
+<li>Architecture component analysis</li>
+<li>Loss function combinations</li>
+</ul>
+
+<h2 id="advanced-features">Advanced Features</h2>
+
+<h3 id="style-transfer">Style Transfer</h3>
+
+<pre><code class="language-python">class GestureStyleTransfer:
+    def __init__(self, model, style_encoder):
+        self.model = model
+        self.style_encoder = style_encoder
+        
+    def extract_style(self, reference_gestures):
+        &quot;&quot;&quot;Extract style embedding from reference&quot;&quot;&quot;
+        style_features = self.style_encoder(reference_gestures)
+        # Average pooling over time
+        style_embedding = torch.mean(style_features, dim=1)
+        return style_embedding
+    
+    def transfer_style(self, audio, text, target_style):
+        &quot;&quot;&quot;Generate gestures with target style&quot;&quot;&quot;
+        style_embedding = self.extract_style(target_style)
+        gestures = self.model(audio, text, style_embedding)
+        return gestures
+</code></pre>
+
+<h3 id="interactive-demo-interface">Interactive Demo Interface</h3>
+
+<pre><code class="language-python">class InteractiveGestureDemo:
+    def __init__(self, model_path):
+        self.model = load_model(model_path)
+        self.audio_processor = AudioFeatureExtractor()
+        self.text_processor = TextEncoder()
+        
+    def generate_from_speech(self, audio_input, transcript=None):
+        &quot;&quot;&quot;Real-time gesture generation from speech input&quot;&quot;&quot;
+        # Process audio
+        audio_features = self.audio_processor.extract_features(audio_input)
+        
+        # Process text if available
+        if transcript:
+            text_features = self.text_processor.encode(transcript)
+        else:
+            # Use ASR if no transcript provided
+            transcript = self.asr_model(audio_input)
+            text_features = self.text_processor.encode(transcript)
+        
+        # Generate gestures
+        with torch.no_grad():
+            gestures = self.model(audio_features, text_features)
+        
+        # Post-process for smoothness
+        gestures = self.post_process(gestures)
+        
+        return gestures, transcript
+</code></pre>
+
+<h3 id="evaluation-metrics-implementation">Evaluation Metrics Implementation</h3>
+
+<pre><code class="language-python">def compute_synchrony_score(gestures, audio_features):
+    &quot;&quot;&quot;Measure gesture-speech synchronization&quot;&quot;&quot;
+    # Extract gesture velocity peaks
+    gesture_velocity = np.diff(gestures, axis=0)
+    gesture_peaks = find_peaks(np.linalg.norm(gesture_velocity, axis=-1))
+    
+    # Extract audio emphasis points
+    audio_peaks = find_peaks(audio_features['energy'])
+    
+    # Compute correlation
+    sync_score = compute_peak_correlation(gesture_peaks, audio_peaks)
+    
+    return sync_score
+</code></pre>
+
+<hr />
+
+<p><em>Demo videos and interactive examples available at the project website. Code repository includes pre-trained models and evaluation scripts.</em></p>
+
+      
+      
+      <nav class="thesis-chapter-nav">
+        
+        <span></span>
+        
+        
+        
+        <a href="https://vihanga.github.io/thesis/supplementary/c6/">Chapter 6: Supplementary Material →</a>
+        
+      </nav>
+    </article>
+  </main>
+</div>
+
+<div class="container">
+  <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2018 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "Search Results",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.2861db6bcf2db4b5eade32c795453e47.js"></script>
+
+    
+
+  </body>
+</html>

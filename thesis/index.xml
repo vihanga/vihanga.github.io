@@ -63,10 +63,10 @@ B.1 Theoretical Foundations B.1.1 Model-Free vs Model-Based RL  Key distinctions
     
     <item>
       <title>Appendix C: Supplementary Material Index</title>
-      <link>https://vihanga.github.io/thesis/appendices/c5a/</link>
+      <link>https://vihanga.github.io/thesis/appendices/c/</link>
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://vihanga.github.io/thesis/appendices/c5a/</guid>
+      <guid>https://vihanga.github.io/thesis/appendices/c/</guid>
       <description>Appendix C: Supplementary Material Index This appendix provides a comprehensive index of all supplementary materials associated with this thesis, including datasets, code repositories, multimedia content, and additional documentation.
 C.1 Code Repositories C.1.1 Main Research Code  Repository URL: [GitHub/research-code] License: MIT License Languages: Python, C++, MATLAB Key Components:  RL algorithm implementations Data processing pipelines Visualization tools Experiment runners   C.1.2 Evaluation Framework  Repository URL: [GitHub/evaluation-framework] Documentation: Available in /docs directory Dependencies: Listed in requirements.</description>
     </item>
@@ -114,6 +114,7 @@ D.1 Study Design D.1.1 Methodology Overview  Study Type: Mixed-methods approach 
       
       <guid>https://vihanga.github.io/thesis/appendices/e/</guid>
       <description>Appendix E: Supplementary Results, Model-free RL Experiments This appendix contains comprehensive supplementary results from the model-free reinforcement learning experiments conducted throughout this research.
+Blah Blah blah
 E.1 Extended Learning Curves E.1.1 Training Performance Over Time PPO Experiments  Environment: Custom physics simulation Training Steps: 10M Seeds: 5 independent runs Logging Frequency: Every 1000 steps  ![Learning Curves - PPO] - Episode Return: Steady improvement from -200 to +150 - Success Rate: 15% → 92% over training - Sample Efficiency: 2.</description>
     </item>
     
