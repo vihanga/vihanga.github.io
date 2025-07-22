@@ -334,10 +334,10 @@ def ppo_update(policy, value_function, trajectories, clip_epsilon):
     
     <item>
       <title>Appendix C: Supplementary Material Index</title>
-      <link>https://vihanga.github.io/thesis/appendices/c/</link>
+      <link>https://vihanga.github.io/thesis/appendices/c5a/</link>
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://vihanga.github.io/thesis/appendices/c/</guid>
+      <guid>https://vihanga.github.io/thesis/appendices/c5a/</guid>
       <description>
 
 &lt;h1 id=&#34;appendix-c-supplementary-material-index&#34;&gt;Appendix C: Supplementary Material Index&lt;/h1&gt;
