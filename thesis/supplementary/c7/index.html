@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Hugo 0.55.4">
   
-  <title>Chapter 7: Supplementary Material | Thesis</title>
+  <title>Chapter 7 Supplementary Material: Beat Gestures | Thesis</title>
   
   <link rel="stylesheet" href="/css/thesis-book.css">
   
@@ -82,467 +82,189 @@
   
   <main class="thesis-main">
     <article class="thesis-content">
-      <h1>Chapter 7: Supplementary Material</h1>
+      <h1>Chapter 7 Supplementary Material: Beat Gestures</h1>
       
       
       
 
-<h2 id="video-demonstrations">Video Demonstrations</h2>
+<h1 id="chapter-7-supplementary-material">Chapter 7 Supplementary Material</h1>
 
-<h3 id="gesture-generation-results">Gesture Generation Results</h3>
+<h2 id="beat-gesture-generation-results">Beat Gesture Generation Results</h2>
+
+<p>This page contains supplementary material referenced in Chapter 7 of the thesis, including video demonstrations of RLAnimate A4 generating beat gestures from speech input.</p>
+
+<h3 id="a3-agent-demonstrations">A3 Agent Demonstrations</h3>
+
+<h4 id="quaternion-based-waving-and-pointing-with-fingers">Quaternion-based Waving and Pointing with Fingers</h4>
+
+<p>[PLACEHOLDER: Video grid showing:
+- A3 agent with quaternion rotations
+- Waving behaviors with finger movement
+- Pointing behaviors with finger articulation
+- Comparison with A2 Euler-based approach]</p>
+
+<h4 id="animation-dynamics-model-results">Animation Dynamics Model Results</h4>
+
+<p>[PLACEHOLDER: Videos demonstrating:
+- Improved stability with animation dynamics
+- Reduced finger artifacts
+- Smoother transitions
+- Natural finger configurations]</p>
+
+<h3 id="a4-agent-beat-gesture-generation">A4 Agent - Beat Gesture Generation</h3>
+
+<h4 id="speech-driven-beat-gestures">Speech-driven Beat Gestures</h4>
+
+<p>[PLACEHOLDER: Video grid showing:
+- A4 agent generating beat gestures from various speech inputs
+- Different speaker voices (male/female)
+- Various speech tempos and styles
+- Emotional speech variations]</p>
+
+<h4 id="realism-regularization-components">Realism Regularization Components</h4>
+
+<p>[PLACEHOLDER: Visualizations showing:
+- Human-likeness regularization effects
+- Physics-based constraints in action
+- Smoothness enforcement results
+- Adversarial training impact]</p>
+
+<h3 id="comparison-with-baselines">Comparison with Baselines</h3>
+
+<h4 id="rlanimate-a4-vs-gesticulator">RLAnimate A4 vs Gesticulator</h4>
+
+<p>[PLACEHOLDER: Side-by-side videos showing:
+- Same speech input, different outputs
+- A4&rsquo;s superior naturalness
+- Gesticulator&rsquo;s mechanical movements
+- Synchronization quality comparison]</p>
+
+<h4 id="rlanimate-a4-vs-motion-capture">RLAnimate A4 vs Motion Capture</h4>
+
+<p>[PLACEHOLDER: Comparison videos showing:
+- A4 output alongside ground truth motion capture
+- Statistical similarity in movement patterns
+- Variability and naturalness comparison
+- Perceptual quality assessment]</p>
+
+<h3 id="technical-evaluation-metrics">Technical Evaluation Metrics</h3>
+
+<h4 id="acceleration-analysis">Acceleration Analysis</h4>
+
+<p>[PLACEHOLDER: Plots and visualizations showing:
+- Joint acceleration profiles
+- Rate of change of acceleration
+- Comparison across methods
+- Statistical distributions]</p>
+
+<h4 id="smoothness-metrics">Smoothness Metrics</h4>
+
+<p>[PLACEHOLDER: Graphs displaying:
+- Smoothness scores over time
+- Per-joint smoothness analysis
+- Comparison with motion capture baseline
+- Impact of smoothness regularization]</p>
+
+<h3 id="perceptual-evaluation-materials">Perceptual Evaluation Materials</h3>
+
+<h4 id="study-setup">Study Setup</h4>
+
+<p>[PLACEHOLDER: Information about:
+- Video clips used in the study
+- Randomization procedure
+- Question presentation format
+- Participant interface screenshots]</p>
+
+<h4 id="detailed-results">Detailed Results</h4>
+
+<p>[PLACEHOLDER: Extended results including:
+- Full statistical analysis
+- Per-clip ratings breakdown
+- Participant comments
+- Demographic correlations]</p>
+
+<h3 id="ablation-studies">Ablation Studies</h3>
+
+<h4 id="realism-regularization-components-1">Realism Regularization Components</h4>
+
+<p>[PLACEHOLDER: Videos showing A4 performance:
+- Without human-likeness (H only)
+- Without physics (P only)
+- Without smoothness (S only)
+- Without adversarial (A only)
+- Various combinations]</p>
+
+<h4 id="architecture-ablations">Architecture Ablations</h4>
+
+<p>[PLACEHOLDER: Comparisons of:
+- A4 with different hidden dimensions
+- Impact of recurrent vs feedforward realism model
+- Effect of different loss weightings
+- Training stability analysis]</p>
+
+<h3 id="speech-feature-analysis">Speech Feature Analysis</h3>
+
+<h4 id="hubert-representations">HuBERT Representations</h4>
+
+<p>[PLACEHOLDER: Visualizations of:
+- Raw HuBERT features
+- Temporal patterns in speech
+- Correlation with gesture timing
+- Feature importance analysis]</p>
+
+<h3 id="generalization-tests">Generalization Tests</h3>
+
+<h4 id="novel-speech-inputs">Novel Speech Inputs</h4>
+
+<p>[PLACEHOLDER: Videos showing A4 performance on:
+- Different languages
+- Non-speech vocalizations
+- Singing and rhythmic speech
+- Extreme speech rates]</p>
+
+<h4 id="style-transfer">Style Transfer</h4>
+
+<p>[PLACEHOLDER: Demonstrations of:
+- Gesture style variations
+- Character-specific adaptations
+- Cultural gesture differences
+- Personality-driven modifications]</p>
+
+<h3 id="implementation-resources">Implementation Resources</h3>
+
+<h4 id="code-architecture">Code Architecture</h4>
+
+<p>[PLACEHOLDER: Diagrams and explanations of:
+- Complete A4 architecture
+- Training pipeline
+- Inference optimization
+- Real-time implementation details]</p>
+
+<h4 id="training-data">Training Data</h4>
+
+<p>[PLACEHOLDER: Information about:
+- Motion capture dataset used
+- Speech-gesture alignment process
+- Data augmentation techniques
+- Training/validation splits]</p>
+
+<h2 id="navigation">Navigation</h2>
 
 <ul>
-<li><strong>Speech-Driven Gestures</strong>: Synchronized hand movements with speech prosody</li>
-<li><strong>Emotion-Aware Generation</strong>: Gestures reflecting different emotional states</li>
-<li><strong>Multi-Speaker Scenarios</strong>: Turn-taking and interaction gestures</li>
-<li><strong>Cultural Variations</strong>: Gesture styles across different cultural contexts</li>
+<li><a href="../c6/">← Chapter 6 Supplementary Material</a></li>
+<li><a href="https://vihanga.github.io/thesis/" target="_blank">← Back to thesis main page</a></li>
+<li><a href="https://vihanga.github.io/thesis/chapters/conversational-gestures/" target="_blank">Chapter 7 in main thesis</a></li>
 </ul>
-
-<h3 id="comparative-studies">Comparative Studies</h3>
-
-<ul>
-<li>Human gesture capture vs. generated gestures</li>
-<li>Different model architectures comparison</li>
-<li>Ablation study visualizations</li>
-<li>Real-time generation demonstrations</li>
-</ul>
-
-<h2 id="additional-results">Additional Results</h2>
-
-<h3 id="quantitative-metrics">Quantitative Metrics</h3>
-
-<table>
-<thead>
-<tr>
-<th>Method</th>
-<th>Sync Score</th>
-<th>Diversity</th>
-<th>Naturalness</th>
-<th>User Rating</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>Baseline RNN</td>
-<td>0.62</td>
-<td>0.45</td>
-<td>6.<sup>2</sup>&frasl;<sub>10</sub></td>
-<td>5.<sup>8</sup>&frasl;<sub>10</sub></td>
-</tr>
-
-<tr>
-<td>Transformer</td>
-<td>0.78</td>
-<td>0.68</td>
-<td>7.<sup>5</sup>&frasl;<sub>10</sub></td>
-<td>7.<sup>2</sup>&frasl;<sub>10</sub></td>
-</tr>
-
-<tr>
-<td>Audio2Gesture</td>
-<td>0.81</td>
-<td>0.72</td>
-<td>7.<sup>8</sup>&frasl;<sub>10</sub></td>
-<td>7.<sup>6</sup>&frasl;<sub>10</sub></td>
-</tr>
-
-<tr>
-<td>Proposed</td>
-<td>0.89</td>
-<td>0.85</td>
-<td>8.<sup>7</sup>&frasl;<sub>10</sub></td>
-<td>8.<sup>5</sup>&frasl;<sub>10</sub></td>
-</tr>
-</tbody>
-</table>
-
-<h3 id="user-study-details">User Study Details</h3>
-
-<ul>
-<li><strong>Participants</strong>: 120 subjects (diverse backgrounds)</li>
-<li><strong>Evaluation Protocol</strong>: A/B testing, Likert scales</li>
-<li><strong>Statistical Significance</strong>: p &lt; 0.001 for all comparisons</li>
-<li><strong>Qualitative Feedback</strong>: Thematic analysis of comments</li>
-</ul>
-
-<h3 id="cross-dataset-evaluation">Cross-Dataset Evaluation</h3>
-
-<p>Performance on different speech-gesture datasets:
-- Trinity Speech-Gesture Dataset
-- GENEA Challenge Dataset
-- Talking With Hands Dataset
-- Custom Multi-cultural Dataset</p>
-
-<h2 id="code-examples">Code Examples</h2>
-
-<h3 id="audio-feature-extraction">Audio Feature Extraction</h3>
-
-<pre><code class="language-python">class AudioFeatureExtractor:
-    def __init__(self, sample_rate=16000):
-        self.sample_rate = sample_rate
-        self.mel_spec = torchaudio.transforms.MelSpectrogram(
-            sample_rate=sample_rate,
-            n_fft=1024,
-            hop_length=160,
-            n_mels=80
-        )
-        
-    def extract_features(self, audio_waveform):
-        &quot;&quot;&quot;Extract multi-scale audio features&quot;&quot;&quot;
-        # Mel-spectrogram
-        mel_features = self.mel_spec(audio_waveform)
-        
-        # Prosodic features
-        pitch = self.extract_pitch(audio_waveform)
-        energy = self.extract_energy(audio_waveform)
-        
-        # Rhythm features
-        onset_env = librosa.onset.onset_strength(
-            y=audio_waveform.numpy(),
-            sr=self.sample_rate
-        )
-        tempo, beats = librosa.beat.beat_track(
-            onset_envelope=onset_env,
-            sr=self.sample_rate
-        )
-        
-        # Voice activity detection
-        vad = self.compute_vad(audio_waveform)
-        
-        return {
-            'mel': mel_features,
-            'pitch': pitch,
-            'energy': energy,
-            'rhythm': onset_env,
-            'tempo': tempo,
-            'vad': vad
-        }
-</code></pre>
-
-<h3 id="gesture-generation-model">Gesture Generation Model</h3>
-
-<pre><code class="language-python">class GestureGenerator(nn.Module):
-    def __init__(self, audio_dim, text_dim, gesture_dim, hidden_dim=512):
-        super().__init__()
-        
-        # Audio encoder
-        self.audio_encoder = nn.TransformerEncoder(
-            nn.TransformerEncoderLayer(
-                d_model=audio_dim,
-                nhead=8,
-                dim_feedforward=2048
-            ),
-            num_layers=6
-        )
-        
-        # Text encoder (for semantic understanding)
-        self.text_encoder = nn.TransformerEncoder(
-            nn.TransformerEncoderLayer(
-                d_model=text_dim,
-                nhead=8,
-                dim_feedforward=2048
-            ),
-            num_layers=4
-        )
-        
-        # Cross-modal attention
-        self.cross_attention = nn.MultiheadAttention(
-            embed_dim=hidden_dim,
-            num_heads=8
-        )
-        
-        # Gesture decoder
-        self.gesture_decoder = nn.TransformerDecoder(
-            nn.TransformerDecoderLayer(
-                d_model=hidden_dim,
-                nhead=8,
-                dim_feedforward=2048
-            ),
-            num_layers=6
-        )
-        
-        # Output projection
-        self.output_projection = nn.Linear(hidden_dim, gesture_dim)
-        
-    def forward(self, audio_features, text_features, style_embedding=None):
-        # Encode modalities
-        audio_encoded = self.audio_encoder(audio_features)
-        text_encoded = self.text_encoder(text_features)
-        
-        # Cross-modal fusion
-        fused_features, _ = self.cross_attention(
-            query=audio_encoded,
-            key=text_encoded,
-            value=text_encoded
-        )
-        
-        # Add style conditioning if provided
-        if style_embedding is not None:
-            fused_features = fused_features + style_embedding
-        
-        # Generate gestures
-        gesture_features = self.gesture_decoder(
-            tgt=fused_features,
-            memory=fused_features
-        )
-        
-        # Project to gesture space
-        gestures = self.output_projection(gesture_features)
-        
-        return gestures
-</code></pre>
-
-<h3 id="training-with-adversarial-loss">Training with Adversarial Loss</h3>
-
-<pre><code class="language-python">class GestureGAN:
-    def __init__(self, generator, discriminator):
-        self.generator = generator
-        self.discriminator = discriminator
-        
-    def train_step(self, real_data, audio_features, text_features):
-        # Train discriminator
-        fake_gestures = self.generator(audio_features, text_features)
-        
-        real_score = self.discriminator(real_data, audio_features)
-        fake_score = self.discriminator(fake_gestures.detach(), audio_features)
-        
-        d_loss = -torch.mean(real_score) + torch.mean(fake_score)
-        
-        # Gradient penalty for WGAN-GP
-        gradient_penalty = self.compute_gradient_penalty(
-            real_data, fake_gestures, audio_features
-        )
-        d_loss += 10 * gradient_penalty
-        
-        # Train generator
-        fake_score = self.discriminator(fake_gestures, audio_features)
-        g_loss = -torch.mean(fake_score)
-        
-        # Additional losses
-        sync_loss = self.compute_sync_loss(fake_gestures, audio_features)
-        smooth_loss = self.compute_smoothness_loss(fake_gestures)
-        
-        g_total_loss = g_loss + 0.1 * sync_loss + 0.05 * smooth_loss
-        
-        return g_total_loss, d_loss
-</code></pre>
-
-<h2 id="dataset-information">Dataset Information</h2>
-
-<h3 id="speech-gesture-corpus">Speech-Gesture Corpus</h3>
-
-<ul>
-<li><strong>Total Duration</strong>: 50 hours of aligned speech-gesture data</li>
-<li><strong>Speakers</strong>: 30 individuals (diverse demographics)</li>
-<li><strong>Languages</strong>: English, Spanish, Japanese, Arabic</li>
-<li><strong>Gesture Types</strong>:
-
-<ul>
-<li>Iconic (35%)</li>
-<li>Metaphoric (25%)</li>
-<li>Deictic (20%)</li>
-<li>Beat (20%)</li>
-</ul></li>
-</ul>
-
-<h3 id="annotation-schema">Annotation Schema</h3>
-
-<pre><code class="language-json">{
-  &quot;gesture_annotation&quot;: {
-    &quot;id&quot;: &quot;gesture_001&quot;,
-    &quot;start_time&quot;: 1.23,
-    &quot;end_time&quot;: 2.45,
-    &quot;type&quot;: &quot;iconic&quot;,
-    &quot;hands&quot;: [&quot;right&quot;, &quot;left&quot;],
-    &quot;phases&quot;: {
-      &quot;preparation&quot;: [1.23, 1.45],
-      &quot;stroke&quot;: [1.45, 2.10],
-      &quot;retraction&quot;: [2.10, 2.45]
-    },
-    &quot;semantic_label&quot;: &quot;describing_size&quot;,
-    &quot;intensity&quot;: 0.8
-  }
-}
-</code></pre>
-
-<h3 id="motion-capture-setup">Motion Capture Setup</h3>
-
-<ul>
-<li><strong>System</strong>: OptiTrack with 24 cameras</li>
-<li><strong>Markers</strong>: 53 markers (full body + fingers)</li>
-<li><strong>Frame Rate</strong>: 120 FPS</li>
-<li><strong>Audio</strong>: Synchronized at 48kHz</li>
-<li><strong>Video</strong>: 1080p at 30 FPS for reference</li>
-</ul>
-
-<h2 id="computational-resources">Computational Resources</h2>
-
-<h3 id="training-configuration">Training Configuration</h3>
-
-<pre><code class="language-yaml">training:
-  batch_size: 32
-  learning_rate: 0.0001
-  epochs: 200
-  gradient_clip: 1.0
-  warmup_steps: 4000
-  
-hardware:
-  gpus: 2x NVIDIA V100
-  memory: 64GB RAM
-  storage: 2TB SSD
-  
-preprocessing:
-  audio_normalization: true
-  gesture_normalization: true
-  augmentation:
-    time_warping: 0.1
-    noise_injection: 0.05
-    style_mixing: true
-</code></pre>
-
-<h3 id="real-time-performance">Real-time Performance</h3>
-
-<table>
-<thead>
-<tr>
-<th>Component</th>
-<th>Latency (ms)</th>
-<th>Throughput</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>Audio Processing</td>
-<td>5</td>
-<td>200 FPS</td>
-</tr>
-
-<tr>
-<td>Text Encoding</td>
-<td>8</td>
-<td>125 FPS</td>
-</tr>
-
-<tr>
-<td>Gesture Generation</td>
-<td>15</td>
-<td>66 FPS</td>
-</tr>
-
-<tr>
-<td>Total Pipeline</td>
-<td>30</td>
-<td>33 FPS</td>
-</tr>
-</tbody>
-</table>
-
-<h2 id="supplementary-figures">Supplementary Figures</h2>
-
-<h3 id="evaluation-visualizations">Evaluation Visualizations</h3>
-
-<ul>
-<li>Gesture phase timing analysis</li>
-<li>Cross-correlation between speech and motion</li>
-<li>Style embedding space visualization</li>
-<li>Error distribution across gesture types</li>
-</ul>
-
-<h3 id="ablation-study-results">Ablation Study Results</h3>
-
-<ul>
-<li>Impact of different audio features</li>
-<li>Text modality contribution</li>
-<li>Architecture component analysis</li>
-<li>Loss function combinations</li>
-</ul>
-
-<h2 id="advanced-features">Advanced Features</h2>
-
-<h3 id="style-transfer">Style Transfer</h3>
-
-<pre><code class="language-python">class GestureStyleTransfer:
-    def __init__(self, model, style_encoder):
-        self.model = model
-        self.style_encoder = style_encoder
-        
-    def extract_style(self, reference_gestures):
-        &quot;&quot;&quot;Extract style embedding from reference&quot;&quot;&quot;
-        style_features = self.style_encoder(reference_gestures)
-        # Average pooling over time
-        style_embedding = torch.mean(style_features, dim=1)
-        return style_embedding
-    
-    def transfer_style(self, audio, text, target_style):
-        &quot;&quot;&quot;Generate gestures with target style&quot;&quot;&quot;
-        style_embedding = self.extract_style(target_style)
-        gestures = self.model(audio, text, style_embedding)
-        return gestures
-</code></pre>
-
-<h3 id="interactive-demo-interface">Interactive Demo Interface</h3>
-
-<pre><code class="language-python">class InteractiveGestureDemo:
-    def __init__(self, model_path):
-        self.model = load_model(model_path)
-        self.audio_processor = AudioFeatureExtractor()
-        self.text_processor = TextEncoder()
-        
-    def generate_from_speech(self, audio_input, transcript=None):
-        &quot;&quot;&quot;Real-time gesture generation from speech input&quot;&quot;&quot;
-        # Process audio
-        audio_features = self.audio_processor.extract_features(audio_input)
-        
-        # Process text if available
-        if transcript:
-            text_features = self.text_processor.encode(transcript)
-        else:
-            # Use ASR if no transcript provided
-            transcript = self.asr_model(audio_input)
-            text_features = self.text_processor.encode(transcript)
-        
-        # Generate gestures
-        with torch.no_grad():
-            gestures = self.model(audio_features, text_features)
-        
-        # Post-process for smoothness
-        gestures = self.post_process(gestures)
-        
-        return gestures, transcript
-</code></pre>
-
-<h3 id="evaluation-metrics-implementation">Evaluation Metrics Implementation</h3>
-
-<pre><code class="language-python">def compute_synchrony_score(gestures, audio_features):
-    &quot;&quot;&quot;Measure gesture-speech synchronization&quot;&quot;&quot;
-    # Extract gesture velocity peaks
-    gesture_velocity = np.diff(gestures, axis=0)
-    gesture_peaks = find_peaks(np.linalg.norm(gesture_velocity, axis=-1))
-    
-    # Extract audio emphasis points
-    audio_peaks = find_peaks(audio_features['energy'])
-    
-    # Compute correlation
-    sync_score = compute_peak_correlation(gesture_peaks, audio_peaks)
-    
-    return sync_score
-</code></pre>
-
-<hr />
-
-<p><em>Demo videos and interactive examples available at the project website. Code repository includes pre-trained models and evaluation scripts.</em></p>
 
       
       
       <nav class="thesis-chapter-nav">
         
-        <span></span>
+        <a href="https://vihanga.github.io/thesis/publications/MIG18/">← MIG&#39;18 Supplementary Material</a>
         
         
         
-        <a href="https://vihanga.github.io/thesis/supplementary/c6/">Chapter 6: Supplementary Material →</a>
+        <a href="https://vihanga.github.io/thesis/supplementary/c6/">Chapter 6 Supplementary Material: RLAnimate Waving and Pointing →</a>
         
       </nav>
     </article>

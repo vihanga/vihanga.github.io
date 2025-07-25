@@ -18,8 +18,9 @@
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
       
       <guid>https://vihanga.github.io/thesis/appendices/a/</guid>
-      <description>Appendix A: Exploring Engagement and Efficiency in Serious Games This appendix provides supplementary material related to the exploration of engagement and efficiency in serious games, as discussed in the main thesis.
-A.1 Game Design Principles A.1.1 Engagement Metrics  Player retention rates Time-on-task measurements User satisfaction surveys Learning outcome assessments  A.1.2 Efficiency Considerations  Computational resource usage Response time optimization Scalability factors Performance benchmarks  A.2 Case Studies A.</description>
+      <description>Appendix A: Exploring Engagement and Efficiency in Serious Games This appendix contains supplementary material for the paper &amp;ldquo;Examining the effects of a virtual character on learning and engagement in serious games&amp;rdquo; (Gamage &amp;amp; Ennis, 2018, MIG &amp;lsquo;18).
+For the complete supplementary materials including the full questionnaire, lesson content, and statistical analysis, please visit: MIG&amp;rsquo;18 Supplementary Material
+A.1 Study Materials A.1.1 Full Questionnaire [PLACEHOLDER: Insert the complete questionnaire used in the study, including: - All Game Engagement Questionnaire items used - All Motivation Inventory items used - Custom questions designed for this study - Likert scale descriptions]</description>
     </item>
     
     <item>
@@ -193,40 +194,56 @@ RLAnimate/ ├── core/ │ ├── agents/ │ ├── environments/ │
     </item>
     
     <item>
-      <title>Chapter 5a: Supplementary Material</title>
+      <title>Chapter 5 Supplementary Material - Part A: Model-free Output Sequences</title>
       <link>https://vihanga.github.io/thesis/supplementary/c5a/</link>
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
       
       <guid>https://vihanga.github.io/thesis/supplementary/c5a/</guid>
-      <description>Video Demonstrations Physics-Based Animation Results  Bipedal Locomotion: Natural walking and running with physics constraints Balance Recovery: Dynamic responses to external perturbations Terrain Adaptation: Movement across uneven surfaces and obstacles Muscle-Driven Motion: Anatomically-inspired character control  Comparison Videos  Physics-based vs. kinematic animation side-by-side Different physics solvers and their impact on motion quality Real-time performance demonstrations  Additional Results Performance Benchmarks Detailed performance metrics across different scenarios:
-   Scenario Frame Rate (FPS) Physics Steps/Frame Memory Usage (MB)     Single Character 120 4 256   5 Characters 60 4 780   10 Characters 30 2 1,420   Complex Environment 45 3 890    Stability Analysis  Numerical stability under extreme conditions Convergence rates for different optimization methods Error accumulation over long simulations  Physical Accuracy Validation  Comparison with real-world motion capture data Energy conservation analysis Ground reaction force validation  Code Examples Character Model Definition class PhysicsCharacter: def __init__(self): self.</description>
+      <description>Chapter 5 Supplementary Material - Part A Model-free Output Sequences This page contains supplementary material referenced in Chapter 5, Section 5.2 (Model-free RL experiments).
+Video Demonstrations Star Jump Task - Model-free Agents [PLACEHOLDER: Video grid showing: - DDPG agent performing Male Star Jump (MSJ) - DDPG agent performing Female Star Jump (FSJ) - SAC agent performing Male Star Jump (MSJ) - SAC agent performing Female Star Jump (FSJ) - Side-by-side comparison of best performing agents]</description>
     </item>
     
     <item>
-      <title>Chapter 5b: Supplementary Material</title>
+      <title>Chapter 5 Supplementary Material - Part B: Model-based Output Sequences</title>
       <link>https://vihanga.github.io/thesis/supplementary/c5b/</link>
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
       
       <guid>https://vihanga.github.io/thesis/supplementary/c5b/</guid>
-      <description>Video Demonstrations Advanced Control Strategies  Predictive Control: Model Predictive Control (MPC) for dynamic movements Hierarchical Control: Multi-level control architecture demonstrations Adaptive Behaviors: Real-time adaptation to changing environments Multi-objective Optimization: Balancing multiple animation goals  Interactive Demonstrations  Real-time user control with physics constraints Style transfer between different motion types Interactive physics parameter tuning Live motion editing with physical validity  Additional Results Control Performance Metrics    Control Method Tracking Error Computation Time Robustness Score     PD Control 0.</description>
+      <description>Chapter 5 Supplementary Material - Part B Model-based Output Sequences This page contains supplementary material referenced in Chapter 5, Section 5.3 (Model-based RL experiments).
+Video Demonstrations Star Jump Task - Model-based Agents [PLACEHOLDER: Video grid showing: - Model-based agent performing Male Star Jump (R1, R2, R3 configurations) - Model-based agent performing Female Star Jump (R1, R2, R3 configurations) - Comparison with model-free agents - Improved smoothness and natural motion]</description>
     </item>
     
     <item>
-      <title>Chapter 6: Supplementary Material</title>
+      <title>Chapter 6 Supplementary Material: RLAnimate Waving and Pointing</title>
       <link>https://vihanga.github.io/thesis/supplementary/c6/</link>
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
       
       <guid>https://vihanga.github.io/thesis/supplementary/c6/</guid>
-      <description>Video Demonstrations Latent Space Visualization  Motion Embeddings: t-SNE and PCA visualizations of learned representations Interpolation Results: Smooth transitions between different motion styles Latent Dynamics: Evolution of latent codes during motion sequences Disentanglement: Independent control of motion factors  Generative Results  Novel motion synthesis from latent codes Style transfer between characters Motion completion and in-betweening Multi-modal motion generation  Additional Results Quantitative Evaluation    Model Variant Reconstruction Error Latent Dim Disentanglement Score FID Score     VAE 0.</description>
+      <description>Chapter 6 Supplementary Material A1 and A2 Agent Demonstrations This page contains supplementary material referenced in Chapter 6 of the thesis.
+A1 Waving and Pointing Behaviors Waving Demonstrations [PLACEHOLDER: Video grid showing: - A1 agent performing various waving gestures - Different exaggeration levels (0.0 to 1.0) - Left hand vs right hand waving - Comparison with motion capture reference]
+Pointing Demonstrations [PLACEHOLDER: Video grid showing: - A1 agent pointing to various 3D targets - Dynamic target tracking - Smooth transitions between targets - Accuracy visualization with target indicators]</description>
     </item>
     
     <item>
-      <title>Chapter 7: Supplementary Material</title>
+      <title>Chapter 7 Supplementary Material: Beat Gestures</title>
       <link>https://vihanga.github.io/thesis/supplementary/c7/</link>
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
       
       <guid>https://vihanga.github.io/thesis/supplementary/c7/</guid>
-      <description>Video Demonstrations Gesture Generation Results  Speech-Driven Gestures: Synchronized hand movements with speech prosody Emotion-Aware Generation: Gestures reflecting different emotional states Multi-Speaker Scenarios: Turn-taking and interaction gestures Cultural Variations: Gesture styles across different cultural contexts  Comparative Studies  Human gesture capture vs. generated gestures Different model architectures comparison Ablation study visualizations Real-time generation demonstrations  Additional Results Quantitative Metrics    Method Sync Score Diversity Naturalness User Rating     Baseline RNN 0.</description>
+      <description>Chapter 7 Supplementary Material Beat Gesture Generation Results This page contains supplementary material referenced in Chapter 7 of the thesis, including video demonstrations of RLAnimate A4 generating beat gestures from speech input.
+A3 Agent Demonstrations Quaternion-based Waving and Pointing with Fingers [PLACEHOLDER: Video grid showing: - A3 agent with quaternion rotations - Waving behaviors with finger movement - Pointing behaviors with finger articulation - Comparison with A2 Euler-based approach]</description>
+    </item>
+    
+    <item>
+      <title>MIG&#39;18 Supplementary Material</title>
+      <link>https://vihanga.github.io/thesis/publications/MIG18/</link>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://vihanga.github.io/thesis/publications/MIG18/</guid>
+      <description>Examining the effects of a virtual character on learning and engagement in serious games Authors: Vihanga Gamage, Cathy Ennis
+Conference: MIG &amp;lsquo;18: Motion, Interaction and Games, November 8–10, 2018, Limassol, Cyprus
+DOI: 10.1145&amp;frasl;3274247.3274499
+Abstract Virtual characters have been employed for many purposes including interacting with players of serious games, with a purpose to increase engagement. These characters are often embodied conversational agents playing diverse roles, such as demonstrators, guides, teachers or interviewers.</description>
     </item>
     
   </channel>

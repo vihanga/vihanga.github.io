@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Hugo 0.55.4">
   
-  <title>Chapter 5a: Supplementary Material | Thesis</title>
+  <title>Chapter 5 Supplementary Material - Part A: Model-free Output Sequences | Thesis</title>
   
   <link rel="stylesheet" href="/css/thesis-book.css">
   
@@ -82,276 +82,93 @@
   
   <main class="thesis-main">
     <article class="thesis-content">
-      <h1>Chapter 5a: Supplementary Material</h1>
+      <h1>Chapter 5 Supplementary Material - Part A: Model-free Output Sequences</h1>
       
       
       
 
-<h2 id="video-demonstrations">Video Demonstrations</h2>
+<h1 id="chapter-5-supplementary-material-part-a">Chapter 5 Supplementary Material - Part A</h1>
 
-<h3 id="physics-based-animation-results">Physics-Based Animation Results</h3>
+<h2 id="model-free-output-sequences">Model-free Output Sequences</h2>
+
+<p>This page contains supplementary material referenced in Chapter 5, Section 5.2 (Model-free RL experiments).</p>
+
+<h3 id="video-demonstrations">Video Demonstrations</h3>
+
+<h4 id="star-jump-task-model-free-agents">Star Jump Task - Model-free Agents</h4>
+
+<p>[PLACEHOLDER: Video grid showing:
+- DDPG agent performing Male Star Jump (MSJ)
+- DDPG agent performing Female Star Jump (FSJ)
+- SAC agent performing Male Star Jump (MSJ)
+- SAC agent performing Female Star Jump (FSJ)
+- Side-by-side comparison of best performing agents]</p>
+
+<h4 id="pointing-task-model-free-agents">Pointing Task - Model-free Agents</h4>
+
+<p>[PLACEHOLDER: Video grid showing:
+- DDPG agent performing pointing tasks
+- SAC agent performing pointing tasks
+- Comparison of successful vs failed pointing attempts
+- Different reward configurations (R1, R2, R3)]</p>
+
+<h3 id="performance-data">Performance Data</h3>
+
+<h4 id="training-curves">Training Curves</h4>
+
+<p>[PLACEHOLDER: Interactive plots showing:
+- Training progression for DDPG vs SAC on Star Jump
+- Training progression for DDPG vs SAC on Pointing
+- Episode reward over training steps
+- Success rate over training episodes]</p>
+
+<h4 id="numerical-results">Numerical Results</h4>
+
+<p>[PLACEHOLDER: Detailed tables with:
+- Final performance scores for all agent configurations
+- Standard deviations and confidence intervals
+- Training time and sample efficiency metrics
+- Hyperparameter configurations used]</p>
+
+<h3 id="agent-artifacts-analysis">Agent Artifacts Analysis</h3>
+
+<p>[PLACEHOLDER: Video analysis showing:
+- Common failure modes in model-free agents
+- Jittery movement patterns
+- Unnatural joint configurations
+- Comparison with human motion capture data]</p>
+
+<h3 id="implementation-details">Implementation Details</h3>
+
+<h4 id="hyperparameters">Hyperparameters</h4>
+
+<p>[PLACEHOLDER: Complete listing of:
+- Network architectures for DDPG and SAC
+- Learning rates and optimization settings
+- Reward function parameters
+- State and action space definitions]</p>
+
+<h4 id="code-snippets">Code Snippets</h4>
+
+<p>[PLACEHOLDER: Key implementation details:
+- Reward function implementations
+- State observation configurations
+- Action space definitions
+- Training loop structure]</p>
+
+<h2 id="navigation">Navigation</h2>
 
 <ul>
-<li><strong>Bipedal Locomotion</strong>: Natural walking and running with physics constraints</li>
-<li><strong>Balance Recovery</strong>: Dynamic responses to external perturbations</li>
-<li><strong>Terrain Adaptation</strong>: Movement across uneven surfaces and obstacles</li>
-<li><strong>Muscle-Driven Motion</strong>: Anatomically-inspired character control</li>
+<li><a href="../c5b/">Chapter 5 Part B: Model-based Output Sequences →</a></li>
+<li><a href="https://vihanga.github.io/thesis/" target="_blank">← Back to thesis main page</a></li>
+<li><a href="https://vihanga.github.io/thesis/chapters/data-driven-rl/" target="_blank">Chapter 5 in main thesis</a></li>
 </ul>
-
-<h3 id="comparison-videos">Comparison Videos</h3>
-
-<ul>
-<li>Physics-based vs. kinematic animation side-by-side</li>
-<li>Different physics solvers and their impact on motion quality</li>
-<li>Real-time performance demonstrations</li>
-</ul>
-
-<h2 id="additional-results">Additional Results</h2>
-
-<h3 id="performance-benchmarks">Performance Benchmarks</h3>
-
-<p>Detailed performance metrics across different scenarios:</p>
-
-<table>
-<thead>
-<tr>
-<th>Scenario</th>
-<th>Frame Rate (FPS)</th>
-<th>Physics Steps/Frame</th>
-<th>Memory Usage (MB)</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>Single Character</td>
-<td>120</td>
-<td>4</td>
-<td>256</td>
-</tr>
-
-<tr>
-<td>5 Characters</td>
-<td>60</td>
-<td>4</td>
-<td>780</td>
-</tr>
-
-<tr>
-<td>10 Characters</td>
-<td>30</td>
-<td>2</td>
-<td>1,420</td>
-</tr>
-
-<tr>
-<td>Complex Environment</td>
-<td>45</td>
-<td>3</td>
-<td>890</td>
-</tr>
-</tbody>
-</table>
-
-<h3 id="stability-analysis">Stability Analysis</h3>
-
-<ul>
-<li>Numerical stability under extreme conditions</li>
-<li>Convergence rates for different optimization methods</li>
-<li>Error accumulation over long simulations</li>
-</ul>
-
-<h3 id="physical-accuracy-validation">Physical Accuracy Validation</h3>
-
-<ul>
-<li>Comparison with real-world motion capture data</li>
-<li>Energy conservation analysis</li>
-<li>Ground reaction force validation</li>
-</ul>
-
-<h2 id="code-examples">Code Examples</h2>
-
-<h3 id="character-model-definition">Character Model Definition</h3>
-
-<pre><code class="language-python">class PhysicsCharacter:
-    def __init__(self):
-        self.skeleton = self.build_skeleton()
-        self.muscles = self.attach_muscles()
-        self.constraints = self.define_constraints()
-        
-    def build_skeleton(self):
-        &quot;&quot;&quot;Define articulated rigid body skeleton&quot;&quot;&quot;
-        bodies = []
-        joints = []
-        
-        # Create body segments
-        pelvis = RigidBody(mass=15.0, inertia=compute_inertia('box'))
-        torso = RigidBody(mass=20.0, inertia=compute_inertia('box'))
-        
-        # Define joint connections
-        spine_joint = BallJoint(pelvis, torso, position=[0, 0.1, 0])
-        
-        return Skeleton(bodies, joints)
-</code></pre>
-
-<h3 id="physics-simulation-loop">Physics Simulation Loop</h3>
-
-<pre><code class="language-python">def simulate_physics_step(character, dt=0.01):
-    &quot;&quot;&quot;Single physics simulation timestep&quot;&quot;&quot;
-    # Apply muscle forces
-    muscle_forces = compute_muscle_activations(character.controller_output)
-    character.apply_muscle_forces(muscle_forces)
-    
-    # External forces (gravity, contacts)
-    apply_gravity(character, g=-9.81)
-    contact_forces = compute_ground_contacts(character)
-    
-    # Integrate dynamics
-    character.integrate_forward_dynamics(dt)
-    
-    # Solve constraints
-    solve_joint_constraints(character)
-    solve_contact_constraints(character, contact_forces)
-    
-    return character.get_state()
-</code></pre>
-
-<h3 id="optimization-based-control">Optimization-Based Control</h3>
-
-<pre><code class="language-python">class OptimizationController:
-    def __init__(self, character_model):
-        self.model = character_model
-        self.horizon = 10  # MPC horizon
-        
-    def compute_control(self, current_state, target_motion):
-        &quot;&quot;&quot;Compute optimal control using trajectory optimization&quot;&quot;&quot;
-        # Define optimization problem
-        problem = TrajectoryOptimization(
-            dynamics=self.model.dynamics,
-            cost_function=self.motion_tracking_cost,
-            constraints=self.physical_constraints
-        )
-        
-        # Solve using Sequential Quadratic Programming
-        solution = solve_sqp(
-            problem,
-            initial_guess=self.warm_start(current_state),
-            max_iterations=50
-        )
-        
-        return solution.controls[0]  # Return first control
-</code></pre>
-
-<h2 id="dataset-information">Dataset Information</h2>
-
-<h3 id="motion-reference-library">Motion Reference Library</h3>
-
-<ul>
-<li><strong>Athletic Movements</strong>: 500+ sequences of sports motions</li>
-<li><strong>Locomotion Variants</strong>: Walking, running at different speeds and styles</li>
-<li><strong>Acrobatic Motions</strong>: Flips, rolls, and complex maneuvers</li>
-<li><strong>Interaction Sequences</strong>: Object manipulation and character interactions</li>
-</ul>
-
-<h3 id="physics-parameters">Physics Parameters</h3>
-
-<p>Validated physical properties used in simulations:
-- <strong>Body Segment Properties</strong>:
-  - Mass distributions from biomechanics literature
-  - Inertia tensors computed from 3D scans
-  - Joint limits based on anatomical studies</p>
-
-<ul>
-<li><strong>Muscle Parameters</strong>:
-
-<ul>
-<li>Maximum isometric forces</li>
-<li>Optimal fiber lengths</li>
-<li>Tendon slack lengths</li>
-<li>Force-velocity relationships</li>
-</ul></li>
-</ul>
-
-<h3 id="environment-models">Environment Models</h3>
-
-<ul>
-<li><strong>Ground Materials</strong>: Concrete, grass, sand, ice (friction coefficients)</li>
-<li><strong>Obstacle Geometries</strong>: Steps, ramps, irregular terrain meshes</li>
-<li><strong>Wind Forces</strong>: Velocity profiles for different conditions</li>
-</ul>
-
-<h2 id="computational-resources">Computational Resources</h2>
-
-<h3 id="optimization-solver-requirements">Optimization Solver Requirements</h3>
-
-<ul>
-<li><strong>CPU</strong>: Intel Xeon or AMD Ryzen (8+ cores recommended)</li>
-<li><strong>RAM</strong>: 32GB for complex scenarios</li>
-<li><strong>GPU</strong>: CUDA-capable for parallel trajectory optimization</li>
-</ul>
-
-<h3 id="performance-optimizations">Performance Optimizations</h3>
-
-<pre><code class="language-python"># Parallel physics simulation for multiple characters
-@cuda.jit
-def parallel_dynamics_kernel(states, forces, dt, output):
-    &quot;&quot;&quot;GPU kernel for parallel forward dynamics&quot;&quot;&quot;
-    idx = cuda.grid(1)
-    if idx &lt; states.shape[0]:
-        # Compute dynamics for character idx
-        output[idx] = integrate_dynamics_gpu(states[idx], forces[idx], dt)
-</code></pre>
-
-<h2 id="supplementary-figures">Supplementary Figures</h2>
-
-<h3 id="extended-analysis">Extended Analysis</h3>
-
-<ul>
-<li>Joint torque profiles during different movements</li>
-<li>Muscle activation patterns</li>
-<li>Center of mass trajectories</li>
-<li>Ground reaction force patterns</li>
-<li>Energy expenditure graphs</li>
-</ul>
-
-<h3 id="architecture-diagrams">Architecture Diagrams</h3>
-
-<ul>
-<li>Detailed system architecture</li>
-<li>Data flow between components</li>
-<li>Optimization algorithm flowcharts</li>
-<li>Real-time control pipeline</li>
-</ul>
-
-<h2 id="validation-studies">Validation Studies</h2>
-
-<h3 id="biomechanical-validation">Biomechanical Validation</h3>
-
-<ul>
-<li>Comparison with human motion studies</li>
-<li>Joint angle trajectories</li>
-<li>Muscle activation timing</li>
-<li>Metabolic energy estimates</li>
-</ul>
-
-<h3 id="robustness-testing">Robustness Testing</h3>
-
-<ul>
-<li>Performance under different perturbation magnitudes</li>
-<li>Adaptation to unexpected obstacles</li>
-<li>Recovery from near-fall scenarios</li>
-<li>Long-term stability analysis</li>
-</ul>
-
-<hr />
-
-<p><em>Additional materials and source code available at the project repository.</em></p>
 
       
       
       <nav class="thesis-chapter-nav">
         
-        <a href="https://vihanga.github.io/thesis/supplementary/c5b/">← Chapter 5b: Supplementary Material</a>
+        <a href="https://vihanga.github.io/thesis/supplementary/c5b/">← Chapter 5 Supplementary Material - Part B: Model-based Output Sequences</a>
         
         
         

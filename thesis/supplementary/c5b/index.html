@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Hugo 0.55.4">
   
-  <title>Chapter 5b: Supplementary Material | Thesis</title>
+  <title>Chapter 5 Supplementary Material - Part B: Model-based Output Sequences | Thesis</title>
   
   <link rel="stylesheet" href="/css/thesis-book.css">
   
@@ -82,345 +82,107 @@
   
   <main class="thesis-main">
     <article class="thesis-content">
-      <h1>Chapter 5b: Supplementary Material</h1>
+      <h1>Chapter 5 Supplementary Material - Part B: Model-based Output Sequences</h1>
       
       
       
 
-<h2 id="video-demonstrations">Video Demonstrations</h2>
+<h1 id="chapter-5-supplementary-material-part-b">Chapter 5 Supplementary Material - Part B</h1>
 
-<h3 id="advanced-control-strategies">Advanced Control Strategies</h3>
+<h2 id="model-based-output-sequences">Model-based Output Sequences</h2>
+
+<p>This page contains supplementary material referenced in Chapter 5, Section 5.3 (Model-based RL experiments).</p>
+
+<h3 id="video-demonstrations">Video Demonstrations</h3>
+
+<h4 id="star-jump-task-model-based-agents">Star Jump Task - Model-based Agents</h4>
+
+<p>[PLACEHOLDER: Video grid showing:
+- Model-based agent performing Male Star Jump (R1, R2, R3 configurations)
+- Model-based agent performing Female Star Jump (R1, R2, R3 configurations)
+- Comparison with model-free agents
+- Improved smoothness and natural motion]</p>
+
+<h4 id="pointing-task-model-based-agents">Pointing Task - Model-based Agents</h4>
+
+<p>[PLACEHOLDER: Video grid showing:
+- Model-based pointing with different state configurations (S1, S2, S3)
+- Successful pointing sequences
+- Multi-target pointing demonstrations
+- Dynamic target tracking]</p>
+
+<h3 id="dynamics-model-visualization">Dynamics Model Visualization</h3>
+
+<p>[PLACEHOLDER: Interactive visualizations showing:
+- Learned latent dynamics representations
+- State transition predictions
+- Planning trajectories
+- Uncertainty estimates]</p>
+
+<h3 id="performance-improvements">Performance Improvements</h3>
+
+<h4 id="quantitative-results">Quantitative Results</h4>
+
+<p>[PLACEHOLDER: Detailed comparison tables:
+- Model-based vs Model-free performance metrics
+- Sample efficiency improvements
+- Final reward scores
+- Success rates across different configurations]</p>
+
+<h4 id="artifact-reduction">Artifact Reduction</h4>
+
+<p>[PLACEHOLDER: Video comparisons showing:
+- Reduced jitter in model-based agents
+- More natural motion trajectories
+- Better temporal consistency
+- Smoother joint movements]</p>
+
+<h3 id="alternative-training-approaches">Alternative Training Approaches</h3>
+
+<h4 id="section-5-3-2-action-output-model">Section 5.3.2: Action Output Model</h4>
+
+<p>[PLACEHOLDER: Results from the alternative approach:
+- Performance without conventional reward function
+- Direct action supervision results
+- Comparison with standard model-based approach
+- Training efficiency metrics]</p>
+
+<h3 id="implementation-details">Implementation Details</h3>
+
+<h4 id="model-architecture">Model Architecture</h4>
+
+<p>[PLACEHOLDER: Detailed architecture diagrams:
+- Dynamics model structure
+- Planning algorithm flowchart
+- Network layer specifications
+- Hyperparameter configurations]</p>
+
+<h4 id="training-protocol">Training Protocol</h4>
+
+<p>[PLACEHOLDER: Training details including:
+- Data collection procedures
+- Model update frequencies
+- Planning horizon settings
+- Computational requirements]</p>
+
+<h2 id="navigation">Navigation</h2>
 
 <ul>
-<li><strong>Predictive Control</strong>: Model Predictive Control (MPC) for dynamic movements</li>
-<li><strong>Hierarchical Control</strong>: Multi-level control architecture demonstrations</li>
-<li><strong>Adaptive Behaviors</strong>: Real-time adaptation to changing environments</li>
-<li><strong>Multi-objective Optimization</strong>: Balancing multiple animation goals</li>
+<li><a href="../c5a/">← Chapter 5 Part A: Model-free Output Sequences</a></li>
+<li><a href="../c6/">Chapter 6 Supplementary Material →</a></li>
+<li><a href="https://vihanga.github.io/thesis/" target="_blank">← Back to thesis main page</a></li>
+<li><a href="https://vihanga.github.io/thesis/chapters/data-driven-rl/" target="_blank">Chapter 5 in main thesis</a></li>
 </ul>
-
-<h3 id="interactive-demonstrations">Interactive Demonstrations</h3>
-
-<ul>
-<li>Real-time user control with physics constraints</li>
-<li>Style transfer between different motion types</li>
-<li>Interactive physics parameter tuning</li>
-<li>Live motion editing with physical validity</li>
-</ul>
-
-<h2 id="additional-results">Additional Results</h2>
-
-<h3 id="control-performance-metrics">Control Performance Metrics</h3>
-
-<table>
-<thead>
-<tr>
-<th>Control Method</th>
-<th>Tracking Error</th>
-<th>Computation Time</th>
-<th>Robustness Score</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>PD Control</td>
-<td>0.085 rad</td>
-<td>0.1 ms</td>
-<td>6.<sup>2</sup>&frasl;<sub>10</sub></td>
-</tr>
-
-<tr>
-<td>Trajectory Opt</td>
-<td>0.023 rad</td>
-<td>15.2 ms</td>
-<td>8.<sup>7</sup>&frasl;<sub>10</sub></td>
-</tr>
-
-<tr>
-<td>MPC</td>
-<td>0.031 rad</td>
-<td>8.5 ms</td>
-<td>9.<sup>1</sup>&frasl;<sub>10</sub></td>
-</tr>
-
-<tr>
-<td>Learning-Based</td>
-<td>0.042 rad</td>
-<td>0.5 ms</td>
-<td>7.<sup>8</sup>&frasl;<sub>10</sub></td>
-</tr>
-</tbody>
-</table>
-
-<h3 id="scalability-analysis">Scalability Analysis</h3>
-
-<ul>
-<li>Performance with increasing DOF</li>
-<li>Multi-character coordination overhead</li>
-<li>Memory scaling with simulation complexity</li>
-<li>Real-time feasibility boundaries</li>
-</ul>
-
-<h2 id="code-examples">Code Examples</h2>
-
-<h3 id="model-predictive-control-implementation">Model Predictive Control Implementation</h3>
-
-<pre><code class="language-python">class ModelPredictiveController:
-    def __init__(self, dynamics_model, prediction_horizon=20):
-        self.model = dynamics_model
-        self.horizon = prediction_horizon
-        self.dt = 0.03  # 30Hz control
-        
-    def solve_mpc(self, x0, reference_trajectory):
-        &quot;&quot;&quot;Solve MPC optimization problem&quot;&quot;&quot;
-        # Decision variables
-        X = cp.Variable((self.model.state_dim, self.horizon + 1))
-        U = cp.Variable((self.model.control_dim, self.horizon))
-        
-        # Objective function
-        cost = 0
-        for t in range(self.horizon):
-            # Tracking cost
-            cost += cp.quad_form(X[:, t] - reference_trajectory[:, t], self.Q)
-            # Control effort
-            cost += cp.quad_form(U[:, t], self.R)
-        
-        # Constraints
-        constraints = [X[:, 0] == x0]
-        for t in range(self.horizon):
-            # Dynamics constraints
-            constraints += [X[:, t + 1] == self.model.dynamics(X[:, t], U[:, t])]
-            # Control limits
-            constraints += [self.u_min &lt;= U[:, t], U[:, t] &lt;= self.u_max]
-            # State constraints (joint limits, etc.)
-            constraints += [self.x_min &lt;= X[:, t + 1], X[:, t + 1] &lt;= self.x_max]
-        
-        # Solve
-        problem = cp.Problem(cp.Minimize(cost), constraints)
-        problem.solve(solver=cp.OSQP, warm_start=True)
-        
-        return U[:, 0].value
-</code></pre>
-
-<h3 id="hierarchical-control-architecture">Hierarchical Control Architecture</h3>
-
-<pre><code class="language-python">class HierarchicalController:
-    def __init__(self):
-        self.high_level = TaskPlanner()
-        self.mid_level = TrajectoryGenerator()
-        self.low_level = JointController()
-        
-    def control_step(self, state, goal):
-        &quot;&quot;&quot;Execute hierarchical control pipeline&quot;&quot;&quot;
-        # High-level: Task planning
-        task_sequence = self.high_level.plan(state, goal)
-        
-        # Mid-level: Trajectory generation
-        reference_trajectory = self.mid_level.generate(
-            current_state=state,
-            task=task_sequence[0],
-            duration=2.0
-        )
-        
-        # Low-level: Joint control
-        joint_torques = self.low_level.track(
-            current_state=state,
-            reference=reference_trajectory[0]
-        )
-        
-        return joint_torques
-</code></pre>
-
-<h3 id="differentiable-physics-integration">Differentiable Physics Integration</h3>
-
-<pre><code class="language-python">import torch
-
-class DifferentiableSimulator(torch.nn.Module):
-    def __init__(self, character_model):
-        super().__init__()
-        self.model = character_model
-        
-    def forward(self, state, control, dt):
-        &quot;&quot;&quot;Differentiable forward dynamics&quot;&quot;&quot;
-        # Compute accelerations
-        M = self.model.mass_matrix(state)
-        C = self.model.coriolis_forces(state)
-        g = self.model.gravity_forces(state)
-        
-        # Joint torques from control
-        tau = self.model.control_matrix @ control
-        
-        # Forward dynamics: M * qdd = tau - C - g
-        qdd = torch.linalg.solve(M, tau - C - g)
-        
-        # Semi-implicit Euler integration
-        velocity_new = state.velocity + qdd * dt
-        position_new = state.position + velocity_new * dt
-        
-        return torch.cat([position_new, velocity_new])
-</code></pre>
-
-<h2 id="dataset-information">Dataset Information</h2>
-
-<h3 id="controller-training-data">Controller Training Data</h3>
-
-<ul>
-<li><strong>State-Action Pairs</strong>: 5M samples from optimal control solutions</li>
-<li><strong>Trajectory Library</strong>: 10,000 optimized motion trajectories</li>
-<li><strong>Perturbation Data</strong>: Recovery behaviors under 50,000 perturbation scenarios</li>
-<li><strong>Style Variations</strong>: 100 different motion styles per base movement</li>
-</ul>
-
-<h3 id="benchmark-scenarios">Benchmark Scenarios</h3>
-
-<p>Standardized test cases for controller evaluation:</p>
-
-<ol>
-<li><p><strong>Locomotion Tasks</strong></p>
-
-<ul>
-<li>Flat ground walking/running</li>
-<li>Stair climbing</li>
-<li>Slope navigation (various angles)</li>
-<li>Stepping stones</li>
-</ul></li>
-
-<li><p><strong>Dynamic Movements</strong></p>
-
-<ul>
-<li>Jump sequences</li>
-<li>Quick direction changes</li>
-<li>Balance beam walking</li>
-<li>Parkour elements</li>
-</ul></li>
-
-<li><p><strong>Robustness Tests</strong></p>
-
-<ul>
-<li>Push recovery</li>
-<li>Slippery surfaces</li>
-<li>Moving platforms</li>
-<li>Wind disturbances</li>
-</ul></li>
-</ol>
-
-<h2 id="computational-resources">Computational Resources</h2>
-
-<h3 id="real-time-performance-requirements">Real-time Performance Requirements</h3>
-
-<pre><code class="language-yaml">minimum_requirements:
-  cpu: &quot;Intel i7-8700K or AMD Ryzen 7 2700X&quot;
-  ram: &quot;16 GB DDR4&quot;
-  gpu: &quot;NVIDIA GTX 1660 or AMD RX 5600 XT&quot;
-  
-recommended_requirements:
-  cpu: &quot;Intel i9-10900K or AMD Ryzen 9 3900X&quot;
-  ram: &quot;32 GB DDR4&quot;
-  gpu: &quot;NVIDIA RTX 3070 or AMD RX 6800&quot;
-</code></pre>
-
-<h3 id="optimization-solver-benchmarks">Optimization Solver Benchmarks</h3>
-
-<table>
-<thead>
-<tr>
-<th>Solver</th>
-<th>Problem Size</th>
-<th>Solution Time</th>
-<th>Accuracy</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>OSQP</td>
-<td>1000 vars</td>
-<td>5.2 ms</td>
-<td>1e-4</td>
-</tr>
-
-<tr>
-<td>IPOPT</td>
-<td>1000 vars</td>
-<td>18.7 ms</td>
-<td>1e-6</td>
-</tr>
-
-<tr>
-<td>Custom GPU</td>
-<td>1000 vars</td>
-<td>1.8 ms</td>
-<td>1e-3</td>
-</tr>
-</tbody>
-</table>
-
-<h2 id="supplementary-figures">Supplementary Figures</h2>
-
-<h3 id="control-analysis">Control Analysis</h3>
-
-<ul>
-<li>Control signal frequency analysis</li>
-<li>Phase portraits of limit cycles</li>
-<li>Stability regions in parameter space</li>
-<li>Lyapunov function evolution</li>
-</ul>
-
-<h3 id="comparative-studies">Comparative Studies</h3>
-
-<ul>
-<li>Traditional vs. optimization-based control</li>
-<li>Effect of prediction horizon on performance</li>
-<li>Computational cost vs. motion quality trade-offs</li>
-<li>Generalization to unseen scenarios</li>
-</ul>
-
-<h2 id="advanced-topics">Advanced Topics</h2>
-
-<h3 id="contact-rich-scenarios">Contact-Rich Scenarios</h3>
-
-<p>Special handling for complex contact situations:</p>
-
-<pre><code class="language-python">def handle_multiple_contacts(character, environment):
-    &quot;&quot;&quot;Manage multiple simultaneous contacts&quot;&quot;&quot;
-    contacts = detect_all_contacts(character, environment)
-    
-    # Build contact Jacobian
-    J_c = build_contact_jacobian(contacts)
-    
-    # Solve contact forces using LCP
-    contact_forces = solve_lcp(
-        M=character.mass_matrix,
-        J=J_c,
-        v=character.velocity,
-        restitution=0.1,
-        friction=0.8
-    )
-    
-    return contact_forces
-</code></pre>
-
-<h3 id="learning-augmented-control">Learning-Augmented Control</h3>
-
-<p>Combining model-based and learning approaches:
-- Neural network residual models
-- Learned value functions for MPC
-- Adaptive parameter tuning
-- Online model refinement</p>
-
-<hr />
-
-<p><em>For implementation details and experimental data, visit the project repository.</em></p>
 
       
       
       <nav class="thesis-chapter-nav">
         
-        <a href="https://vihanga.github.io/thesis/supplementary/c6/">← Chapter 6: Supplementary Material</a>
+        <a href="https://vihanga.github.io/thesis/supplementary/c6/">← Chapter 6 Supplementary Material: RLAnimate Waving and Pointing</a>
         
         
         
-        <a href="https://vihanga.github.io/thesis/supplementary/c5a/">Chapter 5a: Supplementary Material →</a>
+        <a href="https://vihanga.github.io/thesis/supplementary/c5a/">Chapter 5 Supplementary Material - Part A: Model-free Output Sequences →</a>
         
       </nav>
     </article>
