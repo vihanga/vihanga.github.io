@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Reinforcement Learning and Virtual Human Animation on Vihanga Gamage&#39;s Corner of the World Wide Web</title>
+    <title>Model-based Reinforcement Learning for Animating Virtual Characters on Vihanga Gamage&#39;s Corner of the World Wide Web</title>
     <link>https://vihanga.github.io/thesis/</link>
-    <description>Recent content in Reinforcement Learning and Virtual Human Animation on Vihanga Gamage&#39;s Corner of the World Wide Web</description>
+    <description>Recent content in Model-based Reinforcement Learning for Animating Virtual Characters on Vihanga Gamage&#39;s Corner of the World Wide Web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
@@ -78,7 +78,7 @@ Why Fingers Matter (And Why They&amp;rsquo;re Hard) Watch someone wave - their f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vihanga.github.io/thesis/chapters/conversational-gestures/</guid>
-      <description>Beat Gestures: The Ultimate Test This chapter represents the culmination of everything - applying RLAnimate to conversational beat gestures. It&amp;rsquo;s the hardest test possible: can RL-generated animations be indistinguishable from real human gestures? The answer, validated through rigorous perceptual studies, is yes.
+      <description>Beat Gestures - The Ultimate Test This chapter represents the culmination of everything - applying RLAnimate to conversational beat gestures. It&amp;rsquo;s the hardest test possible: can RL-generated animations be indistinguishable from real human gestures? The answer, validated through rigorous perceptual studies, is yes.
 Why Beat Gestures Are Different Beat gestures - those rhythmic hand movements we make while speaking - are uniquely challenging: - They&amp;rsquo;re not goal-directed (unlike pointing or waving) - They must synchronize with speech prosody - They require subtle variety to feel natural - There&amp;rsquo;s no &amp;ldquo;correct&amp;rdquo; gesture - only human-like ones</description>
     </item>
     
@@ -149,7 +149,7 @@ Stimulus Set A  RLAnimate A4    Gesticulator    Motion Capture    Stimulus Set B
     </item>
     
     <item>
-      <title>MIG&#39;18 Supplementary Material</title>
+      <title>MIG&#39;18 Paper: Virtual Characters in Serious Games</title>
       <link>https://vihanga.github.io/thesis/publications/MIG18/</link>
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
       

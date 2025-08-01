@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Hugo 0.55.4">
   
-  <title>Reinforcement Learning and Virtual Human Animation | Thesis</title>
+  <title>Model-based Reinforcement Learning for Animating Virtual Characters | Thesis</title>
   
   <link rel="stylesheet" href="/css/thesis-book.css">
   
@@ -84,13 +84,19 @@
     <article class="thesis-content">
       
 
-<h1 id="reinforcement-learning-and-virtual-human-animation">Reinforcement Learning and Virtual Human Animation</h1>
+<h1 id="model-based-reinforcement-learning-for-animating-virtual-characters">Model-based Reinforcement Learning for Animating Virtual Characters</h1>
 
 <h2 id="a-novel-approach-to-data-driven-animation-portraying-dynamic-flexible-human-like-behaviours">A novel approach to data-driven animation, portraying dynamic, flexible human-like behaviours</h2>
 
 <h3 id="abstract">Abstract</h3>
 
-<p>[Placeholder for thesis abstract]</p>
+<p>Virtual characters enable immersive experiences in games and have significant potential for serious applications. However, creating believable character animation remains challenging - motion capture is expensive and inflexible, while existing data-driven methods lack the dynamic responsiveness needed for real-time interaction.</p>
+
+<p>This thesis introduces RLAnimate, a model-based reinforcement learning framework that revolutionizes character animation. By using motion capture data as learning objectives rather than rewards, RLAnimate trains agents that can portray multiple human-like behaviors - waving, pointing, and conversational gestures - with unprecedented flexibility and quality.</p>
+
+<p>The key innovation is treating animation as a model-based RL problem where agents learn latent dynamics of human movement. This enables real-time generation (5ms per frame) of animations that are statistically indistinguishable from human motion capture, as validated through rigorous perceptual studies with 28 participants.</p>
+
+<p>RLAnimate represents the first data-driven methodology allowing dynamic, frame-by-frame portrayal of multiple human-like behaviors through a single agent with uniform input parameterization. The framework achieves this while requiring significantly less motion capture data than supervised learning approaches, making high-quality character animation accessible for interactive applications.</p>
 
 <h3 id="table-of-contents">Table of Contents</h3>
 
@@ -98,52 +104,33 @@
 
 <ol>
 <li><a href="/thesis/chapters/introduction/">Introduction</a></li>
-<li><a href="/thesis/chapters/data-driven-animation/">Data-driven Character Animation</a> (Background)</li>
+<li><a href="/thesis/chapters/data-driven-animation/">Virtual Character Animation and Perception</a> (Background)</li>
 <li><a href="/thesis/chapters/model-based-rl/">Model-based Reinforcement Learning</a> (Background)</li>
 </ol>
 
 <h4 id="part-ii-core-contributions">Part II: Core Contributions</h4>
 
 <ol>
-<li><a href="/thesis/chapters/model-based-animation/">Model-Based Character Animation</a></li>
-<li><a href="/thesis/chapters/data-driven-rl/">Data-driven Reinforcement Learning</a></li>
-<li><a href="/thesis/chapters/latent-dynamics/">Latent Dynamic-augmented Animation</a></li>
-<li><a href="/thesis/chapters/conversational-gestures/">Conversational Gestures</a></li>
+<li><a href="/thesis/chapters/model-based-animation/">Model-based Character Animation</a></li>
+<li><a href="/thesis/chapters/data-driven-rl/">RLAnimate - Data-driven RL for Character Animation</a></li>
+<li><a href="/thesis/chapters/latent-dynamics/">Quaternions and Finger Animation</a></li>
+<li><a href="/thesis/chapters/conversational-gestures/">Beat Gestures - The Ultimate Test</a></li>
 </ol>
 
 <h4 id="part-iii-conclusions">Part III: Conclusions</h4>
 
 <ol>
-<li><a href="/thesis/chapters/conclusion/">Conclusions and Future Work</a></li>
+<li><a href="/thesis/chapters/conclusion/">Conclusions and Future Impact</a></li>
 </ol>
 
 <h3 id="supplementary-material">Supplementary Material</h3>
 
 <ul>
-<li><a href="/thesis/supplementary/c4/">Chapter 4 Supplementary</a></li>
-<li><a href="/thesis/supplementary/c5a/">Chapter 5 Supplementary - Part A</a></li>
-<li><a href="/thesis/supplementary/c5b/">Chapter 5 Supplementary - Part B</a></li>
-<li><a href="/thesis/supplementary/c6/">Chapter 6 Supplementary</a></li>
-<li><a href="/thesis/supplementary/c7/">Chapter 7 Supplementary</a></li>
-</ul>
-
-<h3 id="appendices">Appendices</h3>
-
-<ul>
-<li><a href="/thesis/appendices/a/">Appendix A: Exploring Engagement and Efficiency in Serious Games</a></li>
-<li><a href="/thesis/appendices/b/">Appendix B: Exploring Model-Free RL</a></li>
-<li><a href="/thesis/appendices/c/">Appendix C: Supplementary Material Index</a></li>
-<li><a href="/thesis/appendices/d/">Appendix D: Perceptual Evaluation</a></li>
-<li><a href="/thesis/appendices/e/">Appendix E: Supplementary Results, Model-free RL Experiments</a></li>
-<li><a href="/thesis/appendices/f/">Appendix F: Star Jump Ideal Action Calculation</a></li>
-<li><a href="/thesis/appendices/g/">Appendix G: RLAnimate Directory</a></li>
-</ul>
-
-<h3 id="downloads">Downloads</h3>
-
-<ul>
-<li><a href="#">Full Thesis PDF</a> (placeholder)</li>
-<li><a href="#">BibTeX Citation</a> (placeholder)</li>
+<li><a href="/thesis/supplementary/c4/">Chapter 4 Supplementary - Star Jumps Demo</a></li>
+<li><a href="/thesis/supplementary/c5a/">Chapter 5 Supplementary - Part A: RLAnimate Core</a></li>
+<li><a href="/thesis/supplementary/c5b/">Chapter 5 Supplementary - Part B: Multi-behavior Agents</a></li>
+<li><a href="/thesis/supplementary/c6/">Chapter 6 Supplementary - Finger Animation Results</a></li>
+<li><a href="/thesis/supplementary/c7/">Chapter 7 Supplementary - Perceptual Study Videos</a></li>
 </ul>
 
     </article>

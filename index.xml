@@ -337,7 +337,7 @@
       <guid>https://vihanga.github.io/thesis/chapters/conversational-gestures/</guid>
       <description>
 
-&lt;h1 id=&#34;beat-gestures-the-ultimate-test&#34;&gt;Beat Gestures: The Ultimate Test&lt;/h1&gt;
+&lt;h1 id=&#34;beat-gestures-the-ultimate-test&#34;&gt;Beat Gestures - The Ultimate Test&lt;/h1&gt;
 
 &lt;p&gt;This chapter represents the culmination of everything - applying RLAnimate to conversational beat gestures. It&amp;rsquo;s the hardest test possible: can RL-generated animations be indistinguishable from real human gestures? The answer, validated through rigorous perceptual studies, is yes.&lt;/p&gt;
 
@@ -937,7 +937,7 @@
     </item>
     
     <item>
-      <title>MIG&#39;18 Supplementary Material</title>
+      <title>MIG&#39;18 Paper: Virtual Characters in Serious Games</title>
       <link>https://vihanga.github.io/thesis/publications/MIG18/</link>
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
       
@@ -956,95 +956,27 @@
 
 &lt;h2 id=&#34;key-findings&#34;&gt;Key Findings&lt;/h2&gt;
 
-&lt;ul&gt;
-&lt;li&gt;A user is more engaged with a lesson when delivered through a virtual character compared to a non-character control version&lt;/li&gt;
-&lt;li&gt;A user retains knowledge better when a lesson is delivered through a virtual character compared to a non-character control version&lt;/li&gt;
-&lt;li&gt;There is a propensity for the majority of user attention to be directed at the virtual character, resulting in little attention being paid to the rest of the game environment&lt;/li&gt;
-&lt;li&gt;Surprisingly, character appearance personalization has an effect opposite to what we expected, resulting in participants being significantly less engaged with a personalized character compared to one with a default appearance&lt;/li&gt;
-&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Enhanced Engagement&lt;/strong&gt;: Users showed significantly higher engagement when lessons were delivered through a virtual character compared to non-character controls.&lt;/p&gt;&lt;/li&gt;
 
-&lt;h2 id=&#34;supplementary-material&#34;&gt;Supplementary Material&lt;/h2&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Improved Knowledge Retention&lt;/strong&gt;: Virtual character delivery resulted in better knowledge retention compared to traditional presentation methods.&lt;/p&gt;&lt;/li&gt;
 
-&lt;h3 id=&#34;full-questionnaire&#34;&gt;Full Questionnaire&lt;/h3&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Attention Focus&lt;/strong&gt;: User attention was predominantly directed at the virtual character, with limited attention to other environmental elements.&lt;/p&gt;&lt;/li&gt;
 
-&lt;p&gt;The complete questionnaire used in the study included items from:
-- Game Engagement Questionnaire (Brockmyer et al., 2009)
-- Motivation Inventory (McAuley et al., 1989)
-- Custom questions designed for this study&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Customization Paradox&lt;/strong&gt;: Contrary to expectations, character appearance personalization led to significantly lower engagement compared to default appearances.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;[PLACEHOLDER: Insert full questionnaire document here]&lt;/p&gt;
+&lt;h2 id=&#34;relevance-to-thesis&#34;&gt;Relevance to Thesis&lt;/h2&gt;
 
-&lt;h3 id=&#34;lesson-content-slam-tutorial&#34;&gt;Lesson Content - SLAM Tutorial&lt;/h3&gt;
-
-&lt;p&gt;The lesson covered Simultaneous Localization and Mapping (SLAM) with the following structure:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Main Lessons:&lt;/strong&gt;
-1. Introduction to SLAM
-2. SLAM Approaches
-3. How SLAM works?
-4. EKF SLAM&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hidden Lessons (triggered by interaction):&lt;/strong&gt;
-1. Corner Detectors
-2. Proactive vs Lazy SLAM
-3. Maximum Likelihood Estimators&lt;/p&gt;
-
-&lt;p&gt;[PLACEHOLDER: Insert complete lesson scripts and visual materials]&lt;/p&gt;
-
-&lt;h3 id=&#34;quiz-questions&#34;&gt;Quiz Questions&lt;/h3&gt;
-
-&lt;p&gt;The knowledge retention test included:
-- 12 questions on main lesson content
-- 3 questions on hidden lesson content&lt;/p&gt;
-
-&lt;p&gt;[PLACEHOLDER: Insert all quiz questions with correct answers]&lt;/p&gt;
-
-&lt;h3 id=&#34;character-customization-options&#34;&gt;Character Customization Options&lt;/h3&gt;
-
-&lt;p&gt;Screenshots and descriptions of all customization options for:
-- Male character variations
-- Female character variations
-- Hair styles and colors
-- Skin tones
-- Clothing options&lt;/p&gt;
-
-&lt;p&gt;[PLACEHOLDER: Insert customization interface screenshots and option descriptions]&lt;/p&gt;
-
-&lt;h3 id=&#34;statistical-analysis&#34;&gt;Statistical Analysis&lt;/h3&gt;
-
-&lt;p&gt;Detailed statistical results including:
-- ANOVA tables for test scores
-- Kruskal-Wallis H test results for questionnaire data
-- Post-hoc test results (Tukey-Kramer and Mann-Whitney U)
-- Effect sizes and confidence intervals&lt;/p&gt;
-
-&lt;p&gt;[PLACEHOLDER: Insert complete statistical analysis tables]&lt;/p&gt;
-
-&lt;h3 id=&#34;free-form-user-feedback&#34;&gt;Free-form User Feedback&lt;/h3&gt;
-
-&lt;p&gt;Selected comments from participants:&lt;/p&gt;
-
-&lt;p&gt;[PLACEHOLDER: Insert anonymized participant comments and feedback]&lt;/p&gt;
-
-&lt;h3 id=&#34;unity-implementation-details&#34;&gt;Unity Implementation Details&lt;/h3&gt;
-
-&lt;p&gt;Technical specifications:
-- Unity version and configuration
-- Character assets from RenderPeople
-- Performance requirements
-- Deployment as web application&lt;/p&gt;
-
-&lt;p&gt;[PLACEHOLDER: Insert technical implementation details]&lt;/p&gt;
+&lt;p&gt;This work laid important groundwork for understanding how virtual characters affect user engagement and learning. While this paper focused on static virtual characters in educational contexts, it motivated the later development of RLAnimate for creating more dynamic, responsive virtual characters that can adapt their behaviors in real-time - addressing some of the limitations identified in this study.&lt;/p&gt;
 
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://dl.acm.org/authorize?N664802&#34; target=&#34;_blank&#34;&gt;Paper PDF (ACM Digital Library)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;../MIG18_preprint_examing_effects_of_virtual_characters_on_learning.pdf&#34;&gt;Preprint PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dl.acm.org/doi/10.1145/3274247.3274499&#34; target=&#34;_blank&#34;&gt;Paper PDF (ACM Digital Library)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://vihanga.github.io/post/research/MIG18PaperStudy/&#34; target=&#34;_blank&#34;&gt;Conference presentation thoughts and feedback&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://vihanga.github.io/post/blog/MIG18blog/&#34; target=&#34;_blank&#34;&gt;MIG&amp;rsquo;18 conference blog post&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://vihanga.github.io/thesis/&#34; target=&#34;_blank&#34;&gt;Back to thesis&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://vihanga.github.io/thesis/appendices/a/&#34; target=&#34;_blank&#34;&gt;Appendix A in thesis&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
