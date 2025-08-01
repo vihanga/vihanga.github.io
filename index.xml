@@ -10,125 +10,6 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Appendix A: Exploring Engagement and Efficiency in Serious Games</title>
-      <link>https://vihanga.github.io/thesis/appendices/a/</link>
-      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://vihanga.github.io/thesis/appendices/a/</guid>
-      <description>
-
-&lt;h1 id=&#34;appendix-a-exploring-engagement-and-efficiency-in-serious-games&#34;&gt;Appendix A: Exploring Engagement and Efficiency in Serious Games&lt;/h1&gt;
-
-&lt;p&gt;This appendix contains supplementary material for the paper &amp;ldquo;Examining the effects of a virtual character on learning and engagement in serious games&amp;rdquo; (Gamage &amp;amp; Ennis, 2018, MIG &amp;lsquo;18).&lt;/p&gt;
-
-&lt;p&gt;For the complete supplementary materials including the full questionnaire, lesson content, and statistical analysis, please visit: &lt;a href=&#34;https://vihanga.github.io/thesis/publications/MIG18/&#34; target=&#34;_blank&#34;&gt;MIG&amp;rsquo;18 Supplementary Material&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;a-1-study-materials&#34;&gt;A.1 Study Materials&lt;/h2&gt;
-
-&lt;h3 id=&#34;a-1-1-full-questionnaire&#34;&gt;A.1.1 Full Questionnaire&lt;/h3&gt;
-
-&lt;p&gt;[PLACEHOLDER: Insert the complete questionnaire used in the study, including:
-- All Game Engagement Questionnaire items used
-- All Motivation Inventory items used
-- Custom questions designed for this study
-- Likert scale descriptions]&lt;/p&gt;
-
-&lt;h3 id=&#34;a-1-2-lesson-content&#34;&gt;A.1.2 Lesson Content&lt;/h3&gt;
-
-&lt;p&gt;[PLACEHOLDER: Include details about the SLAM (Simultaneous Localization and Mapping) lesson:
-- Complete lesson script for all 7 parts
-- Main lesson content (Parts 1-4)
-- Hidden lesson content (Extra parts 1-3)
-- Visual materials shown on the board]&lt;/p&gt;
-
-&lt;h3 id=&#34;a-1-3-quiz-questions&#34;&gt;A.1.3 Quiz Questions&lt;/h3&gt;
-
-&lt;p&gt;[PLACEHOLDER: List all 15 quiz questions:
-- 12 questions from main lesson parts
-- 3 questions from hidden lesson parts
-- Correct answers and scoring rubric]&lt;/p&gt;
-
-&lt;h2 id=&#34;a-2-character-customization-options&#34;&gt;A.2 Character Customization Options&lt;/h2&gt;
-
-&lt;h3 id=&#34;a-2-1-male-character-options&#34;&gt;A.2.1 Male Character Options&lt;/h3&gt;
-
-&lt;p&gt;[PLACEHOLDER: Document all customization options for male character:
-- Hair styles and colors
-- Skin tones
-- Clothing options
-- Other appearance parameters]&lt;/p&gt;
-
-&lt;h3 id=&#34;a-2-2-female-character-options&#34;&gt;A.2.2 Female Character Options&lt;/h3&gt;
-
-&lt;p&gt;[PLACEHOLDER: Document all customization options for female character:
-- Hair styles and colors
-- Skin tones
-- Clothing options
-- Other appearance parameters]&lt;/p&gt;
-
-&lt;h2 id=&#34;a-3-additional-results&#34;&gt;A.3 Additional Results&lt;/h2&gt;
-
-&lt;h3 id=&#34;a-3-1-detailed-statistical-analysis&#34;&gt;A.3.1 Detailed Statistical Analysis&lt;/h3&gt;
-
-&lt;p&gt;[PLACEHOLDER: Include:
-- Complete ANOVA tables
-- Post-hoc test results
-- Effect sizes
-- Confidence intervals]&lt;/p&gt;
-
-&lt;h3 id=&#34;a-3-2-participant-demographics&#34;&gt;A.3.2 Participant Demographics&lt;/h3&gt;
-
-&lt;p&gt;[PLACEHOLDER: Provide breakdown of:
-- Age distribution
-- Gender distribution
-- Educational background
-- Prior gaming experience]&lt;/p&gt;
-
-&lt;h2 id=&#34;a-4-implementation-details&#34;&gt;A.4 Implementation Details&lt;/h2&gt;
-
-&lt;h3 id=&#34;a-4-1-unity-3d-setup&#34;&gt;A.4.1 Unity 3D Setup&lt;/h3&gt;
-
-&lt;p&gt;[PLACEHOLDER: Technical details about:
-- Unity version used
-- Asset specifications
-- Performance requirements
-- Deployment configuration]&lt;/p&gt;
-
-&lt;h3 id=&#34;a-4-2-data-validation-procedures&#34;&gt;A.4.2 Data Validation Procedures&lt;/h3&gt;
-
-&lt;p&gt;[PLACEHOLDER: Explain:
-- Time-based exclusion criteria
-- Repetitive answer detection
-- Quality control measures
-- Final sample selection process]&lt;/p&gt;
-
-&lt;h2 id=&#34;a-5-ethical-considerations&#34;&gt;A.5 Ethical Considerations&lt;/h2&gt;
-
-&lt;h3 id=&#34;a-5-1-ethics-approval&#34;&gt;A.5.1 Ethics Approval&lt;/h3&gt;
-
-&lt;p&gt;[PLACEHOLDER: Include:
-- Ethics committee approval details
-- Consent form template
-- Data protection measures]&lt;/p&gt;
-
-&lt;h3 id=&#34;a-5-2-participant-compensation&#34;&gt;A.5.2 Participant Compensation&lt;/h3&gt;
-
-&lt;p&gt;[PLACEHOLDER: Details about:
-- Amazon voucher raffle system
-- Compensation structure
-- Incentive distribution]&lt;/p&gt;
-
-&lt;h2 id=&#34;related-links&#34;&gt;Related Links&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://vihanga.github.io/thesis/&#34; target=&#34;_blank&#34;&gt;Main thesis page&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://vihanga.github.io/thesis/chapters/introduction/&#34; target=&#34;_blank&#34;&gt;Chapter 1: Introduction&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Original paper: MIG &amp;lsquo;18 Proceedings&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Chapter 1: Introduction</title>
       <link>https://vihanga.github.io/thesis/chapters/introduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -136,419 +17,82 @@
       <guid>https://vihanga.github.io/thesis/chapters/introduction/</guid>
       <description>
 
-&lt;h2 id=&#34;1-1-engaging-virtual-characters&#34;&gt;1.1 Engaging Virtual Characters&lt;/h2&gt;
+&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
 
-&lt;p&gt;blah blah blah balh blagh
-[Placeholder for section on engaging virtual characters]&lt;/p&gt;
+&lt;p&gt;This thesis tackles a fundamental challenge in computer animation: how can we create virtual characters that move naturally and responsively without the prohibitive costs of motion capture?&lt;/p&gt;
 
-&lt;h3 id=&#34;1-1-1-evolution-of-virtual-characters-in-popular-culture&#34;&gt;1.1.1 Evolution of Virtual Characters in Popular Culture&lt;/h3&gt;
+&lt;h2 id=&#34;the-problem&#34;&gt;The Problem&lt;/h2&gt;
 
-&lt;p&gt;[Placeholder for evolution of virtual characters]&lt;/p&gt;
+&lt;p&gt;Traditional character animation relies heavily on motion capture - an expensive, time-consuming process that requires recording human actors for every possible behavior variation. While this produces high-quality results, it&amp;rsquo;s simply not scalable for interactive applications where characters need to respond dynamically to user input or changing scenarios.&lt;/p&gt;
 
-&lt;h3 id=&#34;1-1-2-applications-of-virtual-characters&#34;&gt;1.1.2 Applications of Virtual Characters&lt;/h3&gt;
+&lt;p&gt;Meanwhile, existing alternatives have significant limitations. Supervised learning methods can generate animations but lack flexibility. Physics-based reinforcement learning works brilliantly for athletic movements but fails for social behaviors like gestures - there&amp;rsquo;s no physics simulation to tell us if a wave looks &amp;ldquo;friendly&amp;rdquo; or a gesture feels &amp;ldquo;natural.&amp;rdquo;&lt;/p&gt;
 
-&lt;p&gt;[Placeholder for applications]&lt;/p&gt;
+&lt;h2 id=&#34;my-approach&#34;&gt;My Approach&lt;/h2&gt;
 
-&lt;h3 id=&#34;1-1-3-portraying-natural-human-like-behaviour-and-scalability&#34;&gt;1.1.3 Portraying Natural Human-like Behaviour and Scalability&lt;/h3&gt;
+&lt;p&gt;I developed RLAnimate, a framework that fundamentally rethinks how we approach character animation. Instead of using reward functions (the traditional RL approach), I use motion capture data as learning objectives. This allows agents to learn what &amp;ldquo;human-like&amp;rdquo; means directly from examples, while maintaining the flexibility and responsiveness that makes RL powerful.&lt;/p&gt;
 
-&lt;p&gt;[Placeholder for natural behavior and scalability]&lt;/p&gt;
+&lt;p&gt;The key insight is treating animation as a model-based reinforcement learning problem where agents learn the dynamics of human movement. By understanding how joint rotations create behaviors, agents can generate novel animations that look natural while adapting to changing requirements in real-time.&lt;/p&gt;
 
-&lt;h2 id=&#34;1-2-research-questions&#34;&gt;1.2 Research Questions&lt;/h2&gt;
+&lt;h2 id=&#34;key-contributions&#34;&gt;Key Contributions&lt;/h2&gt;
 
-&lt;p&gt;[Placeholder for research questions]&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;A new paradigm for animation RL&lt;/strong&gt; - Using motion capture data as objectives rather than rewards&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-behavior agents&lt;/strong&gt; - Single agents that can wave, point, and generate conversational gestures&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Technical innovations&lt;/strong&gt; - Quaternion neural networks, realism regularization, and hierarchical dynamics models&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Proven results&lt;/strong&gt; - Animations that are statistically indistinguishable from human motion capture&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;h2 id=&#34;1-3-research-approach&#34;&gt;1.3 Research Approach&lt;/h2&gt;
+&lt;h2 id=&#34;research-questions&#34;&gt;Research Questions&lt;/h2&gt;
 
-&lt;p&gt;[Placeholder for research approach]&lt;/p&gt;
+&lt;p&gt;The thesis systematically addresses four key questions:
+- Can RL work for animation without physics? (Yes - through latent dynamics learning)
+- Can we make it human-like? (Yes - using motion capture as objectives)
+- How do we handle complexity like fingers? (Quaternions + dedicated animation dynamics)
+- Can it work for conversational gestures? (Yes - with realism regularization)&lt;/p&gt;
 
-&lt;h2 id=&#34;1-4-summary-of-contributions&#34;&gt;1.4 Summary of Contributions&lt;/h2&gt;
+&lt;h2 id=&#34;thesis-journey&#34;&gt;Thesis Journey&lt;/h2&gt;
 
-&lt;h3 id=&#34;1-4-1-data-driven-character-animation&#34;&gt;1.4.1 Data-driven Character Animation&lt;/h3&gt;
-
-&lt;p&gt;[Placeholder for data-driven contributions]&lt;/p&gt;
-
-&lt;h3 id=&#34;1-4-2-model-based-reinforcement-learning&#34;&gt;1.4.2 Model-based Reinforcement Learning&lt;/h3&gt;
-
-&lt;p&gt;[Placeholder for model-based RL contributions]&lt;/p&gt;
-
-&lt;h2 id=&#34;1-5-thesis-organisation&#34;&gt;1.5 Thesis Organisation&lt;/h2&gt;
-
-&lt;p&gt;[Placeholder for thesis organization]&lt;/p&gt;
+&lt;p&gt;The work progresses from establishing basic feasibility (Chapter 4) through developing the core RLAnimate methodology (Chapter 5), extending to complex movements with fingers (Chapter 6), and culminating in conversational beat gestures that match human quality (Chapter 7).&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Appendix B: Exploring Model-Free RL</title>
-      <link>https://vihanga.github.io/thesis/appendices/b/</link>
-      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://vihanga.github.io/thesis/appendices/b/</guid>
-      <description>
-
-&lt;h1 id=&#34;appendix-b-exploring-model-free-rl&#34;&gt;Appendix B: Exploring Model-Free RL&lt;/h1&gt;
-
-&lt;p&gt;This appendix provides detailed information about model-free reinforcement learning approaches explored in this thesis.&lt;/p&gt;
-
-&lt;h2 id=&#34;b-1-theoretical-foundations&#34;&gt;B.1 Theoretical Foundations&lt;/h2&gt;
-
-&lt;h3 id=&#34;b-1-1-model-free-vs-model-based-rl&#34;&gt;B.1.1 Model-Free vs Model-Based RL&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Key distinctions and trade-offs&lt;/li&gt;
-&lt;li&gt;Computational complexity analysis&lt;/li&gt;
-&lt;li&gt;Sample efficiency considerations&lt;/li&gt;
-&lt;li&gt;Generalization capabilities&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;b-1-2-core-algorithms&#34;&gt;B.1.2 Core Algorithms&lt;/h3&gt;
-
-&lt;h4 id=&#34;value-based-methods&#34;&gt;Value-Based Methods&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Q-Learning fundamentals&lt;/li&gt;
-&lt;li&gt;Deep Q-Networks (DQN)&lt;/li&gt;
-&lt;li&gt;Double DQN and variants&lt;/li&gt;
-&lt;li&gt;Prioritized experience replay&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;policy-gradient-methods&#34;&gt;Policy Gradient Methods&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;REINFORCE algorithm&lt;/li&gt;
-&lt;li&gt;Actor-Critic methods&lt;/li&gt;
-&lt;li&gt;Trust Region Policy Optimization (TRPO)&lt;/li&gt;
-&lt;li&gt;Proximal Policy Optimization (PPO)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;b-2-implementation-details&#34;&gt;B.2 Implementation Details&lt;/h2&gt;
-
-&lt;h3 id=&#34;b-2-1-network-architectures&#34;&gt;B.2.1 Network Architectures&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Convolutional layers for visual input&lt;/li&gt;
-&lt;li&gt;Recurrent components for temporal dependencies&lt;/li&gt;
-&lt;li&gt;Attention mechanisms&lt;/li&gt;
-&lt;li&gt;Architecture search strategies&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;b-2-2-training-procedures&#34;&gt;B.2.2 Training Procedures&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Hyperparameter configurations&lt;/li&gt;
-&lt;li&gt;Learning rate schedules&lt;/li&gt;
-&lt;li&gt;Batch size considerations&lt;/li&gt;
-&lt;li&gt;Regularization techniques&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;b-3-experimental-setup&#34;&gt;B.3 Experimental Setup&lt;/h2&gt;
-
-&lt;h3 id=&#34;b-3-1-environment-specifications&#34;&gt;B.3.1 Environment Specifications&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;State space representations&lt;/li&gt;
-&lt;li&gt;Action space definitions&lt;/li&gt;
-&lt;li&gt;Reward function designs&lt;/li&gt;
-&lt;li&gt;Episode termination conditions&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;b-3-2-evaluation-metrics&#34;&gt;B.3.2 Evaluation Metrics&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Average episode return&lt;/li&gt;
-&lt;li&gt;Sample efficiency measures&lt;/li&gt;
-&lt;li&gt;Convergence analysis&lt;/li&gt;
-&lt;li&gt;Stability indicators&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;b-4-algorithm-comparisons&#34;&gt;B.4 Algorithm Comparisons&lt;/h2&gt;
-
-&lt;h3 id=&#34;b-4-1-performance-analysis&#34;&gt;B.4.1 Performance Analysis&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Learning curves across different algorithms&lt;/li&gt;
-&lt;li&gt;Final performance comparisons&lt;/li&gt;
-&lt;li&gt;Computational resource requirements&lt;/li&gt;
-&lt;li&gt;Training time analysis&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;b-4-2-ablation-studies&#34;&gt;B.4.2 Ablation Studies&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Impact of different components&lt;/li&gt;
-&lt;li&gt;Sensitivity to hyperparameters&lt;/li&gt;
-&lt;li&gt;Architecture variations&lt;/li&gt;
-&lt;li&gt;Exploration strategies&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;b-5-code-examples&#34;&gt;B.5 Code Examples&lt;/h2&gt;
-
-&lt;h3 id=&#34;b-5-1-basic-q-learning-implementation&#34;&gt;B.5.1 Basic Q-Learning Implementation&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Simplified Q-learning pseudocode
-def q_learning(env, episodes, alpha, gamma, epsilon):
-    Q = initialize_q_table()
-    for episode in range(episodes):
-        state = env.reset()
-        while not done:
-            action = epsilon_greedy(Q, state, epsilon)
-            next_state, reward, done = env.step(action)
-            Q[state, action] += alpha * (reward + gamma * max(Q[next_state]) - Q[state, action])
-            state = next_state
-    return Q
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;b-5-2-ppo-update-step&#34;&gt;B.5.2 PPO Update Step&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Simplified PPO update pseudocode
-def ppo_update(policy, value_function, trajectories, clip_epsilon):
-    for trajectory in trajectories:
-        advantages = compute_advantages(trajectory, value_function)
-        old_log_probs = compute_log_probs(trajectory, policy)
-        
-        for epoch in range(ppo_epochs):
-            new_log_probs = compute_log_probs(trajectory, policy)
-            ratio = exp(new_log_probs - old_log_probs)
-            clipped_ratio = clip(ratio, 1 - clip_epsilon, 1 + clip_epsilon)
-            policy_loss = -min(ratio * advantages, clipped_ratio * advantages)
-            optimize(policy_loss)
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Chapter 2: Data-driven Character Animation</title>
+      <title>Chapter 2: Virtual Character Animation and Perception</title>
       <link>https://vihanga.github.io/thesis/chapters/data-driven-animation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vihanga.github.io/thesis/chapters/data-driven-animation/</guid>
       <description>
 
-&lt;h2 id=&#34;2-1-creation-and-animation-of-virtual-characters&#34;&gt;2.1 Creation and Animation of Virtual Characters&lt;/h2&gt;
+&lt;h1 id=&#34;virtual-character-animation-and-perception&#34;&gt;Virtual Character Animation and Perception&lt;/h1&gt;
 
-&lt;h3 id=&#34;2-1-1-creating-three-dimensional-graphical-representations&#34;&gt;2.1.1 Creating Three-Dimensional Graphical Representations&lt;/h3&gt;
+&lt;p&gt;This chapter establishes the foundation for understanding virtual character animation - both the technical challenges and the perceptual requirements that make animation &amp;ldquo;feel right&amp;rdquo; to human viewers.&lt;/p&gt;
 
-&lt;p&gt;[Placeholder for 3D graphical representations]&lt;/p&gt;
+&lt;h2 id=&#34;the-animation-pipeline&#34;&gt;The Animation Pipeline&lt;/h2&gt;
 
-&lt;h3 id=&#34;2-1-2-applying-animation-data-to-3d-character-models&#34;&gt;2.1.2 Applying Animation Data to 3D Character Models&lt;/h3&gt;
+&lt;p&gt;Creating believable virtual characters isn&amp;rsquo;t just about making them move - it&amp;rsquo;s a complex pipeline that starts with 3D modeling and ends with real-time rendering. I explore how animation data flows through this pipeline, from motion capture or procedural generation to the final pixels on screen. The key insight? Each step introduces opportunities for both quality improvements and computational optimizations.&lt;/p&gt;
 
-&lt;p&gt;[Placeholder for animation data application]&lt;/p&gt;
+&lt;h2 id=&#34;why-perception-matters&#34;&gt;Why Perception Matters&lt;/h2&gt;
 
-&lt;h3 id=&#34;2-1-3-rendering-characters&#34;&gt;2.1.3 Rendering Characters&lt;/h3&gt;
+&lt;p&gt;Here&amp;rsquo;s what most animation systems miss: humans are incredibly sensitive to movement patterns. We can spot &amp;ldquo;unnatural&amp;rdquo; motion in milliseconds, even if we can&amp;rsquo;t articulate why. I dive into the perceptual studies that reveal what makes animation feel human-like - from timing and smoothness to the subtle coordination between body parts.&lt;/p&gt;
 
-&lt;p&gt;[Placeholder for character rendering]&lt;/p&gt;
+&lt;p&gt;This understanding drives a crucial design decision in my work: animation quality isn&amp;rsquo;t just about technical metrics like joint angles or velocities. It&amp;rsquo;s about matching the statistical patterns of human movement that our brains have evolved to recognize.&lt;/p&gt;
 
-&lt;h2 id=&#34;2-2-perception-and-application-of-virtual-characters&#34;&gt;2.2 Perception and Application of Virtual Characters&lt;/h2&gt;
+&lt;h2 id=&#34;current-approaches-and-their-limits&#34;&gt;Current Approaches and Their Limits&lt;/h2&gt;
 
-&lt;h3 id=&#34;2-2-1-perception-of-virtual-characters&#34;&gt;2.2.1 Perception of Virtual Characters&lt;/h3&gt;
+&lt;p&gt;The field has tried three main approaches:&lt;/p&gt;
 
-&lt;p&gt;[Placeholder for perception of virtual characters]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Motion Graphs and Blending&lt;/strong&gt;: Works well for predetermined scenarios but lacks flexibility. You need exponentially more data as behaviors become more complex.&lt;/p&gt;
 
-&lt;h3 id=&#34;2-2-2-using-virtual-characters-in-applications&#34;&gt;2.2.2 Using Virtual Characters in Applications&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Neural Networks&lt;/strong&gt;: Can generate smooth animations but often produce &amp;ldquo;average&amp;rdquo; motions that lack character and specificity. They struggle with rare behaviors and edge cases.&lt;/p&gt;
 
-&lt;p&gt;[Placeholder for applications]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Physics-based RL&lt;/strong&gt;: Produces incredibly athletic movements - backflips, martial arts, parkour. But try to make a physics-based agent wave &amp;ldquo;friendly&amp;rdquo; and you&amp;rsquo;ll see the problem. There&amp;rsquo;s no physics equation for social appropriateness.&lt;/p&gt;
 
-&lt;h2 id=&#34;2-3-procedural-character-animation&#34;&gt;2.3 Procedural Character Animation&lt;/h2&gt;
+&lt;h2 id=&#34;the-gap-this-thesis-fills&#34;&gt;The Gap This Thesis Fills&lt;/h2&gt;
 
-&lt;h3 id=&#34;2-3-1-neural-network-based-methods&#34;&gt;2.3.1 Neural network-based Methods&lt;/h3&gt;
+&lt;p&gt;What&amp;rsquo;s missing is a method that combines the flexibility of RL with the quality of motion capture data, without requiring physics simulation. That&amp;rsquo;s exactly what RLAnimate provides - and understanding this background shows why that combination is so powerful.&lt;/p&gt;
 
-&lt;p&gt;[Placeholder for neural network methods]&lt;/p&gt;
-
-&lt;h3 id=&#34;2-3-2-physics-based-reinforcement-learning-approaches&#34;&gt;2.3.2 Physics-based Reinforcement Learning Approaches&lt;/h3&gt;
-
-&lt;p&gt;[Placeholder for physics-based RL]&lt;/p&gt;
-
-&lt;h3 id=&#34;2-3-3-contemporary-architectural-approaches&#34;&gt;2.3.3 Contemporary Architectural Approaches&lt;/h3&gt;
-
-&lt;p&gt;[Placeholder for contemporary approaches]&lt;/p&gt;
-
-&lt;h2 id=&#34;2-4-chapter-summary&#34;&gt;2.4 Chapter Summary&lt;/h2&gt;
-
-&lt;p&gt;[Placeholder for chapter summary]&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Appendix C: Supplementary Material Index</title>
-      <link>https://vihanga.github.io/thesis/appendices/c/</link>
-      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://vihanga.github.io/thesis/appendices/c/</guid>
-      <description>
-
-&lt;h1 id=&#34;appendix-c-supplementary-material-index&#34;&gt;Appendix C: Supplementary Material Index&lt;/h1&gt;
-
-&lt;p&gt;This appendix provides a comprehensive index of all supplementary materials associated with this thesis, including datasets, code repositories, multimedia content, and additional documentation.&lt;/p&gt;
-
-&lt;h2 id=&#34;c-1-code-repositories&#34;&gt;C.1 Code Repositories&lt;/h2&gt;
-
-&lt;h3 id=&#34;c-1-1-main-research-code&#34;&gt;C.1.1 Main Research Code&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Repository URL&lt;/strong&gt;: [GitHub/research-code]&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;License&lt;/strong&gt;: MIT License&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Languages&lt;/strong&gt;: Python, C++, MATLAB&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Key Components&lt;/strong&gt;:
-
-&lt;ul&gt;
-&lt;li&gt;RL algorithm implementations&lt;/li&gt;
-&lt;li&gt;Data processing pipelines&lt;/li&gt;
-&lt;li&gt;Visualization tools&lt;/li&gt;
-&lt;li&gt;Experiment runners&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;c-1-2-evaluation-framework&#34;&gt;C.1.2 Evaluation Framework&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Repository URL&lt;/strong&gt;: [GitHub/evaluation-framework]&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Documentation&lt;/strong&gt;: Available in &lt;code&gt;/docs&lt;/code&gt; directory&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Dependencies&lt;/strong&gt;: Listed in &lt;code&gt;requirements.txt&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Installation Guide&lt;/strong&gt;: See &lt;code&gt;README.md&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;c-2-datasets&#34;&gt;C.2 Datasets&lt;/h2&gt;
-
-&lt;h3 id=&#34;c-2-1-motion-capture-data&#34;&gt;C.2.1 Motion Capture Data&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Format&lt;/strong&gt;: BVH, FBX, and custom JSON&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Size&lt;/strong&gt;: ~12GB compressed&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Access&lt;/strong&gt;: Available upon request&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Contents&lt;/strong&gt;:
-
-&lt;ul&gt;
-&lt;li&gt;500+ motion sequences&lt;/li&gt;
-&lt;li&gt;Multiple actor performances&lt;/li&gt;
-&lt;li&gt;Various activity types&lt;/li&gt;
-&lt;li&gt;Annotation metadata&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;c-2-2-training-data&#34;&gt;C.2.2 Training Data&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Format&lt;/strong&gt;: HDF5 files&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Organization&lt;/strong&gt;: By experiment type&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Preprocessing&lt;/strong&gt;: Scripts included&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Statistics&lt;/strong&gt;:
-
-&lt;ul&gt;
-&lt;li&gt;Training samples: 1M+&lt;/li&gt;
-&lt;li&gt;Validation samples: 200K&lt;/li&gt;
-&lt;li&gt;Test samples: 100K&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;c-3-multimedia-content&#34;&gt;C.3 Multimedia Content&lt;/h2&gt;
-
-&lt;h3 id=&#34;c-3-1-video-demonstrations&#34;&gt;C.3.1 Video Demonstrations&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Location&lt;/strong&gt;: [Project website/videos]&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Format&lt;/strong&gt;: MP4 (H.264)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Contents&lt;/strong&gt;:
-
-&lt;ul&gt;
-&lt;li&gt;Algorithm comparisons&lt;/li&gt;
-&lt;li&gt;Real-time demonstrations&lt;/li&gt;
-&lt;li&gt;User study recordings&lt;/li&gt;
-&lt;li&gt;System walkthroughs&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;c-3-2-interactive-demos&#34;&gt;C.3.2 Interactive Demos&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Platform&lt;/strong&gt;: WebGL builds&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Requirements&lt;/strong&gt;: Modern web browser&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Features&lt;/strong&gt;:
-
-&lt;ul&gt;
-&lt;li&gt;Real-time parameter adjustment&lt;/li&gt;
-&lt;li&gt;Multiple scenario selection&lt;/li&gt;
-&lt;li&gt;Performance visualization&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;c-4-additional-documentation&#34;&gt;C.4 Additional Documentation&lt;/h2&gt;
-
-&lt;h3 id=&#34;c-4-1-extended-results&#34;&gt;C.4.1 Extended Results&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Filename&lt;/strong&gt;: &lt;code&gt;extended_results.pdf&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Pages&lt;/strong&gt;: 150+&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Contents&lt;/strong&gt;:
-
-&lt;ul&gt;
-&lt;li&gt;Full experimental data&lt;/li&gt;
-&lt;li&gt;Additional ablation studies&lt;/li&gt;
-&lt;li&gt;Statistical analyses&lt;/li&gt;
-&lt;li&gt;Error analysis&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;c-4-2-implementation-notes&#34;&gt;C.4.2 Implementation Notes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Filename&lt;/strong&gt;: &lt;code&gt;implementation_guide.pdf&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Topics Covered&lt;/strong&gt;:
-
-&lt;ul&gt;
-&lt;li&gt;System architecture&lt;/li&gt;
-&lt;li&gt;Algorithm optimizations&lt;/li&gt;
-&lt;li&gt;Platform-specific considerations&lt;/li&gt;
-&lt;li&gt;Troubleshooting guide&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;c-5-external-resources&#34;&gt;C.5 External Resources&lt;/h2&gt;
-
-&lt;h3 id=&#34;c-5-1-third-party-libraries&#34;&gt;C.5.1 Third-Party Libraries&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;TensorFlow&lt;/strong&gt;: v2.x&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;PyTorch&lt;/strong&gt;: v1.x&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;OpenAI Gym&lt;/strong&gt;: v0.x&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Unity ML-Agents&lt;/strong&gt;: v2.x&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;c-5-2-reference-implementations&#34;&gt;C.5.2 Reference Implementations&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Links to baseline implementations&lt;/li&gt;
-&lt;li&gt;Comparison benchmarks&lt;/li&gt;
-&lt;li&gt;Integration examples&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;c-6-access-information&#34;&gt;C.6 Access Information&lt;/h2&gt;
-
-&lt;h3 id=&#34;c-6-1-public-resources&#34;&gt;C.6.1 Public Resources&lt;/h3&gt;
-
-&lt;p&gt;All public resources can be accessed at:
-- Project website: [URL]
-- DOI: [10.xxxx/xxxxx]&lt;/p&gt;
-
-&lt;h3 id=&#34;c-6-2-restricted-materials&#34;&gt;C.6.2 Restricted Materials&lt;/h3&gt;
-
-&lt;p&gt;For access to restricted materials:
-- Contact: [email]
-- Affiliation requirements
-- Usage agreements&lt;/p&gt;
-
-&lt;h2 id=&#34;c-7-version-control&#34;&gt;C.7 Version Control&lt;/h2&gt;
-
-&lt;h3 id=&#34;c-7-1-release-history&#34;&gt;C.7.1 Release History&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;v1.0: Initial release&lt;/li&gt;
-&lt;li&gt;v1.1: Bug fixes and documentation updates&lt;/li&gt;
-&lt;li&gt;v1.2: Additional experiments added&lt;/li&gt;
-&lt;li&gt;v2.0: Major algorithm improvements&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;c-7-2-update-notifications&#34;&gt;C.7.2 Update Notifications&lt;/h3&gt;
-
-&lt;p&gt;Subscribe to updates at: [project-updates-list]&lt;/p&gt;
+&lt;p&gt;The chapter sets up the key tension: we want animation that&amp;rsquo;s both high-quality (matching human perception) and flexible (responding to dynamic scenarios). Traditional methods excel at one or the other, but not both. This creates the perfect motivation for the model-based RL approach I develop in the following chapters.&lt;/p&gt;
 </description>
     </item>
     
@@ -560,1886 +104,984 @@ def ppo_update(policy, value_function, trajectories, clip_epsilon):
       <guid>https://vihanga.github.io/thesis/chapters/model-based-rl/</guid>
       <description>
 
-&lt;h2 id=&#34;3-1-introduction-to-reinforcement-learning&#34;&gt;3.1 Introduction to Reinforcement Learning&lt;/h2&gt;
+&lt;h1 id=&#34;model-based-reinforcement-learning&#34;&gt;Model-based Reinforcement Learning&lt;/h1&gt;
 
-&lt;h3 id=&#34;3-1-1-markov-decision-processes&#34;&gt;3.1.1 Markov Decision Processes&lt;/h3&gt;
+&lt;p&gt;This chapter provides the theoretical foundation for understanding how model-based RL can revolutionize character animation. I explain why learning a model of the world enables more sample-efficient and generalizable agents compared to traditional approaches.&lt;/p&gt;
 
-&lt;p&gt;[Placeholder for MDP content]&lt;/p&gt;
+&lt;h2 id=&#34;the-power-of-world-models&#34;&gt;The Power of World Models&lt;/h2&gt;
 
-&lt;h3 id=&#34;3-1-2-model-free-vs-model-based-reinforcement-learning&#34;&gt;3.1.2 Model-free vs model-based Reinforcement Learning&lt;/h3&gt;
+&lt;p&gt;Most RL systems are model-free - they learn through trial and error what actions lead to good outcomes. That works great if you have millions of attempts to practice. But what if you need to learn from limited data? That&amp;rsquo;s where model-based RL shines.&lt;/p&gt;
 
-&lt;p&gt;[Placeholder for model-free vs model-based comparison]&lt;/p&gt;
+&lt;p&gt;By learning a model of how the world works - in our case, how human bodies move - agents can plan ahead, imagine consequences, and generalize from limited examples. It&amp;rsquo;s the difference between memorizing dance moves and understanding the principles of movement.&lt;/p&gt;
 
-&lt;h3 id=&#34;3-1-3-reward-functions&#34;&gt;3.1.3 Reward Functions&lt;/h3&gt;
+&lt;h2 id=&#34;latent-dynamics-the-secret-sauce&#34;&gt;Latent Dynamics: The Secret Sauce&lt;/h2&gt;
 
-&lt;p&gt;[Placeholder for reward functions]&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s the key insight that makes RLAnimate work: we don&amp;rsquo;t need to model every muscle and bone. Instead, we learn compact &amp;ldquo;latent&amp;rdquo; representations that capture the essence of movement patterns.&lt;/p&gt;
 
-&lt;h2 id=&#34;3-2-model-based-reinforcement-learning&#34;&gt;3.2 Model-based Reinforcement Learning&lt;/h2&gt;
+&lt;p&gt;I introduce the mathematical framework of latent dynamics models, showing how they compress high-dimensional movement data into manageable representations while preserving the critical information for generating natural motion. This is what allows our agents to run at 5ms per frame - we&amp;rsquo;re working in an efficient latent space, not raw joint angles.&lt;/p&gt;
 
-&lt;h3 id=&#34;3-2-1-latent-dynamics-models&#34;&gt;3.2.1 Latent Dynamics Models&lt;/h3&gt;
+&lt;h2 id=&#34;representation-learning-and-realism&#34;&gt;Representation Learning and Realism&lt;/h2&gt;
 
-&lt;p&gt;[Placeholder for latent dynamics models]&lt;/p&gt;
+&lt;p&gt;The chapter explores how to learn good representations for animation. Not all latent spaces are created equal - some preserve the nuances that make motion feel human, others lose them. I examine techniques from variational autoencoders to adversarial learning, setting up the theoretical foundation for the realism regularization used in later chapters.&lt;/p&gt;
 
-&lt;h3 id=&#34;3-2-2-perspectives-on-model-based-reinforcement-learning&#34;&gt;3.2.2 Perspectives on Model-based Reinforcement Learning&lt;/h3&gt;
+&lt;h2 id=&#34;why-model-based-for-animation&#34;&gt;Why Model-based for Animation?&lt;/h2&gt;
 
-&lt;p&gt;[Placeholder for perspectives]&lt;/p&gt;
+&lt;p&gt;The chapter concludes by connecting these abstract concepts to character animation:&lt;/p&gt;
 
-&lt;h2 id=&#34;3-3-representations-and-adversaries&#34;&gt;3.3 Representations and Adversaries&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Sample Efficiency&lt;/strong&gt;: Learn new behaviors from just a few motion capture examples&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Generalization&lt;/strong&gt;: Interpolate and extrapolate beyond the training data&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Planning&lt;/strong&gt;: Generate coherent long-term motion sequences&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Speed&lt;/strong&gt;: Efficient latent representations enable real-time performance&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;h3 id=&#34;3-3-1-representation-learning&#34;&gt;3.3.1 Representation Learning&lt;/h3&gt;
-
-&lt;p&gt;[Placeholder for representation learning]&lt;/p&gt;
-
-&lt;h3 id=&#34;3-3-2-adversarial-learning-for-regularisation&#34;&gt;3.3.2 Adversarial Learning for Regularisation&lt;/h3&gt;
-
-&lt;p&gt;[Placeholder for adversarial learning]&lt;/p&gt;
-
-&lt;h2 id=&#34;3-4-discussion&#34;&gt;3.4 Discussion&lt;/h2&gt;
-
-&lt;p&gt;[Placeholder for discussion]&lt;/p&gt;
-
-&lt;h2 id=&#34;3-5-chapter-summary&#34;&gt;3.5 Chapter Summary&lt;/h2&gt;
-
-&lt;p&gt;[Placeholder for chapter summary]&lt;/p&gt;
+&lt;p&gt;This theoretical grounding is essential for understanding why RLAnimate succeeds where other methods fail. Model-based RL isn&amp;rsquo;t just another technique - it&amp;rsquo;s fundamentally the right abstraction for the animation problem.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Appendix D: Perceptual Evaluation</title>
-      <link>https://vihanga.github.io/thesis/appendices/d/</link>
-      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://vihanga.github.io/thesis/appendices/d/</guid>
-      <description>
-
-&lt;h1 id=&#34;appendix-d-perceptual-evaluation&#34;&gt;Appendix D: Perceptual Evaluation&lt;/h1&gt;
-
-&lt;p&gt;This appendix presents detailed information about the perceptual evaluation studies conducted to assess the quality and realism of generated animations and interactive systems.&lt;/p&gt;
-
-&lt;h2 id=&#34;d-1-study-design&#34;&gt;D.1 Study Design&lt;/h2&gt;
-
-&lt;h3 id=&#34;d-1-1-methodology-overview&#34;&gt;D.1.1 Methodology Overview&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Study Type&lt;/strong&gt;: Mixed-methods approach&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Duration&lt;/strong&gt;: 6 weeks&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Participants&lt;/strong&gt;: N=120&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Sessions&lt;/strong&gt;: 3 per participant&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;IRB Approval&lt;/strong&gt;: #2024-XXX&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;d-1-2-participant-demographics&#34;&gt;D.1.2 Participant Demographics&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Age Range&lt;/strong&gt;: 18-65 years&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Gender Distribution&lt;/strong&gt;: 48% female, 52% male&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Experience Levels&lt;/strong&gt;:
-
-&lt;ul&gt;
-&lt;li&gt;Novice users: 40%&lt;/li&gt;
-&lt;li&gt;Intermediate: 35%&lt;/li&gt;
-&lt;li&gt;Expert: 25%&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Background&lt;/strong&gt;:
-
-&lt;ul&gt;
-&lt;li&gt;Computer graphics professionals: 20%&lt;/li&gt;
-&lt;li&gt;Gamers: 30%&lt;/li&gt;
-&lt;li&gt;General users: 50%&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;d-2-evaluation-metrics&#34;&gt;D.2 Evaluation Metrics&lt;/h2&gt;
-
-&lt;h3 id=&#34;d-2-1-quantitative-measures&#34;&gt;D.2.1 Quantitative Measures&lt;/h3&gt;
-
-&lt;h4 id=&#34;visual-realism&#34;&gt;Visual Realism&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Likert Scale&lt;/strong&gt;: 1-7 rating system&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Comparison Rankings&lt;/strong&gt;: Forced choice paradigm&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Response Times&lt;/strong&gt;: Measured in milliseconds&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Eye Tracking Data&lt;/strong&gt;: Fixation patterns and saccades&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;motion-quality&#34;&gt;Motion Quality&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Naturalness Ratings&lt;/strong&gt;: Continuous scale 0-100&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Jerkiness Detection&lt;/strong&gt;: Binary classification&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Timing Accuracy&lt;/strong&gt;: Deviation from reference&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Smoothness Metrics&lt;/strong&gt;: Objective calculations&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;d-2-2-qualitative-measures&#34;&gt;D.2.2 Qualitative Measures&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Open-ended Feedback&lt;/strong&gt;: Thematic analysis&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Interview Responses&lt;/strong&gt;: Semi-structured format&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Think-aloud Protocols&lt;/strong&gt;: During interaction&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Post-study Questionnaires&lt;/strong&gt;: Comprehensive feedback&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;d-3-experimental-conditions&#34;&gt;D.3 Experimental Conditions&lt;/h2&gt;
-
-&lt;h3 id=&#34;d-3-1-stimulus-presentation&#34;&gt;D.3.1 Stimulus Presentation&lt;/h3&gt;
-
-&lt;h4 id=&#34;display-setup&#34;&gt;Display Setup&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Monitor&lt;/strong&gt;: 27&amp;rdquo; 4K display (3840x2160)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Refresh Rate&lt;/strong&gt;: 144Hz&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Viewing Distance&lt;/strong&gt;: 60cm&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Lighting&lt;/strong&gt;: Controlled ambient conditions&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;stimulus-types&#34;&gt;Stimulus Types&lt;/h4&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Static Comparisons&lt;/strong&gt;: Side-by-side presentations&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Dynamic Sequences&lt;/strong&gt;: 10-30 second clips&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Interactive Scenarios&lt;/strong&gt;: Real-time manipulation&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;A/B Testing&lt;/strong&gt;: Randomized presentation order&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;d-3-2-control-conditions&#34;&gt;D.3.2 Control Conditions&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Ground Truth&lt;/strong&gt;: Motion capture reference&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Baseline Methods&lt;/strong&gt;: State-of-the-art comparisons&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ablation Variants&lt;/strong&gt;: Component-wise evaluation&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Random Conditions&lt;/strong&gt;: Sanity checks&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;d-4-results-analysis&#34;&gt;D.4 Results Analysis&lt;/h2&gt;
-
-&lt;h3 id=&#34;d-4-1-statistical-methods&#34;&gt;D.4.1 Statistical Methods&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;ANOVA&lt;/strong&gt;: Between-subjects effects&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Post-hoc Tests&lt;/strong&gt;: Bonferroni corrections&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Effect Sizes&lt;/strong&gt;: Cohen&amp;rsquo;s d calculations&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Inter-rater Reliability&lt;/strong&gt;: Krippendorff&amp;rsquo;s alpha&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;d-4-2-key-findings&#34;&gt;D.4.2 Key Findings&lt;/h3&gt;
-
-&lt;h4 id=&#34;realism-ratings&#34;&gt;Realism Ratings&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Our method: M=5.8, SD=0.9&lt;/li&gt;
-&lt;li&gt;Baseline A: M=4.2, SD=1.2&lt;/li&gt;
-&lt;li&gt;Baseline B: M=4.6, SD=1.1&lt;/li&gt;
-&lt;li&gt;Ground truth: M=6.5, SD=0.6&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;user-preferences&#34;&gt;User Preferences&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;72% preferred our method over baselines&lt;/li&gt;
-&lt;li&gt;85% rated as &amp;ldquo;realistic&amp;rdquo; or &amp;ldquo;very realistic&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;91% found interactions intuitive&lt;/li&gt;
-&lt;li&gt;78% would use in production&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;d-5-detailed-results-tables&#34;&gt;D.5 Detailed Results Tables&lt;/h2&gt;
-
-&lt;h3 id=&#34;d-5-1-condition-comparisons&#34;&gt;D.5.1 Condition Comparisons&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Method&lt;/th&gt;
-&lt;th&gt;Realism&lt;/th&gt;
-&lt;th&gt;Smoothness&lt;/th&gt;
-&lt;th&gt;Preference&lt;/th&gt;
-&lt;th&gt;Response Time&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Ours&lt;/td&gt;
-&lt;td&gt;5.8±0.9&lt;/td&gt;
-&lt;td&gt;6.1±0.7&lt;/td&gt;
-&lt;td&gt;72%&lt;/td&gt;
-&lt;td&gt;1.2s&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Baseline A&lt;/td&gt;
-&lt;td&gt;4.2±1.2&lt;/td&gt;
-&lt;td&gt;4.8±1.1&lt;/td&gt;
-&lt;td&gt;12%&lt;/td&gt;
-&lt;td&gt;1.8s&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Baseline B&lt;/td&gt;
-&lt;td&gt;4.6±1.1&lt;/td&gt;
-&lt;td&gt;5.2±0.9&lt;/td&gt;
-&lt;td&gt;16%&lt;/td&gt;
-&lt;td&gt;1.5s&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&#34;d-5-2-task-specific-performance&#34;&gt;D.5.2 Task-Specific Performance&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Task Type&lt;/th&gt;
-&lt;th&gt;Success Rate&lt;/th&gt;
-&lt;th&gt;Completion Time&lt;/th&gt;
-&lt;th&gt;Satisfaction&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Navigation&lt;/td&gt;
-&lt;td&gt;94%&lt;/td&gt;
-&lt;td&gt;12.3s&lt;/td&gt;
-&lt;td&gt;5.&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;7&lt;/sub&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Manipulation&lt;/td&gt;
-&lt;td&gt;88%&lt;/td&gt;
-&lt;td&gt;18.7s&lt;/td&gt;
-&lt;td&gt;5.&lt;sup&gt;6&lt;/sup&gt;&amp;frasl;&lt;sub&gt;7&lt;/sub&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Creation&lt;/td&gt;
-&lt;td&gt;82%&lt;/td&gt;
-&lt;td&gt;45.2s&lt;/td&gt;
-&lt;td&gt;6.&lt;sup&gt;2&lt;/sup&gt;&amp;frasl;&lt;sub&gt;7&lt;/sub&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;d-6-user-feedback-themes&#34;&gt;D.6 User Feedback Themes&lt;/h2&gt;
-
-&lt;h3 id=&#34;d-6-1-positive-aspects&#34;&gt;D.6.1 Positive Aspects&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Natural Motion&lt;/strong&gt;: &amp;ldquo;Movements felt very lifelike&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Responsive Control&lt;/strong&gt;: &amp;ldquo;System reacted instantly&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Visual Quality&lt;/strong&gt;: &amp;ldquo;Graphics were impressive&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ease of Use&lt;/strong&gt;: &amp;ldquo;Intuitive interface&amp;rdquo;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;d-6-2-areas-for-improvement&#34;&gt;D.6.2 Areas for Improvement&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Edge Cases&lt;/strong&gt;: &amp;ldquo;Some extreme poses looked odd&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Learning Curve&lt;/strong&gt;: &amp;ldquo;Advanced features need tutorials&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Performance&lt;/strong&gt;: &amp;ldquo;Occasional lag with complex scenes&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Customization&lt;/strong&gt;: &amp;ldquo;Want more control options&amp;rdquo;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;d-7-study-materials&#34;&gt;D.7 Study Materials&lt;/h2&gt;
-
-&lt;h3 id=&#34;d-7-1-questionnaires&#34;&gt;D.7.1 Questionnaires&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Pre-study survey&lt;/li&gt;
-&lt;li&gt;Post-task evaluations&lt;/li&gt;
-&lt;li&gt;Final assessment form&lt;/li&gt;
-&lt;li&gt;NASA-TLX workload assessment&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;d-7-2-instructions&#34;&gt;D.7.2 Instructions&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Participant information sheet&lt;/li&gt;
-&lt;li&gt;Task descriptions&lt;/li&gt;
-&lt;li&gt;Training materials&lt;/li&gt;
-&lt;li&gt;Debriefing script&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Chapter 4: Model-based and Model-free Animation</title>
+      <title>Chapter 4: Model-based Character Animation</title>
       <link>https://vihanga.github.io/thesis/chapters/model-based-animation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vihanga.github.io/thesis/chapters/model-based-animation/</guid>
       <description>
 
-&lt;h1 id=&#34;chapter-4-model-based-and-model-free-animation&#34;&gt;Chapter 4: Model-based and Model-free Animation&lt;/h1&gt;
+&lt;h1 id=&#34;model-based-character-animation&#34;&gt;Model-based Character Animation&lt;/h1&gt;
 
-&lt;p&gt;This chapter explores both model-free and model-based approaches to animation control, presenting methods for creating intelligent animation agents that can learn from experience and plan ahead.&lt;/p&gt;
+&lt;p&gt;This chapter marks the beginning of my core contributions - demonstrating that model-based RL can work for character animation without physics simulation. It&amp;rsquo;s the proof-of-concept that sets the stage for everything that follows.&lt;/p&gt;
 
-&lt;h2 id=&#34;4-1-model-free-rl-for-animation-control&#34;&gt;4.1 Model-free RL for Animation Control&lt;/h2&gt;
+&lt;h2 id=&#34;the-experiment-that-started-it-all&#34;&gt;The Experiment That Started It All&lt;/h2&gt;
 
-&lt;p&gt;This section introduces model-free reinforcement learning techniques for animation control, where agents learn policies directly from interaction without explicitly modeling the environment dynamics.&lt;/p&gt;
+&lt;p&gt;I started with a simple question: can an RL agent learn to animate a character using only a learned model of movement dynamics? No physics engine, no hand-crafted rewards - just data and learning.&lt;/p&gt;
 
-&lt;h3 id=&#34;4-1-1-problem-formulation&#34;&gt;4.1.1 Problem Formulation&lt;/h3&gt;
+&lt;p&gt;The answer turned out to be a resounding yes, but with important caveats that shaped the rest of my research.&lt;/p&gt;
 
-&lt;p&gt;[Content placeholder: Define the animation control problem as a Markov Decision Process (MDP), including state and action spaces, reward functions, and learning objectives]&lt;/p&gt;
+&lt;h2 id=&#34;star-jumps-a-perfect-test-case&#34;&gt;Star Jumps: A Perfect Test Case&lt;/h2&gt;
 
-&lt;h3 id=&#34;4-1-2-policy-learning-methods&#34;&gt;4.1.2 Policy Learning Methods&lt;/h3&gt;
+&lt;p&gt;Why star jumps? They&amp;rsquo;re deceptively complex - requiring coordination of arms and legs, maintaining balance, and producing a recognizable pattern. Yet they&amp;rsquo;re simple enough to analyze rigorously. This choice let me focus on the core challenge: can model-based RL work for animation at all?&lt;/p&gt;
 
-&lt;p&gt;[Content placeholder: Discuss various model-free RL algorithms applicable to animation control, including policy gradient methods, actor-critic architectures, and their specific adaptations for character animation]&lt;/p&gt;
+&lt;p&gt;Using just 5 minutes of motion capture data, I trained agents that could:
+- Generate continuous star jump animations
+- Maintain synchronization between limbs
+- Adapt to different speeds and styles
+- Run in real-time (under 5ms per frame)&lt;/p&gt;
 
-&lt;h3 id=&#34;4-1-3-experimental-results&#34;&gt;4.1.3 Experimental Results&lt;/h3&gt;
+&lt;h2 id=&#34;model-free-vs-model-based-the-showdown&#34;&gt;Model-free vs Model-based: The Showdown&lt;/h2&gt;
 
-&lt;p&gt;[Content placeholder: Present experimental results demonstrating the effectiveness of model-free RL for various animation tasks, including locomotion, object manipulation, and athletic movements]&lt;/p&gt;
+&lt;p&gt;The chapter presents a direct comparison between model-free (PPO) and model-based (Dreamer) approaches. The results were eye-opening:&lt;/p&gt;
 
-&lt;h2 id=&#34;4-2-learned-dynamics-models-and-online-planning-for-model-based-animation-agents&#34;&gt;4.2 Learned dynamics models and online planning for model-based animation agents&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Model-free&lt;/strong&gt;: Achieved the objective but produced unnatural, robotic movements. The agent found shortcuts that technically worked but looked wrong to human eyes.&lt;/p&gt;
 
-&lt;p&gt;This section presents model-based approaches where agents learn dynamics models of the environment and use them for planning and control.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Model-based&lt;/strong&gt;: Produced natural-looking animations that closely matched the motion capture data. The learned dynamics model acted as an implicit regularizer, keeping movements within the manifold of human motion.&lt;/p&gt;
 
-&lt;h3 id=&#34;4-2-1-dynamics-model-learning&#34;&gt;4.2.1 Dynamics Model Learning&lt;/h3&gt;
+&lt;h2 id=&#34;key-insights&#34;&gt;Key Insights&lt;/h2&gt;
 
-&lt;p&gt;[Content placeholder: Describe methods for learning forward dynamics models from interaction data, including neural network architectures and training procedures]&lt;/p&gt;
-
-&lt;h3 id=&#34;4-2-2-online-planning-algorithms&#34;&gt;4.2.2 Online Planning Algorithms&lt;/h3&gt;
-
-&lt;p&gt;[Content placeholder: Present online planning algorithms that leverage learned dynamics models, including model predictive control (MPC) and sampling-based planning methods]&lt;/p&gt;
-
-&lt;h3 id=&#34;4-2-3-integration-with-model-free-methods&#34;&gt;4.2.3 Integration with Model-free Methods&lt;/h3&gt;
-
-&lt;p&gt;[Content placeholder: Discuss hybrid approaches that combine model-based planning with model-free learning, leveraging the strengths of both paradigms]&lt;/p&gt;
-
-&lt;h3 id=&#34;4-2-4-comparative-analysis&#34;&gt;4.2.4 Comparative Analysis&lt;/h3&gt;
-
-&lt;p&gt;[Content placeholder: Compare model-based and model-free approaches in terms of sample efficiency, computational requirements, and animation quality]&lt;/p&gt;
-
-&lt;h2 id=&#34;4-3-chapter-summary&#34;&gt;4.3 Chapter Summary&lt;/h2&gt;
-
-&lt;p&gt;This chapter has presented a comprehensive exploration of both model-free and model-based approaches to animation control. We demonstrated that model-free methods can produce high-quality animations through direct policy learning, while model-based methods offer improved sample efficiency and planning capabilities. The combination of both approaches provides a powerful framework for creating intelligent animation agents capable of complex behaviors.&lt;/p&gt;
-
-&lt;p&gt;Key contributions of this chapter include:
-- A systematic comparison of model-free and model-based approaches for animation control
-- Novel algorithms for learning dynamics models suitable for character animation
-- Demonstration of online planning methods that produce natural-looking motions
-- Insights into the trade-offs between different approaches and their appropriate use cases&lt;/p&gt;
-
-&lt;p&gt;The methods presented in this chapter lay the foundation for more advanced animation systems that can adapt to new tasks, generalize across different characters, and produce increasingly sophisticated behaviors.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Appendix E: Supplementary Results, Model-free RL Experiments</title>
-      <link>https://vihanga.github.io/thesis/appendices/e/</link>
-      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://vihanga.github.io/thesis/appendices/e/</guid>
-      <description>
-
-&lt;h1 id=&#34;appendix-e-supplementary-results-model-free-rl-experiments&#34;&gt;Appendix E: Supplementary Results, Model-free RL Experiments&lt;/h1&gt;
-
-&lt;p&gt;This appendix contains comprehensive supplementary results from the model-free reinforcement learning experiments conducted throughout this research.&lt;/p&gt;
-
-&lt;p&gt;Blah Blah blah balh blagh&lt;/p&gt;
-
-&lt;h2 id=&#34;e-1-extended-learning-curves&#34;&gt;E.1 Extended Learning Curves&lt;/h2&gt;
-
-&lt;h3 id=&#34;e-1-1-training-performance-over-time&#34;&gt;E.1.1 Training Performance Over Time&lt;/h3&gt;
-
-&lt;h4 id=&#34;ppo-experiments&#34;&gt;PPO Experiments&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Environment&lt;/strong&gt;: Custom physics simulation&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Training Steps&lt;/strong&gt;: 10M&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Seeds&lt;/strong&gt;: 5 independent runs&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Logging Frequency&lt;/strong&gt;: Every 1000 steps&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;![Learning Curves - PPO]
-- Episode Return: Steady improvement from -200 to +150
-- Success Rate: 15% → 92% over training
-- Sample Efficiency: 2.3M samples to convergence
-- Variance: Decreasing with training progress&lt;/p&gt;
-
-&lt;h4 id=&#34;sac-experiments&#34;&gt;SAC Experiments&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Environment&lt;/strong&gt;: Same as PPO&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Training Steps&lt;/strong&gt;: 10M&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Seeds&lt;/strong&gt;: 5 independent runs&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Key Differences&lt;/strong&gt;:
-
-&lt;ul&gt;
-&lt;li&gt;Faster initial learning&lt;/li&gt;
-&lt;li&gt;More stable convergence&lt;/li&gt;
-&lt;li&gt;Higher final performance (+165 avg return)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;e-1-2-hyperparameter-sensitivity&#34;&gt;E.1.2 Hyperparameter Sensitivity&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Hyperparameter&lt;/th&gt;
-&lt;th&gt;Range Tested&lt;/th&gt;
-&lt;th&gt;Optimal Value&lt;/th&gt;
-&lt;th&gt;Impact on Performance&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Learning Rate&lt;/td&gt;
-&lt;td&gt;1e-5 to 1e-2&lt;/td&gt;
-&lt;td&gt;3e-4&lt;/td&gt;
-&lt;td&gt;Critical - 40% variance&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Batch Size&lt;/td&gt;
-&lt;td&gt;32 to 512&lt;/td&gt;
-&lt;td&gt;256&lt;/td&gt;
-&lt;td&gt;Moderate - 15% variance&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Discount Factor&lt;/td&gt;
-&lt;td&gt;0.9 to 0.999&lt;/td&gt;
-&lt;td&gt;0.99&lt;/td&gt;
-&lt;td&gt;Low - 8% variance&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Entropy Coefficient&lt;/td&gt;
-&lt;td&gt;0.0 to 0.1&lt;/td&gt;
-&lt;td&gt;0.01&lt;/td&gt;
-&lt;td&gt;Moderate - 20% variance&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;e-2-ablation-study-results&#34;&gt;E.2 Ablation Study Results&lt;/h2&gt;
-
-&lt;h3 id=&#34;e-2-1-architecture-components&#34;&gt;E.2.1 Architecture Components&lt;/h3&gt;
-
-&lt;h4 id=&#34;network-depth-impact&#34;&gt;Network Depth Impact&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code&gt;Shallow (2 layers): 72% success rate
-Medium (4 layers): 89% success rate  
-Deep (8 layers): 85% success rate
-Very Deep (16 layers): 78% success rate
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&#34;activation-functions&#34;&gt;Activation Functions&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ReLU: Baseline performance&lt;/li&gt;
-&lt;li&gt;Tanh: -5% performance&lt;/li&gt;
-&lt;li&gt;GELU: +3% performance&lt;/li&gt;
-&lt;li&gt;Swish: +2% performance&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;e-2-2-training-techniques&#34;&gt;E.2.2 Training Techniques&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Technique&lt;/th&gt;
-&lt;th&gt;Enabled&lt;/th&gt;
-&lt;th&gt;Disabled&lt;/th&gt;
-&lt;th&gt;Difference&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Normalization&lt;/td&gt;
-&lt;td&gt;92%&lt;/td&gt;
-&lt;td&gt;76%&lt;/td&gt;
-&lt;td&gt;+16%&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Dropout&lt;/td&gt;
-&lt;td&gt;88%&lt;/td&gt;
-&lt;td&gt;92%&lt;/td&gt;
-&lt;td&gt;-4%&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Weight Decay&lt;/td&gt;
-&lt;td&gt;90%&lt;/td&gt;
-&lt;td&gt;87%&lt;/td&gt;
-&lt;td&gt;+3%&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Gradient Clipping&lt;/td&gt;
-&lt;td&gt;92%&lt;/td&gt;
-&lt;td&gt;84%&lt;/td&gt;
-&lt;td&gt;+8%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;e-3-detailed-experimental-configurations&#34;&gt;E.3 Detailed Experimental Configurations&lt;/h2&gt;
-
-&lt;h3 id=&#34;e-3-1-environment-specifications&#34;&gt;E.3.1 Environment Specifications&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;env_config = {
-    &#39;observation_space&#39;: Box(low=-inf, high=inf, shape=(128,)),
-    &#39;action_space&#39;: Box(low=-1, high=1, shape=(8,)),
-    &#39;max_episode_steps&#39;: 1000,
-    &#39;reward_scale&#39;: 0.1,
-    &#39;physics_timestep&#39;: 0.01,
-    &#39;render_fps&#39;: 30
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;e-3-2-algorithm-configurations&#34;&gt;E.3.2 Algorithm Configurations&lt;/h3&gt;
-
-&lt;h4 id=&#34;ppo-configuration&#34;&gt;PPO Configuration&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;ppo_config = {
-    &#39;n_steps&#39;: 2048,
-    &#39;batch_size&#39;: 64,
-    &#39;n_epochs&#39;: 10,
-    &#39;gamma&#39;: 0.99,
-    &#39;gae_lambda&#39;: 0.95,
-    &#39;clip_range&#39;: 0.2,
-    &#39;learning_rate&#39;: 3e-4,
-    &#39;value_coefficient&#39;: 0.5,
-    &#39;entropy_coefficient&#39;: 0.01,
-    &#39;max_grad_norm&#39;: 0.5
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&#34;sac-configuration&#34;&gt;SAC Configuration&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;sac_config = {
-    &#39;buffer_size&#39;: 1e6,
-    &#39;batch_size&#39;: 256,
-    &#39;gamma&#39;: 0.99,
-    &#39;tau&#39;: 0.005,
-    &#39;learning_rate&#39;: 3e-4,
-    &#39;alpha&#39;: 0.2,
-    &#39;target_update_interval&#39;: 1,
-    &#39;gradient_steps&#39;: 1,
-    &#39;reward_scale&#39;: 5.0
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;e-4-task-specific-results&#34;&gt;E.4 Task-Specific Results&lt;/h2&gt;
-
-&lt;h3 id=&#34;e-4-1-locomotion-tasks&#34;&gt;E.4.1 Locomotion Tasks&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Task&lt;/th&gt;
-&lt;th&gt;PPO Score&lt;/th&gt;
-&lt;th&gt;SAC Score&lt;/th&gt;
-&lt;th&gt;TD3 Score&lt;/th&gt;
-&lt;th&gt;Human Baseline&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Walk&lt;/td&gt;
-&lt;td&gt;0.92&lt;/td&gt;
-&lt;td&gt;0.94&lt;/td&gt;
-&lt;td&gt;0.91&lt;/td&gt;
-&lt;td&gt;0.98&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Run&lt;/td&gt;
-&lt;td&gt;0.88&lt;/td&gt;
-&lt;td&gt;0.91&lt;/td&gt;
-&lt;td&gt;0.89&lt;/td&gt;
-&lt;td&gt;0.97&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Jump&lt;/td&gt;
-&lt;td&gt;0.85&lt;/td&gt;
-&lt;td&gt;0.82&lt;/td&gt;
-&lt;td&gt;0.86&lt;/td&gt;
-&lt;td&gt;0.95&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Turn&lt;/td&gt;
-&lt;td&gt;0.94&lt;/td&gt;
-&lt;td&gt;0.93&lt;/td&gt;
-&lt;td&gt;0.92&lt;/td&gt;
-&lt;td&gt;0.99&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&#34;e-4-2-manipulation-tasks&#34;&gt;E.4.2 Manipulation Tasks&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Task&lt;/th&gt;
-&lt;th&gt;Success Rate&lt;/th&gt;
-&lt;th&gt;Avg Time (s)&lt;/th&gt;
-&lt;th&gt;Precision Score&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Reach&lt;/td&gt;
-&lt;td&gt;96%&lt;/td&gt;
-&lt;td&gt;2.3&lt;/td&gt;
-&lt;td&gt;0.94&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Grasp&lt;/td&gt;
-&lt;td&gt;89%&lt;/td&gt;
-&lt;td&gt;3.7&lt;/td&gt;
-&lt;td&gt;0.87&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Place&lt;/td&gt;
-&lt;td&gt;84%&lt;/td&gt;
-&lt;td&gt;5.2&lt;/td&gt;
-&lt;td&gt;0.82&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Stack&lt;/td&gt;
-&lt;td&gt;76%&lt;/td&gt;
-&lt;td&gt;8.4&lt;/td&gt;
-&lt;td&gt;0.78&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;e-5-computational-performance&#34;&gt;E.5 Computational Performance&lt;/h2&gt;
-
-&lt;h3 id=&#34;e-5-1-training-efficiency&#34;&gt;E.5.1 Training Efficiency&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;PPO&lt;/strong&gt;: 15.2 hours on single GPU&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;SAC&lt;/strong&gt;: 18.6 hours on single GPU&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;TD3&lt;/strong&gt;: 16.9 hours on single GPU&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;A2C&lt;/strong&gt;: 12.1 hours on single GPU&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;e-5-2-inference-speed&#34;&gt;E.5.2 Inference Speed&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Algorithm&lt;/th&gt;
-&lt;th&gt;FPS (CPU)&lt;/th&gt;
-&lt;th&gt;FPS (GPU)&lt;/th&gt;
-&lt;th&gt;Latency (ms)&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;PPO&lt;/td&gt;
-&lt;td&gt;850&lt;/td&gt;
-&lt;td&gt;3200&lt;/td&gt;
-&lt;td&gt;1.2&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;SAC&lt;/td&gt;
-&lt;td&gt;720&lt;/td&gt;
-&lt;td&gt;2900&lt;/td&gt;
-&lt;td&gt;1.4&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;TD3&lt;/td&gt;
-&lt;td&gt;780&lt;/td&gt;
-&lt;td&gt;3100&lt;/td&gt;
-&lt;td&gt;1.3&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;A2C&lt;/td&gt;
-&lt;td&gt;920&lt;/td&gt;
-&lt;td&gt;3400&lt;/td&gt;
-&lt;td&gt;1.1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;e-6-failure-case-analysis&#34;&gt;E.6 Failure Case Analysis&lt;/h2&gt;
-
-&lt;h3 id=&#34;e-6-1-common-failure-modes&#34;&gt;E.6.1 Common Failure Modes&lt;/h3&gt;
+&lt;p&gt;This early work revealed three critical insights that guided the rest of the thesis:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Catastrophic Forgetting&lt;/strong&gt;: Occurred in 8% of runs&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Local Minima&lt;/strong&gt;: Trapped in suboptimal policies (12%)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Exploration Collapse&lt;/strong&gt;: Premature convergence (6%)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Reward Hacking&lt;/strong&gt;: Exploiting reward function (4%)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dynamics models are regularizers&lt;/strong&gt;: By learning how humans actually move, the model prevents unnatural animations&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Latent planning works&lt;/strong&gt;: Planning in a learned latent space is both efficient and effective&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Physics isn&amp;rsquo;t necessary&lt;/strong&gt;: For many animation tasks, learned dynamics are sufficient&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&#34;e-6-2-mitigation-strategies&#34;&gt;E.6.2 Mitigation Strategies&lt;/h3&gt;
+&lt;h2 id=&#34;setting-the-stage&#34;&gt;Setting the Stage&lt;/h2&gt;
 
-&lt;ul&gt;
-&lt;li&gt;Periodic evaluation checkpoints&lt;/li&gt;
-&lt;li&gt;Adaptive exploration schedules&lt;/li&gt;
-&lt;li&gt;Reward function shaping&lt;/li&gt;
-&lt;li&gt;Ensemble methods for robustness&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;While successful, this chapter also exposed limitations - single-behavior agents, no interaction with physics, limited complexity. These limitations motivated the innovations in subsequent chapters, but the core finding stands: model-based RL is a viable paradigm for character animation.&lt;/p&gt;
 
-&lt;h2 id=&#34;e-7-statistical-significance-tests&#34;&gt;E.7 Statistical Significance Tests&lt;/h2&gt;
-
-&lt;h3 id=&#34;e-7-1-performance-comparisons&#34;&gt;E.7.1 Performance Comparisons&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;PPO vs SAC: p = 0.032 (significant)&lt;/li&gt;
-&lt;li&gt;PPO vs TD3: p = 0.186 (not significant)&lt;/li&gt;
-&lt;li&gt;SAC vs TD3: p = 0.041 (significant)&lt;/li&gt;
-&lt;li&gt;All vs Random: p &amp;lt; 0.001 (highly significant)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;e-7-2-confidence-intervals&#34;&gt;E.7.2 Confidence Intervals&lt;/h3&gt;
-
-&lt;p&gt;All results reported with 95% confidence intervals calculated using bootstrap resampling (n=1000).&lt;/p&gt;
+&lt;p&gt;The supplementary material shows these agents in action, demonstrating that even this early prototype could produce animations that feel genuinely human-like.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Chapter 5: Data-Driven Reinforcement Learning with Off-Policy Data</title>
+      <title>Chapter 5: RLAnimate - Data-driven RL for Character Animation</title>
       <link>https://vihanga.github.io/thesis/chapters/data-driven-rl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vihanga.github.io/thesis/chapters/data-driven-rl/</guid>
       <description>
 
-&lt;h1 id=&#34;chapter-5-data-driven-reinforcement-learning-with-off-policy-data&#34;&gt;Chapter 5: Data-Driven Reinforcement Learning with Off-Policy Data&lt;/h1&gt;
+&lt;h1 id=&#34;rlanimate-data-driven-rl-for-character-animation&#34;&gt;RLAnimate: Data-driven RL for Character Animation&lt;/h1&gt;
 
-&lt;p&gt;This chapter addresses the challenge of leveraging existing animation data within reinforcement learning frameworks, presenting methods for combining data-driven approaches with RL to create more efficient and higher-quality animation systems.&lt;/p&gt;
+&lt;p&gt;This is where everything comes together. Chapter 5 introduces RLAnimate - my core framework that revolutionizes how we think about RL for animation. Instead of rewards, we use motion capture data as objectives. It&amp;rsquo;s a simple idea with profound implications.&lt;/p&gt;
 
-&lt;h2 id=&#34;5-1-introduction&#34;&gt;5.1 Introduction&lt;/h2&gt;
+&lt;h2 id=&#34;the-breakthrough-objectives-not-rewards&#34;&gt;The Breakthrough: Objectives, Not Rewards&lt;/h2&gt;
 
-&lt;p&gt;[Content placeholder: Introduce the motivation for combining data-driven methods with RL, discussing the abundance of motion capture data and the limitations of pure RL approaches in animation]&lt;/p&gt;
+&lt;p&gt;Traditional RL for animation struggles with a fundamental problem: how do you write a reward function for &amp;ldquo;wave friendly&amp;rdquo; or &amp;ldquo;point naturally&amp;rdquo;? You can&amp;rsquo;t. Previous work tried complex reward engineering, but it always felt hacky.&lt;/p&gt;
 
-&lt;h2 id=&#34;5-2-off-policy-learning-from-motion-data&#34;&gt;5.2 Off-Policy Learning from Motion Data&lt;/h2&gt;
+&lt;p&gt;My insight: we don&amp;rsquo;t need rewards at all. We have motion capture data showing humans performing these behaviors. So instead of rewarding specific outcomes, I train agents to match the dynamics of human movement. The &amp;ldquo;ideal action&amp;rdquo; at each timestep is simply what a human would do.&lt;/p&gt;
 
-&lt;p&gt;This section presents methods for learning from pre-recorded motion data within an RL framework, enabling agents to benefit from expert demonstrations while maintaining the flexibility to explore and improve.&lt;/p&gt;
+&lt;h2 id=&#34;the-a1-architecture&#34;&gt;The A1 Architecture&lt;/h2&gt;
 
-&lt;h3 id=&#34;5-2-1-problem-formulation&#34;&gt;5.2.1 Problem Formulation&lt;/h3&gt;
+&lt;p&gt;RLAnimate&amp;rsquo;s first architecture (A1) demonstrates the concept:
+- &lt;strong&gt;Behavior encoders&lt;/strong&gt; that understand what motion the agent should perform
+- &lt;strong&gt;Perceptual encoders&lt;/strong&gt; that process the current body state
+- &lt;strong&gt;Latent dynamics&lt;/strong&gt; that model how movements unfold over time
+- &lt;strong&gt;Multi-behavior support&lt;/strong&gt; - one agent, multiple skills&lt;/p&gt;
 
-&lt;p&gt;[Content placeholder: Define the off-policy learning problem in the context of character animation, including notation and key challenges]&lt;/p&gt;
+&lt;p&gt;The results speak for themselves: agents that can wave, point, and transition between behaviors smoothly, all while maintaining human-like quality.&lt;/p&gt;
 
-&lt;h3 id=&#34;5-2-2-data-collection-and-processing&#34;&gt;5.2.2 Data Collection and Processing&lt;/h3&gt;
+&lt;h2 id=&#34;multi-behavior-magic&#34;&gt;Multi-Behavior Magic&lt;/h2&gt;
 
-&lt;p&gt;[Content placeholder: Describe methods for collecting and processing motion capture data for use in off-policy RL, including data augmentation and quality assessment]&lt;/p&gt;
+&lt;p&gt;Previous systems needed separate agents for each behavior. RLAnimate changes that. By learning shared representations of movement dynamics, a single agent can:
+- Wave with different styles and speeds
+- Point at moving targets accurately
+- Blend behaviors naturally
+- Generalize to new variations&lt;/p&gt;
 
-&lt;h3 id=&#34;5-2-3-off-policy-algorithms&#34;&gt;5.2.3 Off-Policy Algorithms&lt;/h3&gt;
+&lt;p&gt;This isn&amp;rsquo;t just convenient - it&amp;rsquo;s essential for interactive applications where characters need to respond dynamically.&lt;/p&gt;
 
-&lt;p&gt;[Content placeholder: Present specific off-policy algorithms adapted for animation, including importance sampling corrections and replay buffer management]&lt;/p&gt;
+&lt;h2 id=&#34;the-numbers-that-matter&#34;&gt;The Numbers That Matter&lt;/h2&gt;
 
-&lt;h2 id=&#34;5-3-combining-imitation-and-reinforcement-learning&#34;&gt;5.3 Combining Imitation and Reinforcement Learning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;5ms inference time&lt;/strong&gt;: Fast enough for any real-time application&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;93% behavior accuracy&lt;/strong&gt;: Correctly performs requested behaviors&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Statistical parity&lt;/strong&gt;: Movement statistics match human motion capture&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Efficient training&lt;/strong&gt;: Learn from minutes, not hours, of mocap data&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;This section explores hybrid approaches that combine imitation learning from motion data with reinforcement learning for task achievement.&lt;/p&gt;
+&lt;h2 id=&#34;a2-scaling-up&#34;&gt;A2: Scaling Up&lt;/h2&gt;
 
-&lt;h3 id=&#34;5-3-1-behavioral-cloning-with-rl-fine-tuning&#34;&gt;5.3.1 Behavioral Cloning with RL Fine-tuning&lt;/h3&gt;
+&lt;p&gt;The chapter also introduces A2, which adds physical grounding:
+- Foot contacts that respect physics
+- Momentum preservation during movement
+- Interaction with virtual objects
+- All while maintaining the ease of training&lt;/p&gt;
 
-&lt;p&gt;[Content placeholder: Describe methods that initialize policies through behavioral cloning and then refine them using RL]&lt;/p&gt;
+&lt;h2 id=&#34;why-this-changes-everything&#34;&gt;Why This Changes Everything&lt;/h2&gt;
 
-&lt;h3 id=&#34;5-3-2-reward-shaping-with-motion-priors&#34;&gt;5.3.2 Reward Shaping with Motion Priors&lt;/h3&gt;
+&lt;p&gt;RLAnimate isn&amp;rsquo;t just another animation method - it&amp;rsquo;s a new paradigm. By treating animation as matching human movement dynamics rather than optimizing rewards, we get:
+1. Natural quality without reward engineering
+2. Multi-behavior flexibility
+3. Practical training times
+4. Real-time performance&lt;/p&gt;
 
-&lt;p&gt;[Content placeholder: Present approaches for incorporating motion data as priors in reward functions to guide RL exploration]&lt;/p&gt;
-
-&lt;h3 id=&#34;5-3-3-adversarial-motion-learning&#34;&gt;5.3.3 Adversarial Motion Learning&lt;/h3&gt;
-
-&lt;p&gt;[Content placeholder: Discuss adversarial methods that learn to distinguish between generated and reference motions, encouraging natural movement patterns]&lt;/p&gt;
-
-&lt;h2 id=&#34;5-4-experimental-evaluation&#34;&gt;5.4 Experimental Evaluation&lt;/h2&gt;
-
-&lt;h3 id=&#34;5-4-1-benchmark-tasks&#34;&gt;5.4.1 Benchmark Tasks&lt;/h3&gt;
-
-&lt;p&gt;[Content placeholder: Define a set of benchmark tasks for evaluating data-driven RL methods in animation]&lt;/p&gt;
-
-&lt;h3 id=&#34;5-4-2-quantitative-results&#34;&gt;5.4.2 Quantitative Results&lt;/h3&gt;
-
-&lt;p&gt;[Content placeholder: Present quantitative comparisons of different approaches, including learning curves, final performance, and motion quality metrics]&lt;/p&gt;
-
-&lt;h3 id=&#34;5-4-3-qualitative-analysis&#34;&gt;5.4.3 Qualitative Analysis&lt;/h3&gt;
-
-&lt;p&gt;[Content placeholder: Provide qualitative analysis of generated animations, including visual comparisons and expert evaluations]&lt;/p&gt;
-
-&lt;h2 id=&#34;5-5-applications&#34;&gt;5.5 Applications&lt;/h2&gt;
-
-&lt;h3 id=&#34;5-5-1-style-transfer-and-motion-editing&#34;&gt;5.5.1 Style Transfer and Motion Editing&lt;/h3&gt;
-
-&lt;p&gt;[Content placeholder: Demonstrate applications to style transfer between different motion styles and interactive motion editing]&lt;/p&gt;
-
-&lt;h3 id=&#34;5-5-2-multi-skill-learning&#34;&gt;5.5.2 Multi-skill Learning&lt;/h3&gt;
-
-&lt;p&gt;[Content placeholder: Show how data-driven RL can enable learning of multiple skills from diverse motion datasets]&lt;/p&gt;
-
-&lt;h3 id=&#34;5-5-3-adaptive-character-control&#34;&gt;5.5.3 Adaptive Character Control&lt;/h3&gt;
-
-&lt;p&gt;[Content placeholder: Present applications to adaptive character control that can handle varying environments and tasks]&lt;/p&gt;
-
-&lt;h2 id=&#34;5-6-chapter-summary&#34;&gt;5.6 Chapter Summary&lt;/h2&gt;
-
-&lt;p&gt;This chapter has presented methods for effectively combining data-driven approaches with reinforcement learning for character animation. By leveraging existing motion data within an RL framework, we can create animation systems that benefit from both the quality of recorded motions and the adaptability of learned policies.&lt;/p&gt;
-
-&lt;p&gt;Key contributions include:
-- Novel algorithms for off-policy learning from motion capture data
-- Hybrid approaches that balance imitation and task-oriented learning
-- Demonstration of improved sample efficiency and motion quality
-- Applications to various animation problems including style transfer and multi-skill learning&lt;/p&gt;
-
-&lt;p&gt;The methods developed in this chapter enable more practical deployment of RL-based animation systems by reducing the need for extensive online exploration while maintaining the flexibility to adapt to new tasks and environments.&lt;/p&gt;
+&lt;p&gt;The supplementary materials showcase these agents in action, demonstrating capabilities that simply weren&amp;rsquo;t possible before. This is the foundation that enables everything in the following chapters - from finger animation to conversational gestures.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Appendix F: Star Jump Ideal Action Calculation</title>
-      <link>https://vihanga.github.io/thesis/appendices/f/</link>
-      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://vihanga.github.io/thesis/appendices/f/</guid>
-      <description>
-
-&lt;h1 id=&#34;appendix-f-star-jump-ideal-action-calculation&#34;&gt;Appendix F: Star Jump Ideal Action Calculation&lt;/h1&gt;
-
-&lt;p&gt;This appendix provides detailed mathematical derivations and calculations for determining ideal actions in the star jump motion synthesis task.&lt;/p&gt;
-
-&lt;h2 id=&#34;f-1-problem-formulation&#34;&gt;F.1 Problem Formulation&lt;/h2&gt;
-
-&lt;h3 id=&#34;f-1-1-star-jump-motion-definition&#34;&gt;F.1.1 Star Jump Motion Definition&lt;/h3&gt;
-
-&lt;p&gt;A star jump consists of the following phases:
-1. &lt;strong&gt;Preparation Phase&lt;/strong&gt;: Initial crouching position
-2. &lt;strong&gt;Launch Phase&lt;/strong&gt;: Explosive upward movement
-3. &lt;strong&gt;Aerial Phase&lt;/strong&gt;: Body forms star shape in mid-air
-4. &lt;strong&gt;Landing Phase&lt;/strong&gt;: Controlled descent and stabilization&lt;/p&gt;
-
-&lt;h3 id=&#34;f-1-2-state-space-definition&#34;&gt;F.1.2 State Space Definition&lt;/h3&gt;
-
-&lt;p&gt;The state vector &lt;strong&gt;s&lt;/strong&gt; ∈ ℝⁿ consists of:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;s = [q, q̇, h, φ, τ]
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Where:
-- &lt;strong&gt;q&lt;/strong&gt; ∈ ℝ²¹: Joint angles (7 joints × 3 DOF)
-- &lt;strong&gt;q̇&lt;/strong&gt; ∈ ℝ²¹: Joint velocities
-- &lt;strong&gt;h&lt;/strong&gt; ∈ ℝ: Height of center of mass
-- &lt;strong&gt;φ&lt;/strong&gt; ∈ ℝ³: Body orientation (Euler angles)
-- &lt;strong&gt;τ&lt;/strong&gt; ∈ [0,1]: Phase timing parameter&lt;/p&gt;
-
-&lt;h2 id=&#34;f-2-ideal-action-derivation&#34;&gt;F.2 Ideal Action Derivation&lt;/h2&gt;
-
-&lt;h3 id=&#34;f-2-1-kinematic-constraints&#34;&gt;F.2.1 Kinematic Constraints&lt;/h3&gt;
-
-&lt;p&gt;The ideal star jump configuration at peak height satisfies:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;q*_shoulder = [π/2, 0, π/4]  # Arms raised laterally
-q*_hip = [π/4, 0, π/6]       # Legs spread wide
-q*_spine = [0, 0, -π/12]     # Slight back arch
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;f-2-2-dynamic-optimization&#34;&gt;F.2.2 Dynamic Optimization&lt;/h3&gt;
-
-&lt;p&gt;The optimal action sequence &lt;strong&gt;a&lt;/strong&gt;(t) minimizes:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;J = ∫[αE(t) + βD(q,q*) + γS(q̇) + δB(τ)]dt
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Where:
-- &lt;strong&gt;E(t)&lt;/strong&gt;: Energy expenditure term
-- &lt;strong&gt;D(q,q*)&lt;/strong&gt;: Deviation from ideal pose
-- &lt;strong&gt;S(q̇)&lt;/strong&gt;: Smoothness penalty
-- &lt;strong&gt;B(τ)&lt;/strong&gt;: Balance maintenance term&lt;/p&gt;
-
-&lt;p&gt;Weights: α=0.1, β=1.0, γ=0.3, δ=0.5&lt;/p&gt;
-
-&lt;h2 id=&#34;f-3-phase-specific-calculations&#34;&gt;F.3 Phase-Specific Calculations&lt;/h2&gt;
-
-&lt;h3 id=&#34;f-3-1-preparation-phase-τ-0-0-2&#34;&gt;F.3.1 Preparation Phase (τ ∈ [0, 0.2])&lt;/h3&gt;
-
-&lt;h4 id=&#34;joint-targets&#34;&gt;Joint Targets&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;def preparation_targets(τ):
-    crouch_factor = smooth_interpolate(0, 1, τ/0.2)
-    q_target = {
-        &#39;hip&#39;: [-π/3 * crouch_factor, 0, 0],
-        &#39;knee&#39;: [π/2 * crouch_factor, 0, 0],
-        &#39;ankle&#39;: [-π/6 * crouch_factor, 0, 0],
-        &#39;shoulder&#39;: [π/6 * crouch_factor, 0, 0],
-        &#39;elbow&#39;: [-π/4 * crouch_factor, 0, 0]
-    }
-    return q_target
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&#34;force-requirements&#34;&gt;Force Requirements&lt;/h4&gt;
-
-&lt;p&gt;Vertical ground reaction force:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;F_z = m*g + m*a_prep
-a_prep = -2.5 m/s² (downward acceleration)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;f-3-2-launch-phase-τ-0-2-0-35&#34;&gt;F.3.2 Launch Phase (τ ∈ [0.2, 0.35])&lt;/h3&gt;
-
-&lt;h4 id=&#34;optimal-launch-velocity&#34;&gt;Optimal Launch Velocity&lt;/h4&gt;
-
-&lt;p&gt;Using projectile motion equations:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;v₀ = √(2gh_target)
-h_target = 0.5m (typical jump height)
-v₀ ≈ 3.13 m/s
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&#34;joint-torques&#34;&gt;Joint Torques&lt;/h4&gt;
-
-&lt;p&gt;Maximum torques during launch:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;τ_max = {
-    &#39;hip&#39;: 250 Nm,
-    &#39;knee&#39;: 180 Nm,
-    &#39;ankle&#39;: 120 Nm,
-    &#39;shoulder&#39;: 60 Nm
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;f-3-3-aerial-phase-τ-0-35-0-65&#34;&gt;F.3.3 Aerial Phase (τ ∈ [0.35, 0.65])&lt;/h3&gt;
-
-&lt;h4 id=&#34;star-formation-trajectory&#34;&gt;Star Formation Trajectory&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;def aerial_trajectory(t_flight):
-    # Normalized time in aerial phase
-    t_norm = (t_flight - 0.35) / 0.3
-    
-    # Smooth transition to star pose
-    spread_factor = sin(π * t_norm)
-    
-    q_aerial = {
-        &#39;shoulder_abduction&#39;: π/2 * spread_factor,
-        &#39;shoulder_flexion&#39;: π/6 * spread_factor,
-        &#39;hip_abduction&#39;: π/3 * spread_factor,
-        &#39;hip_flexion&#39;: π/6 * spread_factor,
-        &#39;spine_extension&#39;: -π/12 * spread_factor
-    }
-    return q_aerial
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&#34;angular-momentum-conservation&#34;&gt;Angular Momentum Conservation&lt;/h4&gt;
-
-&lt;p&gt;Total angular momentum &lt;strong&gt;L&lt;/strong&gt; = 0 (no rotation):&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;L = Σᵢ(rᵢ × mᵢvᵢ) + Iω = 0
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;f-3-4-landing-phase-τ-0-65-1-0&#34;&gt;F.3.4 Landing Phase (τ ∈ [0.65, 1.0])&lt;/h3&gt;
-
-&lt;h4 id=&#34;impact-absorption-strategy&#34;&gt;Impact Absorption Strategy&lt;/h4&gt;
-
-&lt;p&gt;Joint stiffness schedule:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;def landing_stiffness(τ_land):
-    # Progressive stiffening
-    k_base = 500  # N·m/rad
-    k_factor = 1 + 2 * (τ_land - 0.65) / 0.35
-    
-    k_joints = {
-        &#39;ankle&#39;: k_base * k_factor * 1.2,
-        &#39;knee&#39;: k_base * k_factor * 1.0,
-        &#39;hip&#39;: k_base * k_factor * 0.8
-    }
-    return k_joints
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;f-4-control-law-implementation&#34;&gt;F.4 Control Law Implementation&lt;/h2&gt;
-
-&lt;h3 id=&#34;f-4-1-pd-controller-with-feedforward&#34;&gt;F.4.1 PD Controller with Feedforward&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;def ideal_action(s, τ):
-    # Extract current state
-    q_current, q̇_current = s.joints, s.velocities
-    
-    # Get phase-appropriate targets
-    q_target = get_phase_targets(τ)
-    q̇_target = get_phase_velocities(τ)
-    
-    # PD control law
-    K_p = get_phase_gains_p(τ)
-    K_d = get_phase_gains_d(τ)
-    
-    # Feedforward term
-    τ_ff = get_feedforward_torques(τ)
-    
-    # Combined control
-    τ_control = K_p @ (q_target - q_current) + \
-                K_d @ (q̇_target - q̇_current) + \
-                τ_ff
-                
-    return clip_torques(τ_control, τ_max)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;f-4-2-phase-transition-conditions&#34;&gt;F.4.2 Phase Transition Conditions&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;def check_phase_transition(s, τ):
-    if τ &amp;lt; 0.2:  # Preparation
-        return s.com_velocity[2] &amp;lt; -0.1
-    elif τ &amp;lt; 0.35:  # Launch
-        return s.ground_contact and s.com_velocity[2] &amp;gt; 2.0
-    elif τ &amp;lt; 0.65:  # Aerial
-        return not s.ground_contact
-    else:  # Landing
-        return s.ground_contact and abs(s.com_velocity[2]) &amp;lt; 0.1
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;f-5-validation-results&#34;&gt;F.5 Validation Results&lt;/h2&gt;
-
-&lt;h3 id=&#34;f-5-1-simulated-performance&#34;&gt;F.5.1 Simulated Performance&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Metric&lt;/th&gt;
-&lt;th&gt;Ideal&lt;/th&gt;
-&lt;th&gt;Achieved&lt;/th&gt;
-&lt;th&gt;Error&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Jump Height&lt;/td&gt;
-&lt;td&gt;0.50m&lt;/td&gt;
-&lt;td&gt;0.48m&lt;/td&gt;
-&lt;td&gt;4%&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Flight Time&lt;/td&gt;
-&lt;td&gt;0.64s&lt;/td&gt;
-&lt;td&gt;0.62s&lt;/td&gt;
-&lt;td&gt;3%&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Star Spread&lt;/td&gt;
-&lt;td&gt;1.8m&lt;/td&gt;
-&lt;td&gt;1.75m&lt;/td&gt;
-&lt;td&gt;2.8%&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Landing Stability&lt;/td&gt;
-&lt;td&gt;&amp;lt;5°&lt;/td&gt;
-&lt;td&gt;3.2°&lt;/td&gt;
-&lt;td&gt;✓&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&#34;f-5-2-energy-efficiency&#34;&gt;F.5.2 Energy Efficiency&lt;/h3&gt;
-
-&lt;p&gt;Total energy expenditure:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;E_total = E_kinetic + E_potential + E_internal
-        = 245J + 196J + 87J
-        = 528J
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Efficiency compared to simplified model: 78%&lt;/p&gt;
-
-&lt;h2 id=&#34;f-6-implementation-notes&#34;&gt;F.6 Implementation Notes&lt;/h2&gt;
-
-&lt;h3 id=&#34;f-6-1-numerical-stability&#34;&gt;F.6.1 Numerical Stability&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Use quaternions for orientation to avoid gimbal lock&lt;/li&gt;
-&lt;li&gt;Apply low-pass filtering to joint velocities&lt;/li&gt;
-&lt;li&gt;Implement safety limits on all joint angles&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;f-6-2-real-time-considerations&#34;&gt;F.6.2 Real-time Considerations&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Pre-compute phase trajectories&lt;/li&gt;
-&lt;li&gt;Use lookup tables for trigonometric functions&lt;/li&gt;
-&lt;li&gt;Parallelize joint calculations when possible&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;f-6-3-robustness-enhancements&#34;&gt;F.6.3 Robustness Enhancements&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Add compliance terms for unexpected disturbances&lt;/li&gt;
-&lt;li&gt;Implement recovery strategies for off-nominal conditions&lt;/li&gt;
-&lt;li&gt;Include proprioceptive feedback integration&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Chapter 6: Latent Dynamics Models for Character Animation</title>
+      <title>Chapter 6: Quaternions and Finger Animation</title>
       <link>https://vihanga.github.io/thesis/chapters/latent-dynamics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vihanga.github.io/thesis/chapters/latent-dynamics/</guid>
       <description>
 
-&lt;h1 id=&#34;chapter-6-latent-dynamics-models-for-character-animation&#34;&gt;Chapter 6: Latent Dynamics Models for Character Animation&lt;/h1&gt;
+&lt;h1 id=&#34;quaternions-and-finger-animation&#34;&gt;Quaternions and Finger Animation&lt;/h1&gt;
 
-&lt;p&gt;This chapter presents methods for learning compact latent representations of character dynamics, enabling more efficient learning and control of complex animation behaviors through dimensionality reduction and structured latent spaces.&lt;/p&gt;
+&lt;p&gt;Chapter 6 tackles one of animation&amp;rsquo;s nastiest problems: fingers. With 30+ joints that move in complex, coordinated patterns, finger animation has long been the bane of procedural methods. My solution? Quaternions and a dedicated animation dynamics model.&lt;/p&gt;
 
-&lt;h2 id=&#34;6-1-introduction&#34;&gt;6.1 Introduction&lt;/h2&gt;
+&lt;h2 id=&#34;why-fingers-matter-and-why-they-re-hard&#34;&gt;Why Fingers Matter (And Why They&amp;rsquo;re Hard)&lt;/h2&gt;
 
-&lt;p&gt;[Content placeholder: Introduce the concept of latent dynamics models and their benefits for character animation, including improved generalization and computational efficiency]&lt;/p&gt;
+&lt;p&gt;Watch someone wave - their fingers aren&amp;rsquo;t static. They curl, extend, and move with subtle patterns that make the gesture feel alive. Miss these details and even perfect arm movements feel robotic.&lt;/p&gt;
 
-&lt;h2 id=&#34;6-2-learning-latent-representations&#34;&gt;6.2 Learning Latent Representations&lt;/h2&gt;
+&lt;p&gt;The challenge is combinatorial explosion. Each finger has multiple joints, each with constraints, and they all need to coordinate. Traditional methods either ignore fingers entirely or produce uncanny &amp;ldquo;spider hands&amp;rdquo; that distract from otherwise good animation.&lt;/p&gt;
 
-&lt;p&gt;This section describes methods for learning meaningful latent representations of character states and dynamics.&lt;/p&gt;
+&lt;h2 id=&#34;the-quaternion-revolution&#34;&gt;The Quaternion Revolution&lt;/h2&gt;
 
-&lt;h3 id=&#34;6-2-1-variational-autoencoders-for-motion&#34;&gt;6.2.1 Variational Autoencoders for Motion&lt;/h3&gt;
+&lt;p&gt;The first breakthrough was switching from Euler angles to quaternions. This isn&amp;rsquo;t just a mathematical nicety - it fundamentally changes what the neural networks can learn:&lt;/p&gt;
 
-&lt;p&gt;[Content placeholder: Present VAE-based approaches for learning latent representations of character poses and motions]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;No gimbal lock&lt;/strong&gt;: Fingers can rotate freely without singularities&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Smooth interpolation&lt;/strong&gt;: Natural transitions between poses&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Efficient computation&lt;/strong&gt;: 4 parameters instead of 9 for rotation matrices&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Better gradients&lt;/strong&gt;: Networks train more stably&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h3 id=&#34;6-2-2-dynamics-in-latent-space&#34;&gt;6.2.2 Dynamics in Latent Space&lt;/h3&gt;
+&lt;p&gt;I developed a custom quaternion activation function that guarantees valid unit quaternions, eliminating a whole class of animation artifacts.&lt;/p&gt;
 
-&lt;p&gt;[Content placeholder: Describe methods for learning dynamics models that operate in the learned latent space rather than the full state space]&lt;/p&gt;
+&lt;h2 id=&#34;a3-the-animation-dynamics-architecture&#34;&gt;A3: The Animation Dynamics Architecture&lt;/h2&gt;
 
-&lt;h3 id=&#34;6-2-3-structured-latent-spaces&#34;&gt;6.2.3 Structured Latent Spaces&lt;/h3&gt;
+&lt;p&gt;The real innovation is the A3 architecture&amp;rsquo;s animation dynamics model. Instead of trying to force finger movements into the same model as body dynamics, A3 uses:&lt;/p&gt;
 
-&lt;p&gt;[Content placeholder: Discuss techniques for imposing structure on latent spaces to improve interpretability and control]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Dedicated animation dynamics&lt;/strong&gt;: A separate latent model just for animation generation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hierarchical dependencies&lt;/strong&gt;: Fingers know what the wrist is doing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stochastic variation&lt;/strong&gt;: Natural movement isn&amp;rsquo;t perfectly deterministic&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h2 id=&#34;6-3-control-in-latent-space&#34;&gt;6.3 Control in Latent Space&lt;/h2&gt;
+&lt;p&gt;This separation is key. Physical dynamics (for the body) and animation dynamics (for detailed movements) have different requirements. By acknowledging this, A3 achieves both physical plausibility and expressive detail.&lt;/p&gt;
 
-&lt;p&gt;This section presents methods for character control that operate in the learned latent representations.&lt;/p&gt;
+&lt;h2 id=&#34;the-results-speak-or-rather-wave&#34;&gt;The Results Speak (Or Rather, Wave)&lt;/h2&gt;
 
-&lt;h3 id=&#34;6-3-1-latent-policy-learning&#34;&gt;6.3.1 Latent Policy Learning&lt;/h3&gt;
+&lt;p&gt;The numbers tell the story:
+- &lt;strong&gt;5.34 point improvement&lt;/strong&gt; in animation quality over A2
+- &lt;strong&gt;All velocity errors under 0.4&lt;/strong&gt; - below human perceptual threshold
+- &lt;strong&gt;30+ additional joints&lt;/strong&gt; handled without performance degradation
+- &lt;strong&gt;Same 5ms inference time&lt;/strong&gt; despite the added complexity&lt;/p&gt;
 
-&lt;p&gt;[Content placeholder: Describe reinforcement learning algorithms that learn policies in latent space]&lt;/p&gt;
+&lt;p&gt;But watching the animations tells it better. A3 agents wave with natural finger curls, point with appropriate hand shapes, and maintain hand poses that feel human.&lt;/p&gt;
 
-&lt;h3 id=&#34;6-3-2-hierarchical-control-architectures&#34;&gt;6.3.2 Hierarchical Control Architectures&lt;/h3&gt;
+&lt;h2 id=&#34;technical-contributions&#34;&gt;Technical Contributions&lt;/h2&gt;
 
-&lt;p&gt;[Content placeholder: Present hierarchical control methods that use latent representations at different levels of abstraction]&lt;/p&gt;
+&lt;p&gt;Beyond the practical results, this chapter contributes:
+1. &lt;strong&gt;Quaternion neural networks&lt;/strong&gt; for animation
+2. &lt;strong&gt;Hierarchical latent dynamics&lt;/strong&gt; modeling
+3. &lt;strong&gt;Animation-specific dynamics&lt;/strong&gt; separate from physics
+4. &lt;strong&gt;Proof that detail doesn&amp;rsquo;t require sacrificing speed&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;6-3-3-transfer-and-generalization&#34;&gt;6.3.3 Transfer and Generalization&lt;/h3&gt;
+&lt;h2 id=&#34;why-this-matters&#34;&gt;Why This Matters&lt;/h2&gt;
 
-&lt;p&gt;[Content placeholder: Discuss how latent representations enable better transfer learning and generalization across different characters and tasks]&lt;/p&gt;
+&lt;p&gt;Fingers might seem like a detail, but they&amp;rsquo;re symptomatic of a larger challenge: how do we handle the full complexity of human movement? A3 shows that with the right representations and architecture, we can capture fine details while maintaining real-time performance.&lt;/p&gt;
 
-&lt;h2 id=&#34;6-4-applications-to-complex-behaviors&#34;&gt;6.4 Applications to Complex Behaviors&lt;/h2&gt;
-
-&lt;h3 id=&#34;6-4-1-multi-character-coordination&#34;&gt;6.4.1 Multi-character Coordination&lt;/h3&gt;
-
-&lt;p&gt;[Content placeholder: Demonstrate applications to coordinating multiple characters using shared latent representations]&lt;/p&gt;
-
-&lt;h3 id=&#34;6-4-2-long-horizon-planning&#34;&gt;6.4.2 Long-horizon Planning&lt;/h3&gt;
-
-&lt;p&gt;[Content placeholder: Show how latent dynamics models enable efficient long-horizon planning for complex animation sequences]&lt;/p&gt;
-
-&lt;h3 id=&#34;6-4-3-interactive-character-control&#34;&gt;6.4.3 Interactive Character Control&lt;/h3&gt;
-
-&lt;p&gt;[Content placeholder: Present applications to real-time interactive control using latent space representations]&lt;/p&gt;
-
-&lt;h2 id=&#34;6-5-experimental-results&#34;&gt;6.5 Experimental Results&lt;/h2&gt;
-
-&lt;h3 id=&#34;6-5-1-representation-quality&#34;&gt;6.5.1 Representation Quality&lt;/h3&gt;
-
-&lt;p&gt;[Content placeholder: Evaluate the quality of learned latent representations through reconstruction accuracy and semantic meaningfulness]&lt;/p&gt;
-
-&lt;h3 id=&#34;6-5-2-control-performance&#34;&gt;6.5.2 Control Performance&lt;/h3&gt;
-
-&lt;p&gt;[Content placeholder: Compare control performance using latent dynamics models versus full-state approaches]&lt;/p&gt;
-
-&lt;h3 id=&#34;6-5-3-computational-efficiency&#34;&gt;6.5.3 Computational Efficiency&lt;/h3&gt;
-
-&lt;p&gt;[Content placeholder: Analyze the computational benefits of operating in latent space for both learning and inference]&lt;/p&gt;
-
-&lt;h2 id=&#34;6-6-chapter-summary&#34;&gt;6.6 Chapter Summary&lt;/h2&gt;
-
-&lt;p&gt;This chapter has presented a comprehensive framework for learning and utilizing latent dynamics models in character animation. By operating in learned latent spaces, we can achieve more efficient learning, better generalization, and more intuitive control of complex character behaviors.&lt;/p&gt;
-
-&lt;p&gt;Key contributions of this chapter include:
-- Novel architectures for learning structured latent representations of character dynamics
-- Efficient control algorithms that operate in latent space
-- Demonstration of improved sample efficiency and generalization
-- Applications to challenging animation problems including multi-character coordination and long-horizon planning&lt;/p&gt;
-
-&lt;p&gt;The latent dynamics approach developed in this chapter provides a foundation for scaling character animation systems to more complex behaviors and environments while maintaining computational tractability and control quality.&lt;/p&gt;
+&lt;p&gt;This sets the stage for Chapter 7&amp;rsquo;s ultimate test - conversational gestures where every detail matters for believability.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Appendix G: RLAnimate Directory</title>
-      <link>https://vihanga.github.io/thesis/appendices/g/</link>
-      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://vihanga.github.io/thesis/appendices/g/</guid>
-      <description>
-
-&lt;h1 id=&#34;appendix-g-rlanimate-directory&#34;&gt;Appendix G: RLAnimate Directory&lt;/h1&gt;
-
-&lt;p&gt;This appendix provides a comprehensive directory of the RLAnimate framework, including its architecture, components, API reference, and usage examples.&lt;/p&gt;
-
-&lt;h2 id=&#34;g-1-system-architecture&#34;&gt;G.1 System Architecture&lt;/h2&gt;
-
-&lt;h3 id=&#34;g-1-1-overview&#34;&gt;G.1.1 Overview&lt;/h3&gt;
-
-&lt;p&gt;RLAnimate is a modular framework for physics-based character animation using reinforcement learning. The system consists of:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;RLAnimate/
-├── core/
-│   ├── agents/
-│   ├── environments/
-│   ├── physics/
-│   └── utils/
-├── models/
-│   ├── policies/
-│   ├── value_functions/
-│   └── networks/
-├── training/
-│   ├── algorithms/
-│   ├── replay_buffers/
-│   └── schedulers/
-├── evaluation/
-│   ├── metrics/
-│   ├── visualization/
-│   └── benchmarks/
-└── examples/
-    ├── tutorials/
-    ├── experiments/
-    └── demos/
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;g-1-2-core-components&#34;&gt;G.1.2 Core Components&lt;/h3&gt;
-
-&lt;h4 id=&#34;physics-engine-interface&#34;&gt;Physics Engine Interface&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;class PhysicsInterface:
-    &amp;quot;&amp;quot;&amp;quot;Abstract interface for physics simulation backends&amp;quot;&amp;quot;&amp;quot;
-    
-    def step(self, actions: np.ndarray) -&amp;gt; Tuple[State, float, bool, dict]:
-        &amp;quot;&amp;quot;&amp;quot;Advance simulation by one timestep&amp;quot;&amp;quot;&amp;quot;
-        
-    def reset(self) -&amp;gt; State:
-        &amp;quot;&amp;quot;&amp;quot;Reset simulation to initial state&amp;quot;&amp;quot;&amp;quot;
-        
-    def get_state(self) -&amp;gt; State:
-        &amp;quot;&amp;quot;&amp;quot;Get current simulation state&amp;quot;&amp;quot;&amp;quot;
-        
-    def set_state(self, state: State) -&amp;gt; None:
-        &amp;quot;&amp;quot;&amp;quot;Set simulation state&amp;quot;&amp;quot;&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&#34;character-model&#34;&gt;Character Model&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;class Character:
-    &amp;quot;&amp;quot;&amp;quot;Articulated character representation&amp;quot;&amp;quot;&amp;quot;
-    
-    properties = {
-        &#39;num_joints&#39;: 21,
-        &#39;num_dof&#39;: 63,
-        &#39;mass&#39;: 70.0,  # kg
-        &#39;height&#39;: 1.75  # m
-    }
-    
-    joints = [
-        &#39;pelvis&#39;, &#39;spine&#39;, &#39;chest&#39;, &#39;neck&#39;, &#39;head&#39;,
-        &#39;left_shoulder&#39;, &#39;left_elbow&#39;, &#39;left_wrist&#39;,
-        &#39;right_shoulder&#39;, &#39;right_elbow&#39;, &#39;right_wrist&#39;,
-        &#39;left_hip&#39;, &#39;left_knee&#39;, &#39;left_ankle&#39;,
-        &#39;right_hip&#39;, &#39;right_knee&#39;, &#39;right_ankle&#39;
-    ]
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;g-2-api-reference&#34;&gt;G.2 API Reference&lt;/h2&gt;
-
-&lt;h3 id=&#34;g-2-1-environment-api&#34;&gt;G.2.1 Environment API&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;class RLAnimateEnv(gym.Env):
-    &amp;quot;&amp;quot;&amp;quot;Base environment for character animation tasks&amp;quot;&amp;quot;&amp;quot;
-    
-    def __init__(self, config: Dict[str, Any]):
-        &amp;quot;&amp;quot;&amp;quot;
-        Args:
-            config: Environment configuration dictionary
-        &amp;quot;&amp;quot;&amp;quot;
-        
-    def step(self, action: np.ndarray) -&amp;gt; Tuple[np.ndarray, float, bool, dict]:
-        &amp;quot;&amp;quot;&amp;quot;
-        Execute action and return step information
-        
-        Args:
-            action: Joint torques or target positions
-            
-        Returns:
-            observation: Current state observation
-            reward: Step reward
-            done: Episode termination flag
-            info: Additional information
-        &amp;quot;&amp;quot;&amp;quot;
-        
-    def reset(self) -&amp;gt; np.ndarray:
-        &amp;quot;&amp;quot;&amp;quot;Reset environment to initial state&amp;quot;&amp;quot;&amp;quot;
-        
-    def render(self, mode: str = &#39;human&#39;) -&amp;gt; Optional[np.ndarray]:
-        &amp;quot;&amp;quot;&amp;quot;Render current state&amp;quot;&amp;quot;&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;g-2-2-policy-api&#34;&gt;G.2.2 Policy API&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;class Policy(nn.Module):
-    &amp;quot;&amp;quot;&amp;quot;Base policy network class&amp;quot;&amp;quot;&amp;quot;
-    
-    def forward(self, obs: torch.Tensor) -&amp;gt; Distribution:
-        &amp;quot;&amp;quot;&amp;quot;
-        Compute action distribution
-        
-        Args:
-            obs: Observation tensor
-            
-        Returns:
-            Action distribution (Normal or Categorical)
-        &amp;quot;&amp;quot;&amp;quot;
-        
-    def get_action(self, obs: torch.Tensor, 
-                   deterministic: bool = False) -&amp;gt; torch.Tensor:
-        &amp;quot;&amp;quot;&amp;quot;Sample action from policy&amp;quot;&amp;quot;&amp;quot;
-        
-    def evaluate_actions(self, obs: torch.Tensor, 
-                        actions: torch.Tensor) -&amp;gt; Tuple[torch.Tensor, torch.Tensor]:
-        &amp;quot;&amp;quot;&amp;quot;Evaluate log probability and entropy of actions&amp;quot;&amp;quot;&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;g-2-3-training-api&#34;&gt;G.2.3 Training API&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;class Trainer:
-    &amp;quot;&amp;quot;&amp;quot;Main training orchestrator&amp;quot;&amp;quot;&amp;quot;
-    
-    def __init__(self, 
-                 env: RLAnimateEnv,
-                 policy: Policy,
-                 algorithm: str = &#39;ppo&#39;,
-                 config: Dict[str, Any] = None):
-        &amp;quot;&amp;quot;&amp;quot;Initialize trainer with environment and policy&amp;quot;&amp;quot;&amp;quot;
-        
-    def train(self, 
-              total_timesteps: int,
-              callback: Optional[Callable] = None) -&amp;gt; Policy:
-        &amp;quot;&amp;quot;&amp;quot;
-        Train policy for specified timesteps
-        
-        Returns:
-            Trained policy
-        &amp;quot;&amp;quot;&amp;quot;
-        
-    def save(self, path: str) -&amp;gt; None:
-        &amp;quot;&amp;quot;&amp;quot;Save trained model&amp;quot;&amp;quot;&amp;quot;
-        
-    def load(self, path: str) -&amp;gt; None:
-        &amp;quot;&amp;quot;&amp;quot;Load trained model&amp;quot;&amp;quot;&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;g-3-configuration-system&#34;&gt;G.3 Configuration System&lt;/h2&gt;
-
-&lt;h3 id=&#34;g-3-1-environment-configuration&#34;&gt;G.3.1 Environment Configuration&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;# config/env/locomotion.yaml
-env:
-  name: &amp;quot;Locomotion-v1&amp;quot;
-  physics_backend: &amp;quot;mujoco&amp;quot;
-  timestep: 0.01
-  max_episode_steps: 1000
-  
-  observation:
-    include_velocities: true
-    include_accelerations: false
-    history_length: 3
-    
-  reward:
-    weights:
-      task: 1.0
-      energy: 0.1
-      smoothness: 0.05
-      balance: 0.2
-      
-  termination:
-    fall_threshold: 0.3
-    max_joint_error: 45  # degrees
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;g-3-2-training-configuration&#34;&gt;G.3.2 Training Configuration&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;# config/train/ppo_default.yaml
-algorithm: &amp;quot;ppo&amp;quot;
-policy:
-  network_type: &amp;quot;mlp&amp;quot;
-  hidden_sizes: [256, 256]
-  activation: &amp;quot;tanh&amp;quot;
-  
-training:
-  learning_rate: 3e-4
-  n_steps: 2048
-  batch_size: 64
-  n_epochs: 10
-  gamma: 0.99
-  gae_lambda: 0.95
-  clip_range: 0.2
-  
-  schedule:
-    learning_rate: &amp;quot;linear&amp;quot;
-    clip_range: &amp;quot;constant&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;g-4-usage-examples&#34;&gt;G.4 Usage Examples&lt;/h2&gt;
-
-&lt;h3 id=&#34;g-4-1-basic-training-script&#34;&gt;G.4.1 Basic Training Script&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import rlanimate as rla
-
-# Create environment
-env = rla.make_env(&#39;Locomotion-v1&#39;)
-
-# Create policy
-policy = rla.Policy(
-    observation_space=env.observation_space,
-    action_space=env.action_space,
-    hidden_sizes=[256, 256]
-)
-
-# Create trainer
-trainer = rla.Trainer(
-    env=env,
-    policy=policy,
-    algorithm=&#39;ppo&#39;,
-    config={&#39;learning_rate&#39;: 3e-4}
-)
-
-# Train
-policy = trainer.train(total_timesteps=1_000_000)
-
-# Save model
-trainer.save(&#39;models/locomotion_ppo.zip&#39;)
-
-# Evaluate
-mean_reward = rla.evaluate(env, policy, n_episodes=100)
-print(f&amp;quot;Mean reward: {mean_reward}&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;g-4-2-custom-task-definition&#34;&gt;G.4.2 Custom Task Definition&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;class JumpingTask(rla.Task):
-    &amp;quot;&amp;quot;&amp;quot;Custom jumping task&amp;quot;&amp;quot;&amp;quot;
-    
-    def __init__(self, target_height: float = 0.5):
-        self.target_height = target_height
-        
-    def compute_reward(self, state: State, action: np.ndarray) -&amp;gt; float:
-        # Height reward
-        height_reward = np.exp(-abs(state.com_height - self.target_height))
-        
-        # Posture reward
-        posture_reward = self.compute_posture_reward(state)
-        
-        # Energy penalty
-        energy_penalty = -0.001 * np.sum(action**2)
-        
-        return height_reward + 0.5 * posture_reward + energy_penalty
-        
-    def is_success(self, state: State) -&amp;gt; bool:
-        return state.max_com_height &amp;gt;= self.target_height * 0.95
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;g-4-3-visualization-script&#34;&gt;G.4.3 Visualization Script&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import rlanimate.visualization as viz
-
-# Load trained model
-env = rla.make_env(&#39;Locomotion-v1&#39;)
-policy = rla.load_policy(&#39;models/locomotion_ppo.zip&#39;)
-
-# Create visualizer
-visualizer = viz.Visualizer(env, policy)
-
-# Interactive visualization
-visualizer.run_interactive()
-
-# Record video
-visualizer.record_video(
-    &#39;output/locomotion_demo.mp4&#39;,
-    n_episodes=5,
-    fps=30
-)
-
-# Generate trajectory plots
-trajectories = visualizer.collect_trajectories(n_episodes=10)
-viz.plot_trajectories(trajectories, save_path=&#39;output/trajectories.png&#39;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;g-5-extension-guide&#34;&gt;G.5 Extension Guide&lt;/h2&gt;
-
-&lt;h3 id=&#34;g-5-1-adding-new-environments&#34;&gt;G.5.1 Adding New Environments&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# rlanimate/envs/custom_env.py
-class CustomEnv(RLAnimateEnv):
-    &amp;quot;&amp;quot;&amp;quot;Template for custom environment&amp;quot;&amp;quot;&amp;quot;
-    
-    def __init__(self, config):
-        super().__init__(config)
-        # Initialize custom components
-        
-    def _compute_reward(self, state, action):
-        # Implement reward function
-        pass
-        
-    def _get_observation(self, state):
-        # Implement observation extraction
-        pass
-        
-# Register environment
-from gym.envs.registration import register
-register(
-    id=&#39;CustomEnv-v1&#39;,
-    entry_point=&#39;rlanimate.envs:CustomEnv&#39;,
-)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;g-5-2-adding-new-algorithms&#34;&gt;G.5.2 Adding New Algorithms&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# rlanimate/algorithms/custom_algo.py
-class CustomAlgorithm(BaseAlgorithm):
-    &amp;quot;&amp;quot;&amp;quot;Template for custom RL algorithm&amp;quot;&amp;quot;&amp;quot;
-    
-    def train_step(self, batch):
-        # Implement training step
-        pass
-        
-    def update_policy(self, trajectories):
-        # Implement policy update
-        pass
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;g-6-performance-benchmarks&#34;&gt;G.6 Performance Benchmarks&lt;/h2&gt;
-
-&lt;h3 id=&#34;g-6-1-training-speed&#34;&gt;G.6.1 Training Speed&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Algorithm&lt;/th&gt;
-&lt;th&gt;Steps/Second&lt;/th&gt;
-&lt;th&gt;GPU Memory&lt;/th&gt;
-&lt;th&gt;Training Time (1M steps)&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;PPO&lt;/td&gt;
-&lt;td&gt;15,000&lt;/td&gt;
-&lt;td&gt;2.1 GB&lt;/td&gt;
-&lt;td&gt;1.1 hours&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;SAC&lt;/td&gt;
-&lt;td&gt;12,000&lt;/td&gt;
-&lt;td&gt;2.8 GB&lt;/td&gt;
-&lt;td&gt;1.4 hours&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;TD3&lt;/td&gt;
-&lt;td&gt;13,500&lt;/td&gt;
-&lt;td&gt;2.5 GB&lt;/td&gt;
-&lt;td&gt;1.2 hours&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&#34;g-6-2-task-performance&#34;&gt;G.6.2 Task Performance&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Task&lt;/th&gt;
-&lt;th&gt;PPO&lt;/th&gt;
-&lt;th&gt;SAC&lt;/th&gt;
-&lt;th&gt;TD3&lt;/th&gt;
-&lt;th&gt;Human Demo&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Walk&lt;/td&gt;
-&lt;td&gt;0.92&lt;/td&gt;
-&lt;td&gt;0.94&lt;/td&gt;
-&lt;td&gt;0.91&lt;/td&gt;
-&lt;td&gt;0.98&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Run&lt;/td&gt;
-&lt;td&gt;0.88&lt;/td&gt;
-&lt;td&gt;0.91&lt;/td&gt;
-&lt;td&gt;0.89&lt;/td&gt;
-&lt;td&gt;0.97&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Jump&lt;/td&gt;
-&lt;td&gt;0.85&lt;/td&gt;
-&lt;td&gt;0.82&lt;/td&gt;
-&lt;td&gt;0.86&lt;/td&gt;
-&lt;td&gt;0.95&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;g-7-troubleshooting&#34;&gt;G.7 Troubleshooting&lt;/h2&gt;
-
-&lt;h3 id=&#34;g-7-1-common-issues&#34;&gt;G.7.1 Common Issues&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;ImportError&lt;/strong&gt;: Ensure all dependencies are installed&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;CUDA Error&lt;/strong&gt;: Check GPU compatibility and drivers&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Memory Error&lt;/strong&gt;: Reduce batch size or model size&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Convergence Issues&lt;/strong&gt;: Adjust learning rate or exploration&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;g-7-2-debug-mode&#34;&gt;G.7.2 Debug Mode&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Enable debug logging
-import logging
-logging.basicConfig(level=logging.DEBUG)
-
-# Run with debug flags
-env = rla.make_env(&#39;Locomotion-v1&#39;, debug=True)
-trainer = rla.Trainer(env, policy, debug=True)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;g-8-license-and-citation&#34;&gt;G.8 License and Citation&lt;/h2&gt;
-
-&lt;h3 id=&#34;g-8-1-license&#34;&gt;G.8.1 License&lt;/h3&gt;
-
-&lt;p&gt;RLAnimate is released under the MIT License.&lt;/p&gt;
-
-&lt;h3 id=&#34;g-8-2-citation&#34;&gt;G.8.2 Citation&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bibtex&#34;&gt;@software{rlanimate2024,
-  title={RLAnimate: A Framework for Physics-based Character Animation},
-  author={[Author Names]},
-  year={2024},
-  url={https://github.com/[username]/rlanimate}
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Chapter 7: Conversational Gesture Generation</title>
+      <title>Chapter 7: Beat Gestures - The Ultimate Test</title>
       <link>https://vihanga.github.io/thesis/chapters/conversational-gestures/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vihanga.github.io/thesis/chapters/conversational-gestures/</guid>
       <description>
 
-&lt;h1 id=&#34;chapter-7-conversational-gesture-generation&#34;&gt;Chapter 7: Conversational Gesture Generation&lt;/h1&gt;
+&lt;h1 id=&#34;beat-gestures-the-ultimate-test&#34;&gt;Beat Gestures: The Ultimate Test&lt;/h1&gt;
 
-&lt;p&gt;This chapter addresses the specific challenge of generating natural conversational gestures that accompany speech, presenting methods for creating embodied conversational agents with realistic nonverbal communication behaviors.&lt;/p&gt;
+&lt;p&gt;This chapter represents the culmination of everything - applying RLAnimate to conversational beat gestures. It&amp;rsquo;s the hardest test possible: can RL-generated animations be indistinguishable from real human gestures? The answer, validated through rigorous perceptual studies, is yes.&lt;/p&gt;
 
-&lt;h2 id=&#34;7-1-introduction&#34;&gt;7.1 Introduction&lt;/h2&gt;
+&lt;h2 id=&#34;why-beat-gestures-are-different&#34;&gt;Why Beat Gestures Are Different&lt;/h2&gt;
 
-&lt;p&gt;[Content placeholder: Introduce the importance of conversational gestures in human communication and the challenges of automatic gesture generation for virtual agents]&lt;/p&gt;
+&lt;p&gt;Beat gestures - those rhythmic hand movements we make while speaking - are uniquely challenging:
+- They&amp;rsquo;re not goal-directed (unlike pointing or waving)
+- They must synchronize with speech prosody
+- They require subtle variety to feel natural
+- There&amp;rsquo;s no &amp;ldquo;correct&amp;rdquo; gesture - only human-like ones&lt;/p&gt;
 
-&lt;h2 id=&#34;7-2-understanding-conversational-gestures&#34;&gt;7.2 Understanding Conversational Gestures&lt;/h2&gt;
+&lt;p&gt;This is where physics-based RL completely fails. There&amp;rsquo;s no physics objective for &amp;ldquo;emphasize this word appropriately.&amp;rdquo; Yet these gestures are crucial for believable virtual humans.&lt;/p&gt;
 
-&lt;p&gt;This section provides background on the nature and function of conversational gestures.&lt;/p&gt;
+&lt;h2 id=&#34;the-a4-architecture-realism-first&#34;&gt;The A4 Architecture: Realism First&lt;/h2&gt;
 
-&lt;h3 id=&#34;7-2-1-types-of-conversational-gestures&#34;&gt;7.2.1 Types of Conversational Gestures&lt;/h3&gt;
+&lt;p&gt;A4 builds on A3 but adds my most important innovation: realism regularization. Four components work together:&lt;/p&gt;
 
-&lt;p&gt;[Content placeholder: Categorize different types of gestures including beat gestures, iconic gestures, metaphoric gestures, and deictic gestures]&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Rotation regularization&lt;/strong&gt;: Prevents unnatural joint configurations&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Physics regularization&lt;/strong&gt;: Respects momentum and energy conservation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Smoothness regularization&lt;/strong&gt;: Eliminates jittery movements&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Adversarial regularization&lt;/strong&gt;: Learned realism from data&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;h3 id=&#34;7-2-2-speech-gesture-synchrony&#34;&gt;7.2.2 Speech-Gesture Synchrony&lt;/h3&gt;
+&lt;p&gt;The key insight: by combining multiple forms of regularization, we achieve robustness. Any single method might fail, but together they create a strong prior for human-like movement.&lt;/p&gt;
 
-&lt;p&gt;[Content placeholder: Discuss the temporal relationships between speech and gesture, including principles of synchronization]&lt;/p&gt;
+&lt;h2 id=&#34;the-perceptual-study-proof-in-the-pudding&#34;&gt;The Perceptual Study: Proof in the Pudding&lt;/h2&gt;
 
-&lt;h3 id=&#34;7-2-3-individual-and-cultural-variations&#34;&gt;7.2.3 Individual and Cultural Variations&lt;/h3&gt;
+&lt;p&gt;I didn&amp;rsquo;t just claim success - I proved it. 24 participants watched 480 video clips comparing:
+- RLAnimate (A4) gestures
+- Gesticulator (state-of-the-art supervised learning)
+- Real motion capture&lt;/p&gt;
 
-&lt;p&gt;[Content placeholder: Address variations in gesture patterns across individuals and cultures]&lt;/p&gt;
+&lt;p&gt;The results were stunning:
+- &lt;strong&gt;No significant difference&lt;/strong&gt; between RLAnimate and motion capture (p &amp;gt; 0.31)
+- &lt;strong&gt;Significant improvement&lt;/strong&gt; over Gesticulator (p &amp;lt; 0.001)
+- Participants literally couldn&amp;rsquo;t tell our animations from real humans&lt;/p&gt;
 
-&lt;h2 id=&#34;7-3-data-driven-gesture-generation&#34;&gt;7.3 Data-Driven Gesture Generation&lt;/h2&gt;
+&lt;h2 id=&#34;technical-innovations&#34;&gt;Technical Innovations&lt;/h2&gt;
 
-&lt;p&gt;This section presents methods for learning gesture generation models from human data.&lt;/p&gt;
+&lt;p&gt;Beyond the perceptual success, A4 contributes several technical advances:&lt;/p&gt;
 
-&lt;h3 id=&#34;7-3-1-multimodal-data-collection&#34;&gt;7.3.1 Multimodal Data Collection&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Speech-motion synchronization&lt;/strong&gt;: A hierarchical encoder that processes speech at multiple timescales, capturing both phoneme-level detail and phrase-level rhythm.&lt;/p&gt;
 
-&lt;p&gt;[Content placeholder: Describe methods for collecting synchronized speech and motion data for training gesture generation models]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Stochastic generation&lt;/strong&gt;: The same speech produces varied but appropriate gestures, just like humans.&lt;/p&gt;
 
-&lt;h3 id=&#34;7-3-2-feature-extraction-and-representation&#34;&gt;7.3.2 Feature Extraction and Representation&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Style control&lt;/strong&gt;: Implicit style learning allows generating gestures in different &amp;ldquo;personalities.&amp;rdquo;&lt;/p&gt;
 
-&lt;p&gt;[Content placeholder: Present techniques for extracting relevant features from speech (prosody, semantics) and motion data]&lt;/p&gt;
+&lt;h2 id=&#34;the-bigger-picture&#34;&gt;The Bigger Picture&lt;/h2&gt;
 
-&lt;h3 id=&#34;7-3-3-sequence-to-sequence-models&#34;&gt;7.3.3 Sequence-to-Sequence Models&lt;/h3&gt;
+&lt;p&gt;This chapter proves something profound: RL can match human quality for the most subjective, culturally-dependent aspects of movement. We&amp;rsquo;re not just animating characters - we&amp;rsquo;re capturing the essence of human nonverbal communication.&lt;/p&gt;
 
-&lt;p&gt;[Content placeholder: Describe neural architectures for mapping from speech features to gesture sequences]&lt;/p&gt;
+&lt;p&gt;The implications extend beyond animation:
+- Virtual assistants that gesture naturally
+- More engaging educational avatars
+- Believable characters for therapy and training
+- A new baseline for what &amp;ldquo;human-like&amp;rdquo; means in AI&lt;/p&gt;
 
-&lt;h2 id=&#34;7-4-reinforcement-learning-for-gesture-adaptation&#34;&gt;7.4 Reinforcement Learning for Gesture Adaptation&lt;/h2&gt;
+&lt;h2 id=&#34;why-this-matters&#34;&gt;Why This Matters&lt;/h2&gt;
 
-&lt;p&gt;This section explores how RL can be used to adapt and improve gesture generation based on interaction feedback.&lt;/p&gt;
+&lt;p&gt;Beat gestures are the Turing test of character animation. They&amp;rsquo;re purely about human perception - there&amp;rsquo;s no objective metric, no physics to simulate, just the question: does this feel right?&lt;/p&gt;
 
-&lt;h3 id=&#34;7-4-1-interactive-learning-framework&#34;&gt;7.4.1 Interactive Learning Framework&lt;/h3&gt;
+&lt;p&gt;That RLAnimate passes this test validates the entire approach. Motion capture as objectives, model-based learning, realism regularization - it all comes together to create something indistinguishable from human movement.&lt;/p&gt;
 
-&lt;p&gt;[Content placeholder: Present an RL framework for learning gesture policies through interaction with human users]&lt;/p&gt;
-
-&lt;h3 id=&#34;7-4-2-reward-design-for-natural-gestures&#34;&gt;7.4.2 Reward Design for Natural Gestures&lt;/h3&gt;
-
-&lt;p&gt;[Content placeholder: Discuss reward functions that capture naturalness, expressiveness, and communicative effectiveness]&lt;/p&gt;
-
-&lt;h3 id=&#34;7-4-3-online-adaptation&#34;&gt;7.4.3 Online Adaptation&lt;/h3&gt;
-
-&lt;p&gt;[Content placeholder: Describe methods for online adaptation of gesture generation to individual users and contexts]&lt;/p&gt;
-
-&lt;h2 id=&#34;7-5-evaluation-methods&#34;&gt;7.5 Evaluation Methods&lt;/h2&gt;
-
-&lt;h3 id=&#34;7-5-1-objective-metrics&#34;&gt;7.5.1 Objective Metrics&lt;/h3&gt;
-
-&lt;p&gt;[Content placeholder: Define quantitative metrics for evaluating gesture generation including synchrony, diversity, and appropriateness]&lt;/p&gt;
-
-&lt;h3 id=&#34;7-5-2-user-studies&#34;&gt;7.5.2 User Studies&lt;/h3&gt;
-
-&lt;p&gt;[Content placeholder: Present user study methodologies for evaluating the perceived naturalness and effectiveness of generated gestures]&lt;/p&gt;
-
-&lt;h3 id=&#34;7-5-3-comparative-analysis&#34;&gt;7.5.3 Comparative Analysis&lt;/h3&gt;
-
-&lt;p&gt;[Content placeholder: Compare different approaches including rule-based, data-driven, and RL-based methods]&lt;/p&gt;
-
-&lt;h2 id=&#34;7-6-applications-and-case-studies&#34;&gt;7.6 Applications and Case Studies&lt;/h2&gt;
-
-&lt;h3 id=&#34;7-6-1-virtual-assistants&#34;&gt;7.6.1 Virtual Assistants&lt;/h3&gt;
-
-&lt;p&gt;[Content placeholder: Demonstrate applications to embodied virtual assistants with natural gesture behaviors]&lt;/p&gt;
-
-&lt;h3 id=&#34;7-6-2-social-robots&#34;&gt;7.6.2 Social Robots&lt;/h3&gt;
-
-&lt;p&gt;[Content placeholder: Show applications to social robotics where appropriate gesture generation enhances human-robot interaction]&lt;/p&gt;
-
-&lt;h3 id=&#34;7-6-3-virtual-reality-avatars&#34;&gt;7.6.3 Virtual Reality Avatars&lt;/h3&gt;
-
-&lt;p&gt;[Content placeholder: Present applications to VR avatars that need to generate gestures in real-time during conversation]&lt;/p&gt;
-
-&lt;h2 id=&#34;7-7-chapter-summary&#34;&gt;7.7 Chapter Summary&lt;/h2&gt;
-
-&lt;p&gt;This chapter has presented a comprehensive approach to conversational gesture generation, combining insights from human communication research with advanced machine learning techniques. The methods developed enable virtual agents to communicate more naturally and effectively through appropriate nonverbal behaviors.&lt;/p&gt;
-
-&lt;p&gt;Key contributions of this chapter include:
-- A framework for learning gesture generation models from multimodal human data
-- Novel RL approaches for adapting gesture generation based on interaction feedback
-- Comprehensive evaluation methods for assessing gesture quality and effectiveness
-- Demonstration of applications across various domains including virtual assistants and social robotics&lt;/p&gt;
-
-&lt;p&gt;The work presented in this chapter advances the state of the art in embodied conversational agents, bringing us closer to virtual characters that can engage in natural, multimodal communication with humans.&lt;/p&gt;
+&lt;p&gt;The supplementary material contains all 24 video stimuli from the perceptual study. Watch them yourself - can you tell which ones are generated?&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Chapter 8: Conclusion</title>
+      <title>Chapter 8: Conclusions and Future Impact</title>
       <link>https://vihanga.github.io/thesis/chapters/conclusion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vihanga.github.io/thesis/chapters/conclusion/</guid>
       <description>
 
-&lt;h1 id=&#34;chapter-8-conclusion&#34;&gt;Chapter 8: Conclusion&lt;/h1&gt;
+&lt;h1 id=&#34;conclusions-and-future-impact&#34;&gt;Conclusions and Future Impact&lt;/h1&gt;
 
-&lt;p&gt;This chapter summarizes the contributions of this thesis, discusses their implications for the field of character animation and reinforcement learning, and outlines directions for future research.&lt;/p&gt;
+&lt;p&gt;This thesis fundamentally changes how we think about character animation. By treating animation as a model-based RL problem with motion capture objectives, I&amp;rsquo;ve created a system that produces human-quality movement at real-time speeds. But this is just the beginning.&lt;/p&gt;
 
-&lt;h2 id=&#34;8-1-summary-of-contributions&#34;&gt;8.1 Summary of Contributions&lt;/h2&gt;
+&lt;h2 id=&#34;what-we-ve-achieved&#34;&gt;What We&amp;rsquo;ve Achieved&lt;/h2&gt;
 
-&lt;p&gt;This thesis has presented a comprehensive exploration of reinforcement learning methods for character animation, addressing fundamental challenges and proposing novel solutions across multiple domains.&lt;/p&gt;
+&lt;p&gt;RLAnimate represents several breakthrough achievements:&lt;/p&gt;
 
-&lt;h3 id=&#34;8-1-1-technical-contributions&#34;&gt;8.1.1 Technical Contributions&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Human-quality animation from RL&lt;/strong&gt;: For the first time, RL agents generate movement that humans can&amp;rsquo;t distinguish from motion capture. This isn&amp;rsquo;t incremental improvement - it&amp;rsquo;s a paradigm shift.&lt;/p&gt;
 
-&lt;p&gt;[Content placeholder: Summarize the main technical contributions including:
-- Novel RL algorithms for physics-based animation
-- Model-based and model-free approaches for animation control
-- Methods for leveraging existing motion data in RL frameworks
-- Latent dynamics models for efficient learning and control
-- Gesture generation techniques for conversational agents]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Real-time performance&lt;/strong&gt;: 5ms per frame means these aren&amp;rsquo;t just research demos. They&amp;rsquo;re ready for games, VR, and interactive applications today.&lt;/p&gt;
 
-&lt;h3 id=&#34;8-1-2-theoretical-insights&#34;&gt;8.1.2 Theoretical Insights&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Multi-behavior flexibility&lt;/strong&gt;: Single agents that wave, point, and gesture naturally - no behavior-specific engineering required.&lt;/p&gt;
 
-&lt;p&gt;[Content placeholder: Discuss theoretical insights gained about:
-- The relationship between physics-based simulation and learning
-- Trade-offs between model-based and model-free approaches
-- The role of data priors in animation learning
-- Connections between human motion principles and RL objectives]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Scalability to complexity&lt;/strong&gt;: From simple waves to 30+ finger joints to speech-synchronized gestures, the approach scales.&lt;/p&gt;
 
-&lt;h3 id=&#34;8-1-3-practical-applications&#34;&gt;8.1.3 Practical Applications&lt;/h3&gt;
+&lt;h2 id=&#34;the-technical-revolution&#34;&gt;The Technical Revolution&lt;/h2&gt;
 
-&lt;p&gt;[Content placeholder: Highlight practical applications demonstrated including:
-- Interactive character control systems
-- Animation tools for content creation
-- Embodied conversational agents
-- Motion synthesis for games and virtual environments]&lt;/p&gt;
+&lt;p&gt;Three key innovations make this possible:&lt;/p&gt;
 
-&lt;h2 id=&#34;8-2-impact-and-significance&#34;&gt;8.2 Impact and Significance&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Motion capture as objectives&lt;/strong&gt;: Eliminating reward engineering by learning directly from human examples&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Latent dynamics models&lt;/strong&gt;: Efficient representations that capture movement essence&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Realism regularization&lt;/strong&gt;: Multiple complementary methods ensuring human-like quality&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;h3 id=&#34;8-2-1-advancing-the-state-of-the-art&#34;&gt;8.2.1 Advancing the State of the Art&lt;/h3&gt;
+&lt;p&gt;Together, these create a framework that&amp;rsquo;s both theoretically principled and practically effective.&lt;/p&gt;
 
-&lt;p&gt;[Content placeholder: Discuss how this work advances the state of the art in character animation, comparing with previous approaches and highlighting improvements]&lt;/p&gt;
+&lt;h2 id=&#34;why-this-matters-beyond-animation&#34;&gt;Why This Matters Beyond Animation&lt;/h2&gt;
 
-&lt;h3 id=&#34;8-2-2-bridging-communities&#34;&gt;8.2.2 Bridging Communities&lt;/h3&gt;
+&lt;p&gt;The implications extend far beyond making pretty animations:&lt;/p&gt;
 
-&lt;p&gt;[Content placeholder: Describe how this work bridges the computer graphics and machine learning communities, fostering cross-disciplinary collaboration]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;For AI&lt;/strong&gt;: We&amp;rsquo;ve shown that complex, subjective human behaviors can be learned without explicit programming. The approach could apply to any domain where we have examples but can&amp;rsquo;t write rules.&lt;/p&gt;
 
-&lt;h3 id=&#34;8-2-3-enabling-new-applications&#34;&gt;8.2.3 Enabling New Applications&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;For HCI&lt;/strong&gt;: Natural movement is crucial for acceptance of virtual agents. This work enables a new generation of interfaces that communicate through body language.&lt;/p&gt;
 
-&lt;p&gt;[Content placeholder: Discuss new applications enabled by the methods developed in this thesis, from entertainment to robotics]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;For Science&lt;/strong&gt;: By learning what makes movement &amp;ldquo;human-like,&amp;rdquo; we&amp;rsquo;re gaining insights into human motor control and social signaling.&lt;/p&gt;
 
-&lt;h2 id=&#34;8-3-limitations-and-challenges&#34;&gt;8.3 Limitations and Challenges&lt;/h2&gt;
+&lt;h2 id=&#34;limitations-and-honesty&#34;&gt;Limitations and Honesty&lt;/h2&gt;
 
-&lt;h3 id=&#34;8-3-1-computational-requirements&#34;&gt;8.3.1 Computational Requirements&lt;/h3&gt;
+&lt;p&gt;No system is perfect. Current limitations include:
+- Training requires motion capture data (though much less than alternatives)
+- Style control is implicit rather than parametric
+- Physical interactions remain challenging
+- Cultural gesture variations need more exploration&lt;/p&gt;
 
-&lt;p&gt;[Content placeholder: Acknowledge computational limitations and discuss trade-offs between quality and efficiency]&lt;/p&gt;
+&lt;p&gt;These aren&amp;rsquo;t fundamental barriers - they&amp;rsquo;re the next research challenges.&lt;/p&gt;
 
-&lt;h3 id=&#34;8-3-2-generalization-boundaries&#34;&gt;8.3.2 Generalization Boundaries&lt;/h3&gt;
+&lt;h2 id=&#34;the-road-ahead&#34;&gt;The Road Ahead&lt;/h2&gt;
 
-&lt;p&gt;[Content placeholder: Discuss limitations in generalization across different characters, environments, and tasks]&lt;/p&gt;
+&lt;p&gt;This thesis opens several exciting directions:&lt;/p&gt;
 
-&lt;h3 id=&#34;8-3-3-evaluation-challenges&#34;&gt;8.3.3 Evaluation Challenges&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Behavioral complexity&lt;/strong&gt;: Extending to full-body social interactions, emotional expressions, and context-aware responses.&lt;/p&gt;
 
-&lt;p&gt;[Content placeholder: Address the ongoing challenge of objectively evaluating animation quality and naturalness]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Zero-shot generalization&lt;/strong&gt;: Learning movement principles that transfer across characters and scenarios without retraining.&lt;/p&gt;
 
-&lt;h2 id=&#34;8-4-future-directions&#34;&gt;8.4 Future Directions&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Integration with LLMs&lt;/strong&gt;: Imagine language models that don&amp;rsquo;t just speak but move naturally as they communicate.&lt;/p&gt;
 
-&lt;h3 id=&#34;8-4-1-scaling-to-more-complex-behaviors&#34;&gt;8.4.1 Scaling to More Complex Behaviors&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Real-world robotics&lt;/strong&gt;: The principles could enable robots that move in ways humans find natural and non-threatening.&lt;/p&gt;
 
-&lt;p&gt;[Content placeholder: Outline research directions for scaling the methods to more complex behaviors and longer time horizons]&lt;/p&gt;
+&lt;h2 id=&#34;a-personal-vision&#34;&gt;A Personal Vision&lt;/h2&gt;
 
-&lt;h3 id=&#34;8-4-2-multi-agent-and-social-interactions&#34;&gt;8.4.2 Multi-agent and Social Interactions&lt;/h3&gt;
+&lt;p&gt;I believe we&amp;rsquo;re at an inflection point. Just as deep learning revolutionized computer vision, model-based RL with human objectives will revolutionize character animation. We&amp;rsquo;re moving from &amp;ldquo;making characters move&amp;rdquo; to &amp;ldquo;bringing characters to life.&amp;rdquo;&lt;/p&gt;
 
-&lt;p&gt;[Content placeholder: Discuss extensions to multi-agent scenarios and social interaction modeling]&lt;/p&gt;
+&lt;p&gt;The tools are here. The methods work. What we create with them - more engaging games, more effective education, more natural human-computer interaction - is limited only by imagination.&lt;/p&gt;
 
-&lt;h3 id=&#34;8-4-3-integration-with-large-language-models&#34;&gt;8.4.3 Integration with Large Language Models&lt;/h3&gt;
+&lt;h2 id=&#34;final-thoughts&#34;&gt;Final Thoughts&lt;/h2&gt;
 
-&lt;p&gt;[Content placeholder: Explore potential integration with LLMs for high-level behavior specification and control]&lt;/p&gt;
+&lt;p&gt;This thesis asked whether RL could create human-like animation without physics simulation or reward engineering. The answer is definitively yes. But more importantly, it&amp;rsquo;s shown a path forward for creating AI systems that capture the subtlety and beauty of human movement.&lt;/p&gt;
 
-&lt;h3 id=&#34;8-4-4-real-world-deployment&#34;&gt;8.4.4 Real-world Deployment&lt;/h3&gt;
+&lt;p&gt;Virtual characters that move like us aren&amp;rsquo;t just technically impressive - they&amp;rsquo;re emotionally resonant. They make technology feel more human. In a world increasingly mediated by screens and virtual interactions, that&amp;rsquo;s not just an academic achievement. It&amp;rsquo;s a step toward technology that truly understands and reflects our humanity.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chapter 4: Supplementary Material</title>
+      <link>https://vihanga.github.io/thesis/supplementary/c4/</link>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://vihanga.github.io/thesis/supplementary/c4/</guid>
+      <description>
 
-&lt;p&gt;[Content placeholder: Discuss pathways for deploying these methods in real-world applications, from games to robotics]&lt;/p&gt;
+&lt;h1 id=&#34;chapter-4-model-based-character-animation&#34;&gt;Chapter 4: Model-Based Character Animation&lt;/h1&gt;
 
-&lt;h2 id=&#34;8-5-closing-remarks&#34;&gt;8.5 Closing Remarks&lt;/h2&gt;
+&lt;p&gt;This page contains supplementary material referenced in Chapter 4 of the thesis, demonstrating the model-based reinforcement learning agents trained to portray gazing and pointing behaviors.&lt;/p&gt;
 
-&lt;p&gt;The work presented in this thesis represents a significant step forward in creating intelligent, adaptive character animation systems through reinforcement learning. By addressing fundamental challenges in physics-based animation, data integration, and behavioral modeling, we have demonstrated that RL can be a powerful tool for creating lifelike virtual characters.&lt;/p&gt;
+&lt;h2 id=&#34;video-demonstrations&#34;&gt;Video Demonstrations&lt;/h2&gt;
 
-&lt;p&gt;The methods and insights developed here open new possibilities for interactive entertainment, virtual reality, robotics, and human-computer interaction. As we continue to push the boundaries of what is possible with learned animation systems, the vision of truly intelligent virtual characters that can adapt, learn, and interact naturally with humans comes ever closer to reality.&lt;/p&gt;
+&lt;h3 id=&#34;model-based-animation-agents-amsta-2021&#34;&gt;Model-Based Animation Agents (AMSTA 2021)&lt;/h3&gt;
 
-&lt;p&gt;The journey of bringing artificial characters to life through learning is far from complete, but the foundations laid in this thesis provide a solid basis for future innovations. It is my hope that this work will inspire continued research at the intersection of animation and machine learning, ultimately leading to virtual characters that are indistinguishable from their human counterparts in their ability to move, gesture, and express themselves naturally.&lt;/p&gt;
+&lt;p&gt;The following video demonstrates the agents trained using learned dynamics models and online planning for target-driven behaviors:&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/XBNY2tPK7JE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;This video shows:
+- Gazing behavior with dynamic target tracking
+- Pointing behavior with both left and right arms
+- Combined gaze and point behaviors
+- Real-time responsiveness to changing targets
+- Comparison with inverse kinematics baseline&lt;/p&gt;
+
+&lt;h3 id=&#34;key-results-demonstrated&#34;&gt;Key Results Demonstrated&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Computational Efficiency&lt;/strong&gt;: 5ms per frame (40x faster than IK baseline)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dynamic Flexibility&lt;/strong&gt;: Agents adapt to moving targets without computational overhead&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-behavior Support&lt;/strong&gt;: Single agent architecture supports gaze, point, and combined behaviors&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beta Distribution Planning&lt;/strong&gt;: Novel approach to smooth animation generation&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;navigation&#34;&gt;Navigation&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../c5a/&#34;&gt;Chapter 5 Part A: Model-free RL →&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vihanga.github.io/thesis/&#34; target=&#34;_blank&#34;&gt;← Back to thesis main page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vihanga.github.io/thesis/chapters/model-based-animation/&#34; target=&#34;_blank&#34;&gt;Chapter 4 in main thesis&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chapter 5 Supplementary Material - Part A: RLAnimate Output Sequences</title>
+      <link>https://vihanga.github.io/thesis/supplementary/c5a/</link>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://vihanga.github.io/thesis/supplementary/c5a/</guid>
+      <description>
+
+&lt;h1 id=&#34;chapter-5-part-a-rlanimate-output-sequences&#34;&gt;Chapter 5 Part A: RLAnimate Output Sequences&lt;/h1&gt;
+
+&lt;p&gt;This page contains supplementary material for Chapter 5, demonstrating the RLAnimate A1 agents trained to portray waving and pointing behaviors.&lt;/p&gt;
+
+&lt;h2 id=&#34;video-demonstrations&#34;&gt;Video Demonstrations&lt;/h2&gt;
+
+&lt;h3 id=&#34;rlanimate-output-sequences-and-comparison-to-control-agents-ala-2021&#34;&gt;RLAnimate Output Sequences and Comparison to Control Agents (ALA 2021)&lt;/h3&gt;
+
+&lt;p&gt;The following video shows RLAnimate agents performing waving and pointing behaviors, with comparisons to baseline control agents:&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/XyxD86Jz4Z0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;This video demonstrates:
+- A1 agent performing waving behaviors with varying exaggeration levels
+- A1 agent performing pointing behaviors to different targets
+- Comparison with single dynamics baseline
+- Comparison with supervised learning baseline
+- Natural, human-like motion generation&lt;/p&gt;
+
+&lt;h3 id=&#34;key-results-shown&#34;&gt;Key Results Shown&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Multi-behavior Support&lt;/strong&gt;: Single agent portraying both waving and pointing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dynamic Control&lt;/strong&gt;: Real-time adaptation to behavior parameters&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Human-like Quality&lt;/strong&gt;: Smooth, natural movements without artifacts&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Superior Performance&lt;/strong&gt;: Outperforms baselines on test set (87.23 vs 70.94)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;navigation&#34;&gt;Navigation&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../c5b/&#34;&gt;Chapter 5 Part B: Behavior Flexibility →&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vihanga.github.io/thesis/&#34; target=&#34;_blank&#34;&gt;← Back to thesis main page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vihanga.github.io/thesis/chapters/data-driven-rl/&#34; target=&#34;_blank&#34;&gt;Chapter 5 in main thesis&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chapter 5 Supplementary Material - Part B: Behavior Flexibility</title>
+      <link>https://vihanga.github.io/thesis/supplementary/c5b/</link>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://vihanga.github.io/thesis/supplementary/c5b/</guid>
+      <description>
+
+&lt;h1 id=&#34;chapter-5-part-b-rlanimate-behavior-portrayal-flexibility&#34;&gt;Chapter 5 Part B: RLAnimate Behavior Portrayal Flexibility&lt;/h1&gt;
+
+&lt;p&gt;This page contains supplementary material for Chapter 5, demonstrating the flexibility and dynamic control capabilities of RLAnimate agents.&lt;/p&gt;
+
+&lt;h2 id=&#34;video-demonstrations&#34;&gt;Video Demonstrations&lt;/h2&gt;
+
+&lt;h3 id=&#34;rlanimate-behavior-portrayal-flexibility-ala-2021&#34;&gt;RLAnimate Behavior Portrayal Flexibility (ALA 2021)&lt;/h3&gt;
+
+&lt;p&gt;The following video demonstrates the dynamic flexibility of RLAnimate agents in portraying varied behaviors:&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/cdIM7vMi1XM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;This video shows:
+- Waving with continuously variable exaggeration levels
+- Pointing to dynamically changing targets
+- Smooth transitions between behaviors
+- Real-time responsiveness to parameter changes
+- Natural variation in movement execution&lt;/p&gt;
+
+&lt;h3 id=&#34;key-capabilities-demonstrated&#34;&gt;Key Capabilities Demonstrated&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Continuous Control&lt;/strong&gt;: Smooth interpolation between behavior parameters&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dynamic Adaptation&lt;/strong&gt;: Real-time response to changing objectives&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Natural Variation&lt;/strong&gt;: Human-like variability in repeated behaviors&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Behavior Transitions&lt;/strong&gt;: Seamless switching between waving and pointing&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;navigation&#34;&gt;Navigation&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../c5a/&#34;&gt;← Chapter 5 Part A: Output Sequences&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../c6/&#34;&gt;Chapter 6 Supplementary Material →&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vihanga.github.io/thesis/&#34; target=&#34;_blank&#34;&gt;← Back to thesis main page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vihanga.github.io/thesis/chapters/data-driven-rl/&#34; target=&#34;_blank&#34;&gt;Chapter 5 in main thesis&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chapter 6 Supplementary Material: Quaternions and Finger Animation</title>
+      <link>https://vihanga.github.io/thesis/supplementary/c6/</link>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://vihanga.github.io/thesis/supplementary/c6/</guid>
+      <description>
+
+&lt;h1 id=&#34;chapter-6-latent-dynamic-augmented-animation-output&#34;&gt;Chapter 6: Latent Dynamic-augmented Animation Output&lt;/h1&gt;
+
+&lt;p&gt;This page contains supplementary material referenced in Chapter 6 of the thesis, demonstrating the A3 architecture with quaternion rotations and animation dynamics for finger animation.&lt;/p&gt;
+
+&lt;h2 id=&#34;a3-architecture-results&#34;&gt;A3 Architecture Results&lt;/h2&gt;
+
+&lt;p&gt;The A3 architecture introduced in Chapter 6 addresses the challenge of incorporating finger animation through:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Quaternion Representations&lt;/strong&gt;: Eliminating gimbal lock and improving computational efficiency&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Animation Dynamics Model&lt;/strong&gt;: Dedicated latent dynamics for animation generation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hierarchical Learning&lt;/strong&gt;: Better capture of joint dependencies&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;performance-improvements&#34;&gt;Performance Improvements&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;A2 + Quaternion baseline&lt;/strong&gt;: 81.23 similarity score&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A3 Standard&lt;/strong&gt;: 86.57 similarity score (5.34 point improvement)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A3 with all latents&lt;/strong&gt;: 86.19 similarity score&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All velocity errors remain under the 0.4 perceptual threshold, confirming that the A3 architecture successfully maintains motion quality while handling the additional complexity of finger animation. As noted in the thesis (Section 6.3), visual analysis confirms that the A3 architecture maintains animation quality despite the increased complexity of animating 30+ finger joints.&lt;/p&gt;
+
+&lt;h2 id=&#34;technical-contributions&#34;&gt;Technical Contributions&lt;/h2&gt;
+
+&lt;h3 id=&#34;quaternion-activation-function&#34;&gt;Quaternion Activation Function&lt;/h3&gt;
+
+&lt;p&gt;The novel quaternion activation function ensures all neural network outputs are valid unit quaternions:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;f(w,x,y,z) = [w,x,y,z] / sqrt(w² + x² + y² + z²)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This eliminates singularities (except at origin) and provides smooth gradients for training.&lt;/p&gt;
+
+&lt;h3 id=&#34;animation-dynamics-model&#34;&gt;Animation Dynamics Model&lt;/h3&gt;
+
+&lt;p&gt;The dedicated animation dynamics model learns hierarchical relationships between joints through:
+- Deterministic state: h&lt;em&gt;t^a = f(h&lt;/em&gt;{t-1}^a, s_{t-1}, h_t^p, p_t, h_t^b, b_t)
+- Stochastic component for natural variation
+- Temporal consistency through recurrent processing&lt;/p&gt;
+
+&lt;h3 id=&#34;a3-agent-capabilities&#34;&gt;A3 Agent Capabilities&lt;/h3&gt;
+
+&lt;p&gt;The A3 agents demonstrate:
+- Successful incorporation of finger movements in waving behaviors
+- Natural finger positioning during pointing tasks
+- Smooth transitions without artifacts
+- Maintained performance under the 0.4 velocity error threshold&lt;/p&gt;
+
+&lt;h2 id=&#34;navigation&#34;&gt;Navigation&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../c5b/&#34;&gt;← Chapter 5 Part B: Behavior Flexibility&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../c7/&#34;&gt;Chapter 7 Supplementary Material →&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vihanga.github.io/thesis/&#34; target=&#34;_blank&#34;&gt;← Back to thesis main page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vihanga.github.io/thesis/chapters/latent-dynamics/&#34; target=&#34;_blank&#34;&gt;Chapter 6 in main thesis&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chapter 7 Supplementary Material: Beat Gestures</title>
+      <link>https://vihanga.github.io/thesis/supplementary/c7/</link>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://vihanga.github.io/thesis/supplementary/c7/</guid>
+      <description>
+
+&lt;h1 id=&#34;chapter-7-portraying-conversational-gestures-via-realism-regularisation&#34;&gt;Chapter 7: Portraying Conversational Gestures via Realism Regularisation&lt;/h1&gt;
+
+&lt;p&gt;This page contains supplementary material referenced in Chapter 7, including the video stimuli used in the perceptual evaluation study comparing RLAnimate A4, Gesticulator, and motion capture.&lt;/p&gt;
+
+&lt;h2 id=&#34;perceptual-study-video-stimuli&#34;&gt;Perceptual Study Video Stimuli&lt;/h2&gt;
+
+&lt;p&gt;The following videos were used in the perceptual evaluation with 28 participants. Each stimulus set was rendered with three methods: RLAnimate A4, Gesticulator, and Motion Capture (ground truth).&lt;/p&gt;
+
+&lt;h3 id=&#34;stimulus-set-a&#34;&gt;Stimulus Set A&lt;/h3&gt;
+
+&lt;div style=&#34;display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 30px;&#34;&gt;
+  &lt;div&gt;
+    &lt;h4 style=&#34;text-align: center;&#34;&gt;RLAnimate A4&lt;/h4&gt;
+    &lt;video controls width=&#34;100%&#34;&gt;
+      &lt;source src=&#34;../videos/chapter7/02_rlanimate_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;h4 style=&#34;text-align: center;&#34;&gt;Gesticulator&lt;/h4&gt;
+    &lt;video controls width=&#34;100%&#34;&gt;
+      &lt;source src=&#34;../videos/chapter7/02_gesticulator_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;h4 style=&#34;text-align: center;&#34;&gt;Motion Capture&lt;/h4&gt;
+    &lt;video controls width=&#34;100%&#34;&gt;
+      &lt;source src=&#34;../videos/chapter7/02_mocap_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;stimulus-set-b&#34;&gt;Stimulus Set B&lt;/h3&gt;
+
+&lt;div style=&#34;display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 30px;&#34;&gt;
+  &lt;div&gt;
+    &lt;h4 style=&#34;text-align: center;&#34;&gt;RLAnimate A4&lt;/h4&gt;
+    &lt;video controls width=&#34;100%&#34;&gt;
+      &lt;source src=&#34;../videos/chapter7/03_rlanimate_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;h4 style=&#34;text-align: center;&#34;&gt;Gesticulator&lt;/h4&gt;
+    &lt;video controls width=&#34;100%&#34;&gt;
+      &lt;source src=&#34;../videos/chapter7/03_gesticulator_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;h4 style=&#34;text-align: center;&#34;&gt;Motion Capture&lt;/h4&gt;
+    &lt;video controls width=&#34;100%&#34;&gt;
+      &lt;source src=&#34;../videos/chapter7/03_mocap_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;stimulus-set-c&#34;&gt;Stimulus Set C&lt;/h3&gt;
+
+&lt;div style=&#34;display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 30px;&#34;&gt;
+  &lt;div&gt;
+    &lt;h4 style=&#34;text-align: center;&#34;&gt;RLAnimate A4&lt;/h4&gt;
+    &lt;video controls width=&#34;100%&#34;&gt;
+      &lt;source src=&#34;../videos/chapter7/05_rlanimate_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;h4 style=&#34;text-align: center;&#34;&gt;Gesticulator&lt;/h4&gt;
+    &lt;video controls width=&#34;100%&#34;&gt;
+      &lt;source src=&#34;../videos/chapter7/05_gesticulator_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;h4 style=&#34;text-align: center;&#34;&gt;Motion Capture&lt;/h4&gt;
+    &lt;video controls width=&#34;100%&#34;&gt;
+      &lt;source src=&#34;../videos/chapter7/05_mocap_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;stimulus-set-d&#34;&gt;Stimulus Set D&lt;/h3&gt;
+
+&lt;div style=&#34;display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 30px;&#34;&gt;
+  &lt;div&gt;
+    &lt;h4 style=&#34;text-align: center;&#34;&gt;RLAnimate A4&lt;/h4&gt;
+    &lt;video controls width=&#34;100%&#34;&gt;
+      &lt;source src=&#34;../videos/chapter7/06_rlanimate_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;h4 style=&#34;text-align: center;&#34;&gt;Gesticulator&lt;/h4&gt;
+    &lt;video controls width=&#34;100%&#34;&gt;
+      &lt;source src=&#34;../videos/chapter7/06_gesticulator_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;h4 style=&#34;text-align: center;&#34;&gt;Motion Capture&lt;/h4&gt;
+    &lt;video controls width=&#34;100%&#34;&gt;
+      &lt;source src=&#34;../videos/chapter7/06_mocap_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;stimulus-set-e&#34;&gt;Stimulus Set E&lt;/h3&gt;
+
+&lt;div style=&#34;display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 30px;&#34;&gt;
+  &lt;div&gt;
+    &lt;h4 style=&#34;text-align: center;&#34;&gt;RLAnimate A4&lt;/h4&gt;
+    &lt;video controls width=&#34;100%&#34;&gt;
+      &lt;source src=&#34;../videos/chapter7/07_rlanimate_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;h4 style=&#34;text-align: center;&#34;&gt;Gesticulator&lt;/h4&gt;
+    &lt;video controls width=&#34;100%&#34;&gt;
+      &lt;source src=&#34;../videos/chapter7/07_gesticulator_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;h4 style=&#34;text-align: center;&#34;&gt;Motion Capture&lt;/h4&gt;
+    &lt;video controls width=&#34;100%&#34;&gt;
+      &lt;source src=&#34;../videos/chapter7/07_mocap_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;stimulus-set-f&#34;&gt;Stimulus Set F&lt;/h3&gt;
+
+&lt;div style=&#34;display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 30px;&#34;&gt;
+  &lt;div&gt;
+    &lt;h4 style=&#34;text-align: center;&#34;&gt;RLAnimate A4&lt;/h4&gt;
+    &lt;video controls width=&#34;100%&#34;&gt;
+      &lt;source src=&#34;../videos/chapter7/08_rlanimate_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;h4 style=&#34;text-align: center;&#34;&gt;Gesticulator&lt;/h4&gt;
+    &lt;video controls width=&#34;100%&#34;&gt;
+      &lt;source src=&#34;../videos/chapter7/08_gesticulator_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;h4 style=&#34;text-align: center;&#34;&gt;Motion Capture&lt;/h4&gt;
+    &lt;video controls width=&#34;100%&#34;&gt;
+      &lt;source src=&#34;../videos/chapter7/08_mocap_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;stimulus-set-g&#34;&gt;Stimulus Set G&lt;/h3&gt;
+
+&lt;div style=&#34;display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 30px;&#34;&gt;
+  &lt;div&gt;
+    &lt;h4 style=&#34;text-align: center;&#34;&gt;RLAnimate A4&lt;/h4&gt;
+    &lt;video controls width=&#34;100%&#34;&gt;
+      &lt;source src=&#34;../videos/chapter7/09_rlanimate_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;h4 style=&#34;text-align: center;&#34;&gt;Gesticulator&lt;/h4&gt;
+    &lt;video controls width=&#34;100%&#34;&gt;
+      &lt;source src=&#34;../videos/chapter7/09_gesticulator_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;h4 style=&#34;text-align: center;&#34;&gt;Motion Capture&lt;/h4&gt;
+    &lt;video controls width=&#34;100%&#34;&gt;
+      &lt;source src=&#34;../videos/chapter7/09_mocap_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;stimulus-set-h&#34;&gt;Stimulus Set H&lt;/h3&gt;
+
+&lt;div style=&#34;display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 30px;&#34;&gt;
+  &lt;div&gt;
+    &lt;h4 style=&#34;text-align: center;&#34;&gt;RLAnimate A4&lt;/h4&gt;
+    &lt;video controls width=&#34;100%&#34;&gt;
+      &lt;source src=&#34;../videos/chapter7/10_rlanimate_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;h4 style=&#34;text-align: center;&#34;&gt;Gesticulator&lt;/h4&gt;
+    &lt;video controls width=&#34;100%&#34;&gt;
+      &lt;source src=&#34;../videos/chapter7/10_gesticulator_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;h4 style=&#34;text-align: center;&#34;&gt;Motion Capture&lt;/h4&gt;
+    &lt;video controls width=&#34;100%&#34;&gt;
+      &lt;source src=&#34;../videos/chapter7/10_mocap_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    &lt;/video&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;perceptual-study-results&#34;&gt;Perceptual Study Results&lt;/h2&gt;
+
+&lt;h3 id=&#34;statistical-results&#34;&gt;Statistical Results&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;RLAnimate A4 vs Gesticulator&lt;/strong&gt; (one-sided t-tests, α = 0.05):
+- Human-likeness: 4.33 vs 3.19 (p &amp;lt; 0.001) ✓
+- Speech reflection: 4.12 vs 3.42 (p &amp;lt; 0.001) ✓
+- Synchronization: 4.48 vs 3.60 (p &amp;lt; 0.001) ✓&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;RLAnimate A4 vs Motion Capture&lt;/strong&gt; (two-sided t-tests, α = 0.05):
+- Human-likeness: 4.33 vs 4.65 (p = 0.083, NS)
+- Speech reflection: 4.12 vs 4.38 (p = 0.174, NS)
+- Synchronization: 4.48 vs 4.67 (p = 0.268, NS)&lt;/p&gt;
+
+&lt;h3 id=&#34;key-finding&#34;&gt;Key Finding&lt;/h3&gt;
+
+&lt;p&gt;RLAnimate A4 achieves &lt;strong&gt;statistical parity with human motion capture&lt;/strong&gt; while significantly outperforming the state-of-the-art Gesticulator system across all evaluation criteria.&lt;/p&gt;
+
+&lt;h2 id=&#34;navigation&#34;&gt;Navigation&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../c6/&#34;&gt;← Chapter 6 Supplementary Material&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vihanga.github.io/thesis/&#34; target=&#34;_blank&#34;&gt;← Back to thesis main page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vihanga.github.io/thesis/chapters/conversational-gestures/&#34; target=&#34;_blank&#34;&gt;Chapter 7 in main thesis&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MIG&#39;18 Supplementary Material</title>
+      <link>https://vihanga.github.io/thesis/publications/MIG18/</link>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://vihanga.github.io/thesis/publications/MIG18/</guid>
+      <description>
+
+&lt;h1 id=&#34;examining-the-effects-of-a-virtual-character-on-learning-and-engagement-in-serious-games&#34;&gt;Examining the effects of a virtual character on learning and engagement in serious games&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Authors:&lt;/strong&gt; Vihanga Gamage, Cathy Ennis&lt;br /&gt;
+&lt;strong&gt;Conference:&lt;/strong&gt; MIG &amp;lsquo;18: Motion, Interaction and Games, November 8–10, 2018, Limassol, Cyprus&lt;br /&gt;
+&lt;strong&gt;DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1145/3274247.3274499&#34; target=&#34;_blank&#34;&gt;10.&lt;sup&gt;1145&lt;/sup&gt;&amp;frasl;&lt;sub&gt;3274247&lt;/sub&gt;.3274499&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;Virtual characters have been employed for many purposes including interacting with players of serious games, with a purpose to increase engagement. These characters are often embodied conversational agents playing diverse roles, such as demonstrators, guides, teachers or interviewers. Recently, much research has been conducted into properties that affect the realism and plausibility of virtual characters, but it is less clear whether the inclusion of interactive agents in serious applications can enhance a user&amp;rsquo;s engagement with the application, or indeed increase efficacy. In a first step towards answering these questions, we conducted a study where a Virtual Learning Environment was used to examine the effect of employing a virtual character to deliver a lesson. In order to investigate whether increased familiarity between the player and the character would help achieve learning outcomes, we allowed participants to customize the physical appearance of the character. We used direct and indirect measures to assess engagement and learning; we measured knowledge retention to ascertain learning via a test at the end of the lesson, and also measured participants&amp;rsquo; perceived engagement with the lesson. Our findings show that a virtual character can be an effective learning aid, causing heightened engagement and retention of knowledge. However, allowing participants to customize character appearance resulted in inhibited engagement, which was contrary to what we expected.&lt;/p&gt;
+
+&lt;h2 id=&#34;key-findings&#34;&gt;Key Findings&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A user is more engaged with a lesson when delivered through a virtual character compared to a non-character control version&lt;/li&gt;
+&lt;li&gt;A user retains knowledge better when a lesson is delivered through a virtual character compared to a non-character control version&lt;/li&gt;
+&lt;li&gt;There is a propensity for the majority of user attention to be directed at the virtual character, resulting in little attention being paid to the rest of the game environment&lt;/li&gt;
+&lt;li&gt;Surprisingly, character appearance personalization has an effect opposite to what we expected, resulting in participants being significantly less engaged with a personalized character compared to one with a default appearance&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;supplementary-material&#34;&gt;Supplementary Material&lt;/h2&gt;
+
+&lt;h3 id=&#34;full-questionnaire&#34;&gt;Full Questionnaire&lt;/h3&gt;
+
+&lt;p&gt;The complete questionnaire used in the study included items from:
+- Game Engagement Questionnaire (Brockmyer et al., 2009)
+- Motivation Inventory (McAuley et al., 1989)
+- Custom questions designed for this study&lt;/p&gt;
+
+&lt;p&gt;[PLACEHOLDER: Insert full questionnaire document here]&lt;/p&gt;
+
+&lt;h3 id=&#34;lesson-content-slam-tutorial&#34;&gt;Lesson Content - SLAM Tutorial&lt;/h3&gt;
+
+&lt;p&gt;The lesson covered Simultaneous Localization and Mapping (SLAM) with the following structure:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Main Lessons:&lt;/strong&gt;
+1. Introduction to SLAM
+2. SLAM Approaches
+3. How SLAM works?
+4. EKF SLAM&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hidden Lessons (triggered by interaction):&lt;/strong&gt;
+1. Corner Detectors
+2. Proactive vs Lazy SLAM
+3. Maximum Likelihood Estimators&lt;/p&gt;
+
+&lt;p&gt;[PLACEHOLDER: Insert complete lesson scripts and visual materials]&lt;/p&gt;
+
+&lt;h3 id=&#34;quiz-questions&#34;&gt;Quiz Questions&lt;/h3&gt;
+
+&lt;p&gt;The knowledge retention test included:
+- 12 questions on main lesson content
+- 3 questions on hidden lesson content&lt;/p&gt;
+
+&lt;p&gt;[PLACEHOLDER: Insert all quiz questions with correct answers]&lt;/p&gt;
+
+&lt;h3 id=&#34;character-customization-options&#34;&gt;Character Customization Options&lt;/h3&gt;
+
+&lt;p&gt;Screenshots and descriptions of all customization options for:
+- Male character variations
+- Female character variations
+- Hair styles and colors
+- Skin tones
+- Clothing options&lt;/p&gt;
+
+&lt;p&gt;[PLACEHOLDER: Insert customization interface screenshots and option descriptions]&lt;/p&gt;
+
+&lt;h3 id=&#34;statistical-analysis&#34;&gt;Statistical Analysis&lt;/h3&gt;
+
+&lt;p&gt;Detailed statistical results including:
+- ANOVA tables for test scores
+- Kruskal-Wallis H test results for questionnaire data
+- Post-hoc test results (Tukey-Kramer and Mann-Whitney U)
+- Effect sizes and confidence intervals&lt;/p&gt;
+
+&lt;p&gt;[PLACEHOLDER: Insert complete statistical analysis tables]&lt;/p&gt;
+
+&lt;h3 id=&#34;free-form-user-feedback&#34;&gt;Free-form User Feedback&lt;/h3&gt;
+
+&lt;p&gt;Selected comments from participants:&lt;/p&gt;
+
+&lt;p&gt;[PLACEHOLDER: Insert anonymized participant comments and feedback]&lt;/p&gt;
+
+&lt;h3 id=&#34;unity-implementation-details&#34;&gt;Unity Implementation Details&lt;/h3&gt;
+
+&lt;p&gt;Technical specifications:
+- Unity version and configuration
+- Character assets from RenderPeople
+- Performance requirements
+- Deployment as web application&lt;/p&gt;
+
+&lt;p&gt;[PLACEHOLDER: Insert technical implementation details]&lt;/p&gt;
+
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dl.acm.org/authorize?N664802&#34; target=&#34;_blank&#34;&gt;Paper PDF (ACM Digital Library)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../MIG18_preprint_examing_effects_of_virtual_characters_on_learning.pdf&#34;&gt;Preprint PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vihanga.github.io/post/research/MIG18PaperStudy/&#34; target=&#34;_blank&#34;&gt;Conference presentation thoughts and feedback&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vihanga.github.io/post/blog/MIG18blog/&#34; target=&#34;_blank&#34;&gt;MIG&amp;rsquo;18 conference blog post&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vihanga.github.io/thesis/&#34; target=&#34;_blank&#34;&gt;Back to thesis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vihanga.github.io/thesis/appendices/a/&#34; target=&#34;_blank&#34;&gt;Appendix A in thesis&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why AI is an opportunity rather than a danger</title>
+      <link>https://vihanga.github.io/post/blog/AI-Oppurtunity-not-danger/</link>
+      <pubDate>Sat, 17 Aug 2019 17:02:59 +0000</pubDate>
+      
+      <guid>https://vihanga.github.io/post/blog/AI-Oppurtunity-not-danger/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.rte.ie/brainstorm/2019/0801/1066421-why-ai-is-an-opportunity-rather-than-a-danger/&#34; target=&#34;_blank&#34;&gt;Originally published on RTÉ Brainstorm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The solar system is full of debris and rocks floating around. A meteor shower or a shooting star is debris burning up upon entry to the atmosphere. On occasion, pieces of rock make it all the way through. A much larger rock that could make its way through is an asteroid. About 66 million years ago, the impact from an asteroid brought about the Cretaceous extinction. A repetition of this event is theoretically possible - and the same could be said about all-powerful Artificial Intelligence Overlords marginalising the human race.&lt;/p&gt;
+
+&lt;p&gt;Since its inception in the mid 20th century, the field of artificial intelligence has had an interesting ride. Much like the financial markets or Hollywood, there’s been breakthroughs and failures and booms and busts. Driven by advances in deep learning, a great deal of success has been achieved this decade, ushering in the newest AI golden age, along with a frenzy of interest and investment.&lt;/p&gt;
+
+&lt;p&gt;The current popular views of AI are being shaped primarily by several vocal figures in technology. Microsoft founder Bill Gates has said that AI carries the potential to change society deeply and is both exciting and dangerous. IBM CEO Ginni Rometty has stated that she believes advances in AI will create different jobs rather than no jobs. Facebook founder Mark Zuckerberg has expressed the view that AI will deliver various improvements to human quality of life, while Tesla founder Elon Musk has called AI &amp;ldquo;a fundamental risk to the existence of human civilisation&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;The future dangers AI could pose to humanity is a frequently occurring subject in conversation, be it to break the ice on a first date, to fill the time before a meeting starts or while waiting for a pint at the pub on a Friday evening. And arguably, Musk&amp;rsquo;s statement carries the most bite. It certainly is a very catchy line that makes for a more topical conversation starter than asteroids or the Cretaceous extinction.&lt;/p&gt;
+
+&lt;p&gt;As a result, these hypothetical yet sensationalist doomsday opinions are at a point where they dominate the conversation about AI, so much so that the bigger picture on the subject may at the point of being overshadowed and given very little consideration. And that could pose an even greater threat, especially in an age where hype and rhetoric without regard for fact has had a great effect on the fate of the world.&lt;/p&gt;
+
+&lt;p&gt;Advancements in AI could lead to a superintelligence that could pose a fundamental risk to human existence - and so could climate change or a 5 km-wide space rock colliding with the Earth. But there are many points of difference between these three risks. AI is a long way away advancing to the point of superintelligence and it’s not a certainty that superintelligence would lead to the end of humanity. Climate change is a very real and present danger, with the time to take action to prevent irreversible consequences continuing to decrease. And then there are the chances of an asteroid striking the earth.&lt;/p&gt;
+
+&lt;p&gt;Of course, there is no good that can come from an asteroid strike or global warming, but AI can literally be one of the best things to happen to humans. This is not said enough - and it can’t be said enough. AI can and is being used to as a tool in many incredible ways. For example, it is being used to help improve prevention of cancer, provide effective treatment, and could one day even be part of the solution.&lt;/p&gt;
+
+&lt;p&gt;AI is also being leveraged as a promising way to combat climate change. AI-powered simulations and analysis helps make for sustainable urban planning and ocean preservation. It is possible to make more accurate predictions regarding weather events with the help of AI leading to reduced damage to life and property. It can help power grids to be more energy efficient by predicting peak over of usage allowing for better preparation and enhances the benefits of clean energy methods by deploying in ways such as to incorporate weather and other relevant data to make wind turbines more efficient.&lt;/p&gt;
+
+&lt;p&gt;And yet arguments on how AI could hypothetically end humanity as we know it at some point in the future, seem to drown out how AI is already helping humanity’s cause. Such contributions pale in comparison to the very real possibility that AI could be the key to finding the answers for some of humanity’s biggest problems.&lt;/p&gt;
+
+&lt;p&gt;At a 2018 hearing at the US House of Representatives Committee on Science, Space and Technology, Stanford Professor Fei-Fei Li said that AI is bound to alter the human experience, and not necessarily for the better. After acknowledging this, Li pointed out that ensuring AI will transform the world for the better is very much in our hands. &amp;ldquo;There&amp;rsquo;s nothing artificial about AI&amp;rdquo;, she said.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;It’s inspired by people; it’s created by people, and—most importantly—it impacts people. It is a powerful tool we are only just beginning to understand, and that is a profound responsibility.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Concern that AI could pose a threat is very much reasonable. But this possibility is just that - a possibility. Let’s not forget AI is a fundamental opportunity to further the cause of the human civilisation, and that it is in our hands to ensure that it impacts us positively, and be optimistic about what it can mean for us. The world can only be the better place for it.&lt;/p&gt;
 </description>
     </item>
     

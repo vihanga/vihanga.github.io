@@ -13,63 +13,23 @@
     
     
     <item>
-      <title>Appendix A: Exploring Engagement and Efficiency in Serious Games</title>
-      <link>https://vihanga.github.io/thesis/appendices/a/</link>
-      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://vihanga.github.io/thesis/appendices/a/</guid>
-      <description>Appendix A: Exploring Engagement and Efficiency in Serious Games This appendix contains supplementary material for the paper &amp;ldquo;Examining the effects of a virtual character on learning and engagement in serious games&amp;rdquo; (Gamage &amp;amp; Ennis, 2018, MIG &amp;lsquo;18).
-For the complete supplementary materials including the full questionnaire, lesson content, and statistical analysis, please visit: MIG&amp;rsquo;18 Supplementary Material
-A.1 Study Materials A.1.1 Full Questionnaire [PLACEHOLDER: Insert the complete questionnaire used in the study, including: - All Game Engagement Questionnaire items used - All Motivation Inventory items used - Custom questions designed for this study - Likert scale descriptions]</description>
-    </item>
-    
-    <item>
       <title>Chapter 1: Introduction</title>
       <link>https://vihanga.github.io/thesis/chapters/introduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vihanga.github.io/thesis/chapters/introduction/</guid>
-      <description>1.1 Engaging Virtual Characters blah blah blah balh blagh [Placeholder for section on engaging virtual characters]
-1.1.1 Evolution of Virtual Characters in Popular Culture [Placeholder for evolution of virtual characters]
-1.1.2 Applications of Virtual Characters [Placeholder for applications]
-1.1.3 Portraying Natural Human-like Behaviour and Scalability [Placeholder for natural behavior and scalability]
-1.2 Research Questions [Placeholder for research questions]
-1.3 Research Approach [Placeholder for research approach]
-1.4 Summary of Contributions 1.</description>
+      <description>Introduction This thesis tackles a fundamental challenge in computer animation: how can we create virtual characters that move naturally and responsively without the prohibitive costs of motion capture?
+The Problem Traditional character animation relies heavily on motion capture - an expensive, time-consuming process that requires recording human actors for every possible behavior variation. While this produces high-quality results, it&amp;rsquo;s simply not scalable for interactive applications where characters need to respond dynamically to user input or changing scenarios.</description>
     </item>
     
     <item>
-      <title>Appendix B: Exploring Model-Free RL</title>
-      <link>https://vihanga.github.io/thesis/appendices/b/</link>
-      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://vihanga.github.io/thesis/appendices/b/</guid>
-      <description>Appendix B: Exploring Model-Free RL This appendix provides detailed information about model-free reinforcement learning approaches explored in this thesis.
-B.1 Theoretical Foundations B.1.1 Model-Free vs Model-Based RL  Key distinctions and trade-offs Computational complexity analysis Sample efficiency considerations Generalization capabilities  B.1.2 Core Algorithms Value-Based Methods  Q-Learning fundamentals Deep Q-Networks (DQN) Double DQN and variants Prioritized experience replay  Policy Gradient Methods  REINFORCE algorithm Actor-Critic methods Trust Region Policy Optimization (TRPO) Proximal Policy Optimization (PPO)  B.</description>
-    </item>
-    
-    <item>
-      <title>Chapter 2: Data-driven Character Animation</title>
+      <title>Chapter 2: Virtual Character Animation and Perception</title>
       <link>https://vihanga.github.io/thesis/chapters/data-driven-animation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vihanga.github.io/thesis/chapters/data-driven-animation/</guid>
-      <description>2.1 Creation and Animation of Virtual Characters 2.1.1 Creating Three-Dimensional Graphical Representations [Placeholder for 3D graphical representations]
-2.1.2 Applying Animation Data to 3D Character Models [Placeholder for animation data application]
-2.1.3 Rendering Characters [Placeholder for character rendering]
-2.2 Perception and Application of Virtual Characters 2.2.1 Perception of Virtual Characters [Placeholder for perception of virtual characters]
-2.2.2 Using Virtual Characters in Applications [Placeholder for applications]
-2.3 Procedural Character Animation 2.3.1 Neural network-based Methods [Placeholder for neural network methods]</description>
-    </item>
-    
-    <item>
-      <title>Appendix C: Supplementary Material Index</title>
-      <link>https://vihanga.github.io/thesis/appendices/c/</link>
-      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://vihanga.github.io/thesis/appendices/c/</guid>
-      <description>Appendix C: Supplementary Material Index This appendix provides a comprehensive index of all supplementary materials associated with this thesis, including datasets, code repositories, multimedia content, and additional documentation.
-C.1 Code Repositories C.1.1 Main Research Code  Repository URL: [GitHub/research-code] License: MIT License Languages: Python, C++, MATLAB Key Components:  RL algorithm implementations Data processing pipelines Visualization tools Experiment runners   C.1.2 Evaluation Framework  Repository URL: [GitHub/evaluation-framework] Documentation: Available in /docs directory Dependencies: Listed in requirements.</description>
+      <description>Virtual Character Animation and Perception This chapter establishes the foundation for understanding virtual character animation - both the technical challenges and the perceptual requirements that make animation &amp;ldquo;feel right&amp;rdquo; to human viewers.
+The Animation Pipeline Creating believable virtual characters isn&amp;rsquo;t just about making them move - it&amp;rsquo;s a complex pipeline that starts with 3D modeling and ends with real-time rendering. I explore how animation data flows through this pipeline, from motion capture or procedural generation to the final pixels on screen.</description>
     </item>
     
     <item>
@@ -78,110 +38,59 @@ C.1 Code Repositories C.1.1 Main Research Code  Repository URL: [GitHub/research
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vihanga.github.io/thesis/chapters/model-based-rl/</guid>
-      <description>3.1 Introduction to Reinforcement Learning 3.1.1 Markov Decision Processes [Placeholder for MDP content]
-3.1.2 Model-free vs model-based Reinforcement Learning [Placeholder for model-free vs model-based comparison]
-3.1.3 Reward Functions [Placeholder for reward functions]
-3.2 Model-based Reinforcement Learning 3.2.1 Latent Dynamics Models [Placeholder for latent dynamics models]
-3.2.2 Perspectives on Model-based Reinforcement Learning [Placeholder for perspectives]
-3.3 Representations and Adversaries 3.3.1 Representation Learning [Placeholder for representation learning]
-3.3.2 Adversarial Learning for Regularisation [Placeholder for adversarial learning]</description>
+      <description>Model-based Reinforcement Learning This chapter provides the theoretical foundation for understanding how model-based RL can revolutionize character animation. I explain why learning a model of the world enables more sample-efficient and generalizable agents compared to traditional approaches.
+The Power of World Models Most RL systems are model-free - they learn through trial and error what actions lead to good outcomes. That works great if you have millions of attempts to practice.</description>
     </item>
     
     <item>
-      <title>Appendix D: Perceptual Evaluation</title>
-      <link>https://vihanga.github.io/thesis/appendices/d/</link>
-      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://vihanga.github.io/thesis/appendices/d/</guid>
-      <description>Appendix D: Perceptual Evaluation This appendix presents detailed information about the perceptual evaluation studies conducted to assess the quality and realism of generated animations and interactive systems.
-D.1 Study Design D.1.1 Methodology Overview  Study Type: Mixed-methods approach Duration: 6 weeks Participants: N=120 Sessions: 3 per participant IRB Approval: #2024-XXX  D.1.2 Participant Demographics  Age Range: 18-65 years Gender Distribution: 48% female, 52% male Experience Levels:  Novice users: 40% Intermediate: 35% Expert: 25%  Background:  Computer graphics professionals: 20% Gamers: 30% General users: 50%   D.</description>
-    </item>
-    
-    <item>
-      <title>Chapter 4: Model-based and Model-free Animation</title>
+      <title>Chapter 4: Model-based Character Animation</title>
       <link>https://vihanga.github.io/thesis/chapters/model-based-animation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vihanga.github.io/thesis/chapters/model-based-animation/</guid>
-      <description>Chapter 4: Model-based and Model-free Animation This chapter explores both model-free and model-based approaches to animation control, presenting methods for creating intelligent animation agents that can learn from experience and plan ahead.
-4.1 Model-free RL for Animation Control This section introduces model-free reinforcement learning techniques for animation control, where agents learn policies directly from interaction without explicitly modeling the environment dynamics.
-4.1.1 Problem Formulation [Content placeholder: Define the animation control problem as a Markov Decision Process (MDP), including state and action spaces, reward functions, and learning objectives]</description>
+      <description>Model-based Character Animation This chapter marks the beginning of my core contributions - demonstrating that model-based RL can work for character animation without physics simulation. It&amp;rsquo;s the proof-of-concept that sets the stage for everything that follows.
+The Experiment That Started It All I started with a simple question: can an RL agent learn to animate a character using only a learned model of movement dynamics? No physics engine, no hand-crafted rewards - just data and learning.</description>
     </item>
     
     <item>
-      <title>Appendix E: Supplementary Results, Model-free RL Experiments</title>
-      <link>https://vihanga.github.io/thesis/appendices/e/</link>
-      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://vihanga.github.io/thesis/appendices/e/</guid>
-      <description>Appendix E: Supplementary Results, Model-free RL Experiments This appendix contains comprehensive supplementary results from the model-free reinforcement learning experiments conducted throughout this research.
-Blah Blah blah balh blagh
-E.1 Extended Learning Curves E.1.1 Training Performance Over Time PPO Experiments  Environment: Custom physics simulation Training Steps: 10M Seeds: 5 independent runs Logging Frequency: Every 1000 steps  ![Learning Curves - PPO] - Episode Return: Steady improvement from -200 to +150 - Success Rate: 15% → 92% over training - Sample Efficiency: 2.</description>
-    </item>
-    
-    <item>
-      <title>Chapter 5: Data-Driven Reinforcement Learning with Off-Policy Data</title>
+      <title>Chapter 5: RLAnimate - Data-driven RL for Character Animation</title>
       <link>https://vihanga.github.io/thesis/chapters/data-driven-rl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vihanga.github.io/thesis/chapters/data-driven-rl/</guid>
-      <description>Chapter 5: Data-Driven Reinforcement Learning with Off-Policy Data This chapter addresses the challenge of leveraging existing animation data within reinforcement learning frameworks, presenting methods for combining data-driven approaches with RL to create more efficient and higher-quality animation systems.
-5.1 Introduction [Content placeholder: Introduce the motivation for combining data-driven methods with RL, discussing the abundance of motion capture data and the limitations of pure RL approaches in animation]
-5.2 Off-Policy Learning from Motion Data This section presents methods for learning from pre-recorded motion data within an RL framework, enabling agents to benefit from expert demonstrations while maintaining the flexibility to explore and improve.</description>
+      <description>RLAnimate: Data-driven RL for Character Animation This is where everything comes together. Chapter 5 introduces RLAnimate - my core framework that revolutionizes how we think about RL for animation. Instead of rewards, we use motion capture data as objectives. It&amp;rsquo;s a simple idea with profound implications.
+The Breakthrough: Objectives, Not Rewards Traditional RL for animation struggles with a fundamental problem: how do you write a reward function for &amp;ldquo;wave friendly&amp;rdquo; or &amp;ldquo;point naturally&amp;rdquo;?</description>
     </item>
     
     <item>
-      <title>Appendix F: Star Jump Ideal Action Calculation</title>
-      <link>https://vihanga.github.io/thesis/appendices/f/</link>
-      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://vihanga.github.io/thesis/appendices/f/</guid>
-      <description>Appendix F: Star Jump Ideal Action Calculation This appendix provides detailed mathematical derivations and calculations for determining ideal actions in the star jump motion synthesis task.
-F.1 Problem Formulation F.1.1 Star Jump Motion Definition A star jump consists of the following phases: 1. Preparation Phase: Initial crouching position 2. Launch Phase: Explosive upward movement 3. Aerial Phase: Body forms star shape in mid-air 4. Landing Phase: Controlled descent and stabilization</description>
-    </item>
-    
-    <item>
-      <title>Chapter 6: Latent Dynamics Models for Character Animation</title>
+      <title>Chapter 6: Quaternions and Finger Animation</title>
       <link>https://vihanga.github.io/thesis/chapters/latent-dynamics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vihanga.github.io/thesis/chapters/latent-dynamics/</guid>
-      <description>Chapter 6: Latent Dynamics Models for Character Animation This chapter presents methods for learning compact latent representations of character dynamics, enabling more efficient learning and control of complex animation behaviors through dimensionality reduction and structured latent spaces.
-6.1 Introduction [Content placeholder: Introduce the concept of latent dynamics models and their benefits for character animation, including improved generalization and computational efficiency]
-6.2 Learning Latent Representations This section describes methods for learning meaningful latent representations of character states and dynamics.</description>
+      <description>Quaternions and Finger Animation Chapter 6 tackles one of animation&amp;rsquo;s nastiest problems: fingers. With 30+ joints that move in complex, coordinated patterns, finger animation has long been the bane of procedural methods. My solution? Quaternions and a dedicated animation dynamics model.
+Why Fingers Matter (And Why They&amp;rsquo;re Hard) Watch someone wave - their fingers aren&amp;rsquo;t static. They curl, extend, and move with subtle patterns that make the gesture feel alive.</description>
     </item>
     
     <item>
-      <title>Appendix G: RLAnimate Directory</title>
-      <link>https://vihanga.github.io/thesis/appendices/g/</link>
-      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://vihanga.github.io/thesis/appendices/g/</guid>
-      <description>Appendix G: RLAnimate Directory This appendix provides a comprehensive directory of the RLAnimate framework, including its architecture, components, API reference, and usage examples.
-G.1 System Architecture G.1.1 Overview RLAnimate is a modular framework for physics-based character animation using reinforcement learning. The system consists of:
-RLAnimate/ ├── core/ │ ├── agents/ │ ├── environments/ │ ├── physics/ │ └── utils/ ├── models/ │ ├── policies/ │ ├── value_functions/ │ └── networks/ ├── training/ │ ├── algorithms/ │ ├── replay_buffers/ │ └── schedulers/ ├── evaluation/ │ ├── metrics/ │ ├── visualization/ │ └── benchmarks/ └── examples/ ├── tutorials/ ├── experiments/ └── demos/  G.</description>
-    </item>
-    
-    <item>
-      <title>Chapter 7: Conversational Gesture Generation</title>
+      <title>Chapter 7: Beat Gestures - The Ultimate Test</title>
       <link>https://vihanga.github.io/thesis/chapters/conversational-gestures/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vihanga.github.io/thesis/chapters/conversational-gestures/</guid>
-      <description>Chapter 7: Conversational Gesture Generation This chapter addresses the specific challenge of generating natural conversational gestures that accompany speech, presenting methods for creating embodied conversational agents with realistic nonverbal communication behaviors.
-7.1 Introduction [Content placeholder: Introduce the importance of conversational gestures in human communication and the challenges of automatic gesture generation for virtual agents]
-7.2 Understanding Conversational Gestures This section provides background on the nature and function of conversational gestures.</description>
+      <description>Beat Gestures: The Ultimate Test This chapter represents the culmination of everything - applying RLAnimate to conversational beat gestures. It&amp;rsquo;s the hardest test possible: can RL-generated animations be indistinguishable from real human gestures? The answer, validated through rigorous perceptual studies, is yes.
+Why Beat Gestures Are Different Beat gestures - those rhythmic hand movements we make while speaking - are uniquely challenging: - They&amp;rsquo;re not goal-directed (unlike pointing or waving) - They must synchronize with speech prosody - They require subtle variety to feel natural - There&amp;rsquo;s no &amp;ldquo;correct&amp;rdquo; gesture - only human-like ones</description>
     </item>
     
     <item>
-      <title>Chapter 8: Conclusion</title>
+      <title>Chapter 8: Conclusions and Future Impact</title>
       <link>https://vihanga.github.io/thesis/chapters/conclusion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vihanga.github.io/thesis/chapters/conclusion/</guid>
-      <description>Chapter 8: Conclusion This chapter summarizes the contributions of this thesis, discusses their implications for the field of character animation and reinforcement learning, and outlines directions for future research.
-8.1 Summary of Contributions This thesis has presented a comprehensive exploration of reinforcement learning methods for character animation, addressing fundamental challenges and proposing novel solutions across multiple domains.
-8.1.1 Technical Contributions [Content placeholder: Summarize the main technical contributions including: - Novel RL algorithms for physics-based animation - Model-based and model-free approaches for animation control - Methods for leveraging existing motion data in RL frameworks - Latent dynamics models for efficient learning and control - Gesture generation techniques for conversational agents]</description>
+      <description>Conclusions and Future Impact This thesis fundamentally changes how we think about character animation. By treating animation as a model-based RL problem with motion capture objectives, I&amp;rsquo;ve created a system that produces human-quality movement at real-time speeds. But this is just the beginning.
+What We&amp;rsquo;ve Achieved RLAnimate represents several breakthrough achievements:
+Human-quality animation from RL: For the first time, RL agents generate movement that humans can&amp;rsquo;t distinguish from motion capture.</description>
     </item>
     
     <item>
@@ -190,38 +99,42 @@ RLAnimate/ ├── core/ │ ├── agents/ │ ├── environments/ │
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
       
       <guid>https://vihanga.github.io/thesis/supplementary/c4/</guid>
-      <description>Video Demonstrations Motion Synthesis Examples  Basic Locomotion: Demonstrations of walking, running, and transitioning between different gaits Complex Behaviors: Examples of jumping, turning, and obstacle avoidance Multi-character Interactions: Synchronized movements and collision avoidance  Training Progress Visualization  Evolution of motion quality over training iterations Comparison between different reward function configurations Ablation study results in video format  Additional Results Quantitative Metrics Extended evaluation metrics not included in the main chapter: - Frame-by-frame motion quality assessment - Computational performance benchmarks - Memory usage analysis during training and inference</description>
+      <description>Chapter 4: Model-Based Character Animation This page contains supplementary material referenced in Chapter 4 of the thesis, demonstrating the model-based reinforcement learning agents trained to portray gazing and pointing behaviors.
+Video Demonstrations Model-Based Animation Agents (AMSTA 2021) The following video demonstrates the agents trained using learned dynamics models and online planning for target-driven behaviors:
+  This video shows: - Gazing behavior with dynamic target tracking - Pointing behavior with both left and right arms - Combined gaze and point behaviors - Real-time responsiveness to changing targets - Comparison with inverse kinematics baseline</description>
     </item>
     
     <item>
-      <title>Chapter 5 Supplementary Material - Part A: Model-free Output Sequences</title>
+      <title>Chapter 5 Supplementary Material - Part A: RLAnimate Output Sequences</title>
       <link>https://vihanga.github.io/thesis/supplementary/c5a/</link>
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
       
       <guid>https://vihanga.github.io/thesis/supplementary/c5a/</guid>
-      <description>Chapter 5 Supplementary Material - Part A Model-free Output Sequences This page contains supplementary material referenced in Chapter 5, Section 5.2 (Model-free RL experiments).
-Video Demonstrations Star Jump Task - Model-free Agents [PLACEHOLDER: Video grid showing: - DDPG agent performing Male Star Jump (MSJ) - DDPG agent performing Female Star Jump (FSJ) - SAC agent performing Male Star Jump (MSJ) - SAC agent performing Female Star Jump (FSJ) - Side-by-side comparison of best performing agents]</description>
+      <description>Chapter 5 Part A: RLAnimate Output Sequences This page contains supplementary material for Chapter 5, demonstrating the RLAnimate A1 agents trained to portray waving and pointing behaviors.
+Video Demonstrations RLAnimate Output Sequences and Comparison to Control Agents (ALA 2021) The following video shows RLAnimate agents performing waving and pointing behaviors, with comparisons to baseline control agents:
+  This video demonstrates: - A1 agent performing waving behaviors with varying exaggeration levels - A1 agent performing pointing behaviors to different targets - Comparison with single dynamics baseline - Comparison with supervised learning baseline - Natural, human-like motion generation</description>
     </item>
     
     <item>
-      <title>Chapter 5 Supplementary Material - Part B: Model-based Output Sequences</title>
+      <title>Chapter 5 Supplementary Material - Part B: Behavior Flexibility</title>
       <link>https://vihanga.github.io/thesis/supplementary/c5b/</link>
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
       
       <guid>https://vihanga.github.io/thesis/supplementary/c5b/</guid>
-      <description>Chapter 5 Supplementary Material - Part B Model-based Output Sequences This page contains supplementary material referenced in Chapter 5, Section 5.3 (Model-based RL experiments).
-Video Demonstrations Star Jump Task - Model-based Agents [PLACEHOLDER: Video grid showing: - Model-based agent performing Male Star Jump (R1, R2, R3 configurations) - Model-based agent performing Female Star Jump (R1, R2, R3 configurations) - Comparison with model-free agents - Improved smoothness and natural motion]</description>
+      <description>Chapter 5 Part B: RLAnimate Behavior Portrayal Flexibility This page contains supplementary material for Chapter 5, demonstrating the flexibility and dynamic control capabilities of RLAnimate agents.
+Video Demonstrations RLAnimate Behavior Portrayal Flexibility (ALA 2021) The following video demonstrates the dynamic flexibility of RLAnimate agents in portraying varied behaviors:
+  This video shows: - Waving with continuously variable exaggeration levels - Pointing to dynamically changing targets - Smooth transitions between behaviors - Real-time responsiveness to parameter changes - Natural variation in movement execution</description>
     </item>
     
     <item>
-      <title>Chapter 6 Supplementary Material: RLAnimate Waving and Pointing</title>
+      <title>Chapter 6 Supplementary Material: Quaternions and Finger Animation</title>
       <link>https://vihanga.github.io/thesis/supplementary/c6/</link>
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
       
       <guid>https://vihanga.github.io/thesis/supplementary/c6/</guid>
-      <description>Chapter 6 Supplementary Material A1 and A2 Agent Demonstrations This page contains supplementary material referenced in Chapter 6 of the thesis.
-A1 Waving and Pointing Behaviors Waving Demonstrations [PLACEHOLDER: Video grid showing: - A1 agent performing various waving gestures - Different exaggeration levels (0.0 to 1.0) - Left hand vs right hand waving - Comparison with motion capture reference]
-Pointing Demonstrations [PLACEHOLDER: Video grid showing: - A1 agent pointing to various 3D targets - Dynamic target tracking - Smooth transitions between targets - Accuracy visualization with target indicators]</description>
+      <description>Chapter 6: Latent Dynamic-augmented Animation Output This page contains supplementary material referenced in Chapter 6 of the thesis, demonstrating the A3 architecture with quaternion rotations and animation dynamics for finger animation.
+A3 Architecture Results The A3 architecture introduced in Chapter 6 addresses the challenge of incorporating finger animation through:
+ Quaternion Representations: Eliminating gimbal lock and improving computational efficiency Animation Dynamics Model: Dedicated latent dynamics for animation generation Hierarchical Learning: Better capture of joint dependencies  Performance Improvements  A2 + Quaternion baseline: 81.</description>
     </item>
     
     <item>
@@ -230,8 +143,9 @@ Pointing Demonstrations [PLACEHOLDER: Video grid showing: - A1 agent pointing to
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
       
       <guid>https://vihanga.github.io/thesis/supplementary/c7/</guid>
-      <description>Chapter 7 Supplementary Material Beat Gesture Generation Results This page contains supplementary material referenced in Chapter 7 of the thesis, including video demonstrations of RLAnimate A4 generating beat gestures from speech input.
-A3 Agent Demonstrations Quaternion-based Waving and Pointing with Fingers [PLACEHOLDER: Video grid showing: - A3 agent with quaternion rotations - Waving behaviors with finger movement - Pointing behaviors with finger articulation - Comparison with A2 Euler-based approach]</description>
+      <description>Chapter 7: Portraying Conversational Gestures via Realism Regularisation This page contains supplementary material referenced in Chapter 7, including the video stimuli used in the perceptual evaluation study comparing RLAnimate A4, Gesticulator, and motion capture.
+Perceptual Study Video Stimuli The following videos were used in the perceptual evaluation with 28 participants. Each stimulus set was rendered with three methods: RLAnimate A4, Gesticulator, and Motion Capture (ground truth).
+Stimulus Set A  RLAnimate A4    Gesticulator    Motion Capture    Stimulus Set B  RLAnimate A4    Gesticulator    Motion Capture    Stimulus Set C  RLAnimate A4    Gesticulator    Motion Capture    Stimulus Set D  RLAnimate A4    Gesticulator    Motion Capture    Stimulus Set E  RLAnimate A4    Gesticulator    Motion Capture    Stimulus Set F  RLAnimate A4    Gesticulator    Motion Capture    Stimulus Set G  RLAnimate A4    Gesticulator    Motion Capture    Stimulus Set H  RLAnimate A4    Gesticulator    Motion Capture    Perceptual Study Results Statistical Results RLAnimate A4 vs Gesticulator (one-sided t-tests, α = 0.</description>
     </item>
     
     <item>

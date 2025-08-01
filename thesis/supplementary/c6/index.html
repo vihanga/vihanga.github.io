@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Hugo 0.55.4">
   
-  <title>Chapter 6 Supplementary Material: RLAnimate Waving and Pointing | Thesis</title>
+  <title>Chapter 6 Supplementary Material: Quaternions and Finger Animation | Thesis</title>
   
   <link rel="stylesheet" href="/css/thesis-book.css">
   
@@ -82,122 +82,68 @@
   
   <main class="thesis-main">
     <article class="thesis-content">
-      <h1>Chapter 6 Supplementary Material: RLAnimate Waving and Pointing</h1>
+      <h1>Chapter 6 Supplementary Material: Quaternions and Finger Animation</h1>
       
       
       
 
-<h1 id="chapter-6-supplementary-material">Chapter 6 Supplementary Material</h1>
+<h1 id="chapter-6-latent-dynamic-augmented-animation-output">Chapter 6: Latent Dynamic-augmented Animation Output</h1>
 
-<h2 id="a1-and-a2-agent-demonstrations">A1 and A2 Agent Demonstrations</h2>
+<p>This page contains supplementary material referenced in Chapter 6 of the thesis, demonstrating the A3 architecture with quaternion rotations and animation dynamics for finger animation.</p>
 
-<p>This page contains supplementary material referenced in Chapter 6 of the thesis.</p>
+<h2 id="a3-architecture-results">A3 Architecture Results</h2>
 
-<h3 id="a1-waving-and-pointing-behaviors">A1 Waving and Pointing Behaviors</h3>
+<p>The A3 architecture introduced in Chapter 6 addresses the challenge of incorporating finger animation through:</p>
 
-<h4 id="waving-demonstrations">Waving Demonstrations</h4>
+<ol>
+<li><strong>Quaternion Representations</strong>: Eliminating gimbal lock and improving computational efficiency</li>
+<li><strong>Animation Dynamics Model</strong>: Dedicated latent dynamics for animation generation</li>
+<li><strong>Hierarchical Learning</strong>: Better capture of joint dependencies</li>
+</ol>
 
-<p>[PLACEHOLDER: Video grid showing:
-- A1 agent performing various waving gestures
-- Different exaggeration levels (0.0 to 1.0)
-- Left hand vs right hand waving
-- Comparison with motion capture reference]</p>
+<h3 id="performance-improvements">Performance Improvements</h3>
 
-<h4 id="pointing-demonstrations">Pointing Demonstrations</h4>
+<ul>
+<li><strong>A2 + Quaternion baseline</strong>: 81.23 similarity score</li>
+<li><strong>A3 Standard</strong>: 86.57 similarity score (5.34 point improvement)</li>
+<li><strong>A3 with all latents</strong>: 86.19 similarity score</li>
+</ul>
 
-<p>[PLACEHOLDER: Video grid showing:
-- A1 agent pointing to various 3D targets
-- Dynamic target tracking
-- Smooth transitions between targets
-- Accuracy visualization with target indicators]</p>
+<p>All velocity errors remain under the 0.4 perceptual threshold, confirming that the A3 architecture successfully maintains motion quality while handling the additional complexity of finger animation. As noted in the thesis (Section 6.3), visual analysis confirms that the A3 architecture maintains animation quality despite the increased complexity of animating 30+ finger joints.</p>
 
-<h4 id="combined-behaviors">Combined Behaviors</h4>
+<h2 id="technical-contributions">Technical Contributions</h2>
 
-<p>[PLACEHOLDER: Videos demonstrating:
-- Simultaneous waving and pointing
-- Behavior switching and blending
-- Multi-objective control scenarios]</p>
+<h3 id="quaternion-activation-function">Quaternion Activation Function</h3>
 
-<h3 id="a2-agent-improvements">A2 Agent Improvements</h3>
+<p>The novel quaternion activation function ensures all neural network outputs are valid unit quaternions:</p>
 
-<h4 id="enhanced-waving-behaviors">Enhanced Waving Behaviors</h4>
+<pre><code>f(w,x,y,z) = [w,x,y,z] / sqrt(w² + x² + y² + z²)
+</code></pre>
 
-<p>[PLACEHOLDER: Comparison videos showing:
-- A1 vs A2 waving quality
-- Reduced artifacts in A2
-- More natural motion trajectories
-- Better temporal consistency]</p>
+<p>This eliminates singularities (except at origin) and provides smooth gradients for training.</p>
 
-<h4 id="enhanced-pointing-behaviors">Enhanced Pointing Behaviors</h4>
+<h3 id="animation-dynamics-model">Animation Dynamics Model</h3>
 
-<p>[PLACEHOLDER: Comparison videos showing:
-- A1 vs A2 pointing accuracy
-- Smoother target transitions
-- Improved elbow positioning
-- Natural arm configurations]</p>
+<p>The dedicated animation dynamics model learns hierarchical relationships between joints through:
+- Deterministic state: h<em>t^a = f(h</em>{t-1}^a, s_{t-1}, h_t^p, p_t, h_t^b, b_t)
+- Stochastic component for natural variation
+- Temporal consistency through recurrent processing</p>
 
-<h3 id="motion-capture-data">Motion Capture Data</h3>
+<h3 id="a3-agent-capabilities">A3 Agent Capabilities</h3>
 
-<p>[PLACEHOLDER: Visualization of:
-- Original motion capture clips used for training
-- Data preprocessing pipeline
-- Training data distribution
-- Behavior labeling process]</p>
-
-<h3 id="training-details">Training Details</h3>
-
-<h4 id="loss-function-evolution">Loss Function Evolution</h4>
-
-<p>[PLACEHOLDER: Plots showing:
-- L1 (Description reconstruction) loss over training
-- L2 (KL divergence) loss progression
-- L3 (Animation reconstruction) loss
-- Total loss convergence]</p>
-
-<h4 id="latent-space-analysis">Latent Space Analysis</h4>
-
-<p>[PLACEHOLDER: Visualizations of:
-- Learned portrayal dynamics
-- Behavior dynamics representations
-- Latent space interpolations
-- Clustering of different behaviors]</p>
-
-<h3 id="ablation-studies">Ablation Studies</h3>
-
-<h4 id="state-configuration-comparisons">State Configuration Comparisons</h4>
-
-<p>[PLACEHOLDER: Results showing:
-- Performance with different state inputs
-- Impact of individual state components
-- Optimal configuration analysis]</p>
-
-<h4 id="model-component-ablations">Model Component Ablations</h4>
-
-<p>[PLACEHOLDER: Videos and metrics for:
-- Agents without portrayal model
-- Agents without behavior model
-- Single dynamics vs dual dynamics
-- Impact of stochastic components]</p>
-
-<h3 id="a2-agent-applied-to-finger-animation">A2 Agent Applied to Finger Animation</h3>
-
-<h4 id="preliminary-results">Preliminary Results</h4>
-
-<p>[PLACEHOLDER: Videos showing:
-- A2 agent attempting finger control
-- Artifacts and instabilities observed
-- Comparison with body-only animation
-- Analysis of failure modes]</p>
-
-<p>This section provides context for the improvements developed in Chapter 7.</p>
+<p>The A3 agents demonstrate:
+- Successful incorporation of finger movements in waving behaviors
+- Natural finger positioning during pointing tasks
+- Smooth transitions without artifacts
+- Maintained performance under the 0.4 velocity error threshold</p>
 
 <h2 id="navigation">Navigation</h2>
 
 <ul>
-<li><a href="../c5b/">← Chapter 5 Part B: Model-based Output Sequences</a></li>
+<li><a href="../c5b/">← Chapter 5 Part B: Behavior Flexibility</a></li>
 <li><a href="../c7/">Chapter 7 Supplementary Material →</a></li>
 <li><a href="https://vihanga.github.io/thesis/" target="_blank">← Back to thesis main page</a></li>
-<li><a href="https://vihanga.github.io/thesis/chapters/data-driven-rl/" target="_blank">Chapter 6 in main thesis</a></li>
+<li><a href="https://vihanga.github.io/thesis/chapters/latent-dynamics/" target="_blank">Chapter 6 in main thesis</a></li>
 </ul>
 
       
@@ -208,7 +154,7 @@
         
         
         
-        <a href="https://vihanga.github.io/thesis/supplementary/c5b/">Chapter 5 Supplementary Material - Part B: Model-based Output Sequences →</a>
+        <a href="https://vihanga.github.io/thesis/supplementary/c5b/">Chapter 5 Supplementary Material - Part B: Behavior Flexibility →</a>
         
       </nav>
     </article>

@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Hugo 0.55.4">
   
-  <title>Chapter 4: Model-based and Model-free Animation | Thesis</title>
+  <title>Chapter 4: Model-based Character Animation | Thesis</title>
   
   <link rel="stylesheet" href="/css/thesis-book.css">
   
@@ -82,72 +82,64 @@
   
   <main class="thesis-main">
     <article class="thesis-content">
-      <h1>Chapter 4: Model-based and Model-free Animation</h1>
+      <h1>Chapter 4: Model-based Character Animation</h1>
       
       
       
 
-<h1 id="chapter-4-model-based-and-model-free-animation">Chapter 4: Model-based and Model-free Animation</h1>
+<h1 id="model-based-character-animation">Model-based Character Animation</h1>
 
-<p>This chapter explores both model-free and model-based approaches to animation control, presenting methods for creating intelligent animation agents that can learn from experience and plan ahead.</p>
+<p>This chapter marks the beginning of my core contributions - demonstrating that model-based RL can work for character animation without physics simulation. It&rsquo;s the proof-of-concept that sets the stage for everything that follows.</p>
 
-<h2 id="4-1-model-free-rl-for-animation-control">4.1 Model-free RL for Animation Control</h2>
+<h2 id="the-experiment-that-started-it-all">The Experiment That Started It All</h2>
 
-<p>This section introduces model-free reinforcement learning techniques for animation control, where agents learn policies directly from interaction without explicitly modeling the environment dynamics.</p>
+<p>I started with a simple question: can an RL agent learn to animate a character using only a learned model of movement dynamics? No physics engine, no hand-crafted rewards - just data and learning.</p>
 
-<h3 id="4-1-1-problem-formulation">4.1.1 Problem Formulation</h3>
+<p>The answer turned out to be a resounding yes, but with important caveats that shaped the rest of my research.</p>
 
-<p>[Content placeholder: Define the animation control problem as a Markov Decision Process (MDP), including state and action spaces, reward functions, and learning objectives]</p>
+<h2 id="star-jumps-a-perfect-test-case">Star Jumps: A Perfect Test Case</h2>
 
-<h3 id="4-1-2-policy-learning-methods">4.1.2 Policy Learning Methods</h3>
+<p>Why star jumps? They&rsquo;re deceptively complex - requiring coordination of arms and legs, maintaining balance, and producing a recognizable pattern. Yet they&rsquo;re simple enough to analyze rigorously. This choice let me focus on the core challenge: can model-based RL work for animation at all?</p>
 
-<p>[Content placeholder: Discuss various model-free RL algorithms applicable to animation control, including policy gradient methods, actor-critic architectures, and their specific adaptations for character animation]</p>
+<p>Using just 5 minutes of motion capture data, I trained agents that could:
+- Generate continuous star jump animations
+- Maintain synchronization between limbs
+- Adapt to different speeds and styles
+- Run in real-time (under 5ms per frame)</p>
 
-<h3 id="4-1-3-experimental-results">4.1.3 Experimental Results</h3>
+<h2 id="model-free-vs-model-based-the-showdown">Model-free vs Model-based: The Showdown</h2>
 
-<p>[Content placeholder: Present experimental results demonstrating the effectiveness of model-free RL for various animation tasks, including locomotion, object manipulation, and athletic movements]</p>
+<p>The chapter presents a direct comparison between model-free (PPO) and model-based (Dreamer) approaches. The results were eye-opening:</p>
 
-<h2 id="4-2-learned-dynamics-models-and-online-planning-for-model-based-animation-agents">4.2 Learned dynamics models and online planning for model-based animation agents</h2>
+<p><strong>Model-free</strong>: Achieved the objective but produced unnatural, robotic movements. The agent found shortcuts that technically worked but looked wrong to human eyes.</p>
 
-<p>This section presents model-based approaches where agents learn dynamics models of the environment and use them for planning and control.</p>
+<p><strong>Model-based</strong>: Produced natural-looking animations that closely matched the motion capture data. The learned dynamics model acted as an implicit regularizer, keeping movements within the manifold of human motion.</p>
 
-<h3 id="4-2-1-dynamics-model-learning">4.2.1 Dynamics Model Learning</h3>
+<h2 id="key-insights">Key Insights</h2>
 
-<p>[Content placeholder: Describe methods for learning forward dynamics models from interaction data, including neural network architectures and training procedures]</p>
+<p>This early work revealed three critical insights that guided the rest of the thesis:</p>
 
-<h3 id="4-2-2-online-planning-algorithms">4.2.2 Online Planning Algorithms</h3>
+<ol>
+<li><strong>Dynamics models are regularizers</strong>: By learning how humans actually move, the model prevents unnatural animations</li>
+<li><strong>Latent planning works</strong>: Planning in a learned latent space is both efficient and effective</li>
+<li><strong>Physics isn&rsquo;t necessary</strong>: For many animation tasks, learned dynamics are sufficient</li>
+</ol>
 
-<p>[Content placeholder: Present online planning algorithms that leverage learned dynamics models, including model predictive control (MPC) and sampling-based planning methods]</p>
+<h2 id="setting-the-stage">Setting the Stage</h2>
 
-<h3 id="4-2-3-integration-with-model-free-methods">4.2.3 Integration with Model-free Methods</h3>
+<p>While successful, this chapter also exposed limitations - single-behavior agents, no interaction with physics, limited complexity. These limitations motivated the innovations in subsequent chapters, but the core finding stands: model-based RL is a viable paradigm for character animation.</p>
 
-<p>[Content placeholder: Discuss hybrid approaches that combine model-based planning with model-free learning, leveraging the strengths of both paradigms]</p>
-
-<h3 id="4-2-4-comparative-analysis">4.2.4 Comparative Analysis</h3>
-
-<p>[Content placeholder: Compare model-based and model-free approaches in terms of sample efficiency, computational requirements, and animation quality]</p>
-
-<h2 id="4-3-chapter-summary">4.3 Chapter Summary</h2>
-
-<p>This chapter has presented a comprehensive exploration of both model-free and model-based approaches to animation control. We demonstrated that model-free methods can produce high-quality animations through direct policy learning, while model-based methods offer improved sample efficiency and planning capabilities. The combination of both approaches provides a powerful framework for creating intelligent animation agents capable of complex behaviors.</p>
-
-<p>Key contributions of this chapter include:
-- A systematic comparison of model-free and model-based approaches for animation control
-- Novel algorithms for learning dynamics models suitable for character animation
-- Demonstration of online planning methods that produce natural-looking motions
-- Insights into the trade-offs between different approaches and their appropriate use cases</p>
-
-<p>The methods presented in this chapter lay the foundation for more advanced animation systems that can adapt to new tasks, generalize across different characters, and produce increasingly sophisticated behaviors.</p>
+<p>The supplementary material shows these agents in action, demonstrating that even this early prototype could produce animations that feel genuinely human-like.</p>
 
       
       
       <nav class="thesis-chapter-nav">
         
-        <a href="https://vihanga.github.io/thesis/appendices/e/">← Appendix E: Supplementary Results, Model-free RL Experiments</a>
+        <a href="https://vihanga.github.io/thesis/chapters/data-driven-rl/">← Chapter 5: RLAnimate - Data-driven RL for Character Animation</a>
         
         
         
-        <a href="https://vihanga.github.io/thesis/appendices/d/">Appendix D: Perceptual Evaluation →</a>
+        <a href="https://vihanga.github.io/thesis/chapters/model-based-rl/">Chapter 3: Model-based Reinforcement Learning →</a>
         
       </nav>
     </article>

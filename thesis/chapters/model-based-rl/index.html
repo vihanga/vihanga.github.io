@@ -87,57 +87,48 @@
       
       
 
-<h2 id="3-1-introduction-to-reinforcement-learning">3.1 Introduction to Reinforcement Learning</h2>
+<h1 id="model-based-reinforcement-learning">Model-based Reinforcement Learning</h1>
 
-<h3 id="3-1-1-markov-decision-processes">3.1.1 Markov Decision Processes</h3>
+<p>This chapter provides the theoretical foundation for understanding how model-based RL can revolutionize character animation. I explain why learning a model of the world enables more sample-efficient and generalizable agents compared to traditional approaches.</p>
 
-<p>[Placeholder for MDP content]</p>
+<h2 id="the-power-of-world-models">The Power of World Models</h2>
 
-<h3 id="3-1-2-model-free-vs-model-based-reinforcement-learning">3.1.2 Model-free vs model-based Reinforcement Learning</h3>
+<p>Most RL systems are model-free - they learn through trial and error what actions lead to good outcomes. That works great if you have millions of attempts to practice. But what if you need to learn from limited data? That&rsquo;s where model-based RL shines.</p>
 
-<p>[Placeholder for model-free vs model-based comparison]</p>
+<p>By learning a model of how the world works - in our case, how human bodies move - agents can plan ahead, imagine consequences, and generalize from limited examples. It&rsquo;s the difference between memorizing dance moves and understanding the principles of movement.</p>
 
-<h3 id="3-1-3-reward-functions">3.1.3 Reward Functions</h3>
+<h2 id="latent-dynamics-the-secret-sauce">Latent Dynamics: The Secret Sauce</h2>
 
-<p>[Placeholder for reward functions]</p>
+<p>Here&rsquo;s the key insight that makes RLAnimate work: we don&rsquo;t need to model every muscle and bone. Instead, we learn compact &ldquo;latent&rdquo; representations that capture the essence of movement patterns.</p>
 
-<h2 id="3-2-model-based-reinforcement-learning">3.2 Model-based Reinforcement Learning</h2>
+<p>I introduce the mathematical framework of latent dynamics models, showing how they compress high-dimensional movement data into manageable representations while preserving the critical information for generating natural motion. This is what allows our agents to run at 5ms per frame - we&rsquo;re working in an efficient latent space, not raw joint angles.</p>
 
-<h3 id="3-2-1-latent-dynamics-models">3.2.1 Latent Dynamics Models</h3>
+<h2 id="representation-learning-and-realism">Representation Learning and Realism</h2>
 
-<p>[Placeholder for latent dynamics models]</p>
+<p>The chapter explores how to learn good representations for animation. Not all latent spaces are created equal - some preserve the nuances that make motion feel human, others lose them. I examine techniques from variational autoencoders to adversarial learning, setting up the theoretical foundation for the realism regularization used in later chapters.</p>
 
-<h3 id="3-2-2-perspectives-on-model-based-reinforcement-learning">3.2.2 Perspectives on Model-based Reinforcement Learning</h3>
+<h2 id="why-model-based-for-animation">Why Model-based for Animation?</h2>
 
-<p>[Placeholder for perspectives]</p>
+<p>The chapter concludes by connecting these abstract concepts to character animation:</p>
 
-<h2 id="3-3-representations-and-adversaries">3.3 Representations and Adversaries</h2>
+<ol>
+<li><strong>Sample Efficiency</strong>: Learn new behaviors from just a few motion capture examples</li>
+<li><strong>Generalization</strong>: Interpolate and extrapolate beyond the training data</li>
+<li><strong>Planning</strong>: Generate coherent long-term motion sequences</li>
+<li><strong>Speed</strong>: Efficient latent representations enable real-time performance</li>
+</ol>
 
-<h3 id="3-3-1-representation-learning">3.3.1 Representation Learning</h3>
-
-<p>[Placeholder for representation learning]</p>
-
-<h3 id="3-3-2-adversarial-learning-for-regularisation">3.3.2 Adversarial Learning for Regularisation</h3>
-
-<p>[Placeholder for adversarial learning]</p>
-
-<h2 id="3-4-discussion">3.4 Discussion</h2>
-
-<p>[Placeholder for discussion]</p>
-
-<h2 id="3-5-chapter-summary">3.5 Chapter Summary</h2>
-
-<p>[Placeholder for chapter summary]</p>
+<p>This theoretical grounding is essential for understanding why RLAnimate succeeds where other methods fail. Model-based RL isn&rsquo;t just another technique - it&rsquo;s fundamentally the right abstraction for the animation problem.</p>
 
       
       
       <nav class="thesis-chapter-nav">
         
-        <a href="https://vihanga.github.io/thesis/appendices/d/">← Appendix D: Perceptual Evaluation</a>
+        <a href="https://vihanga.github.io/thesis/chapters/model-based-animation/">← Chapter 4: Model-based Character Animation</a>
         
         
         
-        <a href="https://vihanga.github.io/thesis/appendices/c/">Appendix C: Supplementary Material Index →</a>
+        <a href="https://vihanga.github.io/thesis/chapters/data-driven-animation/">Chapter 2: Virtual Character Animation and Perception →</a>
         
       </nav>
     </article>

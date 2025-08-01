@@ -87,178 +87,55 @@
       
       
 
+<h1 id="chapter-4-model-based-character-animation">Chapter 4: Model-Based Character Animation</h1>
+
+<p>This page contains supplementary material referenced in Chapter 4 of the thesis, demonstrating the model-based reinforcement learning agents trained to portray gazing and pointing behaviors.</p>
+
 <h2 id="video-demonstrations">Video Demonstrations</h2>
 
-<h3 id="motion-synthesis-examples">Motion Synthesis Examples</h3>
+<h3 id="model-based-animation-agents-amsta-2021">Model-Based Animation Agents (AMSTA 2021)</h3>
+
+<p>The following video demonstrates the agents trained using learned dynamics models and online planning for target-driven behaviors:</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/XBNY2tPK7JE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+<p>This video shows:
+- Gazing behavior with dynamic target tracking
+- Pointing behavior with both left and right arms
+- Combined gaze and point behaviors
+- Real-time responsiveness to changing targets
+- Comparison with inverse kinematics baseline</p>
+
+<h3 id="key-results-demonstrated">Key Results Demonstrated</h3>
+
+<ol>
+<li><strong>Computational Efficiency</strong>: 5ms per frame (40x faster than IK baseline)</li>
+<li><strong>Dynamic Flexibility</strong>: Agents adapt to moving targets without computational overhead</li>
+<li><strong>Multi-behavior Support</strong>: Single agent architecture supports gaze, point, and combined behaviors</li>
+<li><strong>Beta Distribution Planning</strong>: Novel approach to smooth animation generation</li>
+</ol>
+
+<h2 id="navigation">Navigation</h2>
 
 <ul>
-<li><strong>Basic Locomotion</strong>: Demonstrations of walking, running, and transitioning between different gaits</li>
-<li><strong>Complex Behaviors</strong>: Examples of jumping, turning, and obstacle avoidance</li>
-<li><strong>Multi-character Interactions</strong>: Synchronized movements and collision avoidance</li>
+<li><a href="../c5a/">Chapter 5 Part A: Model-free RL →</a></li>
+<li><a href="https://vihanga.github.io/thesis/" target="_blank">← Back to thesis main page</a></li>
+<li><a href="https://vihanga.github.io/thesis/chapters/model-based-animation/" target="_blank">Chapter 4 in main thesis</a></li>
 </ul>
-
-<h3 id="training-progress-visualization">Training Progress Visualization</h3>
-
-<ul>
-<li>Evolution of motion quality over training iterations</li>
-<li>Comparison between different reward function configurations</li>
-<li>Ablation study results in video format</li>
-</ul>
-
-<h2 id="additional-results">Additional Results</h2>
-
-<h3 id="quantitative-metrics">Quantitative Metrics</h3>
-
-<p>Extended evaluation metrics not included in the main chapter:
-- Frame-by-frame motion quality assessment
-- Computational performance benchmarks
-- Memory usage analysis during training and inference</p>
-
-<h3 id="qualitative-comparisons">Qualitative Comparisons</h3>
-
-<ul>
-<li>Side-by-side comparisons with baseline methods</li>
-<li>User study results and feedback</li>
-<li>Analysis of failure cases and edge conditions</li>
-</ul>
-
-<h2 id="code-examples">Code Examples</h2>
-
-<h3 id="training-configuration">Training Configuration</h3>
-
-<pre><code class="language-python"># Example configuration for motion synthesis training
-config = {
-    'learning_rate': 3e-4,
-    'batch_size': 256,
-    'hidden_dims': [512, 512, 256],
-    'action_space': 'continuous',
-    'reward_weights': {
-        'motion_quality': 0.7,
-        'energy_efficiency': 0.2,
-        'goal_reaching': 0.1
-    }
-}
-</code></pre>
-
-<h3 id="custom-reward-function-implementation">Custom Reward Function Implementation</h3>
-
-<pre><code class="language-python">def compute_reward(state, action, next_state, reference_motion):
-    &quot;&quot;&quot;
-    Compute reward based on motion quality and task objectives
-    &quot;&quot;&quot;
-    # Motion matching component
-    pose_similarity = compute_pose_similarity(next_state, reference_motion)
-    
-    # Energy efficiency component
-    energy_penalty = compute_energy_penalty(action)
-    
-    # Task-specific objectives
-    task_reward = compute_task_reward(state, next_state)
-    
-    return pose_similarity - energy_penalty + task_reward
-</code></pre>
-
-<h3 id="motion-preprocessing-pipeline">Motion Preprocessing Pipeline</h3>
-
-<pre><code class="language-python"># Data preprocessing for motion capture sequences
-def preprocess_motion_data(raw_mocap_data):
-    # Normalize joint positions
-    normalized_data = normalize_skeleton(raw_mocap_data)
-    
-    # Extract motion features
-    velocities = compute_joint_velocities(normalized_data)
-    accelerations = compute_joint_accelerations(velocities)
-    
-    # Create training sequences
-    sequences = create_overlapping_windows(normalized_data, window_size=64)
-    
-    return sequences, velocities, accelerations
-</code></pre>
-
-<h2 id="dataset-information">Dataset Information</h2>
-
-<h3 id="motion-capture-database">Motion Capture Database</h3>
-
-<ul>
-<li><strong>Source</strong>: CMU Motion Capture Database, custom recordings</li>
-<li><strong>Total Sequences</strong>: 2,847 motion clips</li>
-<li><strong>Duration</strong>: ~15 hours of motion data</li>
-<li><strong>Subjects</strong>: 45 different performers</li>
-<li><strong>Motion Categories</strong>:
-
-<ul>
-<li>Locomotion (40%)</li>
-<li>Sports movements (25%)</li>
-<li>Dance sequences (20%)</li>
-<li>Daily activities (15%)</li>
-</ul></li>
-</ul>
-
-<h3 id="data-preprocessing-details">Data Preprocessing Details</h3>
-
-<ul>
-<li>Sampling rate: 120 Hz downsampled to 30 Hz</li>
-<li>Coordinate system: Y-up, right-handed</li>
-<li>Joint representation: 22-joint skeleton model</li>
-<li>Data augmentation: Mirroring, time warping, noise injection</li>
-</ul>
-
-<h3 id="training-validation-split">Training/Validation Split</h3>
-
-<ul>
-<li>Training set: 80% (2,278 sequences)</li>
-<li>Validation set: 10% (285 sequences)</li>
-<li>Test set: 10% (284 sequences)</li>
-</ul>
-
-<h3 id="download-links">Download Links</h3>
-
-<ul>
-<li>Preprocessed dataset available upon request</li>
-<li>Raw motion capture files: [Contact for access]</li>
-<li>Trained model checkpoints: [Available on project page]</li>
-</ul>
-
-<h2 id="computational-resources">Computational Resources</h2>
-
-<h3 id="hardware-requirements">Hardware Requirements</h3>
-
-<ul>
-<li><strong>Training</strong>: NVIDIA V100 GPU (32GB VRAM)</li>
-<li><strong>Inference</strong>: GTX 1080 Ti or better</li>
-<li><strong>Memory</strong>: 16GB RAM minimum</li>
-<li><strong>Storage</strong>: 50GB for full dataset</li>
-</ul>
-
-<h3 id="training-time">Training Time</h3>
-
-<ul>
-<li>Full model: ~48 hours</li>
-<li>Ablation experiments: 12-24 hours each</li>
-<li>Hyperparameter search: ~200 GPU hours total</li>
-</ul>
-
-<h2 id="supplementary-figures">Supplementary Figures</h2>
-
-<p>Additional figures and visualizations that support the main chapter:
-- Extended ablation study results
-- Detailed architecture diagrams
-- Motion trajectory comparisons
-- Error distribution analyses</p>
-
-<hr />
-
-<p><em>For questions or additional materials, please contact the author.</em></p>
 
       
       
       <nav class="thesis-chapter-nav">
         
-        <a href="https://vihanga.github.io/thesis/supplementary/c5a/">← Chapter 5 Supplementary Material - Part A: Model-free Output Sequences</a>
+        <a href="https://vihanga.github.io/thesis/supplementary/c5a/">← Chapter 5 Supplementary Material - Part A: RLAnimate Output Sequences</a>
         
         
         
-        <a href="https://vihanga.github.io/thesis/chapters/conclusion/">Chapter 8: Conclusion →</a>
+        <a href="https://vihanga.github.io/thesis/chapters/conclusion/">Chapter 8: Conclusions and Future Impact →</a>
         
       </nav>
     </article>

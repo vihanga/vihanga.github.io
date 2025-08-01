@@ -87,54 +87,52 @@
       
       
 
-<h2 id="1-1-engaging-virtual-characters">1.1 Engaging Virtual Characters</h2>
+<h1 id="introduction">Introduction</h1>
 
-<p>blah blah blah balh blagh
-[Placeholder for section on engaging virtual characters]</p>
+<p>This thesis tackles a fundamental challenge in computer animation: how can we create virtual characters that move naturally and responsively without the prohibitive costs of motion capture?</p>
 
-<h3 id="1-1-1-evolution-of-virtual-characters-in-popular-culture">1.1.1 Evolution of Virtual Characters in Popular Culture</h3>
+<h2 id="the-problem">The Problem</h2>
 
-<p>[Placeholder for evolution of virtual characters]</p>
+<p>Traditional character animation relies heavily on motion capture - an expensive, time-consuming process that requires recording human actors for every possible behavior variation. While this produces high-quality results, it&rsquo;s simply not scalable for interactive applications where characters need to respond dynamically to user input or changing scenarios.</p>
 
-<h3 id="1-1-2-applications-of-virtual-characters">1.1.2 Applications of Virtual Characters</h3>
+<p>Meanwhile, existing alternatives have significant limitations. Supervised learning methods can generate animations but lack flexibility. Physics-based reinforcement learning works brilliantly for athletic movements but fails for social behaviors like gestures - there&rsquo;s no physics simulation to tell us if a wave looks &ldquo;friendly&rdquo; or a gesture feels &ldquo;natural.&rdquo;</p>
 
-<p>[Placeholder for applications]</p>
+<h2 id="my-approach">My Approach</h2>
 
-<h3 id="1-1-3-portraying-natural-human-like-behaviour-and-scalability">1.1.3 Portraying Natural Human-like Behaviour and Scalability</h3>
+<p>I developed RLAnimate, a framework that fundamentally rethinks how we approach character animation. Instead of using reward functions (the traditional RL approach), I use motion capture data as learning objectives. This allows agents to learn what &ldquo;human-like&rdquo; means directly from examples, while maintaining the flexibility and responsiveness that makes RL powerful.</p>
 
-<p>[Placeholder for natural behavior and scalability]</p>
+<p>The key insight is treating animation as a model-based reinforcement learning problem where agents learn the dynamics of human movement. By understanding how joint rotations create behaviors, agents can generate novel animations that look natural while adapting to changing requirements in real-time.</p>
 
-<h2 id="1-2-research-questions">1.2 Research Questions</h2>
+<h2 id="key-contributions">Key Contributions</h2>
 
-<p>[Placeholder for research questions]</p>
+<ol>
+<li><strong>A new paradigm for animation RL</strong> - Using motion capture data as objectives rather than rewards</li>
+<li><strong>Multi-behavior agents</strong> - Single agents that can wave, point, and generate conversational gestures</li>
+<li><strong>Technical innovations</strong> - Quaternion neural networks, realism regularization, and hierarchical dynamics models</li>
+<li><strong>Proven results</strong> - Animations that are statistically indistinguishable from human motion capture</li>
+</ol>
 
-<h2 id="1-3-research-approach">1.3 Research Approach</h2>
+<h2 id="research-questions">Research Questions</h2>
 
-<p>[Placeholder for research approach]</p>
+<p>The thesis systematically addresses four key questions:
+- Can RL work for animation without physics? (Yes - through latent dynamics learning)
+- Can we make it human-like? (Yes - using motion capture as objectives)
+- How do we handle complexity like fingers? (Quaternions + dedicated animation dynamics)
+- Can it work for conversational gestures? (Yes - with realism regularization)</p>
 
-<h2 id="1-4-summary-of-contributions">1.4 Summary of Contributions</h2>
+<h2 id="thesis-journey">Thesis Journey</h2>
 
-<h3 id="1-4-1-data-driven-character-animation">1.4.1 Data-driven Character Animation</h3>
-
-<p>[Placeholder for data-driven contributions]</p>
-
-<h3 id="1-4-2-model-based-reinforcement-learning">1.4.2 Model-based Reinforcement Learning</h3>
-
-<p>[Placeholder for model-based RL contributions]</p>
-
-<h2 id="1-5-thesis-organisation">1.5 Thesis Organisation</h2>
-
-<p>[Placeholder for thesis organization]</p>
+<p>The work progresses from establishing basic feasibility (Chapter 4) through developing the core RLAnimate methodology (Chapter 5), extending to complex movements with fingers (Chapter 6), and culminating in conversational beat gestures that match human quality (Chapter 7).</p>
 
       
       
       <nav class="thesis-chapter-nav">
         
-        <a href="https://vihanga.github.io/thesis/appendices/b/">← Appendix B: Exploring Model-Free RL</a>
+        <a href="https://vihanga.github.io/thesis/chapters/data-driven-animation/">← Chapter 2: Virtual Character Animation and Perception</a>
         
         
         
-        <a href="https://vihanga.github.io/thesis/appendices/a/">Appendix A: Exploring Engagement and Efficiency in Serious Games →</a>
+        <span></span>
         
       </nav>
     </article>
