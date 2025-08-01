@@ -784,22 +784,165 @@
   background-color: #c82333;
 }
 
+.play-button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+/* Loading indicator */
+.loading-indicator {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #333;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+  display: none;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.loading-indicator.show {
+  display: block;
+}
+
+.loading-progress {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Buffer status indicator */
+.buffer-status {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: rgba(0,0,0,0.7);
+  color: white;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 11px;
+  display: none;
+}
+
+.buffer-status.loading {
+  display: block;
+  background: rgba(255,193,7,0.9);
+  color: #333;
+}
+
+.buffer-status.ready {
+  display: block;
+  background: rgba(40,167,69,0.9);
+}
+
 @media (max-width: 768px) {
   .video-grid {
     grid-template-columns: 1fr;
   }
+  
+  .loading-indicator {
+    top: 10px;
+    right: 10px;
+    font-size: 14px;
+  }
 }
 &lt;/style&gt;
 
+&lt;!-- Loading indicator --&gt;
+
+&lt;div class=&#34;loading-indicator&#34; id=&#34;loadingIndicator&#34;&gt;
+  &lt;div&gt;Loading videos...&lt;/div&gt;
+  &lt;div class=&#34;loading-progress&#34; id=&#34;loadingProgress&#34;&gt;0%&lt;/div&gt;
+&lt;/div&gt;
+
 &lt;script&gt;
+let videosLoaded = 0;
+let totalVideos = 0;
+const videoBufferStatus = new Map();
+
+function updateLoadingProgress() {
+  const progress = Math.round((videosLoaded / totalVideos) * 100);
+  const progressEl = document.getElementById(&#39;loadingProgress&#39;);
+  const indicator = document.getElementById(&#39;loadingIndicator&#39;);
+  
+  if (progressEl) {
+    progressEl.textContent = `${progress}% (${videosLoaded}/${totalVideos} videos)`;
+  }
+  
+  if (videosLoaded === totalVideos &amp;&amp; indicator) {
+    setTimeout(() =&gt; {
+      indicator.classList.remove(&#39;show&#39;);
+    }, 1000);
+  }
+}
+
+function preloadVideo(video, setId) {
+  // Add buffer status indicator
+  const container = video.closest(&#39;.video-container&#39;);
+  const statusEl = document.createElement(&#39;div&#39;);
+  statusEl.className = &#39;buffer-status loading&#39;;
+  statusEl.textContent = &#39;Loading...&#39;;
+  container.appendChild(statusEl);
+  
+  // Set preload attribute
+  video.preload = &#39;auto&#39;;
+  
+  // Track loading progress
+  video.addEventListener(&#39;loadeddata&#39;, () =&gt; {
+    statusEl.textContent = &#39;Buffering...&#39;;
+  });
+  
+  video.addEventListener(&#39;canplaythrough&#39;, () =&gt; {
+    videosLoaded++;
+    videoBufferStatus.set(video, true);
+    statusEl.className = &#39;buffer-status ready&#39;;
+    statusEl.textContent = &#39;Ready&#39;;
+    updateLoadingProgress();
+    
+    // Hide ready status after 3 seconds
+    setTimeout(() =&gt; {
+      statusEl.style.display = &#39;none&#39;;
+    }, 3000);
+    
+    // Enable play button when all videos in set are ready
+    const setVideos = document.querySelectorAll(`#${setId} video`);
+    const allReady = Array.from(setVideos).every(v =&gt; videoBufferStatus.get(v));
+    if (allReady) {
+      const button = document.querySelector(`#${setId} .play-button`);
+      if (button) {
+        button.disabled = false;
+        button.textContent = &#39;▶ Play All&#39;;
+      }
+    }
+  });
+  
+  video.addEventListener(&#39;error&#39;, () =&gt; {
+    statusEl.className = &#39;buffer-status loading&#39;;
+    statusEl.textContent = &#39;Error&#39;;
+    statusEl.style.background = &#39;rgba(220,53,69,0.9)&#39;;
+  });
+  
+  // Force load by setting currentTime
+  video.load();
+}
+
 function toggleVideos(setId) {
   const videos = document.querySelectorAll(`#${setId} video`);
   const button = document.querySelector(`#${setId} .play-button`);
+  
+  // Check if all videos are ready
+  const allReady = Array.from(videos).every(v =&gt; videoBufferStatus.get(v));
+  if (!allReady) {
+    alert(&#39;Videos are still loading. Please wait...&#39;);
+    return;
+  }
+  
   const isPlaying = videos[0].paused;
   
   videos.forEach(video =&gt; {
     if (isPlaying) {
-      video.play();
+      video.play().catch(e =&gt; console.error(&#39;Play error:&#39;, e));
     } else {
       video.pause();
     }
@@ -844,9 +987,30 @@ function syncVideos(setId) {
 // Initialize when page loads
 document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
   const sets = [&#39;setA&#39;, &#39;setB&#39;, &#39;setC&#39;, &#39;setD&#39;, &#39;setE&#39;, &#39;setF&#39;, &#39;setG&#39;, &#39;setH&#39;];
+  const allVideos = document.querySelectorAll(&#39;video&#39;);
+  totalVideos = allVideos.length;
+  
+  // Show loading indicator
+  const indicator = document.getElementById(&#39;loadingIndicator&#39;);
+  if (indicator &amp;&amp; totalVideos &gt; 0) {
+    indicator.classList.add(&#39;show&#39;);
+  }
+  
+  // Disable all play buttons initially
+  document.querySelectorAll(&#39;.play-button&#39;).forEach(button =&gt; {
+    button.disabled = true;
+    button.textContent = &#39;⏳ Loading...&#39;;
+  });
+  
   sets.forEach(setId =&gt; {
     if (document.getElementById(setId)) {
       syncVideos(setId);
+      
+      // Preload all videos in the set
+      const videos = document.querySelectorAll(`#${setId} video`);
+      videos.forEach(video =&gt; {
+        preloadVideo(video, setId);
+      });
     }
   });
 });
