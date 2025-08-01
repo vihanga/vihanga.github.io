@@ -89,62 +89,66 @@
 
 <h1 id="quaternions-and-finger-animation">Quaternions and Finger Animation</h1>
 
-<p>Chapter 6 tackles one of animation&rsquo;s nastiest problems: fingers. With 30+ joints that move in complex, coordinated patterns, finger animation has long been the bane of procedural methods. My solution? Quaternions and a dedicated animation dynamics model.</p>
+<p>This chapter addresses the challenges of extending RLAnimate to accommodate fine-grained articulations, specifically finger animation. The inclusion of an additional thirty joints for finger control revealed limitations in the original architecture, necessitating fundamental modifications to both the representation and dynamics modelling approaches.</p>
 
-<h2 id="why-fingers-matter-and-why-they-re-hard">Why Fingers Matter (And Why They&rsquo;re Hard)</h2>
+<h2 id="technical-challenges-in-finger-animation">Technical Challenges in Finger Animation</h2>
 
-<p>Watch someone wave - their fingers aren&rsquo;t static. They curl, extend, and move with subtle patterns that make the gesture feel alive. Miss these details and even perfect arm movements feel robotic.</p>
-
-<p>The challenge is combinatorial explosion. Each finger has multiple joints, each with constraints, and they all need to coordinate. Traditional methods either ignore fingers entirely or produce uncanny &ldquo;spider hands&rdquo; that distract from otherwise good animation.</p>
-
-<h2 id="the-quaternion-revolution">The Quaternion Revolution</h2>
-
-<p>The first breakthrough was switching from Euler angles to quaternions. This isn&rsquo;t just a mathematical nicety - it fundamentally changes what the neural networks can learn:</p>
+<p>The incorporation of finger movements presents unique challenges for animation synthesis:</p>
 
 <ul>
-<li><strong>No gimbal lock</strong>: Fingers can rotate freely without singularities</li>
-<li><strong>Smooth interpolation</strong>: Natural transitions between poses</li>
-<li><strong>Efficient computation</strong>: 4 parameters instead of 9 for rotation matrices</li>
-<li><strong>Better gradients</strong>: Networks train more stably</li>
+<li><strong>Increased dimensionality</strong>: Addition of 30+ joints substantially expands the state and action spaces</li>
+<li><strong>Hierarchical dependencies</strong>: Finger movements operate within the broader kinematic structure of arm and torso motion</li>
+<li><strong>Subtle articulations</strong>: Small inaccuracies in finger positions produce visually apparent artefacts</li>
+<li><strong>Representational singularities</strong>: Euler angle representations suffer from gimbal lock, particularly problematic for the complex rotations required in hand animation</li>
 </ul>
 
-<p>I developed a custom quaternion activation function that guarantees valid unit quaternions, eliminating a whole class of animation artifacts.</p>
+<p>These challenges necessitated architectural innovations to maintain animation quality while managing the increased complexity.</p>
 
-<h2 id="a3-the-animation-dynamics-architecture">A3: The Animation Dynamics Architecture</h2>
+<h2 id="quaternion-representations-for-robust-animation">Quaternion Representations for Robust Animation</h2>
 
-<p>The real innovation is the A3 architecture&rsquo;s animation dynamics model. Instead of trying to force finger movements into the same model as body dynamics, A3 uses:</p>
+<p>The transition from Euler angles to quaternion representations addresses fundamental limitations in rotation parameterisation:</p>
 
 <ul>
-<li><strong>Dedicated animation dynamics</strong>: A separate latent model just for animation generation</li>
-<li><strong>Hierarchical dependencies</strong>: Fingers know what the wrist is doing</li>
-<li><strong>Stochastic variation</strong>: Natural movement isn&rsquo;t perfectly deterministic</li>
+<li><strong>Singularity-free representation</strong>: Quaternions eliminate gimbal lock, ensuring continuous rotation spaces</li>
+<li><strong>Compact encoding</strong>: Four parameters provide complete orientation information versus nine for rotation matrices</li>
+<li><strong>Smooth interpolation</strong>: Unit quaternion interpolation naturally produces intermediate orientations</li>
+<li><strong>Stable gradients</strong>: The quaternion manifold provides well-behaved gradients for neural network training</li>
 </ul>
 
-<p>This separation is key. Physical dynamics (for the body) and animation dynamics (for detailed movements) have different requirements. By acknowledging this, A3 achieves both physical plausibility and expressive detail.</p>
+<p>A novel quaternion activation function ensures all network outputs remain valid unit quaternions, eliminating a class of animation artefacts at the architectural level.</p>
 
-<h2 id="the-results-speak-or-rather-wave">The Results Speak (Or Rather, Wave)</h2>
+<h2 id="hierarchical-dynamics-architecture">Hierarchical Dynamics Architecture</h2>
 
-<p>The numbers tell the story:
-- <strong>5.34 point improvement</strong> in animation quality over A2
-- <strong>All velocity errors under 0.4</strong> - below human perceptual threshold
-- <strong>30+ additional joints</strong> handled without performance degradation
-- <strong>Same 5ms inference time</strong> despite the added complexity</p>
+<p>The A3 architecture introduces a dedicated animation dynamics module that captures the hierarchical nature of human movement:</p>
 
-<p>But watching the animations tells it better. A3 agents wave with natural finger curls, point with appropriate hand shapes, and maintain hand poses that feel human.</p>
+<p><strong>Separated dynamics modelling</strong>: Physical dynamics (body movement) and animation dynamics (detailed articulations) are modelled separately, acknowledging their different statistical properties and control requirements.</p>
 
-<h2 id="technical-contributions">Technical Contributions</h2>
+<p><strong>Hierarchical state propagation</strong>: The animation dynamics module receives information from physical dynamics, enabling finger movements to respond appropriately to arm and body motion.</p>
 
-<p>Beyond the practical results, this chapter contributes:
-1. <strong>Quaternion neural networks</strong> for animation
-2. <strong>Hierarchical latent dynamics</strong> modeling
-3. <strong>Animation-specific dynamics</strong> separate from physics
-4. <strong>Proof that detail doesn&rsquo;t require sacrificing speed</strong></p>
+<p><strong>Stochastic components</strong>: Natural variation in finger movements is captured through learned stochastic elements, preventing robotic uniformity in generated animations.</p>
 
-<h2 id="why-this-matters">Why This Matters</h2>
+<h2 id="empirical-validation">Empirical Validation</h2>
 
-<p>Fingers might seem like a detail, but they&rsquo;re symptomatic of a larger challenge: how do we handle the full complexity of human movement? A3 shows that with the right representations and architecture, we can capture fine details while maintaining real-time performance.</p>
+<p>Evaluation on waving and pointing behaviours augmented with finger animation demonstrates:</p>
 
-<p>This sets the stage for Chapter 7&rsquo;s ultimate test - conversational gestures where every detail matters for believability.</p>
+<ul>
+<li><strong>Quantitative improvements</strong>: 5.34 point increase in animation similarity scores compared to A2 baseline</li>
+<li><strong>Perceptual quality</strong>: All velocity errors remain below the 0.4 threshold for human perception</li>
+<li><strong>Computational efficiency</strong>: Maintained 5ms inference time despite 30+ additional joints</li>
+<li><strong>Visual fidelity</strong>: Natural finger curls during waving and appropriate hand shapes during pointing</li>
+</ul>
+
+<h2 id="contributions-and-implications">Contributions and Implications</h2>
+
+<p>This chapter&rsquo;s primary contributions include:</p>
+
+<ol>
+<li><strong>Quaternion neural networks for animation</strong>: A complete framework for quaternion-based rotation learning in animation contexts</li>
+<li><strong>Hierarchical latent dynamics</strong>: Architectural patterns for modelling nested movement dependencies</li>
+<li><strong>Scalability demonstration</strong>: Evidence that the RLAnimate framework can accommodate substantial increases in animation complexity</li>
+</ol>
+
+<p>The successful incorporation of finger animation validates the extensibility of the RLAnimate framework and establishes architectural patterns for handling fine-grained articulations. These developments prove essential for the subsequent challenge of conversational gesture generation, where subtle hand movements convey significant communicative content.</p>
 
       
       

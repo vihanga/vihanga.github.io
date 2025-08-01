@@ -149,47 +149,49 @@
 
 &lt;h1 id=&#34;model-based-character-animation&#34;&gt;Model-based Character Animation&lt;/h1&gt;
 
-&lt;p&gt;This chapter marks the beginning of my core contributions - demonstrating that model-based RL can work for character animation without physics simulation. It&amp;rsquo;s the proof-of-concept that sets the stage for everything that follows.&lt;/p&gt;
+&lt;p&gt;This chapter presents exploratory work establishing the feasibility of applying reinforcement learning to dynamic character animation tasks without reliance on physics simulation. The work addresses a fundamental research question: can reinforcement learning effectively control character animation for portraying social behaviours?&lt;/p&gt;
 
-&lt;h2 id=&#34;the-experiment-that-started-it-all&#34;&gt;The Experiment That Started It All&lt;/h2&gt;
+&lt;h2 id=&#34;motivation-and-objectives&#34;&gt;Motivation and Objectives&lt;/h2&gt;
 
-&lt;p&gt;I started with a simple question: can an RL agent learn to animate a character using only a learned model of movement dynamics? No physics engine, no hand-crafted rewards - just data and learning.&lt;/p&gt;
+&lt;p&gt;Previous work in RL-based animation has relied heavily on physics signals for training, rendering such approaches unsuitable for social behaviours where physics feedback is absent or irrelevant. This chapter establishes a methodology for training agents that achieve three key objectives:&lt;/p&gt;
 
-&lt;p&gt;The answer turned out to be a resounding yes, but with important caveats that shaped the rest of my research.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Agent functionality relies only on signals relevant to all animation sequences, regardless of the behaviour being portrayed&lt;/li&gt;
+&lt;li&gt;Multiple types of behaviours can be portrayed by a single agent instance using shared dynamics models&lt;/li&gt;
+&lt;li&gt;Animation generation occurs dynamically on a frame-by-frame basis, enabling real-time flexibility&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h2 id=&#34;star-jumps-a-perfect-test-case&#34;&gt;Star Jumps: A Perfect Test Case&lt;/h2&gt;
+&lt;h2 id=&#34;experimental-approach&#34;&gt;Experimental Approach&lt;/h2&gt;
 
-&lt;p&gt;Why star jumps? They&amp;rsquo;re deceptively complex - requiring coordination of arms and legs, maintaining balance, and producing a recognizable pattern. Yet they&amp;rsquo;re simple enough to analyze rigorously. This choice let me focus on the core challenge: can model-based RL work for animation at all?&lt;/p&gt;
+&lt;p&gt;The investigation begins with model-free reinforcement learning experiments, following the precedent set by physics-based methods. These initial experiments reveal limitations that motivate the exploration of model-based approaches, which offer the robust sample efficiency demonstrated in supervised learning applications for character animation.&lt;/p&gt;
 
-&lt;p&gt;Using just 5 minutes of motion capture data, I trained agents that could:
-- Generate continuous star jump animations
-- Maintain synchronization between limbs
-- Adapt to different speeds and styles
-- Run in real-time (under 5ms per frame)&lt;/p&gt;
+&lt;p&gt;The experiments utilise star jump animations as a test case - a behaviour that requires coordination across multiple joints while remaining sufficiently constrained for systematic analysis. This choice enables focused investigation of the core technical challenges without the confounding factors present in more complex social behaviours.&lt;/p&gt;
 
-&lt;h2 id=&#34;model-free-vs-model-based-the-showdown&#34;&gt;Model-free vs Model-based: The Showdown&lt;/h2&gt;
+&lt;h2 id=&#34;model-based-learning-results&#34;&gt;Model-based Learning Results&lt;/h2&gt;
 
-&lt;p&gt;The chapter presents a direct comparison between model-free (PPO) and model-based (Dreamer) approaches. The results were eye-opening:&lt;/p&gt;
+&lt;p&gt;The model-based approach demonstrates several advantages over model-free alternatives:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Model-free&lt;/strong&gt;: Achieved the objective but produced unnatural, robotic movements. The agent found shortcuts that technically worked but looked wrong to human eyes.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Sample efficiency&lt;/strong&gt;: Effective learning from limited motion capture data (5 minutes)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Motion quality&lt;/strong&gt;: Generated animations maintain temporal coherence and naturalness&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Computational efficiency&lt;/strong&gt;: Real-time performance with inference times under 5ms per frame&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit regularisation&lt;/strong&gt;: The learned dynamics model constrains generated motion to remain within the manifold of human movement&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Model-based&lt;/strong&gt;: Produced natural-looking animations that closely matched the motion capture data. The learned dynamics model acted as an implicit regularizer, keeping movements within the manifold of human motion.&lt;/p&gt;
+&lt;h2 id=&#34;key-contributions&#34;&gt;Key Contributions&lt;/h2&gt;
 
-&lt;h2 id=&#34;key-insights&#34;&gt;Key Insights&lt;/h2&gt;
+&lt;p&gt;This chapter establishes that model-based reinforcement learning provides a viable paradigm for character animation without physics simulation. The learned latent dynamics models effectively capture movement patterns from motion capture data, enabling agents to generate novel animations while maintaining human-like qualities.&lt;/p&gt;
 
-&lt;p&gt;This early work revealed three critical insights that guided the rest of the thesis:&lt;/p&gt;
+&lt;p&gt;The primary contribution is the establishment of a basic framework that will be extended in subsequent chapters. This work was published in &amp;ldquo;Learned Dynamics Models and Online Planning for Model-Based Animation Agents&amp;rdquo; at the KES Agents and Multi-Agent Systems 2021 conference.&lt;/p&gt;
 
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Dynamics models are regularizers&lt;/strong&gt;: By learning how humans actually move, the model prevents unnatural animations&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Latent planning works&lt;/strong&gt;: Planning in a learned latent space is both efficient and effective&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Physics isn&amp;rsquo;t necessary&lt;/strong&gt;: For many animation tasks, learned dynamics are sufficient&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h2 id=&#34;limitations-and-future-directions&#34;&gt;Limitations and Future Directions&lt;/h2&gt;
 
-&lt;h2 id=&#34;setting-the-stage&#34;&gt;Setting the Stage&lt;/h2&gt;
+&lt;p&gt;While successful within its scope, this initial work reveals several limitations that motivate subsequent developments:
+- Single-behaviour agents lack the flexibility required for interactive applications
+- Absence of interaction with physical environments limits applicability
+- The framework requires extension to handle more complex social behaviours&lt;/p&gt;
 
-&lt;p&gt;While successful, this chapter also exposed limitations - single-behavior agents, no interaction with physics, limited complexity. These limitations motivated the innovations in subsequent chapters, but the core finding stands: model-based RL is a viable paradigm for character animation.&lt;/p&gt;
-
-&lt;p&gt;The supplementary material shows these agents in action, demonstrating that even this early prototype could produce animations that feel genuinely human-like.&lt;/p&gt;
+&lt;p&gt;These limitations directly inform the development of RLAnimate in Chapter 5, which addresses these constraints through a more sophisticated approach to behaviour representation and multi-task learning.&lt;/p&gt;
 </description>
     </item>
     
@@ -201,62 +203,79 @@
       <guid>https://vihanga.github.io/thesis/chapters/data-driven-rl/</guid>
       <description>
 
-&lt;h1 id=&#34;rlanimate-data-driven-rl-for-character-animation&#34;&gt;RLAnimate: Data-driven RL for Character Animation&lt;/h1&gt;
+&lt;h1 id=&#34;rlanimate-data-driven-reinforcement-learning-for-character-animation&#34;&gt;RLAnimate: Data-driven Reinforcement Learning for Character Animation&lt;/h1&gt;
 
-&lt;p&gt;This is where everything comes together. Chapter 5 introduces RLAnimate - my core framework that revolutionizes how we think about RL for animation. Instead of rewards, we use motion capture data as objectives. It&amp;rsquo;s a simple idea with profound implications.&lt;/p&gt;
+&lt;p&gt;This chapter introduces RLAnimate, a novel framework that fundamentally reconceptualises reinforcement learning for character animation. Rather than relying on hand-crafted reward functions, RLAnimate utilises motion capture data as learning objectives, addressing the challenge of articulating human-like movement mathematically.&lt;/p&gt;
 
-&lt;h2 id=&#34;the-breakthrough-objectives-not-rewards&#34;&gt;The Breakthrough: Objectives, Not Rewards&lt;/h2&gt;
+&lt;h2 id=&#34;theoretical-foundation&#34;&gt;Theoretical Foundation&lt;/h2&gt;
 
-&lt;p&gt;Traditional RL for animation struggles with a fundamental problem: how do you write a reward function for &amp;ldquo;wave friendly&amp;rdquo; or &amp;ldquo;point naturally&amp;rdquo;? You can&amp;rsquo;t. Previous work tried complex reward engineering, but it always felt hacky.&lt;/p&gt;
+&lt;p&gt;The central insight of RLAnimate lies in reformulating the animation problem: instead of defining rewards for desired outcomes, the framework learns to match the dynamics of human movement. This approach acknowledges that while defining &amp;ldquo;wave friendly&amp;rdquo; or &amp;ldquo;point naturally&amp;rdquo; through equations proves intractable, motion capture data implicitly contains this information.&lt;/p&gt;
 
-&lt;p&gt;My insight: we don&amp;rsquo;t need rewards at all. We have motion capture data showing humans performing these behaviors. So instead of rewarding specific outcomes, I train agents to match the dynamics of human movement. The &amp;ldquo;ideal action&amp;rdquo; at each timestep is simply what a human would do.&lt;/p&gt;
+&lt;p&gt;The framework addresses the research question: &amp;ldquo;To what extent can a RL-based algorithm for animation control be trained to generate human-like social behaviours?&amp;rdquo; The answer, as demonstrated through extensive evaluation, is that data-driven objectives enable generation of animations that match human motion capture in both quantitative metrics and perceptual studies.&lt;/p&gt;
 
 &lt;h2 id=&#34;the-a1-architecture&#34;&gt;The A1 Architecture&lt;/h2&gt;
 
-&lt;p&gt;RLAnimate&amp;rsquo;s first architecture (A1) demonstrates the concept:
-- &lt;strong&gt;Behavior encoders&lt;/strong&gt; that understand what motion the agent should perform
-- &lt;strong&gt;Perceptual encoders&lt;/strong&gt; that process the current body state
-- &lt;strong&gt;Latent dynamics&lt;/strong&gt; that model how movements unfold over time
-- &lt;strong&gt;Multi-behavior support&lt;/strong&gt; - one agent, multiple skills&lt;/p&gt;
-
-&lt;p&gt;The results speak for themselves: agents that can wave, point, and transition between behaviors smoothly, all while maintaining human-like quality.&lt;/p&gt;
-
-&lt;h2 id=&#34;multi-behavior-magic&#34;&gt;Multi-Behavior Magic&lt;/h2&gt;
-
-&lt;p&gt;Previous systems needed separate agents for each behavior. RLAnimate changes that. By learning shared representations of movement dynamics, a single agent can:
-- Wave with different styles and speeds
-- Point at moving targets accurately
-- Blend behaviors naturally
-- Generalize to new variations&lt;/p&gt;
-
-&lt;p&gt;This isn&amp;rsquo;t just convenient - it&amp;rsquo;s essential for interactive applications where characters need to respond dynamically.&lt;/p&gt;
-
-&lt;h2 id=&#34;the-numbers-that-matter&#34;&gt;The Numbers That Matter&lt;/h2&gt;
+&lt;p&gt;The initial RLAnimate architecture (A1) establishes the core components:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;5ms inference time&lt;/strong&gt;: Fast enough for any real-time application&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;93% behavior accuracy&lt;/strong&gt;: Correctly performs requested behaviors&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Statistical parity&lt;/strong&gt;: Movement statistics match human motion capture&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Efficient training&lt;/strong&gt;: Learn from minutes, not hours, of mocap data&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Behaviour encoders&lt;/strong&gt;: Learn representations of intended behaviours from motion capture exemplars&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Perceptual encoders&lt;/strong&gt;: Process current character state into task-relevant features&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Latent dynamics models&lt;/strong&gt;: Capture temporal evolution of human movement patterns&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-behaviour support&lt;/strong&gt;: Enable single agents to perform multiple distinct behaviours&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;a2-scaling-up&#34;&gt;A2: Scaling Up&lt;/h2&gt;
+&lt;p&gt;This architecture demonstrates that motion capture data can serve as sufficient supervision for learning complex animation controllers without explicit reward engineering.&lt;/p&gt;
 
-&lt;p&gt;The chapter also introduces A2, which adds physical grounding:
-- Foot contacts that respect physics
-- Momentum preservation during movement
-- Interaction with virtual objects
-- All while maintaining the ease of training&lt;/p&gt;
+&lt;h2 id=&#34;multi-behaviour-learning&#34;&gt;Multi-Behaviour Learning&lt;/h2&gt;
 
-&lt;h2 id=&#34;why-this-changes-everything&#34;&gt;Why This Changes Everything&lt;/h2&gt;
+&lt;p&gt;A key contribution is the framework&amp;rsquo;s ability to train single agents capable of multiple behaviours. This contrasts with previous approaches requiring separate models for each behaviour type. The shared latent dynamics capture common principles of human movement, while behaviour-specific encoders provide the necessary specialisation.&lt;/p&gt;
 
-&lt;p&gt;RLAnimate isn&amp;rsquo;t just another animation method - it&amp;rsquo;s a new paradigm. By treating animation as matching human movement dynamics rather than optimizing rewards, we get:
-1. Natural quality without reward engineering
-2. Multi-behavior flexibility
-3. Practical training times
-4. Real-time performance&lt;/p&gt;
+&lt;p&gt;Empirical results demonstrate:
+- &lt;strong&gt;93% behaviour accuracy&lt;/strong&gt;: Agents correctly perform requested behaviours
+- &lt;strong&gt;5ms inference time&lt;/strong&gt;: Suitable for real-time interactive applications
+- &lt;strong&gt;Statistical motion quality&lt;/strong&gt;: Generated animations match human motion capture statistics
+- &lt;strong&gt;Data efficiency&lt;/strong&gt;: Effective learning from minutes rather than hours of motion capture&lt;/p&gt;
 
-&lt;p&gt;The supplementary materials showcase these agents in action, demonstrating capabilities that simply weren&amp;rsquo;t possible before. This is the foundation that enables everything in the following chapters - from finger animation to conversational gestures.&lt;/p&gt;
+&lt;h2 id=&#34;the-a2-architecture-physical-grounding&#34;&gt;The A2 Architecture: Physical Grounding&lt;/h2&gt;
+
+&lt;p&gt;The A2 variant introduces physical grounding while maintaining the data-driven approach:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Contact modelling&lt;/strong&gt;: Explicit representation of foot-ground contacts&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Momentum consistency&lt;/strong&gt;: Conservation principles integrated into dynamics learning&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Object interaction&lt;/strong&gt;: Framework for manipulating virtual objects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Maintained ease of training&lt;/strong&gt;: Physical constraints learned from data rather than hard-coded&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;methodological-contributions&#34;&gt;Methodological Contributions&lt;/h2&gt;
+
+&lt;p&gt;RLAnimate contributes several methodological innovations:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Idealness formulation&lt;/strong&gt;: Motion capture defines ideal actions at each timestep, eliminating reward function design&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Latent planning&lt;/strong&gt;: Efficient trajectory optimisation in learned representation spaces&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Behaviour composability&lt;/strong&gt;: Architecture supporting seamless transitions between behaviours&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sample efficiency&lt;/strong&gt;: Orders of magnitude reduction in required training data compared to model-free approaches&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;publications-and-impact&#34;&gt;Publications and Impact&lt;/h2&gt;
+
+&lt;p&gt;The work presented in this chapter resulted in two peer-reviewed publications:
+- &amp;ldquo;Data-driven reinforcement learning for virtual character animation control&amp;rdquo; (ALA Workshop, AAMAS 2021)
+- &amp;ldquo;Latent Dynamics for Artefact-Free Character Animation via Data-Driven Reinforcement Learning&amp;rdquo; (ICANN 2021)&lt;/p&gt;
+
+&lt;h2 id=&#34;significance&#34;&gt;Significance&lt;/h2&gt;
+
+&lt;p&gt;RLAnimate establishes a new paradigm for animation synthesis, demonstrating that reinforcement learning can produce human-quality animation without physics simulation or reward engineering. By treating animation as matching human movement dynamics rather than optimising explicit objectives, the framework achieves:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Natural quality without manual tuning&lt;/li&gt;
+&lt;li&gt;Multi-behaviour flexibility in single agents&lt;/li&gt;
+&lt;li&gt;Practical training requirements&lt;/li&gt;
+&lt;li&gt;Real-time performance suitable for deployment&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This foundation enables the subsequent developments in finger animation (Chapter 6) and conversational gestures (Chapter 7), validating the extensibility and robustness of the data-driven approach.&lt;/p&gt;
 </description>
     </item>
     
@@ -270,62 +289,66 @@
 
 &lt;h1 id=&#34;quaternions-and-finger-animation&#34;&gt;Quaternions and Finger Animation&lt;/h1&gt;
 
-&lt;p&gt;Chapter 6 tackles one of animation&amp;rsquo;s nastiest problems: fingers. With 30+ joints that move in complex, coordinated patterns, finger animation has long been the bane of procedural methods. My solution? Quaternions and a dedicated animation dynamics model.&lt;/p&gt;
+&lt;p&gt;This chapter addresses the challenges of extending RLAnimate to accommodate fine-grained articulations, specifically finger animation. The inclusion of an additional thirty joints for finger control revealed limitations in the original architecture, necessitating fundamental modifications to both the representation and dynamics modelling approaches.&lt;/p&gt;
 
-&lt;h2 id=&#34;why-fingers-matter-and-why-they-re-hard&#34;&gt;Why Fingers Matter (And Why They&amp;rsquo;re Hard)&lt;/h2&gt;
+&lt;h2 id=&#34;technical-challenges-in-finger-animation&#34;&gt;Technical Challenges in Finger Animation&lt;/h2&gt;
 
-&lt;p&gt;Watch someone wave - their fingers aren&amp;rsquo;t static. They curl, extend, and move with subtle patterns that make the gesture feel alive. Miss these details and even perfect arm movements feel robotic.&lt;/p&gt;
-
-&lt;p&gt;The challenge is combinatorial explosion. Each finger has multiple joints, each with constraints, and they all need to coordinate. Traditional methods either ignore fingers entirely or produce uncanny &amp;ldquo;spider hands&amp;rdquo; that distract from otherwise good animation.&lt;/p&gt;
-
-&lt;h2 id=&#34;the-quaternion-revolution&#34;&gt;The Quaternion Revolution&lt;/h2&gt;
-
-&lt;p&gt;The first breakthrough was switching from Euler angles to quaternions. This isn&amp;rsquo;t just a mathematical nicety - it fundamentally changes what the neural networks can learn:&lt;/p&gt;
+&lt;p&gt;The incorporation of finger movements presents unique challenges for animation synthesis:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;No gimbal lock&lt;/strong&gt;: Fingers can rotate freely without singularities&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Smooth interpolation&lt;/strong&gt;: Natural transitions between poses&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Efficient computation&lt;/strong&gt;: 4 parameters instead of 9 for rotation matrices&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Better gradients&lt;/strong&gt;: Networks train more stably&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Increased dimensionality&lt;/strong&gt;: Addition of 30+ joints substantially expands the state and action spaces&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hierarchical dependencies&lt;/strong&gt;: Finger movements operate within the broader kinematic structure of arm and torso motion&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Subtle articulations&lt;/strong&gt;: Small inaccuracies in finger positions produce visually apparent artefacts&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Representational singularities&lt;/strong&gt;: Euler angle representations suffer from gimbal lock, particularly problematic for the complex rotations required in hand animation&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I developed a custom quaternion activation function that guarantees valid unit quaternions, eliminating a whole class of animation artifacts.&lt;/p&gt;
+&lt;p&gt;These challenges necessitated architectural innovations to maintain animation quality while managing the increased complexity.&lt;/p&gt;
 
-&lt;h2 id=&#34;a3-the-animation-dynamics-architecture&#34;&gt;A3: The Animation Dynamics Architecture&lt;/h2&gt;
+&lt;h2 id=&#34;quaternion-representations-for-robust-animation&#34;&gt;Quaternion Representations for Robust Animation&lt;/h2&gt;
 
-&lt;p&gt;The real innovation is the A3 architecture&amp;rsquo;s animation dynamics model. Instead of trying to force finger movements into the same model as body dynamics, A3 uses:&lt;/p&gt;
+&lt;p&gt;The transition from Euler angles to quaternion representations addresses fundamental limitations in rotation parameterisation:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Dedicated animation dynamics&lt;/strong&gt;: A separate latent model just for animation generation&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Hierarchical dependencies&lt;/strong&gt;: Fingers know what the wrist is doing&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stochastic variation&lt;/strong&gt;: Natural movement isn&amp;rsquo;t perfectly deterministic&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Singularity-free representation&lt;/strong&gt;: Quaternions eliminate gimbal lock, ensuring continuous rotation spaces&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Compact encoding&lt;/strong&gt;: Four parameters provide complete orientation information versus nine for rotation matrices&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Smooth interpolation&lt;/strong&gt;: Unit quaternion interpolation naturally produces intermediate orientations&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stable gradients&lt;/strong&gt;: The quaternion manifold provides well-behaved gradients for neural network training&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;This separation is key. Physical dynamics (for the body) and animation dynamics (for detailed movements) have different requirements. By acknowledging this, A3 achieves both physical plausibility and expressive detail.&lt;/p&gt;
+&lt;p&gt;A novel quaternion activation function ensures all network outputs remain valid unit quaternions, eliminating a class of animation artefacts at the architectural level.&lt;/p&gt;
 
-&lt;h2 id=&#34;the-results-speak-or-rather-wave&#34;&gt;The Results Speak (Or Rather, Wave)&lt;/h2&gt;
+&lt;h2 id=&#34;hierarchical-dynamics-architecture&#34;&gt;Hierarchical Dynamics Architecture&lt;/h2&gt;
 
-&lt;p&gt;The numbers tell the story:
-- &lt;strong&gt;5.34 point improvement&lt;/strong&gt; in animation quality over A2
-- &lt;strong&gt;All velocity errors under 0.4&lt;/strong&gt; - below human perceptual threshold
-- &lt;strong&gt;30+ additional joints&lt;/strong&gt; handled without performance degradation
-- &lt;strong&gt;Same 5ms inference time&lt;/strong&gt; despite the added complexity&lt;/p&gt;
+&lt;p&gt;The A3 architecture introduces a dedicated animation dynamics module that captures the hierarchical nature of human movement:&lt;/p&gt;
 
-&lt;p&gt;But watching the animations tells it better. A3 agents wave with natural finger curls, point with appropriate hand shapes, and maintain hand poses that feel human.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Separated dynamics modelling&lt;/strong&gt;: Physical dynamics (body movement) and animation dynamics (detailed articulations) are modelled separately, acknowledging their different statistical properties and control requirements.&lt;/p&gt;
 
-&lt;h2 id=&#34;technical-contributions&#34;&gt;Technical Contributions&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Hierarchical state propagation&lt;/strong&gt;: The animation dynamics module receives information from physical dynamics, enabling finger movements to respond appropriately to arm and body motion.&lt;/p&gt;
 
-&lt;p&gt;Beyond the practical results, this chapter contributes:
-1. &lt;strong&gt;Quaternion neural networks&lt;/strong&gt; for animation
-2. &lt;strong&gt;Hierarchical latent dynamics&lt;/strong&gt; modeling
-3. &lt;strong&gt;Animation-specific dynamics&lt;/strong&gt; separate from physics
-4. &lt;strong&gt;Proof that detail doesn&amp;rsquo;t require sacrificing speed&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Stochastic components&lt;/strong&gt;: Natural variation in finger movements is captured through learned stochastic elements, preventing robotic uniformity in generated animations.&lt;/p&gt;
 
-&lt;h2 id=&#34;why-this-matters&#34;&gt;Why This Matters&lt;/h2&gt;
+&lt;h2 id=&#34;empirical-validation&#34;&gt;Empirical Validation&lt;/h2&gt;
 
-&lt;p&gt;Fingers might seem like a detail, but they&amp;rsquo;re symptomatic of a larger challenge: how do we handle the full complexity of human movement? A3 shows that with the right representations and architecture, we can capture fine details while maintaining real-time performance.&lt;/p&gt;
+&lt;p&gt;Evaluation on waving and pointing behaviours augmented with finger animation demonstrates:&lt;/p&gt;
 
-&lt;p&gt;This sets the stage for Chapter 7&amp;rsquo;s ultimate test - conversational gestures where every detail matters for believability.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Quantitative improvements&lt;/strong&gt;: 5.34 point increase in animation similarity scores compared to A2 baseline&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Perceptual quality&lt;/strong&gt;: All velocity errors remain below the 0.4 threshold for human perception&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Computational efficiency&lt;/strong&gt;: Maintained 5ms inference time despite 30+ additional joints&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Visual fidelity&lt;/strong&gt;: Natural finger curls during waving and appropriate hand shapes during pointing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;contributions-and-implications&#34;&gt;Contributions and Implications&lt;/h2&gt;
+
+&lt;p&gt;This chapter&amp;rsquo;s primary contributions include:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Quaternion neural networks for animation&lt;/strong&gt;: A complete framework for quaternion-based rotation learning in animation contexts&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hierarchical latent dynamics&lt;/strong&gt;: Architectural patterns for modelling nested movement dependencies&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scalability demonstration&lt;/strong&gt;: Evidence that the RLAnimate framework can accommodate substantial increases in animation complexity&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The successful incorporation of finger animation validates the extensibility of the RLAnimate framework and establishes architectural patterns for handling fine-grained articulations. These developments prove essential for the subsequent challenge of conversational gesture generation, where subtle hand movements convey significant communicative content.&lt;/p&gt;
 </description>
     </item>
     
@@ -337,72 +360,84 @@
       <guid>https://vihanga.github.io/thesis/chapters/conversational-gestures/</guid>
       <description>
 
-&lt;h1 id=&#34;beat-gestures-the-ultimate-test&#34;&gt;Beat Gestures - The Ultimate Test&lt;/h1&gt;
+&lt;h1 id=&#34;conversational-beat-gesture-generation&#34;&gt;Conversational Beat Gesture Generation&lt;/h1&gt;
 
-&lt;p&gt;This chapter represents the culmination of everything - applying RLAnimate to conversational beat gestures. It&amp;rsquo;s the hardest test possible: can RL-generated animations be indistinguishable from real human gestures? The answer, validated through rigorous perceptual studies, is yes.&lt;/p&gt;
+&lt;p&gt;This chapter presents the application of RLAnimate to conversational beat gesture generation, representing the most challenging test of the framework&amp;rsquo;s capabilities. Beat gestures - rhythmic hand movements that accompany speech - lack goal-directed objectives and require precise synchronisation with speech prosody, making them unsuitable for physics-based or reward-engineered approaches.&lt;/p&gt;
 
-&lt;h2 id=&#34;why-beat-gestures-are-different&#34;&gt;Why Beat Gestures Are Different&lt;/h2&gt;
+&lt;h2 id=&#34;the-challenge-of-beat-gesture-synthesis&#34;&gt;The Challenge of Beat Gesture Synthesis&lt;/h2&gt;
 
-&lt;p&gt;Beat gestures - those rhythmic hand movements we make while speaking - are uniquely challenging:
-- They&amp;rsquo;re not goal-directed (unlike pointing or waving)
-- They must synchronize with speech prosody
-- They require subtle variety to feel natural
-- There&amp;rsquo;s no &amp;ldquo;correct&amp;rdquo; gesture - only human-like ones&lt;/p&gt;
+&lt;p&gt;Beat gestures present unique challenges that distinguish them from previously addressed behaviours:&lt;/p&gt;
 
-&lt;p&gt;This is where physics-based RL completely fails. There&amp;rsquo;s no physics objective for &amp;ldquo;emphasize this word appropriately.&amp;rdquo; Yet these gestures are crucial for believable virtual humans.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Absence of explicit objectives&lt;/strong&gt;: Unlike pointing or waving, beat gestures have no target or completion criteria&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Speech-motion coupling&lt;/strong&gt;: Gestures must synchronise with prosodic features at multiple temporal scales&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Subjective evaluation&lt;/strong&gt;: Quality assessment relies entirely on human perception of naturalness&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;High variability&lt;/strong&gt;: The same utterance permits multiple valid gesture realisations&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h2 id=&#34;the-a4-architecture-realism-first&#34;&gt;The A4 Architecture: Realism First&lt;/h2&gt;
+&lt;p&gt;These characteristics necessitate a fundamental rethinking of how reinforcement learning can be applied to animation synthesis.&lt;/p&gt;
 
-&lt;p&gt;A4 builds on A3 but adds my most important innovation: realism regularization. Four components work together:&lt;/p&gt;
+&lt;h2 id=&#34;realism-regularisation-framework&#34;&gt;Realism Regularisation Framework&lt;/h2&gt;
+
+&lt;p&gt;The A4 architecture introduces a comprehensive realism regularisation framework comprising four complementary components:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Rotation regularization&lt;/strong&gt;: Prevents unnatural joint configurations&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Physics regularization&lt;/strong&gt;: Respects momentum and energy conservation&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Smoothness regularization&lt;/strong&gt;: Eliminates jittery movements&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Adversarial regularization&lt;/strong&gt;: Learned realism from data&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rotation regularisation&lt;/strong&gt;: Constrains joint configurations to anatomically plausible ranges&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Physics regularisation&lt;/strong&gt;: Ensures conservation of momentum and energy consistency&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Smoothness regularisation&lt;/strong&gt;: Penalises high-frequency jitter and discontinuous motion&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Adversarial regularisation&lt;/strong&gt;: Learned discriminator distinguishing generated from human motion&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;The key insight: by combining multiple forms of regularization, we achieve robustness. Any single method might fail, but together they create a strong prior for human-like movement.&lt;/p&gt;
+&lt;p&gt;The synergistic combination of these regularisation methods creates a robust prior for human-like movement, addressing the challenge of defining &amp;ldquo;natural&amp;rdquo; motion mathematically.&lt;/p&gt;
 
-&lt;h2 id=&#34;the-perceptual-study-proof-in-the-pudding&#34;&gt;The Perceptual Study: Proof in the Pudding&lt;/h2&gt;
+&lt;h2 id=&#34;speech-motion-architecture&#34;&gt;Speech-Motion Architecture&lt;/h2&gt;
 
-&lt;p&gt;I didn&amp;rsquo;t just claim success - I proved it. 24 participants watched 480 video clips comparing:
-- RLAnimate (A4) gestures
-- Gesticulator (state-of-the-art supervised learning)
-- Real motion capture&lt;/p&gt;
+&lt;p&gt;The hierarchical speech encoder processes acoustic features at multiple temporal resolutions:&lt;/p&gt;
 
-&lt;p&gt;The results were stunning:
-- &lt;strong&gt;No significant difference&lt;/strong&gt; between RLAnimate and motion capture (p &amp;gt; 0.31)
-- &lt;strong&gt;Significant improvement&lt;/strong&gt; over Gesticulator (p &amp;lt; 0.001)
-- Participants literally couldn&amp;rsquo;t tell our animations from real humans&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Phoneme-level processing&lt;/strong&gt;: Captures fine-grained articulation timing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Word-level aggregation&lt;/strong&gt;: Identifies stress and emphasis patterns&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Phrase-level context&lt;/strong&gt;: Maintains coherent gesture sequences across utterances&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h2 id=&#34;technical-innovations&#34;&gt;Technical Innovations&lt;/h2&gt;
+&lt;p&gt;This multi-scale processing enables the generation of gestures that respond appropriately to both local prosodic variations and global speech patterns.&lt;/p&gt;
 
-&lt;p&gt;Beyond the perceptual success, A4 contributes several technical advances:&lt;/p&gt;
+&lt;h2 id=&#34;perceptual-validation-study&#34;&gt;Perceptual Validation Study&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Speech-motion synchronization&lt;/strong&gt;: A hierarchical encoder that processes speech at multiple timescales, capturing both phoneme-level detail and phrase-level rhythm.&lt;/p&gt;
+&lt;p&gt;A rigorous perceptual evaluation with 24 participants viewing 480 video clips provides definitive validation:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Stochastic generation&lt;/strong&gt;: The same speech produces varied but appropriate gestures, just like humans.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Statistical parity with human motion&lt;/strong&gt;: No significant difference between RLAnimate and motion capture across three evaluation criteria (p &amp;gt; 0.31 for all measures)&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Style control&lt;/strong&gt;: Implicit style learning allows generating gestures in different &amp;ldquo;personalities.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Superiority over state-of-the-art&lt;/strong&gt;: Significant improvements over Gesticulator, the leading supervised learning approach:
+- Human-likeness: 4.33 vs 3.19 (p &amp;lt; 0.001)
+- Speech reflection: 4.12 vs 3.42 (p &amp;lt; 0.001)
+- Synchronisation: 4.48 vs 3.60 (p &amp;lt; 0.001)&lt;/p&gt;
 
-&lt;h2 id=&#34;the-bigger-picture&#34;&gt;The Bigger Picture&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Qualitative assessment&lt;/strong&gt;: Participants could not reliably distinguish RLAnimate-generated gestures from recorded human motion.&lt;/p&gt;
 
-&lt;p&gt;This chapter proves something profound: RL can match human quality for the most subjective, culturally-dependent aspects of movement. We&amp;rsquo;re not just animating characters - we&amp;rsquo;re capturing the essence of human nonverbal communication.&lt;/p&gt;
+&lt;h2 id=&#34;technical-contributions&#34;&gt;Technical Contributions&lt;/h2&gt;
 
-&lt;p&gt;The implications extend beyond animation:
-- Virtual assistants that gesture naturally
-- More engaging educational avatars
-- Believable characters for therapy and training
-- A new baseline for what &amp;ldquo;human-like&amp;rdquo; means in AI&lt;/p&gt;
+&lt;p&gt;This chapter advances the state of the art through several innovations:&lt;/p&gt;
 
-&lt;h2 id=&#34;why-this-matters&#34;&gt;Why This Matters&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Realism regularisation&lt;/strong&gt;: A principled framework for incorporating multiple complementary constraints on generated motion&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Speech-conditioned generation&lt;/strong&gt;: Architecture patterns for synchronising movement with acoustic features&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stochastic variability&lt;/strong&gt;: Mechanisms for generating diverse but appropriate gestures for repeated utterances&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Perceptual validation methodology&lt;/strong&gt;: Rigorous experimental design for assessing animation quality&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;Beat gestures are the Turing test of character animation. They&amp;rsquo;re purely about human perception - there&amp;rsquo;s no objective metric, no physics to simulate, just the question: does this feel right?&lt;/p&gt;
+&lt;h2 id=&#34;implications-and-significance&#34;&gt;Implications and Significance&lt;/h2&gt;
 
-&lt;p&gt;That RLAnimate passes this test validates the entire approach. Motion capture as objectives, model-based learning, realism regularization - it all comes together to create something indistinguishable from human movement.&lt;/p&gt;
+&lt;p&gt;The successful generation of perceptually indistinguishable beat gestures validates the core thesis proposition: model-based reinforcement learning with motion capture objectives can produce animation quality matching human performance. This achievement has immediate applications in:&lt;/p&gt;
 
-&lt;p&gt;The supplementary material contains all 24 video stimuli from the perceptual study. Watch them yourself - can you tell which ones are generated?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Virtual assistants requiring natural nonverbal communication&lt;/li&gt;
+&lt;li&gt;Educational technology with engaging animated instructors&lt;/li&gt;
+&lt;li&gt;Therapeutic applications demanding believable social presence&lt;/li&gt;
+&lt;li&gt;Entertainment systems with dynamically responsive characters&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The work demonstrates that reinforcement learning can address even the most subjective and culturally-dependent aspects of human movement, establishing a new baseline for what constitutes &amp;ldquo;human-like&amp;rdquo; in artificial animation systems.&lt;/p&gt;
 </description>
     </item>
     

@@ -87,62 +87,79 @@
       
       
 
-<h1 id="rlanimate-data-driven-rl-for-character-animation">RLAnimate: Data-driven RL for Character Animation</h1>
+<h1 id="rlanimate-data-driven-reinforcement-learning-for-character-animation">RLAnimate: Data-driven Reinforcement Learning for Character Animation</h1>
 
-<p>This is where everything comes together. Chapter 5 introduces RLAnimate - my core framework that revolutionizes how we think about RL for animation. Instead of rewards, we use motion capture data as objectives. It&rsquo;s a simple idea with profound implications.</p>
+<p>This chapter introduces RLAnimate, a novel framework that fundamentally reconceptualises reinforcement learning for character animation. Rather than relying on hand-crafted reward functions, RLAnimate utilises motion capture data as learning objectives, addressing the challenge of articulating human-like movement mathematically.</p>
 
-<h2 id="the-breakthrough-objectives-not-rewards">The Breakthrough: Objectives, Not Rewards</h2>
+<h2 id="theoretical-foundation">Theoretical Foundation</h2>
 
-<p>Traditional RL for animation struggles with a fundamental problem: how do you write a reward function for &ldquo;wave friendly&rdquo; or &ldquo;point naturally&rdquo;? You can&rsquo;t. Previous work tried complex reward engineering, but it always felt hacky.</p>
+<p>The central insight of RLAnimate lies in reformulating the animation problem: instead of defining rewards for desired outcomes, the framework learns to match the dynamics of human movement. This approach acknowledges that while defining &ldquo;wave friendly&rdquo; or &ldquo;point naturally&rdquo; through equations proves intractable, motion capture data implicitly contains this information.</p>
 
-<p>My insight: we don&rsquo;t need rewards at all. We have motion capture data showing humans performing these behaviors. So instead of rewarding specific outcomes, I train agents to match the dynamics of human movement. The &ldquo;ideal action&rdquo; at each timestep is simply what a human would do.</p>
+<p>The framework addresses the research question: &ldquo;To what extent can a RL-based algorithm for animation control be trained to generate human-like social behaviours?&rdquo; The answer, as demonstrated through extensive evaluation, is that data-driven objectives enable generation of animations that match human motion capture in both quantitative metrics and perceptual studies.</p>
 
 <h2 id="the-a1-architecture">The A1 Architecture</h2>
 
-<p>RLAnimate&rsquo;s first architecture (A1) demonstrates the concept:
-- <strong>Behavior encoders</strong> that understand what motion the agent should perform
-- <strong>Perceptual encoders</strong> that process the current body state
-- <strong>Latent dynamics</strong> that model how movements unfold over time
-- <strong>Multi-behavior support</strong> - one agent, multiple skills</p>
-
-<p>The results speak for themselves: agents that can wave, point, and transition between behaviors smoothly, all while maintaining human-like quality.</p>
-
-<h2 id="multi-behavior-magic">Multi-Behavior Magic</h2>
-
-<p>Previous systems needed separate agents for each behavior. RLAnimate changes that. By learning shared representations of movement dynamics, a single agent can:
-- Wave with different styles and speeds
-- Point at moving targets accurately
-- Blend behaviors naturally
-- Generalize to new variations</p>
-
-<p>This isn&rsquo;t just convenient - it&rsquo;s essential for interactive applications where characters need to respond dynamically.</p>
-
-<h2 id="the-numbers-that-matter">The Numbers That Matter</h2>
+<p>The initial RLAnimate architecture (A1) establishes the core components:</p>
 
 <ul>
-<li><strong>5ms inference time</strong>: Fast enough for any real-time application</li>
-<li><strong>93% behavior accuracy</strong>: Correctly performs requested behaviors</li>
-<li><strong>Statistical parity</strong>: Movement statistics match human motion capture</li>
-<li><strong>Efficient training</strong>: Learn from minutes, not hours, of mocap data</li>
+<li><strong>Behaviour encoders</strong>: Learn representations of intended behaviours from motion capture exemplars</li>
+<li><strong>Perceptual encoders</strong>: Process current character state into task-relevant features</li>
+<li><strong>Latent dynamics models</strong>: Capture temporal evolution of human movement patterns</li>
+<li><strong>Multi-behaviour support</strong>: Enable single agents to perform multiple distinct behaviours</li>
 </ul>
 
-<h2 id="a2-scaling-up">A2: Scaling Up</h2>
+<p>This architecture demonstrates that motion capture data can serve as sufficient supervision for learning complex animation controllers without explicit reward engineering.</p>
 
-<p>The chapter also introduces A2, which adds physical grounding:
-- Foot contacts that respect physics
-- Momentum preservation during movement
-- Interaction with virtual objects
-- All while maintaining the ease of training</p>
+<h2 id="multi-behaviour-learning">Multi-Behaviour Learning</h2>
 
-<h2 id="why-this-changes-everything">Why This Changes Everything</h2>
+<p>A key contribution is the framework&rsquo;s ability to train single agents capable of multiple behaviours. This contrasts with previous approaches requiring separate models for each behaviour type. The shared latent dynamics capture common principles of human movement, while behaviour-specific encoders provide the necessary specialisation.</p>
 
-<p>RLAnimate isn&rsquo;t just another animation method - it&rsquo;s a new paradigm. By treating animation as matching human movement dynamics rather than optimizing rewards, we get:
-1. Natural quality without reward engineering
-2. Multi-behavior flexibility
-3. Practical training times
-4. Real-time performance</p>
+<p>Empirical results demonstrate:
+- <strong>93% behaviour accuracy</strong>: Agents correctly perform requested behaviours
+- <strong>5ms inference time</strong>: Suitable for real-time interactive applications
+- <strong>Statistical motion quality</strong>: Generated animations match human motion capture statistics
+- <strong>Data efficiency</strong>: Effective learning from minutes rather than hours of motion capture</p>
 
-<p>The supplementary materials showcase these agents in action, demonstrating capabilities that simply weren&rsquo;t possible before. This is the foundation that enables everything in the following chapters - from finger animation to conversational gestures.</p>
+<h2 id="the-a2-architecture-physical-grounding">The A2 Architecture: Physical Grounding</h2>
+
+<p>The A2 variant introduces physical grounding while maintaining the data-driven approach:</p>
+
+<ul>
+<li><strong>Contact modelling</strong>: Explicit representation of foot-ground contacts</li>
+<li><strong>Momentum consistency</strong>: Conservation principles integrated into dynamics learning</li>
+<li><strong>Object interaction</strong>: Framework for manipulating virtual objects</li>
+<li><strong>Maintained ease of training</strong>: Physical constraints learned from data rather than hard-coded</li>
+</ul>
+
+<h2 id="methodological-contributions">Methodological Contributions</h2>
+
+<p>RLAnimate contributes several methodological innovations:</p>
+
+<ol>
+<li><strong>Idealness formulation</strong>: Motion capture defines ideal actions at each timestep, eliminating reward function design</li>
+<li><strong>Latent planning</strong>: Efficient trajectory optimisation in learned representation spaces</li>
+<li><strong>Behaviour composability</strong>: Architecture supporting seamless transitions between behaviours</li>
+<li><strong>Sample efficiency</strong>: Orders of magnitude reduction in required training data compared to model-free approaches</li>
+</ol>
+
+<h2 id="publications-and-impact">Publications and Impact</h2>
+
+<p>The work presented in this chapter resulted in two peer-reviewed publications:
+- &ldquo;Data-driven reinforcement learning for virtual character animation control&rdquo; (ALA Workshop, AAMAS 2021)
+- &ldquo;Latent Dynamics for Artefact-Free Character Animation via Data-Driven Reinforcement Learning&rdquo; (ICANN 2021)</p>
+
+<h2 id="significance">Significance</h2>
+
+<p>RLAnimate establishes a new paradigm for animation synthesis, demonstrating that reinforcement learning can produce human-quality animation without physics simulation or reward engineering. By treating animation as matching human movement dynamics rather than optimising explicit objectives, the framework achieves:</p>
+
+<ul>
+<li>Natural quality without manual tuning</li>
+<li>Multi-behaviour flexibility in single agents</li>
+<li>Practical training requirements</li>
+<li>Real-time performance suitable for deployment</li>
+</ul>
+
+<p>This foundation enables the subsequent developments in finger animation (Chapter 6) and conversational gestures (Chapter 7), validating the extensibility and robustness of the data-driven approach.</p>
 
       
       

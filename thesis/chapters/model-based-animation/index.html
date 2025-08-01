@@ -89,47 +89,49 @@
 
 <h1 id="model-based-character-animation">Model-based Character Animation</h1>
 
-<p>This chapter marks the beginning of my core contributions - demonstrating that model-based RL can work for character animation without physics simulation. It&rsquo;s the proof-of-concept that sets the stage for everything that follows.</p>
+<p>This chapter presents exploratory work establishing the feasibility of applying reinforcement learning to dynamic character animation tasks without reliance on physics simulation. The work addresses a fundamental research question: can reinforcement learning effectively control character animation for portraying social behaviours?</p>
 
-<h2 id="the-experiment-that-started-it-all">The Experiment That Started It All</h2>
+<h2 id="motivation-and-objectives">Motivation and Objectives</h2>
 
-<p>I started with a simple question: can an RL agent learn to animate a character using only a learned model of movement dynamics? No physics engine, no hand-crafted rewards - just data and learning.</p>
+<p>Previous work in RL-based animation has relied heavily on physics signals for training, rendering such approaches unsuitable for social behaviours where physics feedback is absent or irrelevant. This chapter establishes a methodology for training agents that achieve three key objectives:</p>
 
-<p>The answer turned out to be a resounding yes, but with important caveats that shaped the rest of my research.</p>
+<ul>
+<li>Agent functionality relies only on signals relevant to all animation sequences, regardless of the behaviour being portrayed</li>
+<li>Multiple types of behaviours can be portrayed by a single agent instance using shared dynamics models</li>
+<li>Animation generation occurs dynamically on a frame-by-frame basis, enabling real-time flexibility</li>
+</ul>
 
-<h2 id="star-jumps-a-perfect-test-case">Star Jumps: A Perfect Test Case</h2>
+<h2 id="experimental-approach">Experimental Approach</h2>
 
-<p>Why star jumps? They&rsquo;re deceptively complex - requiring coordination of arms and legs, maintaining balance, and producing a recognizable pattern. Yet they&rsquo;re simple enough to analyze rigorously. This choice let me focus on the core challenge: can model-based RL work for animation at all?</p>
+<p>The investigation begins with model-free reinforcement learning experiments, following the precedent set by physics-based methods. These initial experiments reveal limitations that motivate the exploration of model-based approaches, which offer the robust sample efficiency demonstrated in supervised learning applications for character animation.</p>
 
-<p>Using just 5 minutes of motion capture data, I trained agents that could:
-- Generate continuous star jump animations
-- Maintain synchronization between limbs
-- Adapt to different speeds and styles
-- Run in real-time (under 5ms per frame)</p>
+<p>The experiments utilise star jump animations as a test case - a behaviour that requires coordination across multiple joints while remaining sufficiently constrained for systematic analysis. This choice enables focused investigation of the core technical challenges without the confounding factors present in more complex social behaviours.</p>
 
-<h2 id="model-free-vs-model-based-the-showdown">Model-free vs Model-based: The Showdown</h2>
+<h2 id="model-based-learning-results">Model-based Learning Results</h2>
 
-<p>The chapter presents a direct comparison between model-free (PPO) and model-based (Dreamer) approaches. The results were eye-opening:</p>
+<p>The model-based approach demonstrates several advantages over model-free alternatives:</p>
 
-<p><strong>Model-free</strong>: Achieved the objective but produced unnatural, robotic movements. The agent found shortcuts that technically worked but looked wrong to human eyes.</p>
+<ul>
+<li><strong>Sample efficiency</strong>: Effective learning from limited motion capture data (5 minutes)</li>
+<li><strong>Motion quality</strong>: Generated animations maintain temporal coherence and naturalness</li>
+<li><strong>Computational efficiency</strong>: Real-time performance with inference times under 5ms per frame</li>
+<li><strong>Implicit regularisation</strong>: The learned dynamics model constrains generated motion to remain within the manifold of human movement</li>
+</ul>
 
-<p><strong>Model-based</strong>: Produced natural-looking animations that closely matched the motion capture data. The learned dynamics model acted as an implicit regularizer, keeping movements within the manifold of human motion.</p>
+<h2 id="key-contributions">Key Contributions</h2>
 
-<h2 id="key-insights">Key Insights</h2>
+<p>This chapter establishes that model-based reinforcement learning provides a viable paradigm for character animation without physics simulation. The learned latent dynamics models effectively capture movement patterns from motion capture data, enabling agents to generate novel animations while maintaining human-like qualities.</p>
 
-<p>This early work revealed three critical insights that guided the rest of the thesis:</p>
+<p>The primary contribution is the establishment of a basic framework that will be extended in subsequent chapters. This work was published in &ldquo;Learned Dynamics Models and Online Planning for Model-Based Animation Agents&rdquo; at the KES Agents and Multi-Agent Systems 2021 conference.</p>
 
-<ol>
-<li><strong>Dynamics models are regularizers</strong>: By learning how humans actually move, the model prevents unnatural animations</li>
-<li><strong>Latent planning works</strong>: Planning in a learned latent space is both efficient and effective</li>
-<li><strong>Physics isn&rsquo;t necessary</strong>: For many animation tasks, learned dynamics are sufficient</li>
-</ol>
+<h2 id="limitations-and-future-directions">Limitations and Future Directions</h2>
 
-<h2 id="setting-the-stage">Setting the Stage</h2>
+<p>While successful within its scope, this initial work reveals several limitations that motivate subsequent developments:
+- Single-behaviour agents lack the flexibility required for interactive applications
+- Absence of interaction with physical environments limits applicability
+- The framework requires extension to handle more complex social behaviours</p>
 
-<p>While successful, this chapter also exposed limitations - single-behavior agents, no interaction with physics, limited complexity. These limitations motivated the innovations in subsequent chapters, but the core finding stands: model-based RL is a viable paradigm for character animation.</p>
-
-<p>The supplementary material shows these agents in action, demonstrating that even this early prototype could produce animations that feel genuinely human-like.</p>
+<p>These limitations directly inform the development of RLAnimate in Chapter 5, which addresses these constraints through a more sophisticated approach to behaviour representation and multi-task learning.</p>
 
       
       

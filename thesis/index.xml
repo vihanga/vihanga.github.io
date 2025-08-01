@@ -48,8 +48,8 @@ The Power of World Models Most RL systems are model-free - they learn through tr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vihanga.github.io/thesis/chapters/model-based-animation/</guid>
-      <description>Model-based Character Animation This chapter marks the beginning of my core contributions - demonstrating that model-based RL can work for character animation without physics simulation. It&amp;rsquo;s the proof-of-concept that sets the stage for everything that follows.
-The Experiment That Started It All I started with a simple question: can an RL agent learn to animate a character using only a learned model of movement dynamics? No physics engine, no hand-crafted rewards - just data and learning.</description>
+      <description>Model-based Character Animation This chapter presents exploratory work establishing the feasibility of applying reinforcement learning to dynamic character animation tasks without reliance on physics simulation. The work addresses a fundamental research question: can reinforcement learning effectively control character animation for portraying social behaviours?
+Motivation and Objectives Previous work in RL-based animation has relied heavily on physics signals for training, rendering such approaches unsuitable for social behaviours where physics feedback is absent or irrelevant.</description>
     </item>
     
     <item>
@@ -58,8 +58,8 @@ The Experiment That Started It All I started with a simple question: can an RL a
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vihanga.github.io/thesis/chapters/data-driven-rl/</guid>
-      <description>RLAnimate: Data-driven RL for Character Animation This is where everything comes together. Chapter 5 introduces RLAnimate - my core framework that revolutionizes how we think about RL for animation. Instead of rewards, we use motion capture data as objectives. It&amp;rsquo;s a simple idea with profound implications.
-The Breakthrough: Objectives, Not Rewards Traditional RL for animation struggles with a fundamental problem: how do you write a reward function for &amp;ldquo;wave friendly&amp;rdquo; or &amp;ldquo;point naturally&amp;rdquo;?</description>
+      <description>RLAnimate: Data-driven Reinforcement Learning for Character Animation This chapter introduces RLAnimate, a novel framework that fundamentally reconceptualises reinforcement learning for character animation. Rather than relying on hand-crafted reward functions, RLAnimate utilises motion capture data as learning objectives, addressing the challenge of articulating human-like movement mathematically.
+Theoretical Foundation The central insight of RLAnimate lies in reformulating the animation problem: instead of defining rewards for desired outcomes, the framework learns to match the dynamics of human movement.</description>
     </item>
     
     <item>
@@ -68,8 +68,9 @@ The Breakthrough: Objectives, Not Rewards Traditional RL for animation struggles
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vihanga.github.io/thesis/chapters/latent-dynamics/</guid>
-      <description>Quaternions and Finger Animation Chapter 6 tackles one of animation&amp;rsquo;s nastiest problems: fingers. With 30+ joints that move in complex, coordinated patterns, finger animation has long been the bane of procedural methods. My solution? Quaternions and a dedicated animation dynamics model.
-Why Fingers Matter (And Why They&amp;rsquo;re Hard) Watch someone wave - their fingers aren&amp;rsquo;t static. They curl, extend, and move with subtle patterns that make the gesture feel alive.</description>
+      <description>Quaternions and Finger Animation This chapter addresses the challenges of extending RLAnimate to accommodate fine-grained articulations, specifically finger animation. The inclusion of an additional thirty joints for finger control revealed limitations in the original architecture, necessitating fundamental modifications to both the representation and dynamics modelling approaches.
+Technical Challenges in Finger Animation The incorporation of finger movements presents unique challenges for animation synthesis:
+ Increased dimensionality: Addition of 30+ joints substantially expands the state and action spaces Hierarchical dependencies: Finger movements operate within the broader kinematic structure of arm and torso motion Subtle articulations: Small inaccuracies in finger positions produce visually apparent artefacts Representational singularities: Euler angle representations suffer from gimbal lock, particularly problematic for the complex rotations required in hand animation  These challenges necessitated architectural innovations to maintain animation quality while managing the increased complexity.</description>
     </item>
     
     <item>
@@ -78,8 +79,8 @@ Why Fingers Matter (And Why They&amp;rsquo;re Hard) Watch someone wave - their f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vihanga.github.io/thesis/chapters/conversational-gestures/</guid>
-      <description>Beat Gestures - The Ultimate Test This chapter represents the culmination of everything - applying RLAnimate to conversational beat gestures. It&amp;rsquo;s the hardest test possible: can RL-generated animations be indistinguishable from real human gestures? The answer, validated through rigorous perceptual studies, is yes.
-Why Beat Gestures Are Different Beat gestures - those rhythmic hand movements we make while speaking - are uniquely challenging: - They&amp;rsquo;re not goal-directed (unlike pointing or waving) - They must synchronize with speech prosody - They require subtle variety to feel natural - There&amp;rsquo;s no &amp;ldquo;correct&amp;rdquo; gesture - only human-like ones</description>
+      <description>Conversational Beat Gesture Generation This chapter presents the application of RLAnimate to conversational beat gesture generation, representing the most challenging test of the framework&amp;rsquo;s capabilities. Beat gestures - rhythmic hand movements that accompany speech - lack goal-directed objectives and require precise synchronisation with speech prosody, making them unsuitable for physics-based or reward-engineered approaches.
+The Challenge of Beat Gesture Synthesis Beat gestures present unique challenges that distinguish them from previously addressed behaviours:</description>
     </item>
     
     <item>
