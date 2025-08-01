@@ -145,7 +145,7 @@ A3 Architecture Results The A3 architecture introduced in Chapter 6 addresses th
       <guid>https://vihanga.github.io/thesis/supplementary/c7/</guid>
       <description>Chapter 7: Portraying Conversational Gestures via Realism Regularisation This page contains supplementary material referenced in Chapter 7, including the video stimuli used in the perceptual evaluation study comparing RLAnimate A4, Gesticulator, and motion capture.
 Perceptual Study Video Stimuli The following videos were used in the perceptual evaluation with 28 participants. Each stimulus set was rendered with three methods: RLAnimate A4, Gesticulator, and Motion Capture (ground truth).
-Stimulus Set A  RLAnimate A4    Gesticulator    Motion Capture    Stimulus Set B  RLAnimate A4    Gesticulator    Motion Capture    Stimulus Set C  RLAnimate A4    Gesticulator    Motion Capture    Stimulus Set D  RLAnimate A4    Gesticulator    Motion Capture    Stimulus Set E  RLAnimate A4    Gesticulator    Motion Capture    Stimulus Set F  RLAnimate A4    Gesticulator    Motion Capture    Stimulus Set G  RLAnimate A4    Gesticulator    Motion Capture    Stimulus Set H  RLAnimate A4    Gesticulator    Motion Capture    Perceptual Study Results Statistical Results RLAnimate A4 vs Gesticulator (one-sided t-tests, α = 0.</description>
+ .video-set { margin-bottom: 50px; background: #f5f5f5; padding: 20px; border-radius: 8px; } .</description>
     </item>
     
     <item>

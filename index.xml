@@ -724,187 +724,355 @@
 
 &lt;p&gt;The following videos were used in the perceptual evaluation with 28 participants. Each stimulus set was rendered with three methods: RLAnimate A4, Gesticulator, and Motion Capture (ground truth).&lt;/p&gt;
 
+&lt;style&gt;
+.video-set {
+  margin-bottom: 50px;
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.video-container {
+  position: relative;
+}
+
+.video-container h4 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.video-container video {
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.play-controls {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.play-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.play-button:hover {
+  background-color: #0056b3;
+}
+
+.play-button.playing {
+  background-color: #dc3545;
+}
+
+.play-button.playing:hover {
+  background-color: #c82333;
+}
+
+@media (max-width: 768px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+}
+&lt;/style&gt;
+
+&lt;script&gt;
+function toggleVideos(setId) {
+  const videos = document.querySelectorAll(`#${setId} video`);
+  const button = document.querySelector(`#${setId} .play-button`);
+  const isPlaying = videos[0].paused;
+  
+  videos.forEach(video =&gt; {
+    if (isPlaying) {
+      video.play();
+    } else {
+      video.pause();
+    }
+  });
+  
+  if (isPlaying) {
+    button.textContent = &#39;⏸ Pause All&#39;;
+    button.classList.add(&#39;playing&#39;);
+  } else {
+    button.textContent = &#39;▶ Play All&#39;;
+    button.classList.remove(&#39;playing&#39;);
+  }
+}
+
+// Sync video playback positions
+function syncVideos(setId) {
+  const videos = document.querySelectorAll(`#${setId} video`);
+  const masterVideo = videos[0];
+  
+  masterVideo.addEventListener(&#39;timeupdate&#39;, () =&gt; {
+    videos.forEach((video, index) =&gt; {
+      if (index !== 0 &amp;&amp; Math.abs(video.currentTime - masterVideo.currentTime) &gt; 0.1) {
+        video.currentTime = masterVideo.currentTime;
+      }
+    });
+  });
+  
+  // Reset all videos when one ends
+  videos.forEach(video =&gt; {
+    video.addEventListener(&#39;ended&#39;, () =&gt; {
+      videos.forEach(v =&gt; {
+        v.currentTime = 0;
+        v.pause();
+      });
+      const button = document.querySelector(`#${setId} .play-button`);
+      button.textContent = &#39;▶ Play All&#39;;
+      button.classList.remove(&#39;playing&#39;);
+    });
+  });
+}
+
+// Initialize when page loads
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+  const sets = [&#39;setA&#39;, &#39;setB&#39;, &#39;setC&#39;, &#39;setD&#39;, &#39;setE&#39;, &#39;setF&#39;, &#39;setG&#39;, &#39;setH&#39;];
+  sets.forEach(setId =&gt; {
+    if (document.getElementById(setId)) {
+      syncVideos(setId);
+    }
+  });
+});
+&lt;/script&gt;
+
 &lt;h3 id=&#34;stimulus-set-a&#34;&gt;Stimulus Set A&lt;/h3&gt;
 
-&lt;div style=&#34;display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 30px;&#34;&gt;
-  &lt;div&gt;
-    &lt;h4 style=&#34;text-align: center;&#34;&gt;RLAnimate A4&lt;/h4&gt;
-    &lt;video controls width=&#34;100%&#34;&gt;
-      &lt;source src=&#34;../../videos/chapter7/02_rlanimate_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
-    &lt;/video&gt;
+&lt;div class=&#34;video-set&#34; id=&#34;setA&#34;&gt;
+  &lt;div class=&#34;video-grid&#34;&gt;
+    &lt;div class=&#34;video-container&#34;&gt;
+      &lt;h4&gt;RLAnimate A4&lt;/h4&gt;
+      &lt;video controls width=&#34;100%&#34;&gt;
+        &lt;source src=&#34;../../videos/chapter7/02_rlanimate_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      &lt;/video&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;video-container&#34;&gt;
+      &lt;h4&gt;Gesticulator&lt;/h4&gt;
+      &lt;video controls width=&#34;100%&#34;&gt;
+        &lt;source src=&#34;../../videos/chapter7/02_gesticulator_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      &lt;/video&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;video-container&#34;&gt;
+      &lt;h4&gt;Motion Capture&lt;/h4&gt;
+      &lt;video controls width=&#34;100%&#34;&gt;
+        &lt;source src=&#34;../../videos/chapter7/02_mocap_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      &lt;/video&gt;
+    &lt;/div&gt;
   &lt;/div&gt;
-  &lt;div&gt;
-    &lt;h4 style=&#34;text-align: center;&#34;&gt;Gesticulator&lt;/h4&gt;
-    &lt;video controls width=&#34;100%&#34;&gt;
-      &lt;source src=&#34;../../videos/chapter7/02_gesticulator_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
-    &lt;/video&gt;
-  &lt;/div&gt;
-  &lt;div&gt;
-    &lt;h4 style=&#34;text-align: center;&#34;&gt;Motion Capture&lt;/h4&gt;
-    &lt;video controls width=&#34;100%&#34;&gt;
-      &lt;source src=&#34;../../videos/chapter7/02_mocap_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
-    &lt;/video&gt;
+  &lt;div class=&#34;play-controls&#34;&gt;
+    &lt;button class=&#34;play-button&#34; onclick=&#34;toggleVideos(&#39;setA&#39;)&#34;&gt;▶ Play All&lt;/button&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;h3 id=&#34;stimulus-set-b&#34;&gt;Stimulus Set B&lt;/h3&gt;
 
-&lt;div style=&#34;display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 30px;&#34;&gt;
-  &lt;div&gt;
-    &lt;h4 style=&#34;text-align: center;&#34;&gt;RLAnimate A4&lt;/h4&gt;
-    &lt;video controls width=&#34;100%&#34;&gt;
-      &lt;source src=&#34;../../videos/chapter7/03_rlanimate_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
-    &lt;/video&gt;
+&lt;div class=&#34;video-set&#34; id=&#34;setB&#34;&gt;
+  &lt;div class=&#34;video-grid&#34;&gt;
+    &lt;div class=&#34;video-container&#34;&gt;
+      &lt;h4&gt;RLAnimate A4&lt;/h4&gt;
+      &lt;video controls width=&#34;100%&#34;&gt;
+        &lt;source src=&#34;../../videos/chapter7/03_rlanimate_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      &lt;/video&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;video-container&#34;&gt;
+      &lt;h4&gt;Gesticulator&lt;/h4&gt;
+      &lt;video controls width=&#34;100%&#34;&gt;
+        &lt;source src=&#34;../../videos/chapter7/03_gesticulator_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      &lt;/video&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;video-container&#34;&gt;
+      &lt;h4&gt;Motion Capture&lt;/h4&gt;
+      &lt;video controls width=&#34;100%&#34;&gt;
+        &lt;source src=&#34;../../videos/chapter7/03_mocap_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      &lt;/video&gt;
+    &lt;/div&gt;
   &lt;/div&gt;
-  &lt;div&gt;
-    &lt;h4 style=&#34;text-align: center;&#34;&gt;Gesticulator&lt;/h4&gt;
-    &lt;video controls width=&#34;100%&#34;&gt;
-      &lt;source src=&#34;../../videos/chapter7/03_gesticulator_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
-    &lt;/video&gt;
-  &lt;/div&gt;
-  &lt;div&gt;
-    &lt;h4 style=&#34;text-align: center;&#34;&gt;Motion Capture&lt;/h4&gt;
-    &lt;video controls width=&#34;100%&#34;&gt;
-      &lt;source src=&#34;../../videos/chapter7/03_mocap_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
-    &lt;/video&gt;
+  &lt;div class=&#34;play-controls&#34;&gt;
+    &lt;button class=&#34;play-button&#34; onclick=&#34;toggleVideos(&#39;setB&#39;)&#34;&gt;▶ Play All&lt;/button&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;h3 id=&#34;stimulus-set-c&#34;&gt;Stimulus Set C&lt;/h3&gt;
 
-&lt;div style=&#34;display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 30px;&#34;&gt;
-  &lt;div&gt;
-    &lt;h4 style=&#34;text-align: center;&#34;&gt;RLAnimate A4&lt;/h4&gt;
-    &lt;video controls width=&#34;100%&#34;&gt;
-      &lt;source src=&#34;../../videos/chapter7/05_rlanimate_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
-    &lt;/video&gt;
+&lt;div class=&#34;video-set&#34; id=&#34;setC&#34;&gt;
+  &lt;div class=&#34;video-grid&#34;&gt;
+    &lt;div class=&#34;video-container&#34;&gt;
+      &lt;h4&gt;RLAnimate A4&lt;/h4&gt;
+      &lt;video controls width=&#34;100%&#34;&gt;
+        &lt;source src=&#34;../../videos/chapter7/05_rlanimate_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      &lt;/video&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;video-container&#34;&gt;
+      &lt;h4&gt;Gesticulator&lt;/h4&gt;
+      &lt;video controls width=&#34;100%&#34;&gt;
+        &lt;source src=&#34;../../videos/chapter7/05_gesticulator_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      &lt;/video&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;video-container&#34;&gt;
+      &lt;h4&gt;Motion Capture&lt;/h4&gt;
+      &lt;video controls width=&#34;100%&#34;&gt;
+        &lt;source src=&#34;../../videos/chapter7/05_mocap_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      &lt;/video&gt;
+    &lt;/div&gt;
   &lt;/div&gt;
-  &lt;div&gt;
-    &lt;h4 style=&#34;text-align: center;&#34;&gt;Gesticulator&lt;/h4&gt;
-    &lt;video controls width=&#34;100%&#34;&gt;
-      &lt;source src=&#34;../../videos/chapter7/05_gesticulator_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
-    &lt;/video&gt;
-  &lt;/div&gt;
-  &lt;div&gt;
-    &lt;h4 style=&#34;text-align: center;&#34;&gt;Motion Capture&lt;/h4&gt;
-    &lt;video controls width=&#34;100%&#34;&gt;
-      &lt;source src=&#34;../../videos/chapter7/05_mocap_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
-    &lt;/video&gt;
+  &lt;div class=&#34;play-controls&#34;&gt;
+    &lt;button class=&#34;play-button&#34; onclick=&#34;toggleVideos(&#39;setC&#39;)&#34;&gt;▶ Play All&lt;/button&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;h3 id=&#34;stimulus-set-d&#34;&gt;Stimulus Set D&lt;/h3&gt;
 
-&lt;div style=&#34;display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 30px;&#34;&gt;
-  &lt;div&gt;
-    &lt;h4 style=&#34;text-align: center;&#34;&gt;RLAnimate A4&lt;/h4&gt;
-    &lt;video controls width=&#34;100%&#34;&gt;
-      &lt;source src=&#34;../../videos/chapter7/06_rlanimate_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
-    &lt;/video&gt;
+&lt;div class=&#34;video-set&#34; id=&#34;setD&#34;&gt;
+  &lt;div class=&#34;video-grid&#34;&gt;
+    &lt;div class=&#34;video-container&#34;&gt;
+      &lt;h4&gt;RLAnimate A4&lt;/h4&gt;
+      &lt;video controls width=&#34;100%&#34;&gt;
+        &lt;source src=&#34;../../videos/chapter7/06_rlanimate_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      &lt;/video&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;video-container&#34;&gt;
+      &lt;h4&gt;Gesticulator&lt;/h4&gt;
+      &lt;video controls width=&#34;100%&#34;&gt;
+        &lt;source src=&#34;../../videos/chapter7/06_gesticulator_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      &lt;/video&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;video-container&#34;&gt;
+      &lt;h4&gt;Motion Capture&lt;/h4&gt;
+      &lt;video controls width=&#34;100%&#34;&gt;
+        &lt;source src=&#34;../../videos/chapter7/06_mocap_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      &lt;/video&gt;
+    &lt;/div&gt;
   &lt;/div&gt;
-  &lt;div&gt;
-    &lt;h4 style=&#34;text-align: center;&#34;&gt;Gesticulator&lt;/h4&gt;
-    &lt;video controls width=&#34;100%&#34;&gt;
-      &lt;source src=&#34;../../videos/chapter7/06_gesticulator_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
-    &lt;/video&gt;
-  &lt;/div&gt;
-  &lt;div&gt;
-    &lt;h4 style=&#34;text-align: center;&#34;&gt;Motion Capture&lt;/h4&gt;
-    &lt;video controls width=&#34;100%&#34;&gt;
-      &lt;source src=&#34;../../videos/chapter7/06_mocap_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
-    &lt;/video&gt;
+  &lt;div class=&#34;play-controls&#34;&gt;
+    &lt;button class=&#34;play-button&#34; onclick=&#34;toggleVideos(&#39;setD&#39;)&#34;&gt;▶ Play All&lt;/button&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;h3 id=&#34;stimulus-set-e&#34;&gt;Stimulus Set E&lt;/h3&gt;
 
-&lt;div style=&#34;display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 30px;&#34;&gt;
-  &lt;div&gt;
-    &lt;h4 style=&#34;text-align: center;&#34;&gt;RLAnimate A4&lt;/h4&gt;
-    &lt;video controls width=&#34;100%&#34;&gt;
-      &lt;source src=&#34;../../videos/chapter7/07_rlanimate_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
-    &lt;/video&gt;
+&lt;div class=&#34;video-set&#34; id=&#34;setE&#34;&gt;
+  &lt;div class=&#34;video-grid&#34;&gt;
+    &lt;div class=&#34;video-container&#34;&gt;
+      &lt;h4&gt;RLAnimate A4&lt;/h4&gt;
+      &lt;video controls width=&#34;100%&#34;&gt;
+        &lt;source src=&#34;../../videos/chapter7/07_rlanimate_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      &lt;/video&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;video-container&#34;&gt;
+      &lt;h4&gt;Gesticulator&lt;/h4&gt;
+      &lt;video controls width=&#34;100%&#34;&gt;
+        &lt;source src=&#34;../../videos/chapter7/07_gesticulator_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      &lt;/video&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;video-container&#34;&gt;
+      &lt;h4&gt;Motion Capture&lt;/h4&gt;
+      &lt;video controls width=&#34;100%&#34;&gt;
+        &lt;source src=&#34;../../videos/chapter7/07_mocap_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      &lt;/video&gt;
+    &lt;/div&gt;
   &lt;/div&gt;
-  &lt;div&gt;
-    &lt;h4 style=&#34;text-align: center;&#34;&gt;Gesticulator&lt;/h4&gt;
-    &lt;video controls width=&#34;100%&#34;&gt;
-      &lt;source src=&#34;../../videos/chapter7/07_gesticulator_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
-    &lt;/video&gt;
-  &lt;/div&gt;
-  &lt;div&gt;
-    &lt;h4 style=&#34;text-align: center;&#34;&gt;Motion Capture&lt;/h4&gt;
-    &lt;video controls width=&#34;100%&#34;&gt;
-      &lt;source src=&#34;../../videos/chapter7/07_mocap_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
-    &lt;/video&gt;
+  &lt;div class=&#34;play-controls&#34;&gt;
+    &lt;button class=&#34;play-button&#34; onclick=&#34;toggleVideos(&#39;setE&#39;)&#34;&gt;▶ Play All&lt;/button&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;h3 id=&#34;stimulus-set-f&#34;&gt;Stimulus Set F&lt;/h3&gt;
 
-&lt;div style=&#34;display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 30px;&#34;&gt;
-  &lt;div&gt;
-    &lt;h4 style=&#34;text-align: center;&#34;&gt;RLAnimate A4&lt;/h4&gt;
-    &lt;video controls width=&#34;100%&#34;&gt;
-      &lt;source src=&#34;../../videos/chapter7/08_rlanimate_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
-    &lt;/video&gt;
+&lt;div class=&#34;video-set&#34; id=&#34;setF&#34;&gt;
+  &lt;div class=&#34;video-grid&#34;&gt;
+    &lt;div class=&#34;video-container&#34;&gt;
+      &lt;h4&gt;RLAnimate A4&lt;/h4&gt;
+      &lt;video controls width=&#34;100%&#34;&gt;
+        &lt;source src=&#34;../../videos/chapter7/08_rlanimate_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      &lt;/video&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;video-container&#34;&gt;
+      &lt;h4&gt;Gesticulator&lt;/h4&gt;
+      &lt;video controls width=&#34;100%&#34;&gt;
+        &lt;source src=&#34;../../videos/chapter7/08_gesticulator_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      &lt;/video&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;video-container&#34;&gt;
+      &lt;h4&gt;Motion Capture&lt;/h4&gt;
+      &lt;video controls width=&#34;100%&#34;&gt;
+        &lt;source src=&#34;../../videos/chapter7/08_mocap_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      &lt;/video&gt;
+    &lt;/div&gt;
   &lt;/div&gt;
-  &lt;div&gt;
-    &lt;h4 style=&#34;text-align: center;&#34;&gt;Gesticulator&lt;/h4&gt;
-    &lt;video controls width=&#34;100%&#34;&gt;
-      &lt;source src=&#34;../../videos/chapter7/08_gesticulator_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
-    &lt;/video&gt;
-  &lt;/div&gt;
-  &lt;div&gt;
-    &lt;h4 style=&#34;text-align: center;&#34;&gt;Motion Capture&lt;/h4&gt;
-    &lt;video controls width=&#34;100%&#34;&gt;
-      &lt;source src=&#34;../../videos/chapter7/08_mocap_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
-    &lt;/video&gt;
+  &lt;div class=&#34;play-controls&#34;&gt;
+    &lt;button class=&#34;play-button&#34; onclick=&#34;toggleVideos(&#39;setF&#39;)&#34;&gt;▶ Play All&lt;/button&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;h3 id=&#34;stimulus-set-g&#34;&gt;Stimulus Set G&lt;/h3&gt;
 
-&lt;div style=&#34;display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 30px;&#34;&gt;
-  &lt;div&gt;
-    &lt;h4 style=&#34;text-align: center;&#34;&gt;RLAnimate A4&lt;/h4&gt;
-    &lt;video controls width=&#34;100%&#34;&gt;
-      &lt;source src=&#34;../../videos/chapter7/09_rlanimate_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
-    &lt;/video&gt;
+&lt;div class=&#34;video-set&#34; id=&#34;setG&#34;&gt;
+  &lt;div class=&#34;video-grid&#34;&gt;
+    &lt;div class=&#34;video-container&#34;&gt;
+      &lt;h4&gt;RLAnimate A4&lt;/h4&gt;
+      &lt;video controls width=&#34;100%&#34;&gt;
+        &lt;source src=&#34;../../videos/chapter7/09_rlanimate_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      &lt;/video&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;video-container&#34;&gt;
+      &lt;h4&gt;Gesticulator&lt;/h4&gt;
+      &lt;video controls width=&#34;100%&#34;&gt;
+        &lt;source src=&#34;../../videos/chapter7/09_gesticulator_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      &lt;/video&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;video-container&#34;&gt;
+      &lt;h4&gt;Motion Capture&lt;/h4&gt;
+      &lt;video controls width=&#34;100%&#34;&gt;
+        &lt;source src=&#34;../../videos/chapter7/09_mocap_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      &lt;/video&gt;
+    &lt;/div&gt;
   &lt;/div&gt;
-  &lt;div&gt;
-    &lt;h4 style=&#34;text-align: center;&#34;&gt;Gesticulator&lt;/h4&gt;
-    &lt;video controls width=&#34;100%&#34;&gt;
-      &lt;source src=&#34;../../videos/chapter7/09_gesticulator_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
-    &lt;/video&gt;
-  &lt;/div&gt;
-  &lt;div&gt;
-    &lt;h4 style=&#34;text-align: center;&#34;&gt;Motion Capture&lt;/h4&gt;
-    &lt;video controls width=&#34;100%&#34;&gt;
-      &lt;source src=&#34;../../videos/chapter7/09_mocap_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
-    &lt;/video&gt;
+  &lt;div class=&#34;play-controls&#34;&gt;
+    &lt;button class=&#34;play-button&#34; onclick=&#34;toggleVideos(&#39;setG&#39;)&#34;&gt;▶ Play All&lt;/button&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;h3 id=&#34;stimulus-set-h&#34;&gt;Stimulus Set H&lt;/h3&gt;
 
-&lt;div style=&#34;display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 30px;&#34;&gt;
-  &lt;div&gt;
-    &lt;h4 style=&#34;text-align: center;&#34;&gt;RLAnimate A4&lt;/h4&gt;
-    &lt;video controls width=&#34;100%&#34;&gt;
-      &lt;source src=&#34;../../videos/chapter7/10_rlanimate_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
-    &lt;/video&gt;
+&lt;div class=&#34;video-set&#34; id=&#34;setH&#34;&gt;
+  &lt;div class=&#34;video-grid&#34;&gt;
+    &lt;div class=&#34;video-container&#34;&gt;
+      &lt;h4&gt;RLAnimate A4&lt;/h4&gt;
+      &lt;video controls width=&#34;100%&#34;&gt;
+        &lt;source src=&#34;../../videos/chapter7/10_rlanimate_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      &lt;/video&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;video-container&#34;&gt;
+      &lt;h4&gt;Gesticulator&lt;/h4&gt;
+      &lt;video controls width=&#34;100%&#34;&gt;
+        &lt;source src=&#34;../../videos/chapter7/10_gesticulator_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      &lt;/video&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;video-container&#34;&gt;
+      &lt;h4&gt;Motion Capture&lt;/h4&gt;
+      &lt;video controls width=&#34;100%&#34;&gt;
+        &lt;source src=&#34;../../videos/chapter7/10_mocap_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      &lt;/video&gt;
+    &lt;/div&gt;
   &lt;/div&gt;
-  &lt;div&gt;
-    &lt;h4 style=&#34;text-align: center;&#34;&gt;Gesticulator&lt;/h4&gt;
-    &lt;video controls width=&#34;100%&#34;&gt;
-      &lt;source src=&#34;../../videos/chapter7/10_gesticulator_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
-    &lt;/video&gt;
-  &lt;/div&gt;
-  &lt;div&gt;
-    &lt;h4 style=&#34;text-align: center;&#34;&gt;Motion Capture&lt;/h4&gt;
-    &lt;video controls width=&#34;100%&#34;&gt;
-      &lt;source src=&#34;../../videos/chapter7/10_mocap_malcolm.mp4&#34; type=&#34;video/mp4&#34;&gt;
-    &lt;/video&gt;
+  &lt;div class=&#34;play-controls&#34;&gt;
+    &lt;button class=&#34;play-button&#34; onclick=&#34;toggleVideos(&#39;setH&#39;)&#34;&gt;▶ Play All&lt;/button&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
