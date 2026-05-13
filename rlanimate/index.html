@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Hugo 0.55.4">
+
+  <title>RLAnimate: Reinforcement Learning for Virtual Human Animation</title>
+  <meta name="description" content="A model-based, data-driven reinforcement learning framework for virtual character animation.">
+
+  <link rel="stylesheet" href="/css/thesis-book.css">
+  <link rel="stylesheet" href="/css/rlanimate.css">
+
+  <link rel="icon" type="image/svg+xml" href="/img/dramatic_v_logo.svg">
+  <link rel="apple-touch-icon" href="/img/dramatic_v_logo.svg">
+
+  <meta property="og:title" content="RLAnimate: Reinforcement Learning for Virtual Human Animation">
+  <meta property="og:description" content="A model-based, data-driven reinforcement learning framework for virtual character animation.">
+  <meta property="og:image" content="https://vihanga.github.io/img/rlanimate/5_2_1_wave_point_overview.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://vihanga.github.io/img/rlanimate/5_2_1_wave_point_overview.png">
+</head>
+<body>
+  <div class="rlanimate-wrapper">
+    
+<header class="rlanimate-header">
+  <div class="rlanimate-header-inner">
+    <a href="/" class="rlanimate-back">&larr; Main Site</a>
+    <a href="/thesis/" class="rlanimate-thesis-link">Thesis &rarr;</a>
+  </div>
+</header>
+
+<main class="rlanimate-main">
+  <article class="rlanimate-content thesis-content">
+    
+
+<div class="rla-hero">
+  <h1>RLAnimate</h1>
+  <h1 style="font-size:1.3rem; font-weight:400; margin-top:0;">Reinforcement Learning for Virtual Human Animation</h1>
+  <p class="rla-tagline">A model-based, data-driven reinforcement learning framework for virtual character animation that enables a single agent to portray multiple types of interactive human-like behaviours.</p>
+  <p class="rla-meta">
+    <strong>Vihanga Gamage</strong><br>
+    Technological University Dublin<br>
+    Supervisors: Dr. Cathy Ennis &middot; Dr. Robert Ross
+  </p>
+  <div class="rla-hero-image">
+    <img src="/img/rlanimate/5_2_1_wave_point_overview.png" alt="RLAnimate agents portraying waving and pointing behaviours">
+    <p class="rla-caption">RLAnimate agents portraying waving (left) and pointing (right) behaviours. The pointing agent directs gaze and arm toward a dynamic spatial target (red sphere) that can change position during the animation.</p>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+
+<!-- DEMO VIDEOS -->
+
+<!-- ============================================================ -->
+
+<div class="rla-section">
+
+## Demo Videos
+
+### Waving and Pointing — RLAnimate A1 Agent Output
+
+RLAnimate agents performing waving and pointing behaviours, with comparisons to baseline control agents. The video demonstrates A1 agents with varying exaggeration levels and targets, alongside supervised-learning and single-dynamics baselines.
+
+<div class="rla-video-wrapper">
+  <iframe src="https://www.youtube.com/embed/XyxD86Jz4Z0" title="RLAnimate A1 Agent Output Sequences" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<h3 id="beat-gesture-comparison-rlanimate-a4-vs-gesticulator-vs-motion-capture">Beat Gesture Comparison — RLAnimate A4 vs Gesticulator vs Motion Capture</h3>
+
+<p>The following comparisons are from the perceptual evaluation study (Chapter 7). Each set shows the same speech segment animated by three methods: RLAnimate A4, the Gesticulator baseline, and motion capture ground truth. 28 participants rated RLAnimate A4 output as statistically indistinguishable from motion capture.</p>
+
+<div class="rla-video-set">
+  <h4>Stimulus Set 2</h4>
+  <div class="rla-video-grid">
+    <div class="rla-video-cell">
+      <h5>RLAnimate A4</h5>
+      <video controls preload="metadata">
+        <source src="/thesis/videos/chapter7/02_rlanimate_malcolm.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="rla-video-cell">
+      <h5>Gesticulator</h5>
+      <video controls preload="metadata">
+        <source src="/thesis/videos/chapter7/02_gesticulator_malcolm.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="rla-video-cell">
+      <h5>Motion Capture</h5>
+      <video controls preload="metadata">
+        <source src="/thesis/videos/chapter7/02_mocap_malcolm.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+  <div class="rla-play-all">
+    <button onclick="this.closest('.rla-video-set').querySelectorAll('video').forEach(function(v){v.currentTime=0;v.play()})">Play All Simultaneously</button>
+  </div>
+</div>
+
+<div class="rla-video-set">
+  <h4>Stimulus Set 5</h4>
+  <div class="rla-video-grid">
+    <div class="rla-video-cell">
+      <h5>RLAnimate A4</h5>
+      <video controls preload="metadata">
+        <source src="/thesis/videos/chapter7/05_rlanimate_malcolm.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="rla-video-cell">
+      <h5>Gesticulator</h5>
+      <video controls preload="metadata">
+        <source src="/thesis/videos/chapter7/05_gesticulator_malcolm.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="rla-video-cell">
+      <h5>Motion Capture</h5>
+      <video controls preload="metadata">
+        <source src="/thesis/videos/chapter7/05_mocap_malcolm.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+  <div class="rla-play-all">
+    <button onclick="this.closest('.rla-video-set').querySelectorAll('video').forEach(function(v){v.currentTime=0;v.play()})">Play All Simultaneously</button>
+  </div>
+</div>
+
+<div class="rla-video-set">
+  <h4>Stimulus Set 9</h4>
+  <div class="rla-video-grid">
+    <div class="rla-video-cell">
+      <h5>RLAnimate A4</h5>
+      <video controls preload="metadata">
+        <source src="/thesis/videos/chapter7/09_rlanimate_malcolm.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="rla-video-cell">
+      <h5>Gesticulator</h5>
+      <video controls preload="metadata">
+        <source src="/thesis/videos/chapter7/09_gesticulator_malcolm.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="rla-video-cell">
+      <h5>Motion Capture</h5>
+      <video controls preload="metadata">
+        <source src="/thesis/videos/chapter7/09_mocap_malcolm.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+  <div class="rla-play-all">
+    <button onclick="this.closest('.rla-video-set').querySelectorAll('video').forEach(function(v){v.currentTime=0;v.play()})">Play All Simultaneously</button>
+  </div>
+</div>
+
+<p></div></p>
+
+<!-- ============================================================ -->
+
+<!-- OUTPUT DEMONSTRATIONS -->
+
+<!-- ============================================================ -->
+
+<div class="rla-section">
+
+## Output Demonstrations
+
+### Animation Sequences
+
+<h4>Star Jump — Model-based RL Agent</h4>
+
+The star jump was used as a kinematic-feasibility baseline — a non-social behaviour that tests whether reinforcement learning can coordinate multiple joints simultaneously. The agent learned this behaviour from basic animation signals without any physics engine feedback.
+
+<div class="rla-frame-strip">
+  <img src="/img/rlanimate/starjump_frame_1.png" alt="Star jump frame 1">
+  <img src="/img/rlanimate/starjump_frame_2.png" alt="Star jump frame 2">
+  <img src="/img/rlanimate/starjump_frame_3.png" alt="Star jump frame 3">
+  <img src="/img/rlanimate/starjump_frame_4.png" alt="Star jump frame 4">
+  <img src="/img/rlanimate/starjump_frame_5.png" alt="Star jump frame 5">
+</div>
+<p class="rla-caption" style="text-align:center; font-size:0.85rem; color:#6c757d; font-style:italic;">Star jump output sequence — five frames showing coordinated multi-joint movement produced entirely through reinforcement learning.</p>
+
+<h4>Pointing — Tracking a Dynamic Target</h4>
+
+Pointing served as the first social gesture in the research progression. Unlike the star jump, pointing is a communicative act — its success depends on whether an observer perceives the character as directing attention toward a specific location. The agent generates pointing animation frame by frame, enabling it to track moving targets in real time.
+
+<div class="rla-frame-strip">
+  <img src="/img/rlanimate/pointing_frame_1.png" alt="Pointing frame 1">
+  <img src="/img/rlanimate/pointing_frame_2.png" alt="Pointing frame 2">
+  <img src="/img/rlanimate/pointing_frame_3.png" alt="Pointing frame 3">
+  <img src="/img/rlanimate/pointing_frame_4.png" alt="Pointing frame 4">
+  <img src="/img/rlanimate/pointing_frame_5.png" alt="Pointing frame 5">
+</div>
+<p class="rla-caption" style="text-align:center; font-size:0.85rem; color:#6c757d; font-style:italic;">Pointing output sequence — the character directs gaze and arm toward a spatial target (red sphere), adapting dynamically to its position.</p>
+
+### Gaze and Pointing Coordination
+
+Natural human behaviour involves constant transitions between active gestures and rest. The RLAnimate agent learns these transitions implicitly through the dynamics model, producing smooth movement into and out of gestures.
+
+<div class="rla-image-pair">
+  <div class="rla-figure">
+    <img src="/img/rlanimate/4_3_6_gaze_and_point_a.png" alt="Gaze and point — active gesture">
+    <p class="rla-caption">Active gaze-and-point gesture — the character orients body, head, and arm toward the target.</p>
+  </div>
+  <div class="rla-figure">
+    <img src="/img/rlanimate/4_3_7_gaze_and_point_b.png" alt="Gaze and point — neutral pose">
+    <p class="rla-caption">Neutral rest pose — smooth transition between active gestures and relaxed standing.</p>
+  </div>
+</div>
+
+<h3 id="behaviour-flexibility">Behaviour Flexibility</h3>
+
+<p>RLAnimate agents accept continuous control parameters that modulate how a behaviour is performed. The exaggeration parameter varies the amplitude from subtle to highly exaggerated — produced by a single trained agent, not by switching between animation clips.</p>
+
+<div class="rla-figure rla-figure-wide">
+  <img src="/img/rlanimate/5_2_10_wave_exaggeration.png" alt="Waving exaggeration levels">
+  <p class="rla-caption">Behaviour flexibility through waving exaggeration. Top row: left-arm waving. Bottom row: right-arm waving. Each progresses from subtle to highly exaggerated movements.</p>
+</div>
+
+<h3 id="generalisation-to-unseen-data">Generalisation to Unseen Data</h3>
+
+<p>A key strength of RLAnimate is that agents do not simply replay recorded motion. These sequences were generated for test conditions the agent had never encountered during training.</p>
+
+<div class="rla-figure rla-figure-wide">
+  <img src="/img/rlanimate/5_2_6_wave_output_unseen.png" alt="Waving output on unseen test data">
+  <p class="rla-caption">RLAnimate A1 waving output on unseen test data — novel but plausible variations of waving behaviour.</p>
+</div>
+
+<div class="rla-figure rla-figure-wide">
+  <img src="/img/rlanimate/5_2_7_point_output_unseen.png" alt="Pointing output on unseen test data">
+  <p class="rla-caption">RLAnimate A1 pointing output on unseen test data — the agent successfully directs the character toward novel target positions.</p>
+</div>
+
+<p></div></p>
+
+<!-- ============================================================ -->
+
+<!-- FRAMEWORK ARCHITECTURE -->
+
+<!-- ============================================================ -->
+
+<div class="rla-section">
+
+## Framework Architecture
+
+RLAnimate enables a single virtual character to portray multiple types of human-like social behaviours. Each behaviour is controlled through uniform input parameterisation, and the agent generates animation frame by frame, responding dynamically to changing inputs.
+
+The framework separates training from operation. Training uses compact motion capture datasets to learn how animation dynamics evolve over time. At runtime, the learned model plans animation sequences on the fly, enabling responsive behaviour without replaying stored clips.
+
+<div class="rla-figure rla-figure-wide">
+  <img src="/img/rlanimate/4_3_1_pre_rlanimate_overview.png" alt="RLAnimate training and operation pipeline">
+  <p class="rla-caption">RLAnimate training and operation pipeline. During training (left), motion capture data and behavioural objectives learn a latent dynamics model. During operation (right), the learned model drives online planning to generate animation in real time.</p>
+</div>
+
+<h3 id="architecture-iterations">Architecture Iterations</h3>
+
+<p>The framework was developed through four architecture iterations, each addressing specific limitations:</p>
+
+<p><strong>A1 — Initial RL-based Animation Control</strong>
+The A1 architecture introduced the core RLAnimate design: a mathematical framework that separates <em>what</em> the agent should portray (the objective), <em>how</em> the behaviour evolves over time (the dynamics), and <em>what joint rotations</em> produce the animation (the output). This separation allows one agent to learn multiple behaviours without retraining the animation generation pipeline.</p>
+
+<p><strong>A2 — Artefact Elimination</strong>
+The A2 iteration addressed occasional unnatural motion artefacts by splitting the latent space into portrayal-specific and behaviour-specific components. The agent learns to maintain smooth, natural motion while still responding flexibly to changing behavioural objectives.</p>
+
+<p><strong>A3 — Quaternion Representations and Finger Animation</strong>
+Introduced quaternion rotation representations and a dedicated animation dynamics model for fine-grained finger animation control.</p>
+
+<p><strong>A4 — Speech-driven Beat Gesture Generation</strong>
+Extended the framework for speech-driven conversational gestures with realism regularisation: rotation restrictions, collision detection, smoothness constraints, and adversarial discrimination.</p>
+
+<div class="rla-image-grid">
+  <div class="rla-figure">
+    <img src="/img/rlanimate/5_2_2_agent_overview_new.png" alt="A1 agent architecture">
+    <p class="rla-caption">A1 agent architecture — Portrayal Model, Behaviour Model, and Animation Model coordinated through a learned latent dynamics space.</p>
+  </div>
+  <div class="rla-figure">
+    <img src="/img/rlanimate/5_3_1_a2_agent_overview_updated.png" alt="A2 agent architecture">
+    <p class="rla-caption">A2 agent architecture — separate portrayal and behaviour latent dynamics spaces eliminate motion artefacts.</p>
+  </div>
+</div>
+
+<p><details class="rla-details">
+  <summary>Technical Details — Component Architectures</summary>
+  <div class="rla-details-body"></p>
+
+<h4>Latent Dynamics Model</h4>
+
+<p>At the heart of each RLAnimate agent is a learned dynamics model that captures how animation states transition over time. Rather than using hand-crafted reward functions or physics simulation, the model learns temporal patterns directly from motion capture data.</p>
+
+<div class="rla-figure">
+  <img src="/img/rlanimate/5_2_3_dynamics_overview.png" alt="Latent dynamics model">
+  <p class="rla-caption">Latent dynamics model — the hidden state (h) and behaviour state (b) evolve over time, conditioned on observations, descriptions, and previous actions.</p>
+</div>
+
+<h4>Portrayal Model</h4>
+
+<p>The Portrayal Model encodes the current state of the animation into a compact latent representation. The dual-output design (mean and variance) captures both the most likely state and the uncertainty around it.</p>
+
+<div class="rla-image-grid">
+  <div class="rla-figure">
+    <img src="/img/rlanimate/5_2_5_pmodel_arch_new.png" alt="Portrayal Model architecture">
+    <p class="rla-caption">Portrayal Model neural network — observation passes through fully-connected layers, splitting into mean and variance parameters.</p>
+  </div>
+  <div class="rla-figure">
+    <img src="/img/rlanimate/5_3_5_chapter_5_portryal_model_v2.png" alt="A2 Portrayal Model">
+    <p class="rla-caption">A2 Portrayal Model — GRU recurrent cell maintains temporal continuity with prior and posterior pathways.</p>
+  </div>
+</div>
+
+<h4>Animation Model</h4>
+
+<p>The Animation Model translates the agent&rsquo;s internal latent state into joint rotations applied to the virtual character. The beta-distribution parameterisation constrains outputs to valid rotation ranges.</p>
+
+<div class="rla-image-grid">
+  <div class="rla-figure">
+    <img src="/img/rlanimate/5_3_2_chapter5_a1_animation_model.png" alt="A1 Animation Model">
+    <p class="rla-caption">A1 Animation Model — three fully-connected layers producing joint rotation outputs.</p>
+  </div>
+  <div class="rla-figure">
+    <img src="/img/rlanimate/5_3_3_chapter_5_animation_model_v2.png" alt="A2 Animation Model">
+    <p class="rla-caption">A2 Animation Model — draws on both latent dynamics spaces with expanded capacity (2000-unit layers).</p>
+  </div>
+</div>
+
+<h4>Behaviour Model</h4>
+
+<p>The Behaviour Model captures how the character&rsquo;s intended action evolves over time. The GRU recurrent cell maintains a memory of the behaviour trajectory, enabling smooth transitions and temporally coherent animation.</p>
+
+<div class="rla-figure">
+  <img src="/img/rlanimate/5_3_4_chapter_5_behaviour_model_v2.png" alt="A2 Behaviour Model">
+  <p class="rla-caption">A2 Behaviour Model — GRU cell with prior and posterior distributions over the behaviour latent state.</p>
+</div>
+
+<p></div>
+</details></p>
+
+<p></div></p>
+
+<!-- ============================================================ -->
+
+<!-- KEY RESULTS -->
+
+<!-- ============================================================ -->
+
+<div class="rla-section">
+
+## Key Results
+
+<div class="rla-results-grid">
+  <div class="rla-result-card">
+    <span class="rla-stat">p > 0.05</span>
+    <p>RLAnimate A4 output rated <strong>statistically indistinguishable</strong> from motion capture ground truth across all evaluation criteria.</p>
+  </div>
+  <div class="rla-result-card">
+    <span class="rla-stat">p < .001</span>
+    <p><strong>Significantly outperforms</strong> existing state-of-the-art (Gesticulator) across human-likeness, speech reflection, and audio synchronisation.</p>
+  </div>
+  <div class="rla-result-card">
+    <span class="rla-stat">28 Participants</span>
+    <p>Rigorous perceptual evaluation using the <strong>GENEA Challenge protocol</strong> — the standard methodology for gesture generation assessment.</p>
+  </div>
+  <div class="rla-result-card">
+    <span class="rla-stat">5ms / frame</span>
+    <p><strong>Real-time generation</strong> — animation produced at interactive rates suitable for games and real-time applications.</p>
+  </div>
+</div>
+
+<p></div></p>
+
+<!-- ============================================================ -->
+
+<!-- PUBLICATIONS -->
+
+<!-- ============================================================ -->
+
+<div class="rla-section">
+
+## Publications
+
+<ul class="rla-publications">
+  <li>
+    Gamage, V. and Ennis, C. (2018). <span class="rla-pub-title">Examining the effects of a virtual character on learning and engagement in serious games.</span> <span class="rla-pub-venue">ACM SIGGRAPH Conference on Motion, Interaction and Games (MIG 2018).</span>
+  </li>
+  <li>
+    Gamage, V., Ennis, C., and Ross, R. (2021). <span class="rla-pub-title">Latent dynamics for artefact-free character animation via data-driven reinforcement learning.</span> <span class="rla-pub-venue">International Conference on Artificial Neural Networks (ICANN 2021).</span>
+  </li>
+  <li>
+    Gamage, V., Ennis, C., and Ross, R. (2021). <span class="rla-pub-title">Data-driven reinforcement learning for virtual character animation control.</span> <span class="rla-pub-venue">Adaptive and Learning Agents Workshop at AAMAS 2021.</span>
+  </li>
+  <li>
+    Gamage, V., Ennis, C., and Ross, R. (2021). <span class="rla-pub-title">Learned dynamics models and online planning for model-based animation agents.</span> <span class="rla-pub-venue">International Workshop on Agents and Multi-Agent Systems for AAL and e-Health (AMSTA 2021).</span>
+  </li>
+</ul>
+
+</div>
+
+<!-- ============================================================ -->
+
+<!-- ACCESS / CONTACT -->
+
+<!-- ============================================================ -->
+
+<div class="rla-section">
+
+## Access
+
+The RLAnimate framework is available for research use. To request access to the codebase, pre-trained models, or evaluation materials, please use the form below or contact me directly.
+
+<form class="rla-contact-form" action="https://formspree.io/f/xjglzjkb" method="POST">
+  <div class="rla-form-group">
+    <label for="rla-name">Name</label>
+    <input type="text" id="rla-name" name="name" required>
+  </div>
+  <div class="rla-form-group">
+    <label for="rla-email">Email</label>
+    <input type="email" id="rla-email" name="email" required>
+  </div>
+  <div class="rla-form-group">
+    <label for="rla-institution">Institution</label>
+    <input type="text" id="rla-institution" name="institution">
+  </div>
+  <div class="rla-form-group">
+    <label for="rla-message">Message</label>
+    <textarea id="rla-message" name="message" placeholder="Describe your research interest and intended use of the framework." required></textarea>
+  </div>
+  <button type="submit">Send Request</button>
+</form>
+
+<div class="rla-email-fallback">
+  <p>Or contact me directly:</p>
+  <span id="rla-email-target"></span>
+  <noscript>vihanga.gamage [at] tudublin [dot] ie</noscript>
+  <script>
+    (function() {
+      var u = 'vihanga.gamage';
+      var d = 'tudublin.ie';
+      var e = u + '@' + d;
+      var el = document.getElementById('rla-email-target');
+      var a = document.createElement('a');
+      a.href = 'mai' + 'lto:' + e;
+      a.textContent = e;
+      el.appendChild(a);
+    })();
+  </script>
+</div>
+
+<p></div></p>
+
+<!-- ============================================================ -->
+
+<!-- THESIS LINK -->
+
+<!-- ============================================================ -->
+
+<div class="rla-section" style="text-align:center;">
+
+## Thesis
+
+This work is presented in full in the doctoral thesis:
+
+**Model-based Reinforcement Learning for Animating Virtual Characters**
+Vihanga Gamage — Technological University Dublin, 2025
+
+<a href="/thesis/" style="display:inline-block; margin-top:1rem; padding:0.7rem 2rem; background:#007bff; color:white; border-radius:4px; text-decoration:none; font-weight:600;">Read the Thesis &rarr;</a>
+
+</div>
+
+  </article>
+</main>
+
+<footer class="rlanimate-footer">
+  <div class="rlanimate-footer-inner">
+    <p>&copy; 2026 Vihanga Gamage &middot; Technological University Dublin</p>
+    <p><a href="/">Main Site</a> &middot; <a href="/thesis/">Thesis</a></p>
+  </div>
+</footer>
+
+  </div>
+</body>
+</html>
